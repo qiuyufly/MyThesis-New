@@ -1,0 +1,45 @@
+\contentsline {chapter}{Abstract}{v}{chapter*.1}
+\contentsline {chapter}{Acknowledgement}{vii}{chapter*.2}
+\contentsline {chapter}{Table of Contents}{x}{chapter*.3}
+\contentsline {chapter}{List of Figures}{xxii}{chapter*.4}
+\contentsline {chapter}{List of Tables}{xxiii}{chapter*.5}
+\contentsline {chapter}{List of Abbreviations}{xxvi}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction to idiopathic pulmonary fibrosis}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Definition}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Disease classification}{2}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Epidemiology, etiology and pathogenesis}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Epidemiology}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Pathogenesis and potential contributors to etiology}{4}{subsection.1.2.2}
+\contentsline {subsubsection}{Environmental exposures}{5}{section*.8}
+\contentsline {subsubsection}{Genetic factors}{6}{section*.9}
+\contentsline {section}{\numberline {1.3}Diagnosis}{6}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Clinical presentations}{7}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Radiographic features}{8}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Histopathology}{9}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Diagnostic criteria}{11}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Clinical course}{13}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Slow and rapid progressive course}{14}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Acute exacerbations of IPF}{14}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Complications and comorbidities}{15}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}IPF and emphysema}{16}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}IPF and pulmonary hypertension}{17}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Physiological alterations}{18}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Alterations in the mechanical properties of the lung}{18}{subsection.1.6.1}
+\contentsline {subsubsection}{Reduction in lung compliance}{18}{section*.10}
+\contentsline {subsubsection}{Reduction of lung volumes}{20}{section*.11}
+\contentsline {subsubsection}{Alterations in the conducting airways}{21}{section*.12}
+\contentsline {subsubsection}{Alterations in the lung vasculature}{22}{section*.13}
+\contentsline {subsection}{\numberline {1.6.2}Alterations in pulmonary gas exchange}{23}{subsection.1.6.2}
+\contentsline {subsubsection}{Reduced diffusing capacity of the lung}{23}{section*.14}
+\contentsline {subsubsection}{Dead space ventilation}{24}{section*.15}
+\contentsline {subsubsection}{Ventilation-perfusion mismatching}{25}{section*.16}
+\contentsline {subsubsection}{Arterial hypoxaemia}{25}{section*.17}
+\contentsline {section}{\numberline {1.7}Summary}{26}{section.1.7}
+\contentsline {chapter}{Appendices}{29}{section*.18}
+\contentsline {chapter}{\numberline {A}Spatial distribution of abnormalities for each patient}{31}{Appendix.a.A}
+\contentsline {section}{\numberline {A.1}Basal-to-apical distribution over time for each patient}{31}{section.a.A.1}
+\contentsline {section}{\numberline {A.2}Dorso-to-ventral distribution over time for each patient}{43}{section.a.A.2}
+\contentsline {section}{\numberline {A.3}Lobar distribution over time for each patient}{53}{section.a.A.3}
+\contentsline {chapter}{\numberline {B}Figures of V/Q ratio and arterial oxygen distribution}{63}{Appendix.a.B}
+\contentsline {chapter}{List of References}{75}{chapter*.19}

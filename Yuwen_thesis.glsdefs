@@ -1,0 +1,60 @@
+\ifglsentryexists{ssm}{}%
+{%
+\gls@defglossaryentry{ssm}%
+{%
+name={SSM},%
+sort={SSM},%
+type={acronym},%
+first={statistical shape model\glsspace (SSM)},%
+firstplural={statistical shape models\glsspace (SSMs)},%
+text={SSM},%
+plural={SSMs},%
+description={statistical shape model},%
+descriptionplural={statistical shape model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={statistical shape model},%
+longplural={statistical shape models},%
+short={SSM},%
+shortplural={SSMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ct}{}%
+{%
+\gls@defglossaryentry{ct}%
+{%
+name={CT},%
+sort={CT},%
+type={acronym},%
+first={computed tomography\glsspace (CT)},%
+firstplural={computed tomographys\glsspace (CTs)},%
+text={CT},%
+plural={CTs},%
+description={computed tomography},%
+descriptionplural={computed tomography\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={computed tomography},%
+longplural={computed tomographys},%
+short={CT},%
+shortplural={CTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

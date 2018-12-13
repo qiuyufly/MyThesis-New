@@ -1,0 +1,163 @@
+\documentclass[a4paper, 12pt]{book}
+\usepackage[toc,page]{appendix}
+\usepackage{booktabs}
+\usepackage{natbib}
+\usepackage{textcomp}
+\usepackage[automake,nonumberlist]{glossaries} %automake can automatic compile to generate .glo
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage[justification=raggedright, singlelinecheck=on, font={normalsize, rm}, labelfont=bf]{caption} %singlelinecheck=centre short caption
+\usepackage{threeparttable} % Add table annotation
+\usepackage{rotating} % Rotate the tables
+\usepackage{subcaption}
+\usepackage{times}    % Times ne6w romans
+\usepackage{placeins}
+\usepackage{pdfpages}
+\usepackage{amssymb,amsmath}
+\usepackage{tikz}
+\newcommand*{\pd}[3][]{\ensuremath{\frac{\partial^{#1} #2}{\partial #3}}} % in order to write partial derivative
+\usetikzlibrary{calc,shapes.geometric,arrows,positioning}
+\usetikzlibrary{matrix,positioning,decorations.pathreplacing}
+\usepackage{geometry}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{xcolor}
+\usepackage[makeroom]{cancel}
+\usepackage{siunitx} 
+\usepackage{gensymb} % only need this when compiled at home
+\sisetup{detect-all}
+\usepackage{makecell}
+\usepackage{array}
+\usepackage{bm,upgreek}
+\usepackage{colortbl}
+\usepackage[percent]{overpic}
+\usepackage{minibox}
+\usepackage[thinlines]{easytable}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage{pict2e}
+\usepackage{float}
+
+
+\usepackage{fancyhdr} % To customize the footer and header in your document
+\setlength{\headheight}{15.2pt} % Change the latter size
+\addtolength{\oddsidemargin}{1.5cm} % Add left side of odd page margin with 1.5cm
+\addtolength {\evensidemargin}{-1.5cm} % Reduce left side of even page margin with 1.5cm
+\pagestyle{fancy} % The "fancy" style is set by \pagestyle{fancy}
+
+% If your document is double-sided, for example a book, and you need to customize the header and the footer, the recommended commands in this case are \fancyhead and \fancyfoot
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[LO, RE]{\thepage} % Show page number on left side of odd page and right side of even page
+\fancyhead[RO, LE]{\small\rightmark} % Show Section name on right side of odd page and left side of even page. In the 'book' class, /leftmark represents the chapter name, /rightmark represents the section name. Here we show the section name on the header.
+
+\usepackage{setspace}
+%\onehalfspacing 
+\doublespacing
+
+\graphicspath{{./images/}{./chptMethod/images/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps}  
+
+\makeindex
+\makeglossaries
+%  'makeglossaries thesis' command line
+
+\include{glossary}
+
+\usepackage[hidelinks,pagebackref]{hyperref}
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{[{\small%
+    \ifcase #1 Not cited.%
+          \or Cited on page~#2.%
+          \else Cited on pages #2.%
+    \fi%
+    }]}
+
+\usepackage{hypcap}
+
+\begin{document}
+\frontmatter
+
+\begin{titlepage}
+  \begin{center}
+    \vfill
+    {\Large \textbf{Idiopathic pulmonary fibrosis: a study using volumetric imaging and functional data in a computational lung model}} % \textbf is for bold font
+    \\[6cm]
+    Yuwen Zhang
+    \vfill
+    \normalsize A thesis submitted in fulfilment of the requirements for the degree of Doctor of Philosophy in Bioengineering. \\[1cm]
+    This thesis is for examination purposes only and is confidential to the examination process.
+    \vfill
+    Auckland Bioengineering Institute
+    \\[0.8cm] The University of Auckland
+    \\[0.8cm] 2018
+  \end{center}
+\end{titlepage}
+
+\cleardoublepage
+\chapter*{Abstract}
+Idiopathic pulmonary fibrosis (IPF), the most aggressive and frequent form of idiopathic interstitial pneumonias (IIPs), is a chronic and life-threatening disease of unknown cause. It is characterized by progressive worsening of dyspnea and lung function and is associated with a poor prognosis. IPF occurs primarily in middle-aged and elderly adults, and is more frequent in males than females. Even worse, the aetiology of IPF remains elusive, and its progression is variable and unpredictable, hence there are no biomarkers that can indicate the likely progression of the disease. A consistent quantification scheme that allows recognition of disease identically across radiology, pulmonary and pathology disciplines remains difficult. 
+
+High resolution computed tomography (HRCT) has played an essential role in evaluating lung disease through recognizing visual patterns and features of disease regions. In this study, a computational modeling of lung function in IPF was developed, combined with quantitative information extracted from HRCT imaging and clinical knowledge to help with a better understanding of the progression of IPF and investigate strategies for patient-specific diagnosis and treatment planning for IPF patients.
+
+First, an automatic lung lobe segmentation method from HRCT images was developed. A principle component analysis based statistical finite element shape model of lobes was applied to guide lobar segmentation that can predict the likely region of fissure locations initially. An eigenvalue of Hessian matrix analysis and a connected component eigenvector based analysis were subsequently used to determine a set of fissure-like candidate points. A smooth multi-level B-spline curve is fitted to the most fissure-like points to generate the final lobar boundaries. The result shows that the method was able to estimate the fissure location in 100\% of cases including both normal healthy and IPF subjects, whereas two comparison segmentation softwares that use anatomy-based methods will fail for some of them.
+
+Second, tissue abnormalities in IPF lungs were classified and quantified from HRCT images. Lung tissues were classified as normal, reticular, ground glass, or emphysema using CALIPER (Computer-Aided Lung Informatics for Pathology Evaluation and Ratings) software. The classified data was mapped to a statistical shape model, and quantitative approaches was used to analyze tissue density, tissue volume, the spatial distribution of abnormalities, and regional changes in tissue over time. Principle component analysis (PCA) based statistical shape model was applied to understand lung shape differences between IPF and normal older lungs through quantifying principal modes of shape variation of both IPF and old normal subjects. The result shows that fibrosis has higher tissue density compared with normal tissue, and presented predominantly basally and peripherally. In contrast, emphysema has lower tissue density and mostly located in upper lobes. The first principal SSM mode ($>20\%$ of the shape variation in normal lungs) is significantly different between IPF and normal and strongly correlated with fibrosis extent in IPF lungs.
+
+Third, a computational model of lung function was developed which integrated quantification analysis from volumetric CT data and pulmonary functional test to understand differences between IPF and normal older lungs. For each patient, a subject-specific lung mesh that represents the statistical lung shape of old normal people with the same individual information was predicted using statistical shape model. Anatomically based airway and blood vessel trees were generated derived from HRCT images, respectively matched to IPF lung mesh and the corresponding old normal lung mesh. The ventilation, perfusion and gas exchange models were then constricted to simulate $\dot{V}$, $\dot{Q}$ distribution and gas transport in normal and disease constricted condition, respectively. The result shows that the computational model can reasonably predict the patient-specific ventilation, perfusion and gas exchange in IPF lung, and quantify the difference of lung function between IPF patient and older normal people. The abnormalities on volumetric CT imaging may be not able to provide enough information to explain the decline of lung function in IPF patient, and the impaired gas exchange will happen in not only abnormal region but also in CT-visualized 'normal' tissues.
+
+IPF is a complex and progressive disease that has multifarious physiological processes and significant individual differences. The methods and models presented in this thesis provide a basis for application to research in IPF lung function, and further investigations of the underlying relationship between physiology mechanisms and disease progressions of IPF.
+
+\addcontentsline{toc}{chapter}{Abstract}
+
+\cleardoublepage
+\chapter*{Acknowledgement}
+I would like to thank...
+\addcontentsline{toc}{chapter}{Acknowledgement}
+
+% table of contents
+\cleardoublepage
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\addcontentsline{toc}{chapter}{\contentsname}
+
+%  list of figures
+\cleardoublepage
+\listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
+
+%  list of tables
+\cleardoublepage
+\listoftables
+\addcontentsline{toc}{chapter}{\listtablename}
+
+%  glossaries
+\printglossary[type=\acronymtype,title={List of Abbreviations}]
+%\printglossaries
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+
+\mainmatter  
+\include{./Introduction/Yuwen_Introduction}
+%\include{./Background/Yuwen_Background}
+%\include{./Segmentation/Yuwen_Segmentation}
+%\include{./QuantitativeAnalysis/Yuwen_QuantitativeAnalysis} 
+%\include{./ModelBasedAnalysis/Yuwen_ModelBasedAnalysis}
+%\include{./Conclusion/Yuwen_Conclusion}
+
+\begin{appendices}
+\include{./Appendix/appendix}
+\end{appendices}
+
+\backmatter
+\bibliographystyle{apalike} 
+\begingroup
+\let\itshape\upshape
+\renewcommand\bibname{List of References}
+\setlength{\bibsep}{0pt plus 1ex}
+\bibliography{./Reference/Yuwen_Reference}
+\endgroup
+
+\end{document}
