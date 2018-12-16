@@ -1,32 +1,524 @@
 \begin{thebibliography}{}
 
-\bibitem[King~Jr et~al., 2011]{king2011idiopathic}
-King~Jr, T.~E., Pardo, A., and Selman, M. (2011).
-\newblock Idiopathic pulmonary fibrosis.
-\newblock {\em The Lancet}, 378(9807):1949--1961.
+\bibitem[Armato and Sensakovic, 2004]{armato2004automated}
+Armato, S.~G. and Sensakovic, W.~F. (2004).
+\newblock Automated lung segmentation for thoracic ct: Impact on computer-aided
+  diagnosis1.
+\newblock {\em Academic Radiology}, 11(9):1011--1021.
 
-\bibitem[Meltzer and Noble, 2008]{meltzer2008idiopathic}
-Meltzer, E.~B. and Noble, P.~W. (2008).
-\newblock Idiopathic pulmonary fibrosis.
-\newblock {\em Orphanet journal of rare diseases}, 3(1):8.
+\bibitem[Bradley et~al., 1997]{bradley1997geometric}
+Bradley, C., Pullan, A., and Hunter, P. (1997).
+\newblock Geometric modeling of the human torso using cubic hermite elements.
+\newblock {\em Annals of biomedical engineering}, 25(1):96--111.
 
-\bibitem[Raghu et~al., 2011]{raghu2011official}
-Raghu, G., Collard, H.~R., Egan, J.~J., Martinez, F.~J., Behr, J., Brown,
-  K.~K., Colby, T.~V., Cordier, J.-F., Flaherty, K.~R., Lasky, J.~A., et~al.
-  (2011).
-\newblock An official ats/ers/jrs/alat statement: idiopathic pulmonary
-  fibrosis: evidence-based guidelines for diagnosis and management.
-\newblock {\em American journal of respiratory and critical care medicine},
-  183(6):788--824.
+\bibitem[Cootes et~al., 1995]{cootes1995active}
+Cootes, T.~F., Taylor, C.~J., Cooper, D.~H., and Graham, J. (1995).
+\newblock Active shape models-their training and application.
+\newblock {\em Computer vision and image understanding}, 61(1):38--59.
 
-\bibitem[Richeldi et~al., 2017]{richeldi2017idiopathic}
-Richeldi, L., Collard, H.~R., and Jones, M.~G. (2017).
-\newblock Idiopathic pulmonary fibrosis.
-\newblock {\em The Lancet}, 389(10082):1941--1952.
+\bibitem[Coxson, 2007]{coxson2007computed}
+Coxson, H. (2007).
+\newblock Computed tomography and monitoring of emphysema.
 
-\bibitem[Xaubet et~al., 2017]{xaubet2017idiopathic}
-Xaubet, A., Ancochea, J., and Molina-Molina, M. (2017).
-\newblock Idiopathic pulmonary fibrosis.
-\newblock {\em Medicina Cl{\'\i}nica (English Edition)}, 148(4):170--175.
+\bibitem[Crapo, 1993]{crapo1993aging}
+Crapo, R. (1993).
+\newblock The aging lung.
+\newblock {\em Lung biology in health and disease}, 63:1--25.
+
+\bibitem[Diaz et~al., 2010]{diaz2010airway}
+Diaz, A.~A., Valim, C., Yamashiro, T., Est{\~A}{\v{S}}par, R. S.~J., Ross,
+  J.~C., Matsuoka, S., Bartholmai, B., Hatabu, H., Silverman, E.~K., and
+  Washko, G.~R. (2010).
+\newblock Airway count and emphysema assessed by chest ct imaging predicts
+  clinical outcome in smokers.
+\newblock {\em CHEST Journal}, 138(4):880--887.
+
+\bibitem[Doel et~al., 2015]{doel2015review}
+Doel, T., Gavaghan, D.~J., and Grau, V. (2015).
+\newblock Review of automatic pulmonary lobe segmentation methods from ct.
+\newblock {\em Computerized Medical Imaging and Graphics}, 40:13--29.
+
+\bibitem[Doel et~al., 2012]{doel2012pulmonary}
+Doel, T., Matin, T.~N., Gleeson, F.~V., Gavaghan, D.~J., and Grau, V. (2012).
+\newblock Pulmonary lobe segmentation from ct images using fissureness,
+  airways, vessels and multilevel b-splines.
+\newblock In {\em Biomedical Imaging (ISBI), 2012 9th IEEE International
+  Symposium on}, pages 1491--1494. IEEE.
+
+\bibitem[Dryden and Mardia, 1998]{dryden1998statistical}
+Dryden, I.~L. and Mardia, K.~V. (1998).
+\newblock {\em Statistical shape analysis}, volume~4.
+\newblock Wiley Chichester.
+
+\bibitem[Ecabert et~al., 2008]{ecabert2008automatic}
+Ecabert, O., Peters, J., Schramm, H., Lorenz, C., von Berg, J., Walker, M.~J.,
+  Vembar, M., Olszewski, M.~E., Subramanyan, K., Lavi, G., et~al. (2008).
+\newblock Automatic model-based segmentation of the heart in ct images.
+\newblock {\em IEEE transactions on medical imaging}, 27(9):1189--1201.
+
+\bibitem[El-Baz et~al., 2013]{el2013computer}
+El-Baz, A., Beache, G.~M., Gimel'farb, G., Suzuki, K., Okada, K., Elnakib, A.,
+  Soliman, A., and Abdollahi, B. (2013).
+\newblock Computer-aided diagnosis systems for lung cancer: challenges and
+  methodologies.
+\newblock {\em International journal of biomedical imaging}, 2013.
+
+\bibitem[Fernandez, 2004]{fernandez2004anatomically}
+Fernandez, J.~W. (2004).
+\newblock {\em An anatomically based finite element model of patella
+  articulation: towards a diagnostic tool}.
+\newblock PhD thesis, University of Auckland.
+
+\bibitem[Florack et~al., 1992]{florack1992scale}
+Florack, L.~M., ter Haar~Romeny, B.~M., Koenderink, J.~J., and Viergever, M.~A.
+  (1992).
+\newblock Scale and the differential structure of images.
+\newblock {\em Image and vision computing}, 10(6):376--388.
+
+\bibitem[Frangi et~al., 1998]{frangi1998multiscale}
+Frangi, A.~F., Niessen, W.~J., Vincken, K.~L., and Viergever, M.~A. (1998).
+\newblock Multiscale vessel enhancement filtering.
+\newblock In {\em International Conference on Medical Image Computing and
+  Computer-Assisted Intervention}, pages 130--137. Springer.
+
+\bibitem[Graham et~al., 2010]{graham2010robust}
+Graham, M.~W., Gibbs, J.~D., Cornish, D.~C., and Higgins, W.~E. (2010).
+\newblock Robust 3-d airway tree segmentation for image-guided peripheral
+  bronchoscopy.
+\newblock {\em IEEE transactions on medical imaging}, 29(4):982--997.
+
+\bibitem[G{\"u}ls{\"u}n et~al., 2006]{gulsun2006variability}
+G{\"u}ls{\"u}n, M., Ar{\i}y{\"u}rek, O.~M., C{\"o}mert, R.~B., and Karabulut,
+  N. (2006).
+\newblock Variability of the pulmonary oblique fissures presented by
+  high-resolution computed tomography.
+\newblock {\em Surgical and Radiologic Anatomy}, 28(3):293--299.
+
+\bibitem[Guo et~al., 2008]{guo2008pulmonary}
+Guo, J., Fuld, M., Alford, S., Reinhardt, J., and Hoffman, E. (2008).
+\newblock Pulmonary analysis software suite 9.0: Integrating quantitative
+  measures of function with structural analyses.
+\newblock In {\em First International Workshop on Pulmonary Image Analysis},
+  pages 283--292.
+
+\bibitem[Hedlund et~al., 1982]{hedlund1982two}
+Hedlund, L., Anderson, R.~F., Goulding, P., Beck, J., Effmann, E., and Putman,
+  C. (1982).
+\newblock Two methods for isolating the lung area of a ct scan for density
+  information.
+\newblock {\em Radiology}, 144(2):353--357.
+
+\bibitem[Heimann and Meinzer, 2009]{heimann2009statistical}
+Heimann, T. and Meinzer, H.-P. (2009).
+\newblock Statistical shape models for 3d medical image segmentation: a review.
+\newblock {\em Medical image analysis}, 13(4):543--563.
+
+\bibitem[Hoffman, 1985]{hoffman1985effecta}
+Hoffman, E.~A. (1985).
+\newblock Effect of body orientation on regional lung expansion: a computed
+  tomographic approach.
+\newblock {\em Journal of Applied Physiology}, 59(2):468--480.
+
+\bibitem[Hoffman and McLennan, 1997]{hoffman1997assessment}
+Hoffman, E.~A. and McLennan, G. (1997).
+\newblock Assessment of the pulmonary structure-function relationship and
+  clinical outcomes measures: quantitative volumetric ct of the lung.
+\newblock {\em Academic radiology}, 4(11):758--776.
+
+\bibitem[Hoffman and Ritman, 1985]{hoffman1985effectb}
+Hoffman, E.~A. and Ritman, E.~L. (1985).
+\newblock Effect of body orientation on regional lung expansion in dog and
+  sloth.
+\newblock {\em Journal of Applied Physiology}, 59(2):481--491.
+
+\bibitem[Hoffman et~al., 2006]{hoffman2006state}
+Hoffman, E.~A., Simon, B.~A., and McLennan, G. (2006).
+\newblock State of the art. a structural and functional assessment of the lung
+  via multidetector-row computed tomography: phenotyping chronic obstructive
+  pulmonary disease.
+\newblock {\em Proceedings of the American Thoracic Society}, 3(6):519--532.
+
+\bibitem[Hoffman et~al., 1983]{hoffman1983noninvasive}
+Hoffman, E.~A., Sinak, L., Robb, R.~A., and Ritman, E.~L. (1983).
+\newblock Noninvasive quantitative imaging of shape and volume of lungs.
+\newblock {\em Journal of Applied Physiology}, 54(5):1414--1421.
+
+\bibitem[Hu et~al., 2001]{hu2001automatic}
+Hu, S., Hoffman, E.~A., and Reinhardt, J.~M. (2001).
+\newblock Automatic lung segmentation for accurate quantitation of volumetric
+  x-ray ct images.
+\newblock {\em IEEE transactions on medical imaging}, 20(6):490--498.
+
+\bibitem[Jeffery, 1998]{jeffery1998structural}
+Jeffery, P.~K. (1998).
+\newblock Structural and inflammatory changes in copd: a comparison with
+  asthma.
+\newblock {\em Thorax}, 53(2):129.
+
+\bibitem[Kalender et~al., 1991]{kalender1991semiautomatic}
+Kalender, W.~A., Fichte, H., Bautz, W., and Skalej, M. (1991).
+\newblock Semiautomatic evaluation procedures for quantitative ct of the lung.
+\newblock {\em Journal of computer assisted tomography}, 15(2):248--255.
+
+\bibitem[Kelemen et~al., 1999]{kelemen1999elastic}
+Kelemen, A., Sz{\'e}kely, G., and Gerig, G. (1999).
+\newblock Elastic model-based segmentation of 3-d neuroradiological data sets.
+\newblock {\em IEEE Transactions on medical imaging}, 18(10):828--839.
+
+\bibitem[Keller et~al., 1981]{keller1981automatic}
+Keller, J.~M., Edwards, F.~M., and Rundle, R. (1981).
+\newblock Automatic outlining of regions on ct scans.
+\newblock {\em Journal of Computer Assisted Tomography}, 5(2):240--245.
+
+\bibitem[Kemerink et~al., 1998]{kemerink1998segmentation}
+Kemerink, G.~J., Lamers, R.~J., Pellis, B.~J., Kruize, H.~H., and
+  Van~Engelshoven, J. (1998).
+\newblock On segmentation of lung parenchyma in quantitative computed
+  tomography of the lung.
+\newblock {\em Medical Physics}, 25(12):2432--2439.
+
+\bibitem[Kitasaka et~al., 2003]{kitasaka2003lung}
+Kitasaka, T., Mori, K., Hasegawa, J.-i., and Toriwaki, J.-i. (2003).
+\newblock Lung area extraction from 3d chest x-ray ct images using a shape
+  model generated by a variable b{\'e}zier surface.
+\newblock {\em Systems and Computers in Japan}, 34(4):60--71.
+
+\bibitem[Kitasaka et~al., 2006]{kitasaka2006recognition}
+Kitasaka, T., Nakada, Y., Mori, K., Suenaga, Y., Mori, M., Takabatake, H., and
+  Natori, H. (2006).
+\newblock Recognition of lung lobes and its application to the bronchial
+  structure analysis.
+\newblock In {\em Pattern Recognition, 2006. ICPR 2006. 18th International
+  Conference on}, volume~3, pages 288--291. IEEE.
+
+\bibitem[Koenderink, 1984]{koenderink1984structure}
+Koenderink, J.~J. (1984).
+\newblock The structure of images.
+\newblock {\em Biological cybernetics}, 50(5):363--370.
+
+\bibitem[Korfiatis et~al., 2008]{korfiatis2008texture}
+Korfiatis, P., Kalogeropoulou, C., Karahaliou, A., Kazantzi, A., Skiadopoulos,
+  S., and Costaridou, L. (2008).
+\newblock Texture classification-based segmentation of lung affected by
+  interstitial pneumonia in high-resolution ct.
+\newblock {\em Medical physics}, 35(12):5290--5302.
+
+\bibitem[Krumpe et~al., 1985]{krumpe1985aging}
+Krumpe, P.~E., Knudson, R.~J., Parsons, G., and Reiser, K. (1985).
+\newblock The aging respiratory system.
+\newblock {\em Clinics in geriatric medicine}, 1(1):143--175.
+
+\bibitem[Kuhnigk et~al., 2005]{kuhnigk2005informatics}
+Kuhnigk, J., Dicken, V., Zidowitz, S., Bornemann, L., Kuemmerlen, B., Krass,
+  S., Peitgen, H., Yuval, S., Jend, H., Rau, W., et~al. (2005).
+\newblock Informatics in radiology (inforad): New tools for computer assistance
+  in thoracic ct. part 1. functional analysis of lungs.
+\newblock {\em Lung Lobes, and Bronchopulmonary Segments. RadioGraphics 2005;
+  25: 525}, 536.
+
+\bibitem[Kuhnigk et~al., 2003]{kuhnigk2003lung}
+Kuhnigk, J.-M., Hahn, H., Hindennach, M., Dicken, V., Krass, S., and Peitgen,
+  H.-O. (2003).
+\newblock Lung lobe segmentation by anatomy-guided 3 d watershed transform.
+\newblock In {\em Proceedings of SPIE}, volume 5032, pages 1482--1490.
+
+\bibitem[Lassen et~al., 2010]{lassen2010automatic}
+Lassen, B., Kuhnigk, J.-M., Friman, O., Krass, S., and Peitgen, H.-O. (2010).
+\newblock Automatic segmentation of lung lobes in ct images based on fissures,
+  vessels, and bronchi.
+\newblock In {\em Biomedical Imaging: From Nano to Macro, 2010 IEEE
+  International Symposium on}, pages 560--563. IEEE.
+
+\bibitem[Lassen et~al., 2011]{lassen2011interactive}
+Lassen, B., Kuhnigk, J.-M., Van~Rikxoort, E.~M., and Peitgen, H.-O. (2011).
+\newblock Interactive lung lobe segmentation and correction in tomographic
+  images.
+\newblock In {\em Medical Imaging 2011: Computer-Aided Diagnosis}, volume 7963,
+  page 79631S. International Society for Optics and Photonics.
+
+\bibitem[Lassen et~al., 2013]{lassen2013automatic}
+Lassen, B., van Rikxoort, E.~M., Schmidt, M., Kerkstra, S., van Ginneken, B.,
+  and Kuhnigk, J.-M. (2013).
+\newblock Automatic segmentation of the pulmonary lobes from chest ct scans
+  based on fissures, vessels, and bronchi.
+\newblock {\em IEEE transactions on medical imaging}, 32(2):210--222.
+
+\bibitem[Leader et~al., 2003]{leader2003automated}
+Leader, J.~K., Zheng, B., Rogers, R.~M., Sciurba, F.~C., Perez, A., Chapman,
+  B.~E., Patel, S., Fuhrman, C.~R., and Gur, D. (2003).
+\newblock Automated lung segmentation in x-ray computed tomography: development
+  and evaluation of a heuristic threshold-based scheme1.
+\newblock {\em Academic radiology}, 10(11):1224--1236.
+
+\bibitem[Lee et~al., 1997]{lee1997scattered}
+Lee, S., Wolberg, G., and Shin, S.~Y. (1997).
+\newblock Scattered data interpolation with multilevel b-splines.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  3(3):228--244.
+
+\bibitem[Leung, 1999]{leung1999pulmonary}
+Leung, A.~N. (1999).
+\newblock Pulmonary tuberculosis: the essentials.
+\newblock {\em Radiology}, 210(2):307--322.
+
+\bibitem[Ley-Zaporozhan et~al., 2008]{ley2008quantitative}
+Ley-Zaporozhan, J., Ley, S., Weinheimer, O., Iliyushenko, S., Erdugan, S.,
+  Eberhardt, R., Fuxa, A., Mews, J., and Kauczor, H.-U. (2008).
+\newblock Quantitative analysis of emphysema in 3d using mdct: influence of
+  different reconstruction algorithms.
+\newblock {\em European journal of radiology}, 65(2):228--234.
+
+\bibitem[Li et~al., 2003]{li2003selective}
+Li, Q., Sone, S., et~al. (2003).
+\newblock Selective enhancement filters for nodules, vessels, and airway walls
+  in two-and three-dimensional ct scans.
+\newblock {\em Medical physics}, 30(8):2040--2051.
+
+\bibitem[Lin and Jiang, 2015]{lin2015combined}
+Lin, H. and Jiang, S. (2015).
+\newblock Combined pulmonary fibrosis and emphysema (cpfe): an entity different
+  from emphysema or pulmonary fibrosis alone.
+\newblock {\em Journal of thoracic disease}, 7(4):767.
+
+\bibitem[Lorenz et~al., 1997]{lorenz1997multi}
+Lorenz, C., Carlsen, I.-C., Buzug, T.~M., Fassnacht, C., and Weese, J. (1997).
+\newblock Multi-scale line segmentation with automatic estimation of width,
+  contrast and tangential direction in 2d and 3d medical images.
+\newblock In {\em CVRMed-MRCAS'97}, pages 233--242. Springer.
+
+\bibitem[Naidich, 2005]{naidich2005imaging}
+Naidich, D.~P. (2005).
+\newblock {\em Imaging of the airways: functional and radiologic correlations}.
+\newblock Lippincott Williams \& Wilkins.
+
+\bibitem[Ochs et~al., 2007]{ochs2007automated}
+Ochs, R.~A., Goldin, J.~G., Abtin, F., Kim, H.~J., Brown, K., Batra, P.,
+  Roback, D., McNitt-Gray, M.~F., and Brown, M.~S. (2007).
+\newblock Automated classification of lung bronchovascular anatomy in ct using
+  adaboost.
+\newblock {\em Medical image analysis}, 11(3):315--324.
+
+\bibitem[Okada et~al., 2008]{okada2008automated}
+Okada, T., Shimada, R., Hori, M., Nakamoto, M., Chen, Y.-W., Nakamura, H., and
+  Sato, Y. (2008).
+\newblock Automated segmentation of the liver from 3d ct images using
+  probabilistic atlas and multilevel statistical shape model.
+\newblock {\em Academic radiology}, 15(11):1390--1403.
+
+\bibitem[Prasad et~al., 2008]{prasad2008automatic}
+Prasad, M.~N., Brown, M.~S., Ahmad, S., Abtin, F., Allen, J., da~Costa, I.,
+  Kim, H.~J., McNitt-Gray, M.~F., and Goldin, J.~G. (2008).
+\newblock Automatic segmentation of lung parenchyma in the presence of diseases
+  based on curvature of ribs.
+\newblock {\em Academic radiology}, 15(9):1173--1180.
+
+\bibitem[Pu et~al., 2009a]{pu2009computational}
+Pu, J., Leader, J.~K., Zheng, B., Knollmann, F., Fuhrman, C., Sciurba, F.~C.,
+  and Gur, D. (2009a).
+\newblock A computational geometry approach to automated pulmonary fissure
+  segmentation in ct examinations.
+\newblock {\em IEEE transactions on medical imaging}, 28(5):710--719.
+
+\bibitem[Pu et~al., 2011]{pu2011shape}
+Pu, J., Paik, D.~S., Meng, X., Roos, J., and Rubin, G.~D. (2011).
+\newblock Shape “break-and-repair” strategy and its application to
+  automated medical image segmentation.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  17(1):115--124.
+
+\bibitem[Pu et~al., 2008]{pu2008adaptive}
+Pu, J., Roos, J., Chin, A.~Y., Napel, S., Rubin, G.~D., and Paik, D.~S. (2008).
+\newblock Adaptive border marching algorithm: automatic lung segmentation on
+  chest ct images.
+\newblock {\em Computerized Medical Imaging and Graphics}, 32(6):452--462.
+
+\bibitem[Pu et~al., 2009b]{pu2009pulmonary}
+Pu, J., Zheng, B., Leader, J.~K., Fuhrman, C., Knollmann, F., Klym, A., and
+  Gur, D. (2009b).
+\newblock Pulmonary lobe segmentation in ct examinations using implicit surface
+  fitting.
+\newblock {\em IEEE transactions on medical imaging}, 28(12):1986--1996.
+
+\bibitem[Rees and Murray, 2007]{rees2007silica}
+Rees, D. and Murray, J. (2007).
+\newblock Silica, silicosis and tuberculosis [state of the art series.
+  occupational lung disease in high-and low-income countries, edited by m.
+  chan-yeung. number 4 in the series].
+\newblock {\em The International Journal of Tuberculosis and Lung Disease},
+  11(5):474--484.
+
+\bibitem[Rohlf, 1999]{rohlf1999shape}
+Rohlf, F.~J. (1999).
+\newblock Shape statistics: Procrustes superimpositions and tangent spaces.
+\newblock {\em Journal of Classification}, 16(2):197--223.
+
+\bibitem[Ross et~al., 2010]{ross2010automatic}
+Ross, J.~C., Est{\'e}par, R. S.~J., Kindlmann, G., D{\'\i}az, A., Westin,
+  C.-F., Silverman, E.~K., and Washko, G.~R. (2010).
+\newblock Automatic lung lobe segmentation using particles, thin plate splines,
+  and maximum a posteriori estimation.
+\newblock In {\em International Conference on Medical Image Computing and
+  Computer-Assisted Intervention}, pages 163--171. Springer.
+
+\bibitem[Ross et~al., 2013]{ross2013pulmonary}
+Ross, J.~C., Kindlmann, G.~L., Okajima, Y., Hatabu, H., D{\'\i}az, A.~A.,
+  Silverman, E.~K., Washko, G.~R., Dy, J., and Est{\'e}par, R. S.~J. (2013).
+\newblock Pulmonary lobe segmentation based on ridge surface sampling and shape
+  model fitting.
+\newblock {\em Medical physics}, 40(12).
+
+\bibitem[Saita et~al., 2006]{saita2006algorithm}
+Saita, S., Kubo, M., Kawata, Y., Niki, N., Ohmatsu, H., and Moriyama, N.
+  (2006).
+\newblock An algorithm for the extraction of pulmonary fissures from low-dose
+  multislice ct image.
+\newblock {\em Systems and Computers in Japan}, 37(9):63--76.
+
+\bibitem[Shikata et~al., 2009]{shikata2009segmentation}
+Shikata, H., McLennan, G., Hoffman, E.~A., and Sonka, M. (2009).
+\newblock Segmentation of pulmonary vascular trees from thoracic 3d ct images.
+\newblock {\em Journal of Biomedical Imaging}, 2009:24.
+
+\bibitem[Sluimer et~al., 2005]{sluimer2005toward}
+Sluimer, I., Prokop, M., and Van~Ginneken, B. (2005).
+\newblock Toward automated segmentation of the pathological lung in ct.
+\newblock {\em IEEE transactions on medical imaging}, 24(8):1025--1038.
+
+\bibitem[Stegmann and Gomez, 2002]{stegmann2002brief}
+Stegmann, M.~B. and Gomez, D.~D. (2002).
+\newblock A brief introduction to statistical shape analysis.
+\newblock {\em Informatics and mathematical modelling, Technical University of
+  Denmark, DTU}, 15(11).
+
+\bibitem[Styner et~al., 2003]{styner2003statistical}
+Styner, M., Gerig, G., Lieberman, J., Jones, D., and Weinberger, D. (2003).
+\newblock Statistical shape analysis of neuroanatomical structures based on
+  medial models.
+\newblock {\em Medical image analysis}, 7(3):207--220.
+
+\bibitem[Sun et~al., 2012]{sun2012automated}
+Sun, S., Bauer, C., and Beichel, R. (2012).
+\newblock Automated 3-d segmentation of lungs with lung cancer in ct data using
+  a novel robust active shape model approach.
+\newblock {\em IEEE transactions on medical imaging}, 31(2):449--460.
+
+\bibitem[Sun et~al., 2006]{sun20063d}
+Sun, X., Zhang, H., and Duan, H. (2006).
+\newblock 3d computerized segmentation of lung volume with computed tomography.
+\newblock {\em Academic radiology}, 13(6):670--677.
+
+\bibitem[Tawhai and Burrowes, 2003]{tawhai2003developing}
+Tawhai, M.~H. and Burrowes, K.~S. (2003).
+\newblock Developing integrative computational models of pulmonary structure.
+\newblock {\em The Anatomical Record}, 275(1):207--218.
+
+\bibitem[Taylor et~al., 1995]{taylor1995medical}
+Taylor, C., Cootes, T., Hill, A., and Haslam, J. (1995).
+\newblock Medical image segmentation using active shape models.
+\newblock {\em STUDIES IN HEALTH TECHNOLOGY AND INFORMATICS}, 19:121--144.
+
+\bibitem[Tsai et~al., 2003]{tsai2003shape}
+Tsai, A., Yezzi, A., Wells, W., Tempany, C., Tucker, D., Fan, A., Grimson,
+  W.~E., and Willsky, A. (2003).
+\newblock A shape-based approach to the segmentation of medical imagery using
+  level sets.
+\newblock {\em IEEE transactions on medical imaging}, 22(2):137--154.
+
+\bibitem[Ukil and Reinhardt, 2005]{ukil2005smoothing}
+Ukil, S. and Reinhardt, J.~M. (2005).
+\newblock Smoothing lung segmentation surfaces in three-dimensional x-ray ct
+  images using anatomic guidance1.
+\newblock {\em Academic radiology}, 12(12):1502--1511.
+
+\bibitem[Ukil and Reinhardt, 2009]{ukil2009anatomy}
+Ukil, S. and Reinhardt, J.~M. (2009).
+\newblock Anatomy-guided lung lobe segmentation in x-ray ct images.
+\newblock {\em IEEE transactions on medical imaging}, 28(2):202--214.
+
+\bibitem[van Rikxoort et~al., 2009]{van2009automatic}
+van Rikxoort, E.~M., de~Hoop, B., Viergever, M.~A., Prokop, M., and van
+  Ginneken, B. (2009).
+\newblock Automatic lung segmentation from thoracic computed tomography scans
+  using a hybrid approach with error detection.
+\newblock {\em Medical physics}, 36(7):2934--2947.
+
+\bibitem[Van~Rikxoort and Van~Ginneken, 2013]{van2013automated}
+Van~Rikxoort, E.~M. and Van~Ginneken, B. (2013).
+\newblock Automated segmentation of pulmonary structures in thoracic computed
+  tomography scans: a review.
+\newblock {\em Physics in medicine and biology}, 58(17):R187.
+
+\bibitem[van Rikxoort et~al., 2008]{van2008supervised}
+van Rikxoort, E.~M., van Ginneken, B., Klik, M., and Prokop, M. (2008).
+\newblock Supervised enhancement filters: Application to fissure detection in
+  chest ct scans.
+\newblock {\em IEEE Transactions on Medical Imaging}, 27(1):1--10.
+
+\bibitem[Wang et~al., 2004]{wang2004shape}
+Wang, J., Betke, M., and Ko, J.~P. (2004).
+\newblock Shape-based curve growing model and adaptive regularization for
+  pulmonary fissure segmentation in ct.
+\newblock In {\em International Conference on Medical Image Computing and
+  Computer-Assisted Intervention}, pages 541--548. Springer.
+
+\bibitem[Wang et~al., 2006]{wang2006pulmonary}
+Wang, J., Betke, M., and Ko, J.~P. (2006).
+\newblock Pulmonary fissure segmentation on ct.
+\newblock {\em Medical Image Analysis}, 10(4):530--547.
+
+\bibitem[Wang et~al., 2009]{wang2009automated}
+Wang, J., Li, F., and Li, Q. (2009).
+\newblock Automated segmentation of lungs with severe interstitial lung disease
+  in ct.
+\newblock {\em Medical physics}, 36(10):4592--4599.
+
+\bibitem[Wei et~al., 2009]{wei2009segmentation}
+Wei, Q., Hu, Y., Gelfand, G., and Macgregor, J.~H. (2009).
+\newblock Segmentation of lung lobes in high-resolution isotropic ct images.
+\newblock {\em IEEE Transactions on biomedical engineering}, 56(5):1383--1393.
+
+\bibitem[Wiemker et~al., 2005]{wiemker2005unsupervised}
+Wiemker, R., B{\"u}low, T., and Blaffert, T. (2005).
+\newblock Unsupervised extraction of the pulmonary interlobar fissures from
+  high resolution thoracic ct data.
+\newblock In {\em International Congress Series}, volume 1281, pages
+  1121--1126. Elsevier.
+
+\bibitem[Yamamoto et~al., 2011]{yamamoto2011investigation}
+Yamamoto, T., Kabus, S., Klinder, T., Lorenz, C., Von~Berg, J., Blaffert, T.,
+  Loo~Jr, B.~W., and Keall, P.~J. (2011).
+\newblock Investigation of four-dimensional computed tomography-based pulmonary
+  ventilation imaging in patients with emphysematous lung regions.
+\newblock {\em Physics in medicine and biology}, 56(7):2279.
+
+\bibitem[Zhang, 2013]{zhang2013development}
+Zhang, J. (2013).
+\newblock {\em Development of an automated system for building a large
+  population-based statistical model of femur morphology}.
+\newblock PhD thesis, ResearchSpace@ Auckland.
+
+\bibitem[Zhang et~al., 2006]{zhang2006atlas}
+Zhang, L., Hoffman, E.~A., and Reinhardt, J.~M. (2006).
+\newblock Atlas-driven lung lobe segmentation in volumetric x-ray ct images.
+\newblock {\em IEEE transactions on medical imaging}, 25(1):1--16.
+
+\bibitem[Zhang et~al., 2011]{zhang2011medical}
+Zhang, X., Smith, N., and Webb, A. (2011).
+\newblock Medical imaging.
+\newblock In Feng, D.~D., editor, {\em Biomedical Information Technology}.
+  Elsevier Science, Oxford.
+
+\bibitem[Zhou et~al., 2004]{zhou2004automatic}
+Zhou, X., Hayashi, T., Hara, T., Fujita, H., Yokoyama, R., Kiryu, T., and
+  Hoshi, H. (2004).
+\newblock Automatic recognition of lung lobes and fissures from multislice ct
+  images.
+\newblock In {\em Proceedings of SPIE}, volume 5370, pages 1629--1633.
+
+\bibitem[Zhu et~al., 2010]{zhu2010automatic}
+Zhu, C., Qi, S., van Triest, H., Wang, S., Kang, Y., and Yue, Y. (2010).
+\newblock Automatic 3d segmentation of human airway tree in ct image.
+\newblock In {\em Biomedical Engineering and Informatics (BMEI), 2010 3rd
+  International Conference on}, volume~1, pages 132--136. IEEE.
 
 \end{thebibliography}

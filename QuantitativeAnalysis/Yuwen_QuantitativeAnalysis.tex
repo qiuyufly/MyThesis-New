@@ -1,35 +1,35 @@
 \chapter{Quantitative computerized analysis of idiopathic pulmonary fibrosis} \label{Yuwen_QuantitiativeAnalysis}
 
-As introduced in Chapter 2, the natural history of IPF is poorly understood, and the clinical course for a given patient is unpredictable. Currently, there is a shortage of accepted biomarkers that can indicate the likely progression of IPF disease \citep{bartholmai2013quantitative}. A successful quantification scheme that allows for recognition of disease across radiology, pulmonary and pathology disciplines still remains difficult. Development of accurate and automatic tools for quantitative assessment of alterations in the lung with IPF will be essential for a rapid patient-specific diagnosis and treatment. This chapter describes a study of quantitative analysis of IPF disease based on HRCT scans, including both assessment of tissue abnormalities and lung lobe shape analysis. 
+As introduced in Chapter 2, the natural history of IPF is poorly understood, and the clinical course for a given patient is unpredictable. Currently, there is a shortage of accepted bio-markers that can indicate the likely progression of IPF \citep{bartholmai2013quantitative}. A successful quantification scheme that allows for recognition of disease across radiology, pulmonary and pathology disciplines still remains difficult. Development of accurate and automatic tools for quantitative assessment of alterations in the lung with IPF will be essential for a rapid patient-specific diagnosis and treatment. This chapter describes a study of quantitative analysis of IPF disease based on HRCT scans, including both assessment of tissue abnormalities and lung lobe shape analysis. 
 
 \section{Background}
 \subsection{Challenges of IPF diagnosis} \label{Challenge}
-Managing patients with IPF present a substantial health-care burden, due to short survival time and lack of effective treatments (with associated morbidity) \citep{olson2007mortality,raghunath2014quantitative}. Accurate assessment and diagnosis of IPF is very challenging, since there is significant individual radiological and physiological variability among patients \citep{devaraj2014imaging}. The progression of disease varies considerably, ranging from rapid worsening of symptoms to relatively slow deterioration over several years \citep{king2011idiopathic,richeldi2017idiopathic}. The American Thoracic Society (ATS) and European Respiratory Society (ERS) develops a diagnostic criteria and schema for adult patients with IPF, and this criteria strongly recommends a multidisciplinary discussion between pulmonologists, radiologists and pathologists for an accurate diagnosis \citep{raghu2011official,travis2013official}. However, a successful classification and quantification tool that allows recognition of disease identically across radiology, pulmonary and pathology disciplines still remains difficult. 
+Managing patients with IPF present a substantial health-care burden, due to short survival time and lack of effective treatments (with associated morbidity) \citep{olson2007mortality,raghunath2014quantitative}. Accurate assessment and diagnosis of IPF is very challenging, since there is significant individual radiological and physiological variability among patients \citep{devaraj2014imaging}. The progression of disease varies considerably, ranging from rapid worsening of symptoms to relatively slow deterioration over several years \citep{king2011idiopathic,richeldi2017idiopathic}. The American Thoracic Society (ATS) and European Respiratory Society (ERS) develops a diagnostic criteria and schema for adult patients with IPF, and this criteria strongly recommends a multidisciplinary discussion between pulmonologists, radiologists and pathologists for an accurate diagnosis \citep{raghu2011official,travis2013official}. However, a successful classification and quantification tool that allows recognition of disease consistently across radiology, pulmonary and pathology disciplines still remains difficult. 
 
-The complex appearances of IPF abnormalities that keep changing in extent over time is difficult to assess by traditional methods. Traditional radiological observation to distinguish disease patterns is tedious and not reproducible, and this manual evaluation is not consistent due to variation of inter- and intra- assessment \citep{flaherty2007idiopathic, watadani2013interobserver}. Specifically, the difference in perception and interpretation of visual features of disease, which is associated with the experience and skills of clinical doctors, may lead to variable description of the same patient or even cause ''reader error''. However, this ''error'' can't be fully solved by training or improvement of imaging technologies \citep{kundel2006history,bartholmai2013quantitative}. More importantly, the final decision of clinical diagnosis is often based on independent evaluation from the radiologist, clinician and pathologist, which makes it hard to ensure consistency and dependability of results  \citep{flaherty2004idiopathic,sverzellati2011method}. Another challenge of diagnosing IPF is the clinical problem of how to consistently detect and discriminate IPF from other idiopathic interstitial pneumonias (IIPs). These distinctive diseases usually have similar clinical presentations or indeterminate pathologic and radiographic appearances. Some cases may even have mixed restrictive/fibrotic and destructive/obstructive processes \citep{bartholmai2013quantitative}. For example, \gls{nsip}, a pathological subtype of IIPs, appears to behave similarly to those with IPF/UIP patterns, especially for the cases with coexisting UIP and fibrotic NSIP patterns \citep{monaghan2004prognostic, flaherty2001histopathologic}. All of these various IIPs have distinctly different prognosis, and specific therapy targeted to a particular pathological process is becoming necessary \citep{lynch2005high}. Therefore, non-IPF IIPs must be discriminated from IPF \citep{bjoraker1998prognostic}. 
+The complex appearances of IPF abnormalities that keep changing in extent over time is difficult to assess by traditional methods. Traditional radiological observation to distinguish disease patterns is tedious and not reproducible, and this manual evaluation is not consistent due to variation of inter- and intra- assessment \citep{flaherty2007idiopathic, watadani2013interobserver}. Specifically, the difference in perception and interpretation of visual features of disease, which is associated with the experience and skills of clinical doctors, may lead to variable description of the same patient or even cause ''reader error''. However, this ''error'' can not be fully solved by training or improvement of imaging technologies \citep{kundel2006history,bartholmai2013quantitative}. More importantly, the final decision of clinical diagnosis is often based on independent evaluation from the radiologist, clinician and pathologist, which makes it hard to ensure consistency and dependability of results  \citep{flaherty2004idiopathic,sverzellati2011method}. Another challenge of diagnosing IPF is the clinical problem of how to consistently detect and discriminate IPF from other idiopathic interstitial pneumonias (IIPs). These distinctive diseases usually have similar clinical presentations or indeterminate pathologic and radiographic appearances. Some cases may even have mixed restrictive/fibrotic and destructive/obstructive processes \citep{bartholmai2013quantitative}. For example, \gls{nsip}, a pathological subtype of IIPs, appears to behave similarly to those with IPF/UIP patterns, especially for the cases with coexisting UIP and fibrotic NSIP patterns \citep{monaghan2004prognostic, flaherty2001histopathologic}. All of these various IIPs have distinctly different prognosis, and specific therapy targeted to a particular pathological process is becoming necessary \citep{lynch2005high}. Therefore, non-IPF IIPs must be discriminated from IPF \citep{bjoraker1998prognostic}. 
 
 \subsection{Advantages of quantitative analysis using HRCT} \label{Advantages}
 
 Recent development in radiological imaging techniques offer exciting opportunities to develop radiological patient-specific biomarkers as important indicators of specific phenotypes \citep{devaraj2014imaging,gotway2007challenges}. HRCT has played an essential role in evaluating lung disease through recognizing visual patterns and features of disease regions such as ground-glass opacities, reticular patterns and honeycombing \citep{mueller2007every}. HRCT is also a useful diagnostic tool to differentiate between IPF and other pathologies. It is generally believed that the extent of visual lesion presented on HRCT strongly relates to the severity of pathological abnormalities, and therefore can be used to monitor the progression of disease and then response to therapy \citep{kazerooni1997thin,kim1999nonspecific,wells2003idiopathic,saketkoo2011developing}. In addition, it has been noted that the use of HRCT can actually decrease the need for surgical lung biopsy which is risky for older patients with comorbidities \citep{bartholmai2013quantitative}. As a non-invasive tool for visualizing abnormal parenchymal densities, HRCT has its own advantage in IPF diagnosis even for the cases where HRCT fails to show enough specific features to reflect typical UIP pattern, since HRCT can provide guidance for optimizing the site to obtain a surgical lung biopsy \citep{kazerooni2001high, diette2005high, misumi2006idiopathic, costabel2007diffuse}. 
 
-Currently, how the changes of disease can be consistently characterized and quantified over time and how these changes can predict disease progression are still challenging tasks. Manual classification and subjective evaluation are usually complicated and not accurate enough. Image-based quantitative analysis is therefore strongly needed for developing a robust and consistent IPF assessment system \citep{gotway2007challenges,lynch2005high}. A number of studies has indicated that the quantification of abnormalities on thoracic HRCT has potential to determine the extent of disease and stratify different types of disease with numerous imaging features in variable distribution \citep{best2008idiopathic,wells2003idiopathic, sumikawa2008computed, bartholmai2013quantitative}. The hypothesis is that through quantifying abnormalities from radiological images, robust objective biomarkers can be developed to drive a patient-specific prediction based on specific phenotypes. This will be important for facilitating individualized clinical management and identifying specific phenotypes linked to clinical disease presentations or therapeutic responses \citep{raghunath2014quantitative}.
+Currently, how the changes of disease can be consistently characterized and quantified over time and how these changes can predict disease progression are still challenging tasks. Manual classification and subjective evaluation are usually complicated and not accurate enough. Image-based quantitative analysis is therefore strongly needed for developing a robust and consistent IPF assessment system \citep{gotway2007challenges,lynch2005high}. A number of studies have indicated that the quantification of abnormalities on thoracic HRCT has potential to determine the extent of disease. Moreover, it can help with stratifying different types of disease with numerous imaging features in variable distribution \citep{best2008idiopathic,wells2003idiopathic, sumikawa2008computed, bartholmai2013quantitative}. The hypothesis is that through quantifying abnormalities from radiological images, robust objective bio-markers can be developed to drive a patient-specific prediction based on specific phenotypes. This will be important for facilitating individualized clinical management and identifying specific phenotypes linked to clinical disease presentations or therapeutic responses \citep{raghunath2014quantitative}.
 \newpage
 
 \subsection{Review of current published methods of quantitative analysis of lung disease} \label{Review}
-In the past few years, there has been considerable effort to provide quantitative analysis of lung parenchymal abnormalities on HRCT scans. Fortunately, quantitative methods to analyze disease patterns of \gls{copd} such as emphysema have been well developed over the last 20 years, and have been able to provide reproducible biomarkers used in clisubnical diagnosis and assessment \citep{da2008identification,gietema2011quantifying,galban2012computed,wang2013high,castaldi2013distinct}. However, quantification of disease patterns of lung fibrosis or other interstitial lung disease is more challenging, since the appearances and changes of these abnormalities are even more complicated than the characteristics seen with emphysema \citep{lynch2007quantitative, delorme1997usual, galban2012computed, depeursinge2010comparative}. In the early days, first-order textural analysis methods such as \gls{mld} and histogram analysis (HIST) were used to analyze radiological lung imaging \citep{gilman1983ct,gould1988ct,muller1988density,kinsella1990quantitation,knudson1991expiratory,behr1992evaluation}. These approaches to assess CT data are automatic and objective, but they simply examined a single parameter which only extracted lung density information. The measurement of attenuation (which relates to density) is highly dependent upon every slight change in lung volume and can be significantly affected by beam-hardening effects, scatter and drifts in scanner calibration. Therefore, these methods are difficult to apply in the presence of mixed disease.
+In the past few years, there has been considerable effort to provide quantitative analysis of lung parenchymal abnormalities on HRCT scans. Fortunately, quantitative methods to analyse disease patterns of \gls{copd} such as emphysema have been well developed over the last 20 years, and have been able to provide reproducible bio-markers used in sub-clinical diagnosis and assessment \citep{da2008identification,gietema2011quantifying,galban2012computed,wang2013high,castaldi2013distinct}. However, quantification of disease patterns of lung fibrosis or other interstitial lung disease is more challenging, since the appearances and changes of these abnormalities are even more complicated than the characteristics seen with emphysema \citep{lynch2007quantitative, delorme1997usual, galban2012computed, depeursinge2010comparative}. In the early days, first-order textural analysis methods such as \gls{mld} and histogram analysis (HIST) were used to analyse radiological lung imaging \citep{gilman1983ct,gould1988ct,muller1988density,kinsella1990quantitation,knudson1991expiratory,behr1992evaluation}. These approaches to assess CT data are automatic and objective, but they simply examined a single parameter for the whole lung. The measurement of attenuation (which relates to density) is highly dependent upon lung volume and can be significantly affected by beam-hardening effects, scatter and drifts in scanner calibration. Therefore, these methods are difficult to apply in the presence of mixed disease.
 
-\cite{uppaluri1999interstitial,uppaluri1999computer} was an early group to present a multiple feature based method to automatically quantify and classify pulmonary parenchyma of interstitial lung disease based upon HRCT. An adaptive multiple feature method (AMFM) which combined statistical texture measures with a fractal measure was developed to initially assess the emphysema regions of the lung, and subsequently extended to study subjects with IPF or sarcoidosis. The AMFM method was further improved to assess as many as 22 independent texture features which enabled classification of pulmonary parenchymas into six tissue patterns, including: honeycombing, ground-glass, bronchovascular, nodular, emphysemalike, and normal. These 22 texture features consist of statistical features (gray level distribution features, run-length features and co-occurrence matrix features) and fractal features (geometric fractal dimension and stochastic fractal dimension). The lung slices were divided regionally into $31 \times 31$ pixel regions of interest (ROI). In each ROI, an optimal subset of texture features was evaluated to determine which of the six patterns in the region could be characterized. A nonlinear statistical classifier, the Bayesian classifier, was built to do the classification through calculating the probability that the ROI belongs to each tissue pattern. The whole algorithm contains two stages: the first stage involves training AMFM to recognize different HRCT based tissue patterns using a preselected dataset; the second stage involves a new CT data to be analyzed using the above introduced method. This multiple textural feature based method established the foundation and framework for subsequent studies on quantitative assessment of lung imaging. \cite{xu2006computer,xu2006mdct} enhanced the ability of AMFM based on \cite{uppaluri1999interstitial,uppaluri1999computer}'s work. In this study, the 2D textural feature based tissue analysis method was extended to 3D space for quantifying emphysema and early smoking related lung pathologies. The extracted features involved both first-order features (mean, variance, kurtosis and entropy of gray level distribution) and second-order features (run-length and co-occurrence measurements). The results showed that 3D AMFM analysis of lung parenchyma improved discrimination compared to 2D AMFM of the same volume of interests (VOIs). 
+\cite{uppaluri1999interstitial,uppaluri1999computer} was an early group to present a multiple feature based method to automatically quantify and classify pulmonary parenchyma of interstitial lung disease based upon HRCT. An adaptive multiple feature method (AMFM) which combined statistical texture measures with a fractal measure was developed to initially assess the emphysema regions of the lung, and subsequently extended to study subjects with IPF or sarcoidosis. The AMFM method was further improved to assess as many as 22 independent texture features which enabled classification of pulmonary parenchymas into six tissue patterns, including: honeycombing, ground-glass, broncho-vascular, nodular, emphysema-like, and normal. These 22 texture features consist of statistical features (grey level distribution features, run-length features and co-occurrence matrix features) and fractal features (geometric fractal dimension and stochastic fractal dimension). The lung slices were divided regionally into $31 \times 31$ pixel regions of interest (ROI). In each ROI, an optimal subset of texture features was evaluated to determine which of the six patterns in the region could be characterized. A non-linear statistical classifier, the Bayesian classifier, was built to do the classification through calculating the probability that the ROI belongs to each tissue pattern. The whole algorithm contains two stages: the first stage involves training AMFM to recognize different HRCT based tissue patterns using a preselected dataset; the second stage involves a new CT data to be analysed using the above introduced method. This multiple textural feature based method established the foundation and framework for subsequent studies on quantitative assessment of lung imaging. \cite{xu2006computer,xu2006mdct} enhanced the ability of AMFM based on \cite{uppaluri1999interstitial,uppaluri1999computer}'s work. In this study, the 2D textural feature based tissue analysis method was extended to 3D space for quantifying emphysema and early smoking related lung pathologies. The extracted features involved both first-order features (mean, variance, kurtosis and entropy of grey level distribution) and second-order features (run-length and co-occurrence measurements). The results showed that 3D AMFM analysis of lung parenchyma improved discrimination compared to 2D AMFM of the same volume of interests (VOIs). 
 
-In the past 15 years, the above introduced AMFM to quantify and classify lung disease from CT imaging has been widely used in a variety of studies \citep{van2002automatic,chabat2003obstructive,best2003quantitative,uchiyama2003quantitative,kim2005computer,zavaletta2006high,arzhaeva2007computer,best2008idiopathic,kim2010computer,kim2011quantitative,kim2015comparison}. A general workflow of texture analysis is: 1. preset several types of tissue patterns; 2. divide lung slices into a set of ROIs with a square shape; 3. use texture analysis to extract multiple features for each ROI; 4. select representative expert-labeled ROIs as a training set for a classifier; 5. use the features of ROIs from a new set as input to the classifier to find the corresponding tissue pattern. Currently, most of the published CT based lung tissue analysis methods were developed based on this framework. Different textural features, ROI sizes or classifier types were specifically selected to target different lung disease or clinical requirement. \cite{best2003quantitative,best2008idiopathic} used mean lung attenuation (MLA), skewness (asymmetry) and kurtosis (peakedness) as features combined with a further univariate and multiple correlation and regression statistical analysis to determine relationships between histogram signals and results of PFTs in patients with IPF. The result showed that CT histograms of the lungs were correlated with results of PFTs, therefore the visual disease extent on CT images can be used as a strong independent predictor of mortality in IPF. \cite{chabat2003obstructive} used similar textural features and classifier to \cite{best2003quantitative,best2008idiopathic}'s method for differentiating centrilobular emphysema, panlobular emphysema, constrictive obliteratie bronchiolitis and normal normal lung tissue. \cite{zavaletta2007high} trained and tested three classifiers which included 10 Nearest Neighbor Classifier, Fisher Linear Discriminant Analysis and Parzen Window to classify normal and abnormal structures in lungs with IPF. 
+In the past 15 years, the above introduced AMFM to quantify and classify lung disease from CT imaging has been widely used \citep{van2002automatic,chabat2003obstructive,best2003quantitative,uchiyama2003quantitative,kim2005computer,zavaletta2006high,arzhaeva2007computer,best2008idiopathic,kim2010computer,kim2011quantitative,kim2015comparison}. A general workflow of texture analysis is: 1. preset several types of tissue patterns; 2. divide lung slices into a set of ROIs with a square shape; 3. use texture analysis to extract multiple features for each ROI; 4. select representative expert-labelled ROIs as a training set for a classifier; 5. use the features of ROIs from a new set as input to the classifier to find the corresponding tissue pattern. Currently, most of the published CT based lung tissue analysis methods were developed based on this framework. Different textural features, ROI sizes or classifier types were specifically selected to target different lung disease or clinical requirement. \cite{best2003quantitative,best2008idiopathic} used mean lung attenuation (MLA), skewness (asymmetry) and kurtosis (peakedness) as features combined with a further univariate and multiple correlation and regression statistical analysis to determine relationships between histogram signals and results of PFTs in patients with IPF. The result showed that CT histograms of the lungs were correlated with results of PFTs, therefore the visual disease extent on CT images can be used as a strong independent predictor of mortality in IPF. \cite{chabat2003obstructive} used similar textural features and classifier to \cite{best2003quantitative,best2008idiopathic}'s method for differentiating centrilobular emphysema, panlobular emphysema, constrictive obliteratie bronchiolitis and normal normal lung tissue. \cite{zavaletta2007high} trained and tested three classifiers which included 10 Nearest Neighbour Classifier, Fisher Linear Discriminant Analysis and Parzen Window to classify normal and abnormal structures in lungs with IPF. 
 
-\cite{uchiyama2003quantitative} and \cite{kim2005computer} employed multi-layered \gls{anns} with a back-propagation algorithm as classifier to distinguish between different tissue patterns which includes both normal and diffuse lung disease slices. ANNs, using their simplest definition, are the modeling of the human brain, and their building blocks are neurons. They are excellent tools for finding patterns which are too complex or numerous for a human programmer to extract and teach the classifier to recognize, therefore will increase the accuracy of classification. In addition, \cite{kim2010computer,kim2011quantitative,kim2015comparison} published a series of papers presenting a texture-based computer-aided diagnosis (CAD) scoring system to assess \gls{qlf} as a measurement of lung disease severity and as a surrogate imaging marker. The QLF score (in texture feature-based measure) was compared to the CT histogram metric (a global statistical measure), and the baseline severity and early change within 7 months in patients with IPF was assessed. The result concluded that classifier-model-derived scores (QLF scores) were associated with baseline disease extent and were also a sensitive measure of change over time, and a QLF score could be used for measuring the extent of disease severity and longitudinal changes.
+\cite{uchiyama2003quantitative} and \cite{kim2005computer} employed multi-layered \gls{anns} with a back-propagation algorithm as classifier to distinguish between different tissue patterns which includes both normal and diffuse lung disease slices. ANNs, using their simplest definition, are the modelling of the human brain, and their building blocks are neurons. They are excellent tools for finding patterns which are too complex or numerous for a human programmer to extract and teach the classifier to recognize, therefore will increase the accuracy of classification. In addition, \cite{kim2010computer,kim2011quantitative,kim2015comparison} published a series of papers presenting a texture-based computer-aided diagnosis (CAD) scoring system to assess \gls{qlf} as a measurement of lung disease severity and as a surrogate imaging marker. The QLF score (in texture feature-based measure) was compared to the CT histogram metric (a global statistical measure), and the baseline severity and early change within 7 months in patients with IPF was assessed. The result concluded that classifier-model-derived scores (QLF scores) were associated with baseline disease extent and were also a sensitive measure of change over time, and a QLF score could be used for measuring the extent of disease severity and longitudinal changes.
 
-Most of the published methods focus on texture-based classification of lung parenchyma or the severity and volumetric quantification of disease as a whole lung (such as QLF score). Currently, very few studies attempt to quantitatively characterize the spatial distribution of each disease pattern or describe how each tissue pattern changes or convert over time. Moreover, many of the existing methods are time consuming and sometimes even require several hours. These real-world limitations present difficulties when translating these techniques into clinical applications \citep{bartholmai2013quantitative}.
+Most of published methods focus on texture-based classification of lung parenchyma or the severity and volumetric quantification of disease as a whole lung (such as QLF score). Currently, very few studies attempt to quantitatively characterize the spatial distribution of each disease pattern or describe how each tissue pattern changes or convert over time. Moreover, many of the existing methods are time consuming and sometimes even require several hours. These real-world limitations present difficulties when translating these techniques into clinical applications \citep{bartholmai2013quantitative}.
 
 In addition, it has been generally believed that there is a decrease in lung volume (both FRC and TLC) in patients with IPF, but up to now, few studies have been presented to explore the lung and lobe shape alteration in IPF lungs compared to normal ones. It is a reasonable assumption that shape changes will be observed in IPF lungs due to physiologic alterations and disease progression over time. 
 
 \subsection{Computer-Aided Lung Informatics for Pathology Evaluation and Ratings} \label{CALIPERIntroduction}
-CALIPER (Computer-Aided Lung Informatics for Pathology Evaluation and Ratings) is a computational image analysis platform developed by the Biomedical Imaging Resource Laboratory at the Mayo Clinic Rochester (Rochester, MN, USA) for the characterization and classification of lung parenchymal findings on HRCT \citep{maldonado2013automated,bartholmai2013quantitative,raghunath2014quantitative}. The data processing step includes lung region segmentation and classification of the remaining pulmonary parenchyma on the CT dataset. Briefly, CALIPER isolates the lung parenchyma by extracting central airways and vascular structures, and then classifies every parenchymal voxel into the following characteristic CT patterns: normal (N), reticular (R), honeycomb (HC), ground-glass (GG), mild \gls{laa}, moderate LAA and severe LAA (emphysema). This novel computer-aided method for analyzing pulmonary tissue features provides a consistent and reproducible quantification of lung disease that relates to the semi-quantitative assessment from radiologists\citep{maldonado2013automated}. Figure \ref{fig:CALIPERPatterns} shows visual appearance of each characteristic CT pattern.
+CALIPER (Computer-Aided Lung Informatics for Pathology Evaluation and Ratings) is a computational image analysis platform developed by the Biomedical Imaging Resource Laboratory at the Mayo Clinic Rochester (Rochester, MN, USA) for the characterization and classification of lung parenchymal findings on HRCT \citep{maldonado2013automated,bartholmai2013quantitative,raghunath2014quantitative}. The data processing step includes lung segmentation and classification of the remaining pulmonary parenchyma on the CT dataset. Briefly, CALIPER isolates the lung parenchyma by extracting central airways and vascular structures, and then classifies every parenchymal voxel into the following characteristic CT patterns: normal (N), reticular (R), honeycomb (HC), ground-glass (GG), mild \gls{laa}, moderate LAA and severe LAA (emphysema). This novel computer-aided method for analysing pulmonary tissue features provides a consistent and reproducible quantification of lung disease that relates to the semi-quantitative assessment from radiologists\citep{maldonado2013automated}. Figure \ref{fig:CALIPERPatterns} shows visual appearance of each characteristic CT pattern.
 
 \begin{figure*}[htbp]
   \centering 
@@ -40,9 +40,9 @@ CALIPER (Computer-Aided Lung Informatics for Pathology Evaluation and Ratings) i
 
 Pre-processing is conducted before the eventual classification of the pulmonary parenchyma. This required segmentation of anatomic lung regions. The lungs are initially segmented using a adaptive density-based morphology (thresholding) method \citep{hu2001automatic}. Airways are segmented by thresholding combined with 3D growing processing and vessels are segmented by enhancement filter based on Hessian matrix \citep{sato2000tissue}, then the final lung segments are extracted. 
 
-The volumetric detection and classification of pulmonary parenchyma by CALIPER uses a sliding window supervised classification scheme based on histogram signature mapping techniques \citep{zavaletta2007high}. This classification technique is trained by expert radiologist via consensus assessment of pathologically confirmed datasets, which are obtained from the Lung Tissue Research Consortium (LTRC). LTRC is a resource program sponsored by the NIH/NHLBI that provides clinical and physiologic data of human lung tissues to qualified investigators for use in their research and to help investigators develop a better understanding of lung disease. The central part of the classification scheme is the selection of a set of expert-labeled \gls{vois} as the training data for a classifier. The training data used in CALIPER is numbers of 15*15*15-voxel VOIs acquired from HRCT scans of subjects with proven pathological diagnosis of interstitial lung disease (ILD) or emphysema from the LTRC repository. These VOIs are selected through independent analysis by four experienced thoracic radiologists from CT scans, with instructions and criterion to determine if the visual appearance should represent normal, emphysema or one of the characteristic lung fibrosis CT patterns: honeycomb, reticular or ground-glass \citep{maldonado2013automated,bartholmai2013quantitative}.
+The volumetric detection and classification of pulmonary parenchyma by CALIPER uses a sliding window supervised classification scheme based on histogram signature mapping techniques \citep{zavaletta2007high}. This classification technique is trained by expert radiologist via consensus assessment of pathologically confirmed datasets, which are obtained from the Lung Tissue Research Consortium (LTRC). LTRC is a resource program sponsored by the NIH/NHLBI that provides clinical and physiologic data of human lung tissues to qualified investigators for use in their research and to help investigators develop a better understanding of lung disease. The central part of the classification scheme is the selection of a set of expert-labelled \gls{vois} as the training data for a classifier. The training data used in CALIPER is numbers of 15*15*15-voxel VOIs acquired from HRCT scans of subjects with proven pathological diagnosis of interstitial lung disease (ILD) or emphysema from the LTRC repository. These VOIs are selected through independent analysis by four experienced thoracic radiologists from CT scans, with instructions and criterion to determine if the visual appearance should represent normal, emphysema or one of the characteristic lung fibrosis CT patterns: honeycomb, reticular or ground-glass \citep{maldonado2013automated,bartholmai2013quantitative}.
 
-The VOIs with agreement on the class of abnormality by all four radiologists are using as exemplars to determine canonical histogram signatures of the CT patterns of visual abnormality by automatic cluster affinity techniques. Quantitative discriminability of a series of pairwise dissimilarity metrics based on the VOI histograms is tested using \gls{mds}. \gls{cvm}, which is found to be most consistent with the expert groupings, is selected as the dissimilarity metric to train CALIPER. For each of the parenchymal voxels needing to be classified, the local histograms of its neighbouring $15 \times 15 \times 15$ voxels are compared against the histograms of the exemplars identified in the training phase. A CVM dissimilarity measure is in the comparison and the fundamental type of the exemplar (N,R,H,G or emphysema) with the lowest CVM is assigned as the parenchymal CT pattern to this classified voxel. The parenchymal voxels identified as vessel structures are classified as normal pattern. Figure \ref{fig:CALIPERResults} shows a representative dataset with axial, coronal and sagittal sections of a CT lung volume where every voxel of the parenchyma is characterized and color coded into one of the parenchymal patterns (N, R, H, G, and mild, moderate and severe LAA). 
+The VOIs with agreement on the class of abnormality by all four radiologists are using as exemplars to determine canonical histogram signatures of the CT patterns of visual abnormality by automatic cluster affinity techniques. Quantitative discriminability of a series of pairwise dissimilarity metrics based on the VOI histograms is tested using \gls{mds}. \gls{cvm}, which is found to be most consistent with the expert groupings, is selected as the dissimilarity metric to train CALIPER. For each of the parenchymal voxels needing to be classified, the local histograms of its neighbouring $15 \times 15 \times 15$ voxels are compared against the histograms of the exemplars identified in the training phase. A CVM dissimilarity measure is in the comparison and the fundamental type of the exemplar (N,R,H,G or emphysema) with the lowest CVM is assigned as the parenchymal CT pattern to this classified voxel. The parenchymal voxels identified as vessel structures are classified as normal pattern. Figure \ref{fig:CALIPERResults} shows a representative dataset with axial, coronal and sagittal sections of a CT lung volume where every voxel of the parenchyma is characterized and colour coded into one of the parenchymal patterns (N, R, H, G, and mild, moderate and severe LAA). 
 
 \begin{figure*}[htbp]
   \centering 
@@ -54,12 +54,12 @@ The VOIs with agreement on the class of abnormality by all four radiologists are
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \section{Methods: quantitative analysis of IPF lungs}
-This section describes the quantitative methods to analyze and characterize IPF tissue abnormalities and lung lobe shape longitudinally, and in comparison to normal subjects. In summary, HRCT imaging was classified by pattern using a validated image analysis process \citep{maldonado2013automated,bartholmai2013quantitative,raghunath2014quantitative}. The tissue classification data was mapped to a mean statistical shape model (SSM) allowing a quantitative approach to analyze tissue pattern density, tissue pattern volume, spatial distribution of abnormalities, and regional changes in tissue abnormalities over time. In the shape analysis, lobar finite element meshes for both IPF and normal subjects were projected to the SSM, and lobe shape differences in IPF were then quantitatively characterized.
+This section describes the quantitative methods to analyse and characterize IPF tissue abnormalities and lung lobe shape longitudinally, and in comparison to normal subjects. In summary, HRCT imaging was classified by pattern using a validated image analysis process \citep{maldonado2013automated,bartholmai2013quantitative,raghunath2014quantitative}. The tissue classification data was mapped to a mean statistical shape model (SSM) allowing a quantitative approach to analyse tissue pattern density, tissue pattern volume, spatial distribution of abnormalities, and regional changes in tissue abnormalities over time. In the shape analysis, lobar finite element meshes for both IPF and normal subjects were projected to the SSM, and lobe shape differences in IPF were then quantitatively characterized.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Tissue classification of IPF lungs}
 \subsubsection{Imaging and clinical data}
-Data used in this study was acquired as part of routine clinical diagnosis or follow up. Data use was approved by the Southern Health and Disability Ethics Committee (ETHICS APPROVAL NUMBER). Data include volumetric HRCT and PFTs from 13 patients who were diagnosed with or suspected to have IPF. All patients were under clinical care at Auckland City Hospital, Auckland, New Zealand. Volumetric HRCT images (slice thickness 1.25-5.00 mm) were acquired at the end of inspiration and during routine diagnostic inspection and/or monitoring for IPF disease. 11 of the subjects had more than one serial CT scan within a 5-79 month interval, representing different time points (7 subjects had 3 time points, 4 subjects had 2 time points). The population demographics for these subjects is shown in Table \ref{tab:DemographicData}.
+Data used in this study was acquired as part of routine clinical diagnosis or follow up. Data use was approved by the Southern Health and Disability Ethics Committee (ETHICS APPROVAL NUMBER). Data include volumetric HRCT and PFTs from 13 patients who were diagnosed with or suspected to have IPF. All patients were under clinical care at Auckland City Hospital, Auckland, New Zealand. Volumetric HRCT images (slice thickness 1.25-5.00 mm) were acquired at the end of inspiration and during routine diagnostic inspection and/or monitoring for IPF disease. Eleven of the subjects had more than one serial CT scan within a 5-79 month interval, representing different time points (7 subjects had 3 time points, 4 subjects had 2 time points). The population demographics for these subjects is shown in Table \ref{tab:DemographicData}.
 \newpage
 
 \begin{table}[h]
@@ -88,18 +88,18 @@ Number of slices	& 68-227
 \subsubsection{Normalization of classified data} \label{DataNormalization}
 Tissue CT patterns of each patient for each time point were classified using CALIPER software introduced in Section \ref{CALIPERIntroduction}. Then, lung surface data and fissure surface data were acquired using the lobe segmentation method introduced in Chapter 3. A bi-cubic Hermite finite element surface mesh was fitted to the shape of the lung and its fissures via a least squares fit (https://www.cmiss.org). The details for the generation of lobe data and the lobe mesh are given in Chapter 3, Section \ref{ShapeModelGeneration}.
 
-There is lung shape variation between different subjects and often between clinical images obtained at different times, as well as variation in the extent to which a patient inhales during imaging, even with careful training. Thus, the classified volumetric lung data was then mapped to a statistical shape model (SSM) of the ''normal'' older human lung to provide a consistent mapping of tissue abnormalities in individuals to a consistent lung shape. The steps for the construction of the SSM were introduced in Chapter 3, Section \ref{ShapeModelGeneration}, which described an SSM for a cohort aged 21-83. In this chapter we used 35 normal old subjects aged 50 years and older to derive an SSM because this is consistent with the typical age of onset of IPF. The SSM used for mapping data is the average mesh of the lung lobes which was derived from these 35 training subjects, and it provides a description of a statistical mean lung and fissure surface shape of normal people adults aged > 50 years.
+There is lung shape variation between different subjects and often between clinical images obtained at different times, as well as variation in the extent to which a patient inhales during imaging, even with careful training. Thus, the classified volumetric lung data was then mapped to a statistical shape model (SSM) of the ''normal'' older human lung to provide a consistent mapping of tissue abnormalities in individuals to a consistent lung shape. The steps for the construction of the SSM were introduced in Chapter 3, Section \ref{ShapeModelGeneration}, which described an SSM for a cohort aged 21-83. In this chapter we used 35 normal old subjects aged 50 years and older to derive an SSM because this is consistent with the typical age of onset of IPF. The SSM used for mapping data is the average mesh of the lung lobes which was derived from these 35 training subjects, and it provides a description of a statistical mean lung and fissure surface shape of normal people adults aged $>$ 50 years.
 
 In order to map the individual classified data to the SSM mesh, the bi-cubic Hermite finite element mesh of lung surface was converted to a tri-cubic Hermite volumetric mesh which describes not only the lung surface but also the internal anatomy \citep{tawhai2003developing}. The volumetric mesh has 40 nodes and 30 elements for left lung, and 56 nodes and 38 elements for right lung. For each node, it has 24 DOFs which store the global coordinates (x, y and z) and the first, second and third nodal derivatives (\pd{n}{\xi_1}, \pd{n}{\xi_2}, \pd{n}{\xi_3}, \pd[2]{n}{\xi_1 \xi_2}, \pd[2]{n}{\xi_2 \xi_3}, \pd[2]{n}{\xi_1 \xi_3} and \pd[3]{n}{\xi_1 \xi_2 \xi_3}), where n is x, y and z, and $\xi$ is the local element coordinate.
 
-During the data mapping, all of the classified data should be completely enclosed inside its lobe volume mesh. The position of each point within the finite element mesh was defined locally in each element of the mesh by $\xi_{i}$, for i=1,..,3 with $0<\xi_{i}<1$. $\xi_{i}$ location denotes the local coordinates of the data point with respect to its element. The local coordinate $\xi_{i}$ was then used to calculate the global coordinates of the mapped data points using the following equation:
+During the data mapping, all of the classified data should be completely enclosed inside its lobe volume mesh. The position of each point within the finite element mesh was defined locally in each element of the mesh by $\xi_{i}$, for i=1,..,3 with $0<\xi_{i}<1$. $\xi_{i}$ location denotes the local coordinates of the data point with respect to its element. The local coordinate $\xi_{i}$ was then used to calculate the global coordinates of the mapped data points using
 
 \begin{equation}
-u(\xi_{i}) = \sum_{n=1}^{N} \psi_n(\xi_{i})u_n
+u(\xi_{i}) = \sum_{n=1}^{N} \psi_n(\xi_{i})u_n,
 \end{equation}
 where $u_n$ is a vector of N element nodal parameters of the SSM lobe mesh associated with the interpolation functions $\psi_{n}$. 
 
-In order to force a uniform data point distribution throughout each lung, the gaps in the mapped data caused by the mapping deformation from individual shape to SSM (shown in Figure \ref{fig:GapFilling-a}) were ''filled'' by matching the classification of their closest neighbor point among the classified data. Uniform data point distribution facilitates further density and spatial distribution analysis of abnormalities. Briefly, the gaps of the mapped data were filled using the following steps: 
+In order to force a uniform data point distribution throughout each lung, the gaps in the mapped data caused by the mapping deformation from individual shape to SSM (shown in Figure \ref{fig:GapFilling-a}) were ''filled'' by matching the classification of their closest neighbour point among the classified data. Uniform data point distribution facilitates further density and spatial distribution analysis of abnormalities. Briefly, the gaps in the mapped data were filled using the following steps: 
 
 1. Mapped data were cut into a series of axial slices (shown in Figure \ref{fig:GapFilling-a}).
 
@@ -147,7 +147,7 @@ In order to force a uniform data point distribution throughout each lung, the ga
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Tissue quantification of IPF lungs} \label{TissueQuantification}
 \subsubsection{Density analysis}
-The average density value of each classified CT pattern was calculated. Intensity is measured in Hounsfield units (HU) in a typical CT image, which corresponds linearly to the actual density of the imaged tissue. HU was calculated with the segmentation software PTK calibrated to values of approximately -1024 for air density, zero for water density, and over 40 for blood, bone, and other non-parenchymal tissue. The tissue density ($\rho$, $g/cm^3$ ) was then acquired at each voxel:
+The average density value of each classified CT pattern was calculated. Intensity is measured in Hounsfield units (HU) in a typical CT image, which corresponds linearly to the actual density of the imaged tissue. HU was calculated with the segmentation software PTK calibrated to values of approximately -1024 for air density, zero for water density, and over 40 for blood, bone, and other non-parenchymal tissue. The tissue density ($\rho$, $g/cm^3$ ) was then acquired at each voxel
 
 \begin{equation}
 \rho = \frac{HU}{1024} + 1,
@@ -156,14 +156,14 @@ The average density value of each classified CT pattern was calculated. Intensit
 \noindent the average density of each CT pattern was then calculated from individual voxel density.
 
 \subsubsection{Spatial distribution analysis}
-Based on the criteria of IPF defined by the ATS and ERS, the diagnosis of IPF usually associates with the presence of a UIP pattern on HRCT (see details in Chapter 2, Section \ref{DiagnosisCriteria}). The distribution of UIP on HRCT is characteristically basal and peripheral (subpleural), though often patchy. Therefore, in order to quantitatively analyze the spatial distribution of IPF abnormalities, the percentage of honeycomb, reticular, emphysema and ground-glass which represent typical UIP disease patterns on HRCT were calculated in basal-to apical sections, dorso-to-ventral sections, from subpleural to internal and by lobe: 
+Based on the criteria of IPF defined by the ATS and ERS, the diagnosis of IPF is usually associated with the presence of a UIP pattern in HRCT (see details in Chapter 2, Section \ref{DiagnosisCriteria}). The distribution of UIP on HRCT is characteristically basal and peripheral (subpleural), though often patchy. Therefore, in order to quantitatively analyse the spatial distribution of IPF abnormalities, the percentage of honeycomb, reticular, emphysema and ground-glass which represent typical UIP disease patterns on HRCT were calculated in basal-to apical sections, dorso-to-ventral sections, from subpleural to internal and by lobe: 
 \newpage
 
-\paragraph{Basal-to-apical:} In the direction from base to apex, the volume percentage of each disease region was averaged in 5\% lung height (along the cranio-caudal axis). 
+\paragraph{Basal-to-apical:} In the direction from base to apex, the volume percentage of each disease region was averaged in bins representing 5\% of lung height (along the cranio-caudal axis). 
 
-\paragraph{Dorso-to-ventral:} In the direction from back to front, the volume percentage of each disease region was averaged in 5\% along the cranio-caudal axis. 
+\paragraph{Dorso-to-ventral:} In the direction from back to front, the volume percentage of each disease region was averaged in bins representing 5\% of distance along the cranio-caudal axis. 
 
-\paragraph{Subpleural to internal:} The distance from the abnormalities to the boundary of the lung and to the center of the lung were measured to analyze the location of disease with respect to the disease from lung surface. To be specific, the center location of each connected cluster of disease area was firstly extracted, and the subpleural to internal distance percentage $R_{subpleural}$ of each connected cluster, which described how far was the connected cluster from the lung surface, was then calculated as in the diagram shown in Figure \ref{fig:SubpleuralMethod}
+\paragraph{Subpleural to internal:} The distance from the abnormalities to the boundary of the lung and to the centre of the lung were measured to analyse the location of disease with respect to the disease from lung surface. To be specific, the centre location of each connected cluster of disease area was firstly extracted, and the subpleural to internal distance percentage $R_{subpleural}$ of each connected cluster, which described how far was the connected cluster from the lung surface, was then calculated as in the diagram shown in Figure \ref{fig:SubpleuralMethod}
 
 \begin{figure}[H]
   \centering 
@@ -184,7 +184,7 @@ P_{centre}(x,y,z) = \frac{\sum\nolimits_{i=1}^N P_{surface}(x,y,z)}{N},
 
 \noindent where $P_{surface}(x,y,z)$ is the coordinate of lung surface data point, and N is the number of lung surface data point.
 
-\paragraph{Lobar distribution:} In order to analyze the lobar distribution of disease, the volume percentage of each disease CT pattern located in each lobe was calculated.
+\paragraph{Lobar distribution:} In order to analyse the lobar distribution of disease, the volume percentage of each disease CT pattern located in each lobe was calculated.
 
 \subsubsection{Change in classification of tissue pattern over time}
 Median survival time of patients with IPF is generally from 3 to 5 years from time of diagnosis. However, individual progression of disease is variable and how the characteristic disease pattern changes over time (e.g. whether a disease region deteriorates and changes to other tissue patterns or stays the same over time) still remains elusive. In our study, the classified data of all subjects and time points have been normalized to a standard lung shape (SSM, as introduced in Section \ref{DataNormalization}), thus making it possible for us to detect the disease change in specific regions as time goes on by extracting the CT pattern of each voxel at different time points.
@@ -203,37 +203,37 @@ V_{Region} = N \times R_x \times R_y \times R_z
 %Currently, there is little research on investigating the volume change of individual tissue classifications over time. In Section \ref{TissueQuantification}, it was demonstrated that the distribution of tissue abnormalities changes as time goes on. In this section, the volume percentages of normal tissue and classified fibrosis tissue (honeycomb, reticular and ground-glass) in left and right lung for each time point were calculated to analyze the change of tissue volume over time.
 
 \subsubsection{Lobe volume difference between old normal lungs and IPF lungs}
-The lobe volume of the IPF cohort was compared with the older normal cohort described in Section \ref{DataNormalization}. In order to quantitatively analyze the lobe volume difference between the two groups, the volume proportion of each lobe was calculated:
+The lobe volume of the IPF cohort was compared with the older normal cohort described in Section \ref{DataNormalization}. In order to quantitatively analyse the lobe volume difference between the two groups, the volume proportion of each lobe was calculated as:
 
 \begin{equation}
  \label{eq:FissurePrediction1}
  P_{i} = \frac{V_{i}}{\sum_{i=1}^{5}V_i},
 \end{equation}. 
 
-\noindent where $V_{i}$ is the volume of each lobe with i=1 corresponding to left lower lobe, i=2 corresponding to left upper lobe, i=3 corresponding to right lower lobe, i=4 corresponding to right middle lobe and i=5 corresponding to right upper lobe. The differences in lobe volume proportions between IPF subjects and normal subjects were compared statistically using a t-test. In order to further compare lobe volumes between these two groups, the average lobe volume proportion among IPF subjects and among old normal subjects were then calculated respectively.
+\noindent where $V_{i}$ is the volume of each lobe with i=1 corresponding to left lower lobe, i=2 corresponding to left upper lobe, i=3 corresponding to right lower lobe, i=4 corresponding to right middle lobe and i=5 corresponding to right upper lobe. The differences in lobe volume proportions between IPF subjects and normal subjects were compared statistically using a t-test. In order to further compare lobe volumes between these two groups, the average lobe volume proportion among IPF subjects and among old normal subjects were then calculated.
 
 \subsection{SSM based shape analysis of IPF lungs} \label{SSMBasedAnalysis}
-The SSM was used to quantitatively analyze the alterations in lung lobe shapes of patients with IPF. As previously described in Section \ref{DataNormalization}, 35 normal subjects aged $>$ 50 years from the AGING dataset were used as training data to construct the SSM which contained both lung surface and fissure surface. PCA was used to decomposed the shape variation of the lung lobe into a set of modes, and each mode represented one type of lung and fissure surface shape variation. Thus, each lung lobe shape was described by a linear combination of the mode vector and its corresponding weight:
+The SSM was used to quantitatively analyse the alterations in lung lobe shapes of patients with IPF. As previously described in Section \ref{DataNormalization}, 35 normal subjects aged $>$ 50 years from the AGING dataset were used as training data to construct the SSM which contained both lung surface and fissure surface. PCA was used to decomposed the shape variation of the lung lobe into a set of modes, and each mode represented one type of lung and fissure surface shape variation. Thus, each lung lobe shape was described by a linear combination of the mode vector and its corresponding weight
 
 \begin{equation}
  \label{eq:FissurePrediction1}
  S_{new} = S_{mean} + \sum_{i=1}^L \mathbf{u}_i w_{i},
 \end{equation}
 
-\noindent where $S_{mean}$ is the average lobe shape model across all the training subjects, $\mathbf{u}_i (i = 1,2...L, L=34$ in this study) is the mode vector of shape variation which corresponds to the $i^{th}$ largest principle component from PCA, and $w_{i}$ is a weight factor given to each mode of variation. 
+\noindent where $S_{mean}$ is the average lobe shape model across all the training subjects, $\mathbf{u}_i (i = 1,2...L, L=34$ in this study) is the mode vector of shape variation which corresponds to the $i^{th}$ largest principal component from PCA, and $w_{i}$ is a weight factor given to each mode of variation. 
 
-The lung lobe FE mesh of each IPF subject was then procrustes projected on to the average SSM after alignment to the reference model (details can be seen in Chapter 3, Section \ref{MeshPrediction}) The new weight values of all the shape modes $w_{new} = [w_{new1}, w_{new2},...,w_{newL}]$ (L = 35) were calculated from the projection. These mode weights can be used as quantitative indexes to analyze and compare the shape variation and difference between IPF and the control group.
+The lung lobe FE mesh of each IPF subject was then procrustes projected on to the average SSM after alignment to the reference model (details can be seen in Chapter 3, Section \ref{MeshPrediction}) The new weight values of all shape modes $w_{new} = [w_{new1}, w_{new2},...,w_{newL}]$ (L = 35) were calculated from the projection. These mode weights can be used as quantitative indexes to analyze and compare the shape variation and difference between IPF and the control group.
 
 \subsubsection{Shape difference between IPF lungs and old normal lungs}
 
 For the SSM of the control group, the first three shape modes explained over 30\% of the total variation in the training set. Therefore, the weight values of the first three modes were used as the measurement to compare the shape difference of lung lobe between controls and IPF. The p values of the first three shape modes between the two groups were calculated using t-test.
 
 \subsubsection{Relationship between lung lobe shape and fibrosis and low attenuation area extent}
-In order to quantitatively investigate the association between fibrosis extent and lung shape variation, the association of the first three mode weightings with the overall volume percentage of fibrosis and low attenuation area (LAA) was estimated using linear regression. Total fibrosis extent was estimated as the sum of reticulation,  honeycombing and groud-glass opacification of both lungs, and total LAA extent was estimated as the sum of mildLAA,  moderateLAA, severeLAA and emphysema of both lungs. The behavior of the first three modes with respect to overall fibrosis percentage and LAA percentage was analyzed using linear regression.
+In order to quantitatively investigate the association between fibrosis extent and lung shape variation, the association of the first three mode weightings with the overall volume percentage of fibrosis and low attenuation area (LAA) was estimated using linear regression. Total fibrosis extent was estimated as the sum of reticulation,  honeycombing and ground-glass opacification of both lungs, and total LAA extent was estimated as the sum of mildLAA,  moderateLAA, severeLAA and emphysema of both lungs. The behaviour of the first three modes with respect to overall fibrosis percentage and LAA percentage was analysed using linear regression.
 
 \section{Results}
 \subsection{Normalization of classified data}
-Figure \ref{fig:MappingResult} shows the mapped classification data for a single subject.
+The data classified by CALIPER software were mapped to SSM using the method introduced in \ref{DataNormalization}. Figure \ref{fig:MappingResult} shows the mapped classification data for a single subject. The mapped data for the other subjects can be found in Appendix \ref{MappedClassificationData}.
 
 \newgeometry{bottom=4cm} %set the left margin of page
 \begin{landscape}
@@ -279,45 +279,45 @@ Figure \ref{fig:MappingResult} shows the mapped classification data for a single
 \end{landscape}
 \restoregeometry
 
-Figure \ref{fig:NormalizationResult} shows the slices with gaps and the slices after gap filling for three time points at the same position in the lung.
-
-\begin{figure}[htbp]
-\begin{subfigure}{3.7cm}
-    \makebox[4pt]{\raisebox{50pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
-    \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF6_Original_Slice65_1.jpg}}% get image width, trim={<left> <lower> <right> <upper>}
-    \begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Original_Slice65_1.jpg}
-    \end{overpic}
-    \makebox[4pt]{\raisebox{87pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
-    \begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Filled_Slice65_1.jpg}
-    \end{overpic}
-    \caption{Time point 1}
-		\label{fig:NormalizationResult-a}
-\end{subfigure}\hspace{.5in}
-\begin{subfigure}{3.7cm}
-    \makebox[4pt]{\raisebox{50pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
-    \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF6_Original_Slice65_2.jpg}}% get image width, trim={<left> <lower> <right> <upper>}
-    \begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Original_Slice65_2.jpg}
-    \end{overpic}
-		\makebox[4pt]{\raisebox{87pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
-    \begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Filled_Slice65_2.jpg}
-    \end{overpic}
-    \caption{Time point 2}
-		\label{fig:NormalizationResult-b}
-\end{subfigure}\hspace{.5in}
-\begin{subfigure}{3.7cm}
-    \makebox[4pt]{\raisebox{50pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
-    \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF6_Original_Slice65_3.jpg}}% get image width, trim={<left> <lower> <right> <upper>}
-    \begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Original_Slice65_3.jpg}
-    \end{overpic}
-		\makebox[4pt]{\raisebox{87pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
-    \begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Filled_Slice65_3.jpg}
-    \end{overpic}
-    \caption{Time point 3}
-		\label{fig:NormalizationResult-c}
-\end{subfigure}
-\caption{Axial slices with gaps (top row) and axial slices after gap filling (bottom row) of three time points from one subject diagnosed with IPF. (a) The first time point, scan time: 0 month. (b) The second time point, scan time: 5 months. (c) The third time point, scan time: 20 months.}
-\label{fig:NormalizationResult}
-\end{figure}
+%Figure \ref{fig:NormalizationResult} shows the slices with gaps and the slices after gap filling for three time points at the same position in the lung.
+%
+%\begin{figure}[htbp]
+%\begin{subfigure}{3.7cm}
+    %\makebox[4pt]{\raisebox{50pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
+    %\sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF6_Original_Slice65_1.jpg}}% get image width, trim={<left> <lower> <right> <upper>}
+    %\begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Original_Slice65_1.jpg}
+    %\end{overpic}
+    %\makebox[4pt]{\raisebox{87pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
+    %\begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Filled_Slice65_1.jpg}
+    %\end{overpic}
+    %\caption{Time point 1}
+		%\label{fig:NormalizationResult-a}
+%\end{subfigure}\hspace{.5in}
+%\begin{subfigure}{3.7cm}
+    %\makebox[4pt]{\raisebox{50pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
+    %\sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF6_Original_Slice65_2.jpg}}% get image width, trim={<left> <lower> <right> <upper>}
+    %\begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Original_Slice65_2.jpg}
+    %\end{overpic}
+		%\makebox[4pt]{\raisebox{87pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
+    %\begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Filled_Slice65_2.jpg}
+    %\end{overpic}
+    %\caption{Time point 2}
+		%\label{fig:NormalizationResult-b}
+%\end{subfigure}\hspace{.5in}
+%\begin{subfigure}{3.7cm}
+    %\makebox[4pt]{\raisebox{50pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
+    %\sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF6_Original_Slice65_3.jpg}}% get image width, trim={<left> <lower> <right> <upper>}
+    %\begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Original_Slice65_3.jpg}
+    %\end{overpic}
+		%\makebox[4pt]{\raisebox{87pt}{\rotatebox[origin=c]{0}{\minibox{\\}}}}%
+    %\begin{overpic}[height=1.2in,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF6_Filled_Slice65_3.jpg}
+    %\end{overpic}
+    %\caption{Time point 3}
+		%\label{fig:NormalizationResult-c}
+%\end{subfigure}
+%\caption{Axial slices with gaps (top row) and axial slices after gap filling (bottom row) of three time points from one subject diagnosed with IPF. (a) The first time point, scan time: 0 month. (b) The second time point, scan time: 5 months. (c) The third time point, scan time: 20 months.}
+%\label{fig:NormalizationResult}
+%\end{figure}
 
 \subsection{Tissue quantification of IPF lungs}
 \subsubsection{Density analysis}
@@ -329,7 +329,7 @@ The density analysis result is shown in Figure \ref{fig:LungDensity} and Table \
 \label{tab:MeanDensity}
 \begin{tabular}{|l | c | c|}
 \hline
-& \bf{Mean tissue density (left lung)} & \bf{Mean tissue density (right lung)} \\ 
+& \bf{Mean tissue density (left lung)($g/c\mathrm{m^3}$)} & \bf{Mean tissue density (right lung)($g/c\mathrm{m^3}$)} \\ 
 \hline
 \bf{Normal} & 0.280$\pm$0.022 & 0.271$\pm$0.015 \\
 \hline
@@ -366,8 +366,8 @@ The density analysis result is shown in Figure \ref{fig:LungDensity} and Table \
 \end{figure}
 
 \subsubsection{Spatial distribution analysis}
-\paragraph{Basal-to-apical}
-Figure \ref{fig:DiseaseAgainstHeight} shows the percentage distribution (average value of all time points across the patients) against lung height (cranio-caudal axis) of four characteristic CT patterns: ground-glass, reticular, honeycomb and emphysema for left and right lung. It can be seen from the result that ground-glass mainly locates in the basal part of lung. The percentage of ground-glass decreases gradually with the increasing of the lung height, and the distribution of ground-glass is quite similar in left and right lung. In contrast, the percentage of emphysema trends toward increasing from lung base to apex. The reticular tissue is mainly distributed basal area and apex area, but it seldomly appears in the middle part of lung. The distribution of honeycomb does not have a relationship with lung height.
+\paragraph{Basal-to-apical distribution}
+Figure \ref{fig:DiseaseAgainstHeight} shows the percentage distribution (average value of all time points across the patients) against lung height (cranio-caudal axis) of four characteristic CT patterns: ground-glass, reticular, honeycomb and emphysema for left and right lung. It can be seen from the result that ground-glass mainly locates in the basal part of lung. The percentage of ground-glass decreases gradually with the increasing lung height, and the distribution of ground-glass is quite similar in left and right lung. In contrast, the percentage of emphysema trends toward increasing from lung base to apex. The reticular tissue is mainly distributed basal area and apex area, but it seldomly appears in the middle part of lung. The distribution of honeycomb does not have a relationship with lung height.
 
 Figure \ref{fig:DiseaseAgainstHeightTime1} shows the percentage distribution (average value of the first time point across all the patients) against lung height (cranio-caudal axis) of four characteristic CT patterns (ground-glass, reticular, honeycomb and emphysema) in left and right lung at month 0. From the result, the cranio-caudal distribution tendency of the four CT patterns at month 0 are quite similar to the total average distribution shown in Figure \ref{fig:DiseaseAgainstHeight}, but the absolute percentages of the abnormalities at month 0 are lower than the total average values. That means the area of disease experiences an increase over time as a whole in IPF lung.
 \newpage
@@ -490,9 +490,7 @@ Figure \ref{fig:DiseaseAgainstHeightTime1} shows the percentage distribution (av
 \label{fig:DiseaseAgainstHeightTime1}
 \end{figure}
 
-Figure \ref{fig:IPF21DiseaseAgainstHeight} shows the percentage distribution against lung height (cranio-caudal axis) of the four characteristic CT patterns from an individual patient diagnosed with IPF in left and right lung over time. From time point 1 to time point 3, it can be observed an overall increase of the disease regions, even though the percentage of some tissue pattern may fall during this time. The distribution trend in base-to-apex axis doesn't change too much for ground-glass and reticular over time, but the it really has a big fluctuation for honeycomb and emphysema. 
-
-The percentage distribution against lung height over time of other patients can be found in Appendix \ref{SpatialDistribution}.
+Figure \ref{fig:IPF21DiseaseAgainstHeightMain} shows the percentage distribution against lung height (cranio-caudal axis) of the four characteristic CT patterns from an individual patient diagnosed with IPF in left and right lung over time. From time point 1 to time point 3, it can be observed an overall increase of the disease regions, even though the percentage of some tissue pattern may fall during this time. The distribution trend in base-to-apex axis do not change quantifiably for ground-glass and reticular over time, however, there appear to be large fluctuations for honeycomb and emphysema. The percentage distribution against lung height over time of other patients can be found in Appendix \ref{SpatialDistribution}.
 \newpage
 
 \begin{figure}[H] 
@@ -504,7 +502,7 @@ The percentage distribution against lung height over time of other patients can 
       \put(33,75){\bf{Left lung}}
   \end{overpic}
   \caption{Left ground-glass}
-  \label{fig:IPF21DiseaseAgainstHeight-a} 
+  \label{fig:IPF21DiseaseAgainstHeightMain-a} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungGroundglassDiseaseAgainstHeight.jpg}}
@@ -512,49 +510,49 @@ The percentage distribution against lung height over time of other patients can 
 	\put(41,75){\bf{Right lung}}
   \end{overpic}
   \caption{Right ground-glass}
-  \label{fig:IPF21DiseaseAgainstHeight-b}
+  \label{fig:IPF21DiseaseAgainstHeightMain-b}
 \end{subfigure}
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21LeftLungReticularDiseaseAgainstHeight.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21LeftLungReticularDiseaseAgainstHeight.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Left reticular}
-  \label{fig:IPF21DiseaseAgainstHeight-c} 
+  \label{fig:IPF21DiseaseAgainstHeightMain-c} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungReticularDiseaseAgainstHeight.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21RightLungReticularDiseaseAgainstHeight.jpg}
   \caption{Right reticular}
-  \label{fig:IPF21DiseaseAgainstHeight-d}
+  \label{fig:IPF21DiseaseAgainstHeightMain-d}
 \end{subfigure}
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21LeftLungHoneycombDiseaseAgainstHeight.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21LeftLungHoneycombDiseaseAgainstHeight.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Left honeycomb}
-  \label{fig:IPF21DiseaseAgainstHeight-e} 
+  \label{fig:IPF21DiseaseAgainstHeightMain-e} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungHoneycombDiseaseAgainstHeight.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21RightLungHoneycombDiseaseAgainstHeight.jpg}
   \caption{Right honeycomb}
-  \label{fig:IPF21DiseaseAgainstHeight-f}
+  \label{fig:IPF21DiseaseAgainstHeightMain-f}
 \end{subfigure}
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21LeftLungEmphysemaDiseaseAgainstHeight.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21LeftLungEmphysemaDiseaseAgainstHeight.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Left Emphysema}
-  \label{fig:IPF21DiseaseAgainstHeight-g} 
+  \label{fig:IPF21DiseaseAgainstHeightMain-g} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungEmphysemaDiseaseAgainstHeight.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21RightLungEmphysemaDiseaseAgainstHeight.jpg}
   \caption{Right Emphysema}
-  \label{fig:IPF21DiseaseAgainstHeight-h}
+  \label{fig:IPF21DiseaseAgainstHeightMain-h}
 \end{subfigure}
 \caption{Volume percentage of each tissue classification plotted against lung height (cranio-caudal axis) of one patient diagnosed with IPF in left and right lungs over time. The average percentage was calculated within 5\% sections of the lung height from the base to apex. (a) (b) is ground-glass distribution. (c) (d) is reticular distribution. (e) (f) is honeycomb distribution. (g) (h) is emphysema distribution.}
-\label{fig:IPF21DiseaseAgainstHeight}
+\label{fig:IPF21DiseaseAgainstHeightMain}
 \end{figure}
 
-\paragraph{Dorso-to-ventral}
+\paragraph{Dorso-to-ventral distribution}
 Figure \ref{fig:DiseaseDorsoToVentral} shows the percentage distribution (average value of all time points from all patients) from back to front of the lung (dorso-ventral axis) of four characteristic CT patterns: ground-glass, reticular, honeycomb and emphysema for left and right lung. The results illustrate that the percentage of ground-glass and reticular keep increasing from back to front, and they mostly locate in the ventral part of the left and right lungs. The distribution of honeycomb and emphysema both show overall steady trend along the dorso-ventral axis, but for honeycomb pattern, there are relatively more abnormalities appearing in the dorso and ventral regions compared to the middle area.
 
 Figure \ref{fig:DiseaseDorsoToVentralTime1} show the percentage distribution (average value of the first time point from all the patients) from back to front of the lung (dorso-ventral axis) of four characteristic CT patterns (ground-glass, reticular, honeycomb and emphysema) in left and right lung at month 0. It can be seen from the result, like the cranio-caudal distribution, the distribution shape of the diseases in dorso-ventral axis at the first time point are almost the same to the distribution in Figure \ref{fig:DiseaseDorsoToVentralTime1}, and the disease percentage at month 0 is slightly lower than the total time averaged value.
@@ -678,9 +676,7 @@ Figure \ref{fig:DiseaseDorsoToVentralTime1} show the percentage distribution (av
 \label{fig:DiseaseDorsoToVentralTime1}
 \end{figure}
 
-Figure \ref{fig:IPF21DiseaseDorsoToVentral} shows the percentage distribution from back to front of the lung (dorso-ventral axis) of the four characteristic CT patterns from an individual patient diagnosed with IPF in left and right lung over time. For ground-glass, emphysema and left honeycomb, it can be seen an increase in the volume percentage over time and the dorso-ventral distribution doesn't change a lot during this period of time. However, the spatial location of reticular and right honeycomb really experience a huge movement in dorso-ventral direction as time goes by, and no regular tendency can be found for these regions. 
-
-The percentage distribution in dorso-ventral axis over time of other patients can be found in Appendix \ref{SpatialDistribution}.
+Figure \ref{fig:IPF21DiseaseDorsoToVentralMain} shows the percentage distribution from back to front of the lung (dorso-ventral axis) of the four characteristic CT patterns from an individual patient diagnosed with IPF in left and right lung over time. For ground-glass, emphysema and left honeycomb, it can be seen an increase in the volume percentage over time and the dorso-ventral distribution does not change quantifiably during this period of time. However, the spatial location of reticular and honeycomb (in the right lungs) redistribute in dorso-ventral direction as time goes by. However, no consistent tendency can be found for these regions. The percentage distribution in dorso-ventral axis over time of all patients can be found in Appendix \ref{SpatialDistribution}.
 \newpage
 
 \begin{figure}[H] 
@@ -692,7 +688,7 @@ The percentage distribution in dorso-ventral axis over time of other patients ca
       \put(33,75){\bf{Left lung}}
   \end{overpic}
   \caption{Left ground-glass}
-  \label{fig:IPF21DiseaseDorsoToVentral-a} 
+  \label{fig:IPF21DiseaseDorsoToVentralMain-a} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungGroundglassDiseaseDorsoToVentral.jpg}}
@@ -700,50 +696,50 @@ The percentage distribution in dorso-ventral axis over time of other patients ca
 	\put(41,75){\bf{Right lung}}
   \end{overpic}
   \caption{Right ground-glass}
-  \label{fig:IPF21DiseaseDorsoToVentral-b}
+  \label{fig:IPF21DiseaseDorsoToVentralMain-b}
 \end{subfigure}
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21LeftLungReticularDiseaseDorsoToVentral.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21LeftLungReticularDiseaseDorsoToVentral.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Left reticular}
-  \label{fig:IPF21DiseaseDorsoToVentral-c} 
+  \label{fig:IPF21DiseaseDorsoToVentralMain-c} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungReticularDiseaseDorsoToVentral.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21RightLungReticularDiseaseDorsoToVentral.jpg}
   \caption{Right reticular}
-  \label{fig:IPF21DiseaseDorsoToVentral-d}
+  \label{fig:IPF21DiseaseDorsoToVentralMain-d}
 \end{subfigure}
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21LeftLungHoneycombDiseaseDorsoToVentral.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21LeftLungHoneycombDiseaseDorsoToVentral.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Left honeycomb}
-  \label{fig:IPF21DiseaseDorsoToVentral-e} 
+  \label{fig:IPF21DiseaseDorsoToVentralMain-e} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungHoneycombDiseaseDorsoToVentral.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21RightLungHoneycombDiseaseDorsoToVentral.jpg}
   \caption{Right honeycomb}
-  \label{fig:IPF21DiseaseDorsoToVentral-f}
+  \label{fig:IPF21DiseaseDorsoToVentralMain-f}
 \end{subfigure}
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21LeftLungEmphysemaDiseaseDorsoToVentral.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21LeftLungEmphysemaDiseaseDorsoToVentral.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Left Emphysema}
-  \label{fig:IPF21DiseaseDorsoToVentral-g} 
+  \label{fig:IPF21DiseaseDorsoToVentralMain-g} 
 \end{subfigure} 
 \begin{subfigure}{.42\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF21RightLungEmphysemaDiseaseDorsoToVentral.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF21RightLungEmphysemaDiseaseDorsoToVentral.jpg}
   \caption{Right Emphysema}
-  \label{fig:IPF21DiseaseDorsoToVentral-h}
+  \label{fig:IPF21DiseaseDorsoToVentralMain-h}
 \end{subfigure}
 \caption{Volume percentage of each tissue classification plotted in the direction of dorso-ventral axis from one patient diagnosed with IPF in left and right lungs over time. The average percentage was calculated within 5\% sections along dorso-ventral axis from the back to front. (a) (b) is ground-glass distribution. (c) (d) is reticular distribution. (e) (f) is honeycomb distribution. (g) (h) is emphysema distribution.}
-\label{fig:IPF21DiseaseDorsoToVentral}
+\label{fig:IPF21DiseaseDorsoToVentralMain}
 \end{figure}
 
-\paragraph{Subpleural to internal}
-Figure \ref{fig:DiseaseSubpleuralPercent} plots the subpleural-to-internal distance percentage of each connected cluster of three fibrosis CT patterns: ground-glass, reticular and honeycomb. The result shows that the subpleural-to-internal percentage of most connected disease clusters are $<$ 20\% for both left and right lungs. That is, the fibrosis is located preferentially within 20\% of the distance from. Reticular and ground-glass abnormalities are distributed throughout the center to surface, whereas honeycomb is not observed in the central core of the lungs in these subjects.
+\paragraph{Subpleural to internal distribution}
+Figure \ref{fig:DiseaseSubpleuralPercent} plots the subpleural-to-internal distance percentage of each connected cluster of three fibrosis CT patterns: ground-glass, reticular and honeycomb. The result shows that the subpleural-to-internal percentage of most connected disease clusters are $<$ 20\% for both left and right lungs. That is, the fibrosis is located preferentially within 20\% of the distance from the lung surface. Reticular and ground-glass abnormalities are distributed throughout the centre to surface, whereas honeycomb is not observed in the central core of the lungs in these subjects.
 
 \begin{figure}[htbp] 
 \centering
@@ -765,7 +761,7 @@ Figure \ref{fig:DiseaseSubpleuralPercent} plots the subpleural-to-internal dista
 \end{figure}
 
 \paragraph{Lobar distribution}
-Figure \ref{fig:LobarRegionDiseaseDistribution} shows the average volume percentage (across all time points from all patients) of ground-glass, reticular, honeycomb and emphysema in the five lobes (left upper, left lower, right upper, right middle, right lower). From the result, more fibrosis locates in the lower lobes (55.39\%, 57.65\%, 64.52\% for honeycomb, reticular, ground-glass) compared to the other two lobes. For reticular pattern, the percentage in the middle lobe is much lower than the percentage of other lobes. Emphysema predominantly presents in the upper lobes (68.14\%) and may also appear in the middle lobe of the right lung. Figure \ref{fig:IPF15LobarRegionDiseaseDistributionOverTime} shows the volume percentage of the four tissue patterns in the five lobes at each time point from an individual patient diagnosed with IPF. As shown in the figures, the lobar distribution of the disease keeps almost the same at different time point, with more fibrosis appearing in lower lobes and emphysema presenting mainly in upper lobes. The lobar distribution over time of other patients can be found in Appendix \ref{SpatialDistribution}.
+Figure \ref{fig:LobarRegionDiseaseDistribution} shows the average volume percentage (across all time points from all patients) of ground-glass, reticular, honeycomb and emphysema in the five lobes (left upper, left lower, right upper, right middle, right lower). Fibrosis locates more in the lower lobes predominantly (55.39\%, 57.65\%, 64.52\% for honeycomb, reticular, ground-glass) compared to the other two lobes. For reticular pattern, the percentage in the middle lobe is much lower than the percentage of other lobes. Emphysema predominantly presents in the upper lobes (68.14\%) and may also appear in the middle lobe of the right lung. Figure \ref{fig:IPF15LobarRegionDiseaseDistributionOverTimeMain} shows the volume percentage of the four tissue patterns in the five lobes at each time point from an individual patient diagnosed with IPF. As shown in the figures, the lobar distribution of the disease keeps almost the same at different time point, with more fibrosis appearing in lower lobes and emphysema presenting mainly in upper lobes. The lobar distribution over time of other patients can be found in Appendix \ref{SpatialDistribution}.
 \newpage
 
 \begin{figure}[H] 
@@ -806,42 +802,42 @@ Figure \ref{fig:LobarRegionDiseaseDistribution} shows the average volume percent
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF15GroundglassLobarRegionDiseaseDistributionOverTime.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF15GroundglassLobarRegionDiseaseDistributionOverTime.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Ground-glas}
-  \label{fig:IPF15LobarRegionDiseaseDistributionOverTime-a} 
+  \label{fig:IPF15LobarRegionDiseaseDistributionOverTimeMain-a} 
 \end{subfigure} 
 \hspace{.3in}
 \begin{subfigure}{.46\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF15ReticularLobarRegionDiseaseDistributionOverTime.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF15ReticularLobarRegionDiseaseDistributionOverTime.jpg}
   \caption{Reticular}
-  \label{fig:IPF15LobarRegionDiseaseDistributionOverTime-b}
+  \label{fig:IPF15LobarRegionDiseaseDistributionOverTimeMain-b}
 \end{subfigure}
 \begin{subfigure}{.46\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF15HoneycombLobarRegionDiseaseDistributionOverTime.jpg}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF15HoneycombLobarRegionDiseaseDistributionOverTime.jpg} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Honeycomb}
-  \label{fig:IPF15LobarRegionDiseaseDistributionOverTime-c} 
+  \label{fig:IPF15LobarRegionDiseaseDistributionOverTimeMain-c} 
 \end{subfigure} 
 \hspace{.3in}
 \begin{subfigure}{.46\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/IPF15EmphysemaLobarRegionDiseaseDistributionOverTime.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/IPF15EmphysemaLobarRegionDiseaseDistributionOverTime.jpg}
   \caption{Emphysema}
-  \label{fig:IPF15LobarRegionDiseaseDistributionOverTime-d}
+  \label{fig:IPF15LobarRegionDiseaseDistributionOverTimeMain-d}
 \end{subfigure}
-\caption{Lobar distribution of disease CT patterns of one patient diagnosed with IPF over time. The tissue percentage in different lobe is shown in different color, and each bar represents the volume percentage of the CT pattern for one lobe. (a) Ground-glass lobar distribution. (b) Reticular lobar distribution. (c) Honeycomb lobar distribution. (d) Emphysema lobar distribution.}
-\label{fig:IPF15LobarRegionDiseaseDistributionOverTime}
+\caption{Lobar distribution of disease CT patterns of one patient diagnosed with IPF over time. The tissue percentage in different lobe is shown in different colour, and each bar represents the volume percentage of the CT pattern for one lobe. (a) Ground-glass lobar distribution. (b) Reticular lobar distribution. (c) Honeycomb lobar distribution. (d) Emphysema lobar distribution.}
+\label{fig:IPF15LobarRegionDiseaseDistributionOverTimeMain}
 \end{figure}
 
 \subsubsection{Change in classification of tissue pattern over time}
 Table \ref{tab:ChangeOverTimeLeft} and Table \ref{tab:ChangeOverTimeRight} show the quantitative results for the change in classification of tissue pattern (ground-glass and reticular) of one patient with IPF over time. The change in volume percentage of classified tissue CT patterns between time points is given (from ground-glass or reticular pattern to the other tissue CT patterns). Over 50\% of areas initially identified as ground-glass remain the same over time in both left and right lung, whereas other parts of ground-glass are subsequently classified as reticular or normal tissue as time goes by. As for reticular region, although quite a lot of classified reticular area doesn't change with the development of disease, a large proportion of reticular is recognized as ground-glass in the second and third time point, especially in right lung (more than 50\% on average). 
 
-Interestingly, from the result, some disease area may even classified back to normal tissue as time goes by, although a decline in lung function can be observed during this period. Around 10\%-30\% of reticular and ground-glass areas are identified back to normal region during this time. However, that shouldn't happen in the real lung of IPF patient, which may be explained by the two following reasons: 1. The error caused by the lung surface fitting and classified data mapping. As introduced in Chapter 3, Section \ref{ShapeModelGeneration}, the average RMS error of the fitting method for 50 subjects was 4.79 mm, and this error was inevitable. The accuracy of the classified data mapping to the mean SSM was partly relied on accuracy of lung surface fitting, as the local coordinate of within the corresponding element was used during the mapping. 2. The error caused by the CALIPER tissue classification. The distribution of abnormalities in IPF lung is mainly patchy, and the regions of fibrosis and emphysema are usually not large connected areas. Figure \ref{fig:CALIPERTissueClassification} shows the CALIPER tissue classification overlapping on raw image. As shown in Figure \ref{fig:CALIPERTissueClassification}, different tissue patterns in most of the lung region are mixed and interlaced, which increase the difficulty of identifying tissue pattern in these part accurately.
+Interestingly, in this subject and others in the cohort, some disease areas are classified back to normal tissue as time goes by, although a decline in lung function can be observed during this period. Around 10\%-30\% of reticular and ground-glass areas are identified back to normal region during this time. This is clearly an artefact of analysis of IPF patient, which may be explained by the two following reasons: 1. Error caused by the lung surface fitting and classified data mapping. As introduced in Chapter 3, Section \ref{ShapeModelGeneration}, the average RMS error of the fitting method for 50 subjects was 4.79 mm, and this error was inevitable. The accuracy of the classified data mapping to the mean SSM was partly relied on accuracy of lung surface fitting, as the local coordinate of within the corresponding element was used during the mapping. 2. Error caused by the CALIPER tissue classification. The distribution of abnormalities in IPF lung is mainly patchy, and the regions of fibrosis and emphysema are always not large connected areas. Figure \ref{fig:CALIPERTissueClassification} shows the CALIPER tissue classification overlapping on raw image. As shown in Figure \ref{fig:CALIPERTissueClassification}, different tissue patterns in most of the lung region are mixed and interlaced, which increase the difficulty of identifying tissue pattern in these part accurately.
 
 \newgeometry{bottom=0.8cm} %set the left margin of page
 \begin{landscape}
 \begin{table}[p]
 \centering
-\caption{Change in classification of tissue CT pattern over time of left lung from one subject diagnosed with IPF (subject 6 with three time points) (\%).}
+\caption{Change in classification of tissue CT pattern (volume percentage) over time of left lung from one subject diagnosed with IPF (subject 6 with three time points) (\%).}
 \label{tab:ChangeOverTimeLeft}
 \begin{tabular}{c c c c c c c c c}
 \hline
@@ -864,7 +860,7 @@ Interestingly, from the result, some disease area may even classified back to no
 
 \begin{table}[p]
 \centering
-\caption{Change in classification of tissue CT pattern over time of right lung from one subject (subject 6 with three time points) diagnosed with IPF (\%).}
+\caption{Change in classification of tissue CT pattern (volume percentage) over time of right lung from one subject (subject 6 with three time points) diagnosed with IPF (\%).}
 \label{tab:ChangeOverTimeRight}
 \begin{tabular}{c c c c c c c c c}
 \hline
@@ -902,58 +898,58 @@ Interestingly, from the result, some disease area may even classified back to no
   \caption{Sagittal view}
   \label{fig:CALIPERTissueClassification-b}
 \end{subfigure}
-\caption{ CALIPER tissue classification overlapping on raw image. Green is the normal region, red is the reticular region, yellow is the ground-glass region, and blue is the mildLAA region. (a) Axial view. (b) Sagittal view.}
+\caption{ CALIPER tissue classification overlapping on raw image. Green is the normal region, red is the reticular region, yellow is the ground-glass region, and blue is the mild LAA region. (a) Axial view. (b) Sagittal view.}
 \label{fig:CALIPERTissueClassification}
 \end{figure}
 
 \subsection{Volume analysis of IPF lungs} \label{VolumeAnalysis}
 \subsubsection{The change of whole lung volume over time}
-Table \ref{tab:WholeVolume} shows the whole volume of left and right lung of three subjects for each time point. It can be seen that although the lung volumes of most IPF patients decrease over time, some subjects experience an increase in lung volume as time goes by interestingly.
+Table \ref{tab:WholeVolume} shows the whole volume of left and right lung (the first two columns) of three subjects for each time point. It can be seen that although the lung volumes of most IPF patients (9 patients) decrease over time, some subjects (4 patients) do exhibit an increase in lung volume as time goes by. Interestingly, for most of the patients (9 patients), the changes of lung volume (decrease or increase) are consistent with the changes of the percentage of LAA area over time.
 
 \begin{table}[htbp]
 \centering
-\caption{Whole volume of left and right lung for each time point($1.0e 5 \ast mm^{3}$).}
+\caption{Whole volume of two lungs (L) and the percentage of LAA area (\%) for each time point.}
 \label{tab:WholeVolume}
-\begin{tabular}{c c c c c}
+\begin{tabular}{c c c c c c}
 \hline
-\bf{Sub No.} & \bf{Time point} & \bf{Scan time}	& \bf{Left lung} &	\bf{Right lung}\\ 
+\bf{Sub No.} & \bf{Time point} & \bf{Scan time}	& \bf{Left lung} & \bf{Right lung} & \bf{LAA percentage}\\ 
 \hline
-IPF2 & Time point1 &	0 month &	1.39 &	2.04\\
-\quad & Time point2 &	15 month &	1.88 &	2.72\\
-\quad & Time point3 &	35 month &	1.83 &	2.68\\
+IPF2 & Time point1 &	0 month &	1.39 &	2.04 & 4.41\\
+\quad & Time point2 &	15 month &	1.88 &	2.72 & 37.49\\
+\quad & Time point3 &	35 month &	1.83 &	2.68 & 25.00\\
 \hline
-IPF3 & Time point1 &	0 month &	1.55 &	2.34\\
-\quad & Time point2 &	11 month &	1.38 &	2.11\\
-\quad & Time point3 &	30 month &	1.28 &	2.05\\
+IPF3 & Time point1 &	0 month &	1.55 &	2.34 & 6.80\\
+\quad & Time point2 &	11 month &	1.38 &	2.11 & 5.84\\
+\quad & Time point3 &	30 month &	1.28 &	2.05 & 4.75\\
 \hline
-IPF5 & Time point1 &  0 month & 1.73 & 1.49\\
-\quad & Time point2 & 12 month & 1.58 & 1.31\\
-\quad & Time point3 & 23 month & 1.67 & 1.43\\
+IPF5 & Time point1 &  0 month & 1.73 & 1.49 & 19.64\\
+\quad & Time point2 & 12 month & 1.58 & 1.31 & 16.41\\
+\quad & Time point3 & 23 month & 1.67 & 1.43 & 31.54\\
 \hline
-IPF6 & Time point1 &	0 month &	2.41 &	3.47\\
-\quad & Time point2 &	15 month &	2.13 &	3.01\\
-\quad & Time point3 &	20 month &	2.06 &	3.09\\
+IPF6 & Time point1 &	0 month &	2.41 &	3.47 & 81.27\\
+\quad & Time point2 &	15 month &	2.13 &	3.01 & 73.79\\
+\quad & Time point3 &	20 month &	2.06 &	3.09 & 59.76\\
 \hline
-IPF9 & Time point1 &	0 month &	1.35 &	1.49\\
-\quad & Time point2 &	7 month &	1.22 &	1.43\\
-\quad & Time point3 &	20 month &	1.23 &	1.53\\
+IPF9 & Time point1 &	0 month &	1.35 &	1.49 & 7.69\\
+\quad & Time point2 &	7 month &	1.22 &	1.43 & 4.43\\
+\quad & Time point3 &	20 month &	1.23 &	1.53 & 8.64\\
 \hline
-IPF10 & Time point1 &	0 month &	1.34 &	1.66\\
-\quad & Time point2 &	14 month &	1.01 &	1.25\\
+IPF10 & Time point1 &	0 month &	1.34 &	1.66 & 35.76\\
+\quad & Time point2 &	14 month &	1.01 &	1.25 & 1.03\\
 \hline
-IPF13 & Time point1 &	0 month &	1.94 &	1.58\\
-\quad & Time point2 &	16 month &	1.85 &	2.40\\
+IPF13 & Time point1 &	0 month &	1.94 &	1.58 & 22.62\\
+\quad & Time point2 &	16 month &	1.85 &	2.40 & 23.04\\
 \hline
-IPF14 & Time point1 &	0 month &	2.45 &	2.74\\
-\quad & Time point2 &	46 month &	2.16 &	2.33\\
+IPF14 & Time point1 &	0 month &	2.45 &	2.74 & 54.43\\
+\quad & Time point2 &	46 month &	2.16 &	2.33 & 32.36\\
 \hline
-IPF15 & Time point1 &	0 month &	3.72 &	3.37\\
-\quad & Time point2 &	13 month &	2.86 &	3.38\\
-\quad & Time point3 &	76 month &	3.04 &	3.72\\
+IPF15 & Time point1 &	0 month &	3.72 &	3.37 & 73.90\\
+\quad & Time point2 &	13 month &	2.86 &	3.38 & 69.51\\
+\quad & Time point3 &	76 month &	3.04 &	3.72 & 72.03\\
 \hline
-IPF21 & Time point1 &	0 month &	2.24 &	2.31\\
-\quad & Time point2 &	63 month &	1.88 &	1.86\\
-\quad & Time point3 &	79 month &	1.73 &	1.85\\
+IPF21 & Time point1 &	0 month &	2.24 &	2.31 & 29.38\\
+\quad & Time point2 &	63 month &	1.88 &	1.86 & 29.04\\
+\quad & Time point3 &	79 month &	1.73 &	1.85 & 23.21\\
 \hline
 \end{tabular}
 \end{table}
@@ -1008,11 +1004,11 @@ IPF21 & Time point1 &	0 month &	2.24 &	2.31\\
 \subsubsection{Lobe volume difference between old normal lungs and IPF lungs}
 The average lobe volume proportion among IPF subjects and among old normal subjects (the control group) were shown in Table \ref{tab:LobeVolumeComparison} (the first two columns). It can be seen that the IPF group has a lower average volume proportion for left lower lobe and right lower lobe compared to the value of the control group. That may probably be caused by the increase in stiffness of lower lobe in IPF lungs, which relates to the basal appearance of fibrosis.
 
-The difference in lobe volume proportions between IPF subjects and the control group were compared statistically using t-test. Table \ref{tab:LobeVolumeComparison} (the third column) shows the p values of the five lobes between the two groups. The result show a significant difference in the volume proportion for both right lower lobe and right middle lobe between IPF subjects and the controls ($p<0.001$). 
+The difference in lobe volume proportions between IPF subjects and the control group were compared statistically using a student t-test. Table \ref{tab:LobeVolumeComparison} (the third column) shows the p values for this test when comparing volumes of the five lobes between the two groups. The result show a significant difference in the volume proportion for both right lower lobe and right middle lobe between IPF subjects and the controls ($p<0.001$). 
 
 \begin{table}[htbp]
 \centering
-\caption{Lobe volume comparison between IPF subjects and older normal subjects.}
+\caption{Lobe volume proportion comparison between IPF subjects and older normal subjects.}
 \label{tab:LobeVolumeComparison}
 \begin{tabular}{| l | c | c | c |}
 \hline
@@ -1033,7 +1029,7 @@ Right upper lobe	& 0.214 & 0.207 & 0.559\\
 
 \subsection{SSM based shape analysis of IPF lungs}
 \subsubsection{Shape difference between IPF lungs and old normal lungs}
-Figure \ref{fig:ShapeDifference} shows the weight value distribution of the first three modes for IPF and the controls. 
+Figure \ref{fig:ShapeDifference} shows the weight value distribution of the first three modes for IPF and the control subjects. 
 
 \begin{figure}[htbp] 
 \centering
@@ -1076,9 +1072,9 @@ Figure \ref{fig:ShapeDifference} shows the weight value distribution of the firs
 %\end{tabular}
 %\end{table}
 
-The results show that there is a significant difference of the first mode weight between IPF and controls ($p\ll 0.001$). However, for mode 2 and mode 3, no significant shape difference was observed between the two groups (p = 0.017 and p = 0.641, respectively). Figure \ref{fig:Mode1ShapeVariation} illustrates overall shape variation of the first mode with added different values of standard deviation to the mean shape model. The first shape mode accounts for over 20\% of the entire shape variation in old normal lungs. It is demonstrated from Figure \ref{fig:Mode1ShapeVariation} that the first mode relates to the largest change in the anteroposterior diameter of the lung with a lateromedial tilt towards both apices, and is also associated with the ratio of apical to basal diameters. With the positive or negative standard deviation added to the mean shape model, there is a variation in the right anterior edge, the inferior lingular segment of the left superior lobe, the medial basal segment of the right middle lobe, and the left oblique fissure. In addition, there is a shape change in the ''roundness'' of the lateral surface in both left and right lung, and the variation in the distance of left and right lungs in the apex and base is also observed. As shown in Figure \ref{fig:ShapeDifference-a} and Figure \ref{fig:Mode1ShapeVariation}, the weight values of Mode 1 for IPF subjects are mostly distributed across negative values, where the negative weight corresponds to a larger ratio of anteroposterior diameter to lung height compared to control lungs. 
+There is a significant difference of the first mode weight between IPF and controls ($p\ll 0.001$). However, for mode 2 and mode 3, no significant shape difference was observed between the two groups (p = 0.017 and p = 0.641, respectively). Figure \ref{fig:Mode1ShapeVariation} illustrates overall shape variation of the first mode with added different values of standard deviation to the mean shape model. The first shape mode accounts for over 20\% of the entire shape variation in old normal lungs. It is demonstrated from Figure \ref{fig:Mode1ShapeVariation} that the first mode relates to the largest change in the anterior-posterior diameter of the lung with a lateromedial tilt towards both apices, and is also associated with the ratio of apical to basal diameters. With the positive or negative standard deviation added to the mean shape model, there is a variation in the right anterior edge, the inferior lingular segment of the left superior lobe, the medial basal segment of the right middle lobe, and the left oblique fissure. In addition, there is a shape change in the ''roundness'' of the lateral surface in both left and right lung, and the variation in the distance of left and right lungs in the apex and base is also observed. As shown in Figure \ref{fig:ShapeDifference-a} and Figure \ref{fig:Mode1ShapeVariation}, the weight values of Mode 1 for IPF subjects are mostly distributed across negative values, where the negative weight corresponds to a larger ratio of anterior-posterior diameter to lung height compared to control lungs. 
 
-In Figure \ref{fig:ShapeDifference}, the data of different time point were shown in different colors. As we can see from the figures, the first three modes of lung shape don't illustrate significant difference between different time point (with all the p values $>$ 0.1 between time point 1 and time point 2, time point 1 and time point 3, time point 2 and time point 3). All the three shape modes are not found a regular tendency of change over time.
+In Figure \ref{fig:ShapeDifference}, the data of different time point were shown in different colors. As we can see from the figures, the first three modes of lung shape do not illustrate significant difference between different time point (with all the p values $>$ 0.1 between time point 1 and time point 2, time point 1 and time point 3, time point 2 and time point 3).There were no regular tendencies in any of the three shape modes over time.
 
 \newgeometry{left=1cm} %set the left margin of page
 %\begin{landscape}
@@ -1149,9 +1145,7 @@ In Figure \ref{fig:ShapeDifference}, the data of different time point were shown
 \restoregeometry
 
 \subsubsection{Relationship between lung lobe shape and fibrosis and low attenuation area extent}
-Table \ref{tab:ShapeVSFibrosis} lists the P values and R from linear regression of the correlation of the first three modes with fibrosis and LAA percentage. Figure \ref{fig:ShapeVSFibrosis} shows the behavior of the first three modes with respect to overall fibrosis percentage.
-
-From the results, no correlations are found between the three shape modes and LAA extent, and only the first shape mode shows a significant relationship with the percentage of fibrosis ($p<0.0001$ ). With the increase of the percentage of fibrosis, the weight value of mode 1 becomes increasingly negative which corresponds to a larger shape difference from the mean control lung shape. Negative weighting of M1 is also associated with increased ratio of anteroposterior diameter to the height of the lung, which makes lung appear 'fatter' and 'shorter'. Therefore in general, the lung shape change in patients with IPF is strongly associated with the fibrosis extent, and the more extensive the fibrosis the lung involves, the more 'abnormal' the lung shape is. 
+Table \ref{tab:ShapeVSFibrosis} lists the p values and R from linear regression of the correlation of the first three modes with fibrosis and LAA percentage. Figure \ref{fig:ShapeVSFibrosis} shows the behaviour of the first three modes with respect to overall fibrosis percentage. No correlations are found between the three shape modes and LAA extent, and only the first shape mode shows a significant relationship with the percentage of fibrosis ($p<0.0001$ ). With an increase of the percentage of fibrosis, the weight value of mode 1 becomes increasingly negative which corresponds to a larger shape difference from the mean control lung shape. Negative weighting of M1 is also associated with increased ratio of anterior-posterior diameter to the height of the lung, which makes lung appear 'fatter' and 'shorter'. Therefore in general, the lung shape change in patients with IPF is strongly associated with the fibrosis extent, and the more extensive the fibrosis the lung involves, the more 'abnormal' the lung shape is. 
 
 \begin{table}[htbp]
 \centering
@@ -1176,45 +1170,45 @@ Mode 3	& 0.170 & 0.254 & 0.796 & 0.047\\
 
 \begin{figure}[H] 
 \centering
-\begin{subfigure}{.68\linewidth}% set image scale
+\begin{subfigure}{.72\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png}} 
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png} %trim={<left> <lower> <right> <upper>}, set the cut scale
   \caption{Mode 1}
   \label{fig:ShapeVSFibrosis-a} 
 \end{subfigure} 
-\begin{subfigure}{.68\linewidth}% set image scale
+\begin{subfigure}{.72\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png}
   \caption{Mode 2}
   \label{fig:ShapeVSFibrosis-b}
 \end{subfigure}
-\begin{subfigure}{.68\linewidth}% set image scale
+\begin{subfigure}{.72\linewidth}% set image scale
   \sbox0{\includegraphics{QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png}
   \caption{Mode 3}
   \label{fig:ShapeVSFibrosis-c}
 \end{subfigure}
-\caption{ The Linear regression of the PCA-derived first three modes with respect to overall fibrosis percentage. (a) Mode 1 weight. (b) Mode 2 weight. (c) Mode 3  weight.}
+\caption{ A Linear regression of the PCA-derived first three modes with respect to overall fibrosis percentage. (a) Mode 1 weight. (b) Mode 2 weight. (c) Mode 3  weight.}
 \label{fig:ShapeVSFibrosis}
 \end{figure}
 
 %% Section 5
 \section{Discussion} \label{QuantitativeDiscussion}
-Individualized treatment strategies are urgently needed in clinical applications and are the ultimate goal of modern pulmonary medicine. A quantitative analysis of IPF based on HRCT images has the potential to build a reliable relationship between imaging tissue-level biomarkers and clinical endpoints. As shown here, tissue density, tissue volume, spatial distribution of abnormalities, and lung shape are all important indexes for representing a statistical progression of IPF disease. Through quantifying these features instead of qualitative evaluation, subjective errors could be avoided to offer a more consistent assessment of individual patients.  
+Individualized treatment strategies are urgently needed in clinical applications and are the ultimate goal of modern pulmonary medicine. A quantitative analysis of IPF based on HRCT images has the potential to build a reliable relationship between imaging tissue-level bio-markers and clinical endpoints. As shown here, tissue density, tissue volume, spatial distribution of abnormalities, and lung shape are all important indexes for representing a statistical progression of IPF disease. Through quantifying these features instead of qualitative evaluation, subjective errors could be avoided to offer a more consistent assessment of individual patients.  
 
 \subsubsection{Average statistical shape model provides a consistent measurement to quantify disease among different people and over the whole clinical course}
-IPF is a progressive lung disease that has significant variable expression between different patients. The SSM based quantitative method used here normalized a set of lungs of different shapes into a standard shape model, thus providing a convenient way to make a reliable comparison between different patients or within one patient at different time points. This method makes it possible to capture the disease variation across a population and describe the difference using objective indexes. Furthermore, the progression of disease over time can be analyzed. The goal is that this contributes to helping clinical course of disease. 
+IPF is a progressive lung disease that has significant variable expression between different patients. In this study, spatial distribution of CALIPER classified data in IPF lung were quantified along cranio-caudal, dorso-to-ventral, and subpleural-to-internal direction respectively over time, and the features shown by our quantitative results are consistent with the radiological findings of IPF. Currently, few published studies have involved in quantitatively analysing the spatial distribution of IPF abnormalities, especially for the progression and change of disease over time. The SSM based quantitative method used here normalized a set of lungs of different shapes into a standard shape model, thus providing a convenient way to make a reliable comparison between different patients or within one patient at different time points. This method makes it possible to capture the disease variation across a population and describe the difference using objective indexes. Furthermore, the progression of disease over time can be analysed. The goal is that this contributes to helping clinical course of disease. 
 
-It is widely acknowledged that there should be some typical symptoms occurring on average 1-2 years before a definite clinical diagnosis with IPF, and some radiographic evidence of IPF may even be found before symptoms occur \citep{raghu2011official, devaraj2014imaging}. Understanding this 'subclinical' period of disease is very important for developing an early diagnosis of IPF disease. The SSM based method makes it possible to compare the IPF lung with a normal cohort. Through combining the disease progression of successive time points with the difference compared to old normal lungs, we can get a whole prediction of disease prognosis in IPF lungs from normal state to severe injured state. It is helpful for clinician to recognize abnormalities in a 'normal' lung at subclinical stage, and is also a further goal of our research in the next stage. 
+It is widely acknowledged that typical symptoms occurring on average 1-2 years before a definite clinical diagnosis with IPF, and some radiographic evidence of IPF may even be found before symptoms occur \citep{raghu2011official, devaraj2014imaging}. Understanding this 'sub-clinical' period of disease is very important for developing an early diagnosis of IPF disease. The SSM based method makes it possible to compare the IPF lung with a normal cohort. Through combining the disease progression of successive time points with the difference compared to old normal lungs, we can get a whole prediction of disease prognosis in IPF lungs from normal state to severe injured state. It is helpful for clinician to recognize abnormalities in a 'normal' lung at 'sub-clinical' stage, and is also a further goal of our research in the next stage. 
 
 %\subsubsection{Tissue density can be used as a quantitative biomarker of IPF, but tissue volume not}
 %The density analysis conducted in this chapter shows that tissue density of different tissue CT patterns fluctuate within different ranges. There is a significant difference of average density between normal lung parenchyma and fibrosis areas (honeycomb, reticular and ground-glass), whereas emphysema usually has the lowest tissue density (Hounsfield unit lower than -950) compared to normal and fibrosis. Therefore, tissue density can be used as a potential biomarker to distinguish the disease regions from other lung parenchyma. As for tissue volume of each CT pattern, no continuous tendency of the volume of both normal tissue and abnormal tissue was found to demonstrate a correlation with time. Therefore, the change of tissue volume can not be used as a reliable biomarker to interpret the progression of disease.
 
 \subsubsection{The shape of basal part of IPF lung is significantly different from old normal lung and correlates with fibrosis extent}
-The first shape mode of the SSM is significantly different between IPF and normal, and strongly correlates with the percentage of fibrosis. The first shape mode corresponds mainly to the anteroposterior diameter of the lung which results in a variation of diaphragm location. This shape change of the diaphragm can be explained by the spatial distribution of tissue abnormalities. The basal and peripheral location of disease is very likely to increase the stiffness of the lower part of the lung, thus having an impact on the movement of the diaphragm when breathing. Furthermore, fibrosis extent in IPF is found to be related to the ratio of anteroposterior diameter to the height of lung. A larger proportion of fibrosis is usually correlated with a larger ratio of anteroposterior diameter to the height of lung. This ''compression effect'' on the lung shape may be associated with the reduction in tissue compliance caused by fibrosis. Specifically, since the IPF subject and control imaging used in this chapter were all acquired at the end of inspiration, the lower tissue compliance caused by fibrosis will influence the expansion of the lung during inhalation if inhalation is driven by a normal muscle pressure, and therefore this may have an effect on the lung shape. In addition, it is demonstrated in the lobe volume analysis that the IPF lung has a lower average volume proportion for the left lower lobe and left upper lobe, which may be also caused by the ''compression effect'' of the lower lobe in IPF lungs.
+The first shape mode of the SSM is significantly different between IPF and normal, and strongly correlates with the percentage of fibrosis. The first shape mode corresponds mainly to the anterior-posterior diameter of the lung which results in a variation of diaphragm location. This shape change of the diaphragm can be explained by the spatial distribution of tissue abnormalities. The basal and peripheral location of disease is very likely to increase the stiffness of the lower part of the lung, thus having an impact on the movement of the diaphragm when breathing. Furthermore, fibrosis extent in IPF is found to be related to the ratio of anterior-posterior diameter to the height of lung. A larger proportion of fibrosis is usually correlated with a larger ratio of anterior-posterior diameter to the height of lung. This ''compression effect'' on the lung shape may be associated with the reduction in tissue compliance caused by fibrosis. Specifically, since the IPF subject and control imaging used in this chapter were all acquired at the end of inspiration, the lower tissue compliance caused by fibrosis will influence the expansion of the lung during inhalation if inhalation is driven by a normal muscle pressure, and therefore this may have an effect on the lung shape. In addition, it is demonstrated in the lobe volume analysis that the IPF lung has a lower average volume proportion for the left lower lobe and left upper lobe, which may be also caused by the ''compression effect'' of the lower lobe in IPF lungs. These features provide a potential way to indicate if the 'lung function' is deteriorating before PFTs can show any abnormalities as a shape difference of IPF patient may be observed when comparing with older normal lungs.
 
 \subsubsection{The quantification of combined IPF and emphysema is the difficulty and emphasis in the future work}
-Combined IPF and emphysema (CPFE) has been recognised and defined over the past ten years \citep{cottin2005combined,meltzer2008idiopathic}. Some researchers suggest that CPFE should be regarded as a distinct clinical entity other than emphysema or IPF alone, since it has a characteristic pulmonary function feature different from pure emphysema or IPF. It is commonly believed that CPFE is strongly associated with heavy smokers, severe dyspnea on exertion, and impaired gas exchange. Emphysema usually appears in the upper lobe whereas IPF disease tends to appear in the lower lobes \citep{lin2015combined} which is consistent with the result of our analysis. However, whether the presence of the two diseases developing in parallel is still unknown \citep{cottin2005combined, king2011idiopathic, lin2015combined}. In the future work, the image based analysis result will be used as quantitative indexes in a lung functional modeling, which could help understand the relationship between the two diseases and the impact of emphysema on IPF.
+Combined IPF and emphysema (CPFE) has been recognised and defined over the past ten years \citep{cottin2005combined,meltzer2008idiopathic}. Some researchers suggest that CPFE should be regarded as a distinct clinical entity other than emphysema or IPF alone, since it has a characteristic pulmonary function feature different from pure emphysema or IPF. It is commonly believed that CPFE is strongly associated with heavy smokers, severe dyspnea on exertion, and impaired gas exchange. Emphysema usually appears in the upper lobe whereas IPF disease tends to appear in the lower lobes \citep{lin2015combined} which is consistent with the result of our analysis. However, whether the presence of the two diseases developing in parallel is still unknown \citep{cottin2005combined, king2011idiopathic, lin2015combined}. In the future work, the image based analysis result will be used as quantitative indexes in a lung functional modelling, which could help understand the relationship between the two diseases and the impact of emphysema on IPF.
 
 \section{Summary}
-In this chapter, we analyzed and characterized IPF classified tissue over time using quantitative methods. The result shows that fibrosis had higher tissue density compared with normal tissue, and presented predominantly basally and peripherally. In contrast, emphysema had lower tissue density and mostly located in upper lobes. The first principal SSM mode ($>20\%$ of the shape variation in normal lungs) was significantly different between IPF and normal and strongly correlated with fibrosis extent in IPF lungs. This quantitative analysis provides consistent potential tissue-level markers which will be used to guide the computational modeling of IPF lungs in the next chapter.
+In this chapter, we analysed and characterized IPF classified tissue over time using quantitative methods. The result shows that fibrosis had higher tissue density compared with normal tissue, and presented predominantly basally and peripherally. In contrast, emphysema had lower tissue density and mostly located in upper lobes. The first principal SSM mode ($>20\%$ of the shape variation in normal lungs) was significantly different between IPF and normal and strongly correlated with fibrosis extent in IPF lungs. This quantitative analysis provides consistent potential tissue-level markers which will be used to guide the computational modelling of IPF lungs in the next chapter.
