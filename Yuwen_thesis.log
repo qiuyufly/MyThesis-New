@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  17 DEC 2018 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  17 DEC 2018 11:52
 entering extended mode
 **./Yuwen_thesis.tex
 (Yuwen_thesis.tex
@@ -1615,18 +1615,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-<Segmentation/Image/LobeAnatomicalStructure.jpg, id=110, 214.6419pt x 246.6816pt>
+ [2]
+<Segmentation/Image/LobeAnatomicalStructure.jpg, id=118, 214.6419pt x 246.6816pt>
 File: Segmentation/Image/LobeAnatomicalStructure.jpg Graphic file (type jpg)
 <use Segmentation/Image/LobeAnatomicalStructure.jpg>
 Package pdftex.def Info: Segmentation/Image/LobeAnatomicalStructure.jpg  used on input line 13.
 (pdftex.def)             Requested size: 188.65619pt x 216.81pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 14.
- [2] [3 <./Segmentation/Image/LobeAnatomicalStructure.jpg>]
+ [3 <./Segmentation/Image/LobeAnatomicalStructure.jpg>]
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
  [4] [5]
-<Segmentation/Image/FissureSegmentationChanllenges.jpg, id=201, 908.193pt x 430.2474pt>
+<Segmentation/Image/FissureSegmentationChanllenges.jpg, id=207, 908.193pt x 430.2474pt>
 File: Segmentation/Image/FissureSegmentationChanllenges.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureSegmentationChanllenges.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureSegmentationChanllenges.jpg  used on input line 34.
@@ -1634,6 +1635,11 @@ Package pdftex.def Info: Segmentation/Image/FissureSegmentationChanllenges.jpg  
 
 Overfull \hbox (1.232pt too wide) in paragraph at lines 40--40
 []\OT1/ptm/b/n/17.28 Review of cur-rent pub-lished meth-ods for pul-monary
+ []
+
+
+Overfull \hbox (0.9626pt too wide) in paragraph at lines 41--42
+\OT1/ptm/m/n/12 seg-men-ta-tion of lungs, and the de-tec-tion of the three main pul-monary fis-sures ([][]Van Rikx-
  []
 
 
@@ -1649,7 +1655,7 @@ Underfull \hbox (badness 1635) in paragraph at lines 56--56
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
-[]|\OT1/ptm/m/n/12 Cause too many intra-
+[]|\OT1/ptm/m/n/12 Causes too many intra-
  []
 
 
@@ -1668,12 +1674,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[]|\OT1/ptm/m/n/12 Minimizes over-seg-men-ta-
+ []
+
+
 Overfull \hbox (57.51897pt too wide) in paragraph at lines 52--79
  [][] 
  []
 
 
 LaTeX Warning: Float too large for page by 96.46942pt on input line 79.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1689,6 +1704,9 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
@@ -1696,6 +1714,9 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
@@ -1703,7 +1724,7 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-<Segmentation/Image/AbnormalLungSegmentation.png, id=356, 493.845pt x 130.90414pt>
+<Segmentation/Image/AbnormalLungSegmentation.png, id=359, 493.845pt x 130.90414pt>
 File: Segmentation/Image/AbnormalLungSegmentation.png Graphic file (type png)
 <use Segmentation/Image/AbnormalLungSegmentation.png>
 Package pdftex.def Info: Segmentation/Image/AbnormalLungSegmentation.png  used on input line 95.
@@ -1723,7 +1744,14 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
-<Segmentation/Image/VolumetricVesselTree.png, id=388, 259.2084pt x 333.4056pt>
+
+Package Fancyhdr Warning: \headheight is too small (15.2pt): 
+ Make it at least 25.41782pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+<Segmentation/Image/VolumetricVesselTree.png, id=398, 259.2084pt x 333.4056pt>
 File: Segmentation/Image/VolumetricVesselTree.png Graphic file (type png)
 <use Segmentation/Image/VolumetricVesselTree.png>
 Package pdftex.def Info: Segmentation/Image/VolumetricVesselTree.png  used on input line 116.
@@ -1734,7 +1762,7 @@ Package pdftex.def Info: Segmentation/Image/VolumetricVesselTree.png  used on in
 (pdftex.def)             Requested size: 125.47737pt x 161.39627pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
-<Segmentation/Image/LabelledAirwayTree.png, id=390, 362.3136pt x 324.12pt>
+<Segmentation/Image/LabelledAirwayTree.png, id=400, 362.3136pt x 324.12pt>
 File: Segmentation/Image/LabelledAirwayTree.png Graphic file (type png)
 <use Segmentation/Image/LabelledAirwayTree.png>
 Package pdftex.def Info: Segmentation/Image/LabelledAirwayTree.png  used on input line 124.
@@ -1806,36 +1834,19 @@ Overfull \hbox (57.51897pt too wide) in paragraph at lines 139--172
 LaTeX Warning: Float too large for page by 116.83444pt on input line 172.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package Fancyhdr Warning: \headheight is too small (15.2pt): 
+ Make it at least 25.41782pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
+[14 <./Segmentation/Image/VolumetricVesselTree.png> <./Segmentation/Image/LabelledAirwayTree.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
-
-Package Fancyhdr Warning: \headheight is too small (15.2pt): 
- Make it at least 25.41782pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
-Underfull \vbox (badness 4441) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.2pt): 
- Make it at least 25.41782pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./Segmentation/Image/VolumetricVesselTree.png> <./Segmentation/Image/LabelledAirwayTree.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[15]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
@@ -1864,7 +1875,14 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [19]
-<Segmentation/Image/WholeWorkflow.jpg, id=560, 1422.81563pt x 2134.22343pt>
+
+Package Fancyhdr Warning: \headheight is too small (15.2pt): 
+ Make it at least 25.41782pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+<Segmentation/Image/WholeWorkflow.jpg, id=569, 1422.81563pt x 2134.22343pt>
 File: Segmentation/Image/WholeWorkflow.jpg Graphic file (type jpg)
 <use Segmentation/Image/WholeWorkflow.jpg>
 Package pdftex.def Info: Segmentation/Image/WholeWorkflow.jpg  used on input line 200.
@@ -1879,8 +1897,8 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./Segmentation/Image/WholeWorkflow.jpg>]
-<Segmentation/Image/LungSegmentationBefore.png, id=568, 575.14874pt x 383.93437pt>
+[21 <./Segmentation/Image/WholeWorkflow.jpg>]
+<Segmentation/Image/LungSegmentationBefore.png, id=577, 575.14874pt x 383.93437pt>
 File: Segmentation/Image/LungSegmentationBefore.png Graphic file (type png)
 <use Segmentation/Image/LungSegmentationBefore.png>
 Package pdftex.def Info: Segmentation/Image/LungSegmentationBefore.png  used on input line 212.
@@ -1889,7 +1907,7 @@ File: Segmentation/Image/LungSegmentationBefore.png Graphic file (type png)
 <use Segmentation/Image/LungSegmentationBefore.png>
 Package pdftex.def Info: Segmentation/Image/LungSegmentationBefore.png  used on input line 213.
 (pdftex.def)             Requested size: 167.2989pt x 111.67789pt.
-<Segmentation/Image/LungSegmentationAfter.png, id=570, 578.16pt x 391.4625pt>
+<Segmentation/Image/LungSegmentationAfter.png, id=579, 578.16pt x 391.4625pt>
 File: Segmentation/Image/LungSegmentationAfter.png Graphic file (type png)
 <use Segmentation/Image/LungSegmentationAfter.png>
 Package pdftex.def Info: Segmentation/Image/LungSegmentationAfter.png  used on input line 218.
@@ -1905,14 +1923,7 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./Segmentation/Image/LungSegmentationBefore.png> <./Segmentation/Image/LungSegmentationAfter.png>]
-
-Package Fancyhdr Warning: \headheight is too small (15.2pt): 
- Make it at least 25.41782pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[22]
+[22 <./Segmentation/Image/LungSegmentationBefore.png> <./Segmentation/Image/LungSegmentationAfter.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
@@ -1920,6 +1931,13 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
+
+Package Fancyhdr Warning: \headheight is too small (15.2pt): 
+ Make it at least 25.41782pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
 Underfull \vbox (badness 4621) has occurred while \output is active []
 
 
@@ -1929,8 +1947,8 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
-<Segmentation/Image/LungDigitising.png, id=657, 417.81094pt x 412.54124pt>
+[25]
+<Segmentation/Image/LungDigitising.png, id=667, 417.81094pt x 412.54124pt>
 File: Segmentation/Image/LungDigitising.png Graphic file (type png)
 <use Segmentation/Image/LungDigitising.png>
 Package pdftex.def Info: Segmentation/Image/LungDigitising.png  used on input line 270.
@@ -1939,7 +1957,7 @@ File: Segmentation/Image/LungDigitising.png Graphic file (type png)
 <use Segmentation/Image/LungDigitising.png>
 Package pdftex.def Info: Segmentation/Image/LungDigitising.png  used on input line 271.
 (pdftex.def)             Requested size: 179.84601pt x 177.57813pt.
-<Segmentation/Image/FissureDigitising1.png, id=659, 440.39531pt x 574.39594pt>
+<Segmentation/Image/FissureDigitising1.png, id=669, 440.39531pt x 574.39594pt>
 File: Segmentation/Image/FissureDigitising1.png Graphic file (type png)
 <use Segmentation/Image/FissureDigitising1.png>
 Package pdftex.def Info: Segmentation/Image/FissureDigitising1.png  used on input line 278.
@@ -1948,7 +1966,7 @@ File: Segmentation/Image/FissureDigitising1.png Graphic file (type png)
 <use Segmentation/Image/FissureDigitising1.png>
 Package pdftex.def Info: Segmentation/Image/FissureDigitising1.png  used on input line 279.
 (pdftex.def)             Requested size: 135.93117pt x 177.28961pt.
-<Segmentation/Image/LobeDigitising.png, id=661, 697.10437pt x 666.99188pt>
+<Segmentation/Image/LobeDigitising.png, id=671, 697.10437pt x 666.99188pt>
 File: Segmentation/Image/LobeDigitising.png Graphic file (type png)
 <use Segmentation/Image/LobeDigitising.png>
 Package pdftex.def Info: Segmentation/Image/LobeDigitising.png  used on input line 284.
@@ -1957,7 +1975,7 @@ File: Segmentation/Image/LobeDigitising.png Graphic file (type png)
 <use Segmentation/Image/LobeDigitising.png>
 Package pdftex.def Info: Segmentation/Image/LobeDigitising.png  used on input line 285.
 (pdftex.def)             Requested size: 200.75996pt x 192.08943pt.
-<Segmentation/Image/LobeFitting2.png, id=663, 371.13657pt x 522.45187pt>
+<Segmentation/Image/LobeFitting2.png, id=673, 371.13657pt x 522.45187pt>
 File: Segmentation/Image/LobeFitting2.png Graphic file (type png)
 <use Segmentation/Image/LobeFitting2.png>
 Package pdftex.def Info: Segmentation/Image/LobeFitting2.png  used on input line 292.
@@ -1973,14 +1991,14 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
+[26]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./Segmentation/Image/LungDigitising.png> <./Segmentation/Image/FissureDigitising1.png> <./Segmentation/Image/LobeDi
+[27 <./Segmentation/Image/LungDigitising.png> <./Segmentation/Image/FissureDigitising1.png> <./Segmentation/Image/LobeDi
 gitising.png> <./Segmentation/Image/LobeFitting2.png>]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
@@ -1988,8 +2006,8 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
-<Segmentation/Image/ProcrustedMeshes.png, id=704, 522.45187pt x 538.26094pt>
+[28]
+<Segmentation/Image/ProcrustedMeshes.png, id=713, 522.45187pt x 538.26094pt>
 File: Segmentation/Image/ProcrustedMeshes.png Graphic file (type png)
 <use Segmentation/Image/ProcrustedMeshes.png>
 Package pdftex.def Info: Segmentation/Image/ProcrustedMeshes.png  used on input line 339.
@@ -1998,7 +2016,7 @@ File: Segmentation/Image/ProcrustedMeshes.png Graphic file (type png)
 <use Segmentation/Image/ProcrustedMeshes.png>
 Package pdftex.def Info: Segmentation/Image/ProcrustedMeshes.png  used on input line 340.
 (pdftex.def)             Requested size: 167.2989pt x 172.362pt.
-<Segmentation/Image/PCAAverageModel.png, id=706, 481.04718pt x 456.20438pt>
+<Segmentation/Image/PCAAverageModel.png, id=715, 481.04718pt x 456.20438pt>
 File: Segmentation/Image/PCAAverageModel.png Graphic file (type png)
 <use Segmentation/Image/PCAAverageModel.png>
 Package pdftex.def Info: Segmentation/Image/PCAAverageModel.png  used on input line 347.
@@ -2014,15 +2032,15 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28]
+[29]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./Segmentation/Image/ProcrustedMeshes.png> <./Segmentation/Image/PCAAverageModel.png>]
-<Segmentation/Image/ProjectedLeftFissureMesh.png, id=727, 420.82219pt x 603.0028pt>
+[30 <./Segmentation/Image/ProcrustedMeshes.png> <./Segmentation/Image/PCAAverageModel.png>]
+<Segmentation/Image/ProjectedLeftFissureMesh.png, id=736, 420.82219pt x 603.0028pt>
 File: Segmentation/Image/ProjectedLeftFissureMesh.png Graphic file (type png)
 <use Segmentation/Image/ProjectedLeftFissureMesh.png>
 Package pdftex.def Info: Segmentation/Image/ProjectedLeftFissureMesh.png  used on input line 373.
@@ -2031,7 +2049,7 @@ File: Segmentation/Image/ProjectedLeftFissureMesh.png Graphic file (type png)
 <use Segmentation/Image/ProjectedLeftFissureMesh.png>
 Package pdftex.def Info: Segmentation/Image/ProjectedLeftFissureMesh.png  used on input line 374.
 (pdftex.def)             Requested size: 146.39133pt x 209.76599pt.
-<Segmentation/Image/ProjectedRightFissureMesh.png, id=729, 432.11438pt x 563.10374pt>
+<Segmentation/Image/ProjectedRightFissureMesh.png, id=738, 432.11438pt x 563.10374pt>
 File: Segmentation/Image/ProjectedRightFissureMesh.png Graphic file (type png)
 <use Segmentation/Image/ProjectedRightFissureMesh.png>
 Package pdftex.def Info: Segmentation/Image/ProjectedRightFissureMesh.png  used on input line 379.
@@ -2047,7 +2065,7 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./Segmentation/Image/ProjectedLeftFissureMesh.png> <./Segmentation/Image/ProjectedRightFissureMesh.png>]
+[31 <./Segmentation/Image/ProjectedLeftFissureMesh.png> <./Segmentation/Image/ProjectedRightFissureMesh.png>]
 Underfull \vbox (badness 2005) has occurred while \output is active []
 
 
@@ -2057,17 +2075,10 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[32]
 Underfull \vbox (badness 3977) has occurred while \output is active []
 
 
-
-Package Fancyhdr Warning: \headheight is too small (15.2pt): 
- Make it at least 25.41782pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
@@ -2082,7 +2093,14 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  This may cause the page layout to be inconsistent, however.
 
 [34]
-<Segmentation/Image/FissureHessianEigenvector.png, id=796, 447.5922pt x 187.4202pt>
+
+Package Fancyhdr Warning: \headheight is too small (15.2pt): 
+ Make it at least 25.41782pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+<Segmentation/Image/FissureHessianEigenvector.png, id=805, 447.5922pt x 187.4202pt>
 File: Segmentation/Image/FissureHessianEigenvector.png Graphic file (type png)
 <use Segmentation/Image/FissureHessianEigenvector.png>
 Package pdftex.def Info: Segmentation/Image/FissureHessianEigenvector.png  used on input line 502.
@@ -2094,8 +2112,8 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./Segmentation/Image/FissureHessianEigenvector.png>]
-<Segmentation/Image/VesselHessianEigenvector.png, id=811, 317.988pt x 241.8636pt>
+[36 <./Segmentation/Image/FissureHessianEigenvector.png>]
+<Segmentation/Image/VesselHessianEigenvector.png, id=820, 317.988pt x 241.8636pt>
 File: Segmentation/Image/VesselHessianEigenvector.png Graphic file (type png)
 <use Segmentation/Image/VesselHessianEigenvector.png>
 Package pdftex.def Info: Segmentation/Image/VesselHessianEigenvector.png  used on input line 550.
@@ -2107,7 +2125,7 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2117,8 +2135,8 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 <./Segmentation/Image/VesselHessianEigenvector.png>]
-<Segmentation/Image/FissureDetection1.jpg, id=837, 231.86626pt x 145.29282pt>
+[38 <./Segmentation/Image/VesselHessianEigenvector.png>]
+<Segmentation/Image/FissureDetection1.jpg, id=846, 231.86626pt x 145.29282pt>
 File: Segmentation/Image/FissureDetection1.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection1.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection1.jpg  used on input line 562.
@@ -2127,7 +2145,7 @@ File: Segmentation/Image/FissureDetection1.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection1.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection1.jpg  used on input line 563.
 (pdftex.def)             Requested size: 171.48553pt x 107.45956pt.
-<Segmentation/Image/FissureDetection2.jpg, id=839, 240.14719pt x 152.06813pt>
+<Segmentation/Image/FissureDetection2.jpg, id=848, 240.14719pt x 152.06813pt>
 File: Segmentation/Image/FissureDetection2.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection2.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection2.jpg  used on input line 568.
@@ -2136,7 +2154,7 @@ File: Segmentation/Image/FissureDetection2.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection2.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection2.jpg  used on input line 569.
 (pdftex.def)             Requested size: 170.64949pt x 108.06194pt.
-<Segmentation/Image/FissureDetection3.jpg, id=841, 241.65282pt x 154.32657pt>
+<Segmentation/Image/FissureDetection3.jpg, id=850, 241.65282pt x 154.32657pt>
 File: Segmentation/Image/FissureDetection3.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection3.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection3.jpg  used on input line 574.
@@ -2145,7 +2163,7 @@ File: Segmentation/Image/FissureDetection3.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection3.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection3.jpg  used on input line 575.
 (pdftex.def)             Requested size: 167.2989pt x 106.84572pt.
-<Segmentation/Image/FissureDetection4.jpg, id=843, 244.66406pt x 152.06813pt>
+<Segmentation/Image/FissureDetection4.jpg, id=852, 244.66406pt x 152.06813pt>
 File: Segmentation/Image/FissureDetection4.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection4.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection4.jpg  used on input line 580.
@@ -2154,7 +2172,7 @@ File: Segmentation/Image/FissureDetection4.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection4.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection4.jpg  used on input line 581.
 (pdftex.def)             Requested size: 172.32158pt x 107.10594pt.
-<Segmentation/Image/FissureDetection5.jpg, id=845, 298.86656pt x 175.40532pt>
+<Segmentation/Image/FissureDetection5.jpg, id=854, 298.86656pt x 175.40532pt>
 File: Segmentation/Image/FissureDetection5.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection5.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection5.jpg  used on input line 586.
@@ -2163,7 +2181,7 @@ File: Segmentation/Image/FissureDetection5.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection5.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection5.jpg  used on input line 587.
 (pdftex.def)             Requested size: 171.48553pt x 100.64581pt.
-<Segmentation/Image/FissureDetection6.jpg, id=847, 290.58563pt x 167.12437pt>
+<Segmentation/Image/FissureDetection6.jpg, id=856, 290.58563pt x 167.12437pt>
 File: Segmentation/Image/FissureDetection6.jpg Graphic file (type jpg)
 <use Segmentation/Image/FissureDetection6.jpg>
 Package pdftex.def Info: Segmentation/Image/FissureDetection6.jpg  used on input line 592.
@@ -2179,14 +2197,14 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[39]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./Segmentation/Image/FissureDetection1.jpg> <./Segmentation/Image/FissureDetection2.jpg> <./Segmentation/Image/Fiss
+[40 <./Segmentation/Image/FissureDetection1.jpg> <./Segmentation/Image/FissureDetection2.jpg> <./Segmentation/Image/Fiss
 ureDetection3.jpg> <./Segmentation/Image/FissureDetection4.jpg> <./Segmentation/Image/FissureDetection5.jpg> <./Segmenta
 tion/Image/FissureDetection6.jpg>]
 
@@ -2221,7 +2239,7 @@ Underfull \hbox (badness 4036) in paragraph at lines 626--626
 []|\OT1/ptm/m/n/12 Total con-nected com-po-
  []
 
-<Segmentation/Image/PTKUserInterface.jpg, id=869, 963.6pt x 542.025pt>
+<Segmentation/Image/PTKUserInterface.jpg, id=878, 963.6pt x 542.025pt>
 File: Segmentation/Image/PTKUserInterface.jpg Graphic file (type jpg)
 <use Segmentation/Image/PTKUserInterface.jpg>
 Package pdftex.def Info: Segmentation/Image/PTKUserInterface.jpg  used on input line 633.
@@ -2232,8 +2250,8 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
-<Segmentation/Image/BeforeChangeSearchRegion.png, id=878, 371.88937pt x 501.37312pt>
+[41]
+<Segmentation/Image/BeforeChangeSearchRegion.png, id=887, 371.88937pt x 501.37312pt>
 File: Segmentation/Image/BeforeChangeSearchRegion.png Graphic file (type png)
 <use Segmentation/Image/BeforeChangeSearchRegion.png>
 Package pdftex.def Info: Segmentation/Image/BeforeChangeSearchRegion.png  used on input line 645.
@@ -2242,7 +2260,7 @@ File: Segmentation/Image/BeforeChangeSearchRegion.png Graphic file (type png)
 <use Segmentation/Image/BeforeChangeSearchRegion.png>
 Package pdftex.def Info: Segmentation/Image/BeforeChangeSearchRegion.png  used on input line 646.
 (pdftex.def)             Requested size: 133.84424pt x 180.44827pt.
-<Segmentation/Image/AfterChangeSearchRegion.png, id=880, 379.4175pt x 496.85625pt>
+<Segmentation/Image/AfterChangeSearchRegion.png, id=889, 379.4175pt x 496.85625pt>
 File: Segmentation/Image/AfterChangeSearchRegion.png Graphic file (type png)
 <use Segmentation/Image/AfterChangeSearchRegion.png>
 Package pdftex.def Info: Segmentation/Image/AfterChangeSearchRegion.png  used on input line 653.
@@ -2258,15 +2276,15 @@ Package Fancyhdr Warning: \headheight is too small (15.2pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./Segmentation/Image/PTKUserInterface.jpg>]
+[42 <./Segmentation/Image/PTKUserInterface.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (15.2pt): 
  Make it at least 25.41782pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42 <./Segmentation/Image/BeforeChangeSearchRegion.png> <./Segmentation/Image/AfterChangeSearchRegion.png>]
-<Segmentation/Image/BeforeManualCorrection.png, id=900, 615.80063pt x 408.77719pt>
+[43 <./Segmentation/Image/BeforeChangeSearchRegion.png> <./Segmentation/Image/AfterChangeSearchRegion.png>]
+<Segmentation/Image/BeforeManualCorrection.png, id=910, 615.80063pt x 408.77719pt>
 File: Segmentation/Image/BeforeManualCorrection.png Graphic file (type png)
 <use Segmentation/Image/BeforeManualCorrection.png>
 Package pdftex.def Info: Segmentation/Image/BeforeManualCorrection.png  used on input line 671.
@@ -2275,7 +2293,7 @@ File: Segmentation/Image/BeforeManualCorrection.png Graphic file (type png)
 <use Segmentation/Image/BeforeManualCorrection.png>
 Package pdftex.def Info: Segmentation/Image/BeforeManualCorrection.png  used on input line 672.
 (pdftex.def)             Requested size: 184.03264pt x 122.16005pt.
-<Segmentation/Image/AfterManualCorrection.png, id=902, 612.78937pt x 407.27156pt>
+<Segmentation/Image/AfterManualCorrection.png, id=912, 612.78937pt x 407.27156pt>
 File: Segmentation/Image/AfterManualCorrection.png Graphic file (type png)
 <use Segmentation/Image/AfterManualCorrection.png>
 Package pdftex.def Info: Segmentation/Image/AfterManualCorrection.png  used on input line 679.
@@ -2284,8 +2302,8 @@ File: Segmentation/Image/AfterManualCorrection.png Graphic file (type png)
 <use Segmentation/Image/AfterManualCorrection.png>
 Package pdftex.def Info: Segmentation/Image/AfterManualCorrection.png  used on input line 680.
 (pdftex.def)             Requested size: 184.03264pt x 122.31291pt.
- [43 <./Segmentation/Image/BeforeManualCorrection.png> <./Segmentation/Image/AfterManualCorrection.png>]
-<Segmentation/Image/H1335_FRC_Raw_Sagittal.png, id=919, 313.17pt x 455.45157pt>
+ [44 <./Segmentation/Image/BeforeManualCorrection.png> <./Segmentation/Image/AfterManualCorrection.png>]
+<Segmentation/Image/H1335_FRC_Raw_Sagittal.png, id=928, 313.17pt x 455.45157pt>
 File: Segmentation/Image/H1335_FRC_Raw_Sagittal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_Raw_Sagittal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_Raw_Sagittal.png  used on input line 700.
@@ -2294,7 +2312,7 @@ File: Segmentation/Image/H1335_FRC_Raw_Sagittal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_Raw_Sagittal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_Raw_Sagittal.png  used on input line 701.
 (pdftex.def)             Requested size: 104.56342pt x 152.07162pt.
-<Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png, id=921, 317.68687pt x 456.95718pt>
+<Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png, id=930, 317.68687pt x 456.95718pt>
 File: Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png  used on input line 708.
@@ -2303,7 +2321,7 @@ File: Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png Graphic file (type pn
 <use Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png  used on input line 709.
 (pdftex.def)             Requested size: 104.56342pt x 150.3989pt.
-<Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png, id=923, 319.1925pt x 458.46281pt>
+<Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png, id=932, 319.1925pt x 458.46281pt>
 File: Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png  used on input line 716.
@@ -2312,7 +2330,7 @@ File: Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png Graphic file
 <use Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png  used on input line 717.
 (pdftex.def)             Requested size: 104.56342pt x 150.18788pt.
-<Segmentation/Image/H1335_FRC_Raw_Axial.png, id=925, 615.80063pt x 406.51875pt>
+<Segmentation/Image/H1335_FRC_Raw_Axial.png, id=934, 615.80063pt x 406.51875pt>
 File: Segmentation/Image/H1335_FRC_Raw_Axial.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_Raw_Axial.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_Raw_Axial.png  used on input line 722.
@@ -2321,7 +2339,7 @@ File: Segmentation/Image/H1335_FRC_Raw_Axial.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_Raw_Axial.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_Raw_Axial.png  used on input line 723.
 (pdftex.def)             Requested size: 133.84424pt x 88.35507pt.
-<Segmentation/Image/H1335_FRC_PCAInitial_Axial.png, id=927, 612.78937pt x 407.27156pt>
+<Segmentation/Image/H1335_FRC_PCAInitial_Axial.png, id=936, 612.78937pt x 407.27156pt>
 File: Segmentation/Image/H1335_FRC_PCAInitial_Axial.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAInitial_Axial.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAInitial_Axial.png  used on input line 730.
@@ -2330,7 +2348,7 @@ File: Segmentation/Image/H1335_FRC_PCAInitial_Axial.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAInitial_Axial.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAInitial_Axial.png  used on input line 731.
 (pdftex.def)             Requested size: 133.84424pt x 88.9537pt.
-<Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png, id=929, 611.28375pt x 410.2828pt>
+<Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png, id=938, 611.28375pt x 410.2828pt>
 File: Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png  used on input line 738.
@@ -2339,7 +2357,7 @@ File: Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png Graphic file (t
 <use Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png  used on input line 739.
 (pdftex.def)             Requested size: 133.84424pt x 89.83052pt.
-<Segmentation/Image/H1335_FRC_Raw_Coronal.png, id=931, 587.94656pt x 451.6875pt>
+<Segmentation/Image/H1335_FRC_Raw_Coronal.png, id=940, 587.94656pt x 451.6875pt>
 File: Segmentation/Image/H1335_FRC_Raw_Coronal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_Raw_Coronal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_Raw_Coronal.png  used on input line 744.
@@ -2348,7 +2366,7 @@ File: Segmentation/Image/H1335_FRC_Raw_Coronal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_Raw_Coronal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_Raw_Coronal.png  used on input line 745.
 (pdftex.def)             Requested size: 133.84424pt x 102.82454pt.
-<Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png, id=933, 596.98032pt x 453.19313pt>
+<Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png, id=942, 596.98032pt x 453.19313pt>
 File: Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png  used on input line 752.
@@ -2357,7 +2375,7 @@ File: Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png Graphic file (type png
 <use Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png  used on input line 753.
 (pdftex.def)             Requested size: 133.84424pt x 101.60446pt.
-<Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png, id=935, 589.4522pt x 445.665pt>
+<Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png, id=944, 589.4522pt x 445.665pt>
 File: Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png Graphic file (type png)
 <use Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png  used on input line 760.
@@ -2366,7 +2384,7 @@ File: Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png Graphic file 
 <use Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png>
 Package pdftex.def Info: Segmentation/Image/H1335_FRC_PCAFissureDetection_Coronal.png  used on input line 761.
 (pdftex.def)             Requested size: 133.84424pt x 101.19513pt.
-<Segmentation/Image/IPF203_Raw_Sagittal161.png, id=937, 557.08125pt x 549.55313pt>
+<Segmentation/Image/IPF203_Raw_Sagittal161.png, id=946, 557.08125pt x 549.55313pt>
 File: Segmentation/Image/IPF203_Raw_Sagittal161.png Graphic file (type png)
 <use Segmentation/Image/IPF203_Raw_Sagittal161.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_Raw_Sagittal161.png  used on input line 772.
@@ -2375,7 +2393,7 @@ File: Segmentation/Image/IPF203_Raw_Sagittal161.png Graphic file (type png)
 <use Segmentation/Image/IPF203_Raw_Sagittal161.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_Raw_Sagittal161.png  used on input line 773.
 (pdftex.def)             Requested size: 104.56342pt x 103.14996pt.
-<Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png, id=939, 555.57562pt x 551.05875pt>
+<Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png, id=948, 555.57562pt x 551.05875pt>
 File: Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png Graphic file (type png)
 <use Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png  used on input line 780.
@@ -2384,7 +2402,7 @@ File: Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png Graphic file (type p
 <use Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png  used on input line 781.
 (pdftex.def)             Requested size: 104.56342pt x 103.71004pt.
-<Segmentation/Image/IPF203_FinalResult_Sagittal161.png, id=941, 555.57562pt x 548.0475pt>
+<Segmentation/Image/IPF203_FinalResult_Sagittal161.png, id=950, 555.57562pt x 548.0475pt>
 File: Segmentation/Image/IPF203_FinalResult_Sagittal161.png Graphic file (type png)
 <use Segmentation/Image/IPF203_FinalResult_Sagittal161.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_FinalResult_Sagittal161.png  used on input line 788.
@@ -2393,7 +2411,7 @@ File: Segmentation/Image/IPF203_FinalResult_Sagittal161.png Graphic file (type p
 <use Segmentation/Image/IPF203_FinalResult_Sagittal161.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_FinalResult_Sagittal161.png  used on input line 789.
 (pdftex.def)             Requested size: 104.56342pt x 103.14333pt.
-<Segmentation/Image/IPF203_Raw_Axial125.png, id=943, 615.80063pt x 542.025pt>
+<Segmentation/Image/IPF203_Raw_Axial125.png, id=952, 615.80063pt x 542.025pt>
 File: Segmentation/Image/IPF203_Raw_Axial125.png Graphic file (type png)
 <use Segmentation/Image/IPF203_Raw_Axial125.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_Raw_Axial125.png  used on input line 794.
@@ -2402,7 +2420,7 @@ File: Segmentation/Image/IPF203_Raw_Axial125.png Graphic file (type png)
 <use Segmentation/Image/IPF203_Raw_Axial125.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_Raw_Axial125.png  used on input line 795.
 (pdftex.def)             Requested size: 133.84424pt x 117.80678pt.
-<Segmentation/Image/IPF203_PCAGuessing125_Axial.png, id=945, 494.59781pt x 433.62pt>
+<Segmentation/Image/IPF203_PCAGuessing125_Axial.png, id=954, 494.59781pt x 433.62pt>
 File: Segmentation/Image/IPF203_PCAGuessing125_Axial.png Graphic file (type png)
 <use Segmentation/Image/IPF203_PCAGuessing125_Axial.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_PCAGuessing125_Axial.png  used on input line 802.
@@ -2411,7 +2429,7 @@ File: Segmentation/Image/IPF203_PCAGuessing125_Axial.png Graphic file (type png)
 <use Segmentation/Image/IPF203_PCAGuessing125_Axial.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_PCAGuessing125_Axial.png  used on input line 803.
 (pdftex.def)             Requested size: 133.84424pt x 117.337pt.
-<Segmentation/Image/IPF203_FinalResult_Axial125.png, id=947, 624.83438pt x 540.51938pt>
+<Segmentation/Image/IPF203_FinalResult_Axial125.png, id=956, 624.83438pt x 540.51938pt>
 File: Segmentation/Image/IPF203_FinalResult_Axial125.png Graphic file (type png)
 <use Segmentation/Image/IPF203_FinalResult_Axial125.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_FinalResult_Axial125.png  used on input line 810.
@@ -2420,7 +2438,7 @@ File: Segmentation/Image/IPF203_FinalResult_Axial125.png Graphic file (type png)
 <use Segmentation/Image/IPF203_FinalResult_Axial125.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_FinalResult_Axial125.png  used on input line 811.
 (pdftex.def)             Requested size: 133.84424pt x 115.78052pt.
-<Segmentation/Image/IPF203_Raw_Coronal364.png, id=949, 602.25pt x 517.18219pt>
+<Segmentation/Image/IPF203_Raw_Coronal364.png, id=958, 602.25pt x 517.18219pt>
 File: Segmentation/Image/IPF203_Raw_Coronal364.png Graphic file (type png)
 <use Segmentation/Image/IPF203_Raw_Coronal364.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_Raw_Coronal364.png  used on input line 816.
@@ -2429,7 +2447,7 @@ File: Segmentation/Image/IPF203_Raw_Coronal364.png Graphic file (type png)
 <use Segmentation/Image/IPF203_Raw_Coronal364.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_Raw_Coronal364.png  used on input line 817.
 (pdftex.def)             Requested size: 133.84424pt x 114.94049pt.
-<Segmentation/Image/IPF203_PCAGuessing_Coronal364.png, id=951, 547.2947pt x 480.29437pt>
+<Segmentation/Image/IPF203_PCAGuessing_Coronal364.png, id=960, 547.2947pt x 480.29437pt>
 File: Segmentation/Image/IPF203_PCAGuessing_Coronal364.png Graphic file (type png)
 <use Segmentation/Image/IPF203_PCAGuessing_Coronal364.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_PCAGuessing_Coronal364.png  used on input line 824.
@@ -2438,7 +2456,7 @@ File: Segmentation/Image/IPF203_PCAGuessing_Coronal364.png Graphic file (type pn
 <use Segmentation/Image/IPF203_PCAGuessing_Coronal364.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_PCAGuessing_Coronal364.png  used on input line 825.
 (pdftex.def)             Requested size: 133.84424pt x 117.45694pt.
-<Segmentation/Image/IPF203_FinalResult_Coronal364.png, id=953, 602.25pt x 524.71031pt>
+<Segmentation/Image/IPF203_FinalResult_Coronal364.png, id=962, 602.25pt x 524.71031pt>
 File: Segmentation/Image/IPF203_FinalResult_Coronal364.png Graphic file (type png)
 <use Segmentation/Image/IPF203_FinalResult_Coronal364.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_FinalResult_Coronal364.png  used on input line 832.
@@ -2447,23 +2465,23 @@ File: Segmentation/Image/IPF203_FinalResult_Coronal364.png Graphic file (type pn
 <use Segmentation/Image/IPF203_FinalResult_Coronal364.png>
 Package pdftex.def Info: Segmentation/Image/IPF203_FinalResult_Coronal364.png  used on input line 833.
 (pdftex.def)             Requested size: 133.84424pt x 116.61356pt.
- [44] [45 <./Segmentation/Image/H1335_FRC_Raw_Sagittal.png> <./Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png> <./
+ [45] [46 <./Segmentation/Image/H1335_FRC_Raw_Sagittal.png> <./Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png> <./
 Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png> <./Segmentation/Image/H1335_FRC_Raw_Axial.png> <./Segment
 ation/Image/H1335_FRC_PCAInitial_Axial.png> <./Segmentation/Image/H1335_FRC_PCAFissureDetection_Axial.png> <./Segmentati
 on/Image/H1335_FRC_Raw_Coronal.png> <./Segmentation/Image/H1335_FRC_PCAInitial_Coronal.png> <./Segmentation/Image/H1335_
-FRC_PCAFissureDetection_Coronal.png>] [46 <./Segmentation/Image/IPF203_Raw_Sagittal161.png> <./Segmentation/Image/IPF203
+FRC_PCAFissureDetection_Coronal.png>] [47 <./Segmentation/Image/IPF203_Raw_Sagittal161.png> <./Segmentation/Image/IPF203
 _PCAGuessing_Sagittal161.png> <./Segmentation/Image/IPF203_FinalResult_Sagittal161.png> <./Segmentation/Image/IPF203_Raw
 _Axial125.png> <./Segmentation/Image/IPF203_PCAGuessing125_Axial.png> <./Segmentation/Image/IPF203_FinalResult_Axial125.
 png> <./Segmentation/Image/IPF203_Raw_Coronal364.png> <./Segmentation/Image/IPF203_PCAGuessing_Coronal364.png> <./Segmen
 tation/Image/IPF203_FinalResult_Coronal364.png>]
 Underfull \vbox (badness 2096) has occurred while \output is active []
 
- [47]
+ [48]
 Overfull \hbox (34.64697pt too wide) in paragraph at lines 873--886
  [][] 
  []
 
-<Segmentation/Image/QuanlititativeResult1.png, id=1038, 109.3905pt x 79.497pt>
+<Segmentation/Image/QuanlititativeResult1.png, id=1047, 109.3905pt x 79.497pt>
 File: Segmentation/Image/QuanlititativeResult1.png Graphic file (type png)
 <use Segmentation/Image/QuanlititativeResult1.png>
 Package pdftex.def Info: Segmentation/Image/QuanlititativeResult1.png  used on input line 893.
@@ -2472,7 +2490,7 @@ File: Segmentation/Image/QuanlititativeResult1.png Graphic file (type png)
 <use Segmentation/Image/QuanlititativeResult1.png>
 Package pdftex.def Info: Segmentation/Image/QuanlititativeResult1.png  used on input line 894.
 (pdftex.def)             Requested size: 125.47737pt x 91.19278pt.
-<Segmentation/Image/QuanlititativeResult2.png, id=1040, 97.236pt x 84.096pt>
+<Segmentation/Image/QuanlititativeResult2.png, id=1049, 97.236pt x 84.096pt>
 File: Segmentation/Image/QuanlititativeResult2.png Graphic file (type png)
 <use Segmentation/Image/QuanlititativeResult2.png>
 Package pdftex.def Info: Segmentation/Image/QuanlititativeResult2.png  used on input line 899.
@@ -2481,7 +2499,7 @@ File: Segmentation/Image/QuanlititativeResult2.png Graphic file (type png)
 <use Segmentation/Image/QuanlititativeResult2.png>
 Package pdftex.def Info: Segmentation/Image/QuanlititativeResult2.png  used on input line 900.
 (pdftex.def)             Requested size: 125.47737pt x 108.52148pt.
-<Segmentation/Image/QuanlititativeResult3.png, id=1042, 296.7888pt x 200.4288pt>
+<Segmentation/Image/QuanlititativeResult3.png, id=1051, 296.7888pt x 200.4288pt>
 File: Segmentation/Image/QuanlititativeResult3.png Graphic file (type png)
 <use Segmentation/Image/QuanlititativeResult3.png>
 Package pdftex.def Info: Segmentation/Image/QuanlititativeResult3.png  used on input line 905.
@@ -2495,9 +2513,9 @@ Overfull \hbox (2.35422pt too wide) in paragraph at lines 915--916
 \OT1/ptm/m/n/12 PTK, https://github.com/tomdoel/pulmonarytoolkit (in-tro-duced in Sec-tion []1.3.5[]); 2. Pul-
  []
 
-[48 <./Segmentation/Image/QuanlititativeResult1.png> <./Segmentation/Image/QuanlititativeResult2.png> <./Segmentation/Im
-age/QuanlititativeResult3.png>] [49]
-<Segmentation/Image/YUAN_WateredLobeLabel.png, id=1083, 251.0178pt x 366.6498pt>
+[49 <./Segmentation/Image/QuanlititativeResult1.png> <./Segmentation/Image/QuanlititativeResult2.png> <./Segmentation/Im
+age/QuanlititativeResult3.png>] [50]
+<Segmentation/Image/YUAN_WateredLobeLabel.png, id=1092, 251.0178pt x 366.6498pt>
 File: Segmentation/Image/YUAN_WateredLobeLabel.png Graphic file (type png)
 <use Segmentation/Image/YUAN_WateredLobeLabel.png>
 Package pdftex.def Info: Segmentation/Image/YUAN_WateredLobeLabel.png  used on input line 923.
@@ -2506,7 +2524,7 @@ File: Segmentation/Image/YUAN_WateredLobeLabel.png Graphic file (type png)
 <use Segmentation/Image/YUAN_WateredLobeLabel.png>
 Package pdftex.def Info: Segmentation/Image/YUAN_WateredLobeLabel.png  used on input line 924.
 (pdftex.def)             Requested size: 133.84424pt x 195.49832pt.
-<Segmentation/Image/YUAN_WateredFissureGuessing.png, id=1085, 267.399pt x 366.6498pt>
+<Segmentation/Image/YUAN_WateredFissureGuessing.png, id=1094, 267.399pt x 366.6498pt>
 File: Segmentation/Image/YUAN_WateredFissureGuessing.png Graphic file (type png)
 <use Segmentation/Image/YUAN_WateredFissureGuessing.png>
 Package pdftex.def Info: Segmentation/Image/YUAN_WateredFissureGuessing.png  used on input line 931.
@@ -2515,7 +2533,7 @@ File: Segmentation/Image/YUAN_WateredFissureGuessing.png Graphic file (type png)
 <use Segmentation/Image/YUAN_WateredFissureGuessing.png>
 Package pdftex.def Info: Segmentation/Image/YUAN_WateredFissureGuessing.png  used on input line 932.
 (pdftex.def)             Requested size: 144.29802pt x 197.85925pt.
- [50 <./Segmentation/Image/YUAN_WateredLobeLabel.png> <./Segmentation/Image/YUAN_WateredFissureGuessing.png>]
+ [51 <./Segmentation/Image/YUAN_WateredLobeLabel.png> <./Segmentation/Image/YUAN_WateredFissureGuessing.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2552,7 +2570,7 @@ Package pdftex.def Info: Segmentation/Image/YUAN_WateredFissureGuessing.png  use
 
 Package array Warning: Column C is already defined on input line 944.
 
-[51
+[52
 
 
 ]
@@ -2592,7 +2610,7 @@ Package array Warning: Column C is already defined on input line 944.
 
 Package array Warning: Column C is already defined on input line 1002.
 
-[52
+[53
 
 
 
@@ -2634,7 +2652,7 @@ Package array Warning: Column C is already defined on input line 1002.
 
 Package array Warning: Column C is already defined on input line 1060.
 
-[53
+[54
 
 
 
@@ -2644,30 +2662,32 @@ Overfull \hbox (16.69984pt too wide) in paragraph at lines 1125--1140
  [][] 
  []
 
-[54
+[55
 
 
 ]
 Underfull \vbox (badness 4621) has occurred while \output is active []
 
- [55]
+ [56]
 Underfull \vbox (badness 4621) has occurred while \output is active []
 
- [56] [57]) [58] (Yuwen_thesis.bbl (Yuwen_thesis.brf)
+ [57] [58]) [59] [60
+
+
+] (Yuwen_thesis.bbl
+(Yuwen_thesis.brf)
 \tf@brf=\write8
 \openout8 = `Yuwen_thesis.brf'.
 
-[59
+ [61
 
-
-
-] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69])
+] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[70
+[72
 runsystem(makeindex -s Yuwen_thesis.ist -t Yuwen_thesis.glg -o Yuwen_thesis.gls Yuwen_thesis.glo)...executed (allowed).
 
 ]
@@ -2677,10 +2697,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `Yuwen_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 68DE84C559E8C8C02FE9AF4636926E95;1753.
-Package rerunfilecheck Info: File `Yuwen_thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: D53B8B26DB4298B67DEEDF19A202569A;11358.
+(rerunfilecheck)             Checksum: AD44B6BD5E1C84A91AF79E873FE513AB;1754.
 
+
+Package rerunfilecheck Warning: File `Yuwen_thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Yuwen_thesis.brf':
+(rerunfilecheck)             Before: 2D67378A2D3C02D77B2FEECF3AB9ED9C;11305
+(rerunfilecheck)             After:  EE7C101F9DC83035F1B2917DB922DEA0;11305.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2690,9 +2715,9 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 264 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41438 strings out of 492970
- 793568 string characters out of 3135854
- 868105 words of memory out of 3000000
+ 41440 strings out of 492970
+ 793582 string characters out of 3135854
+ 867096 words of memory out of 3000000
  44302 multiletter control sequences out of 15000+200000
  569223 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2706,9 +2731,9 @@ type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/ut
 mr8a.pfb>
-Output written on Yuwen_thesis.pdf (70 pages, 8358469 bytes).
+Output written on Yuwen_thesis.pdf (72 pages, 8361349 bytes).
 PDF statistics:
- 1473 PDF objects out of 1728 (max. 8388607)
- 288 named destinations out of 1000 (max. 500000)
+ 1489 PDF objects out of 1728 (max. 8388607)
+ 290 named destinations out of 1000 (max. 500000)
  711 words of extra memory for PDF output out of 10000 (max. 10000000)
 
