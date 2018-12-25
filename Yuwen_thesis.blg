@@ -1,14 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Yuwen_thesis.aux
-A level-1 auxiliary file: ./Introduction/Yuwen_Introduction.aux
-A level-1 auxiliary file: ./Background/Yuwen_Background.aux
-A level-1 auxiliary file: ./Segmentation/Yuwen_Segmentation.aux
-A level-1 auxiliary file: ./QuantitativeAnalysis/Yuwen_QuantitativeAnalysis.aux
-A level-1 auxiliary file: ./ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.aux
-A level-1 auxiliary file: ./Conclusion/Yuwen_Conclusion.aux
-A level-1 auxiliary file: ./Appendix/appendix.aux
 The style file: apalike.bst
+I found no \citation commands---while reading file Yuwen_thesis.aux
 Database file #1: ./Reference/Yuwen_Reference.bib
-Warning--can't use both volume and number fields in lynch2006usual
-Warning--can't use both volume and number fields in ryu2014idiopathic
-Warning--can't use both volume and number fields in smith1986respiratory
-(There were 3 warnings)
+(There was 1 error message)
