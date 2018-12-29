@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  29 DEC 2018 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  29 DEC 2018 15:57
 entering extended mode
 **./Yuwen_thesis.tex
 (Yuwen_thesis.tex
@@ -1438,7 +1438,15 @@ File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
-) (Yuwen_thesis.aux)
+) (Yuwen_thesis.aux
+(ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.aux
+
+LaTeX Warning: Label `eq:TerminalBoundaryCondition' multiply defined.
+
+
+LaTeX Warning: Label `eq:TracheaFlow' multiply defined.
+
+))
 \openout1 = `Yuwen_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1455,8 +1463,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 81.
@@ -1588,11 +1595,6 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-
-LaTeX Warning: Reference `OlderRespiratory' on page 1 undefined on input line 2.
-
 
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
@@ -1609,62 +1611,9 @@ Underfull \vbox (badness 2359) has occurred while \output is active []
 {C:/Users/28678/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `smith1986respiratory' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `zaugg2000respiratory' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `mittman1965relationship' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `pollock1997twenty' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `mcclaran1995longitudinal' on page 2 undefined on input line 6.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 2 undefined on input line 8.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 2 undefined on input line 8.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 2 undefined on input line 8.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 2 undefined on input line 8.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 2 undefined on input line 8.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 2 undefined on input line 8.
-
-
-LaTeX Warning: Reference `tab:AgeingAlterations' on page 2 undefined on input line 8.
-
-[2]
-
-Package natbib Warning: Citation `sprung2006age' on page 3 undefined on input line 13.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 3 undefined on input line 13.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 3 undefined on input line 13.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 3 undefined on input line 13.
-
+ [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 
 Underfull \hbox (badness 1776) in paragraph at lines 50--50
 []|\OT1/ptm/m/n/12 - Re-spon-sive-ness to hy-pox-emia
@@ -1677,154 +1626,12 @@ Overfull \hbox (21.77577pt too wide) in paragraph at lines 15--55
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-
-Package natbib Warning: Citation `murray1986normal' on page 3 undefined on input line 61.
-
-
-Package natbib Warning: Citation `crapo1993aging' on page 3 undefined on input line 61.
-
-
-Package natbib Warning: Citation `zaugg2000respiratory' on page 3 undefined on input line 61.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 3 undefined on input line 61.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 3 undefined on input line 61.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 3 undefined on input line 61.
-
-
-Package natbib Warning: Citation `wijesinghe2005effect' on page 3 undefined on input line 63.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 3 undefined on input line 63.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 3 undefined on input line 63.
-
-
-Package natbib Warning: Citation `arora1982respiratory' on page 3 undefined on input line 63.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 3 undefined on input line 63.
-
-
-Package natbib Warning: Citation `larsson1983histochemical' on page 3 undefined on input line 63.
-
 [3] [4]
 Overfull \hbox (11.78368pt too wide) in paragraph at lines 65--65
 []\OT1/ptm/b/n/14.4 Ageing-associated al-ter-ations in pul-monary me-chan-ics and lung
  []
 
-
-Package natbib Warning: Citation `mittman1965relationship' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `turner1968elasticity' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `zaugg2000respiratory' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `turner1968elasticity' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `zaugg2000respiratory' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 5 undefined on input line 66.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 5 undefined on input line 68.
-
-
-LaTeX Warning: Reference `ChestWallChange' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `knudson1976maximal' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `crapo1993aging' on page 5 undefined on input line 68.
-
-
-Package natbib Warning: Citation `brandstetter1983aging' on page 5 undefined on input line 68.
-
 [5]
-
-Package natbib Warning: Citation `holland1968regional' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `paoletti1985reference' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `wahba1983influence' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `sprung2006age' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `levitzky1984effects' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `levitzky1984effects' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `lalley2013aging' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `janssens1999physiological' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `smith1986respiratory' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `zaugg2000respiratory' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `guenard1996pulmonary' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `murray1986normal' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `verbeken1992senile' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `thurlbeck1975growth' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `butler1970capillary' on page 6 undefined on input line 71.
-
-
-Package natbib Warning: Citation `guenard1996pulmonary' on page 6 undefined on input line 71.
-
-
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
  [6]
@@ -1833,84 +1640,56 @@ Overfull \hbox (10.33685pt too wide) in paragraph at lines 73--73
  []
 
 
-LaTeX Warning: Reference `fig:WholeFramework' on page 7 undefined on input line 74.
-
-
-Underfull \vbox (badness 1199) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-<ModelBasedAnalysis/Image/WholeFramework.png, id=80, 1628.484pt x 1907.4462pt>
+<ModelBasedAnalysis/Image/WholeFramework.png, id=279, 1628.484pt x 1907.4462pt>
 File: ModelBasedAnalysis/Image/WholeFramework.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/WholeFramework.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/WholeFramework.png  used on input line 78.
 (pdftex.def)             Requested size: 382.51985pt x 448.07378pt.
-
-
-LaTeX Warning: Reference `VolumeAnalysis' on page 8 undefined on input line 87.
-
-
-LaTeX Warning: Reference `SSMBasedAnalysis' on page 8 undefined on input line 87.
-
-
-LaTeX Warning: Reference `ShapeModelGeneration' on page 8 undefined on input line 87.
-
-
-LaTeX Warning: Reference `AgingRespiratory' on page 8 undefined on input line 90.
-
-
-LaTeX Warning: Reference `MeshPrediction' on page 8 undefined on input line 90.
-
-
-LaTeX Warning: Reference `SSMBasedAnalysis' on page 8 undefined on input line 90.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [8] [9 <./ModelBasedAnalysis/Image/WholeFramework.png
 
 pdfTeX warning: pdflatex.exe (file ./ModelBasedAnalysis/Image/WholeFramework.png): large interlaced PNG might cause out 
 of memory (use non-interlaced PNG to fix this)
->] [10]
+>]
 
-LaTeX Warning: Reference `eq:MultivariateRegression' on page 11 undefined on input line 102.
+LaTeX Warning: Reference `VolumeAnalysis' on page 10 undefined on input line 87.
 
 
-Underfull \vbox (badness 3323) has occurred while \output is active []
+LaTeX Warning: Reference `SSMBasedAnalysis' on page 10 undefined on input line 87.
 
- [11]
 
-LaTeX Warning: Reference `eq:MultivariateRegression' on page 12 undefined on input line 116.
+LaTeX Warning: Reference `ShapeModelGeneration' on page 10 undefined on input line 87.
 
-[12]
+
+LaTeX Warning: Reference `AgingRespiratory' on page 10 undefined on input line 90.
+
+
+LaTeX Warning: Reference `MeshPrediction' on page 10 undefined on input line 90.
+
+
+LaTeX Warning: Reference `SSMBasedAnalysis' on page 10 undefined on input line 90.
+
+[10] [11]
+Underfull \vbox (badness 5036) has occurred while \output is active []
+
+ [12]
 
 LaTeX Warning: Reference `DataNormalization' on page 13 undefined on input line 140.
 
 
-Package natbib Warning: Citation `tawhai2000generation' on page 13 undefined on input line 140.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+
+LaTeX Warning: Reference `DataNormalization' on page 14 undefined on input line 144.
 
 
-Package natbib Warning: Citation `tawhai2004ct' on page 13 undefined on input line 140.
+Underfull \vbox (badness 5637) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `fig:AirwayGeneration-a' on page 13 undefined on input line 142.
-
-
-LaTeX Warning: Reference `DataNormalization' on page 13 undefined on input line 144.
-
-[13]
-
-Package natbib Warning: Citation `tawhai2000generation' on page 14 undefined on input line 146.
-
-
-Package natbib Warning: Citation `tawhai2004ct' on page 14 undefined on input line 146.
-
-
-Package natbib Warning: Citation `haefeli1988morphometry' on page 14 undefined on input line 146.
-
-
-LaTeX Warning: Reference `fig:AirwayGeneration-b' on page 14 undefined on input line 146.
-
-<ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png, id=121, 615.0478pt x 499.8675pt>
+ [14]
+<ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png, id=337, 615.0478pt x 499.8675pt>
 File: ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png  used on input line 153.
@@ -1921,7 +1700,7 @@ Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.
 (pdftex.def)             Requested size: 221.67393pt x 180.1581pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
-<ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png, id=124, 456.20438pt x 462.22687pt>
+<ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png, id=340, 456.20438pt x 462.22687pt>
 File: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png  used on input line 161.
@@ -1930,176 +1709,23 @@ File: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png Graphic file (type pn
 <use ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png  used on input line 162.
 (pdftex.def)             Requested size: 177.75908pt x 180.10553pt.
+ [15 <./ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png> <./ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.
+png>]
+Underfull \vbox (badness 3803) has occurred while \output is active []
 
-Package natbib Warning: Citation `crystal1976idiopathic' on page 14 undefined on input line 175.
+ [16]
+Overfull \hbox (2.45137pt too wide) in paragraph at lines 193--194
+\OT1/ptm/m/n/12 mor-pho-me-t-ric stud-ies ([][]Hors-field[], []1978[]; [][]Hors-field and Gor-don[], []1981[]; [][]Huang
+ et al.[], []1996[]).
+ []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-
-Package natbib Warning: Citation `horsfield1976diameter' on page 15 undefined on input line 182.
-
-
-Package natbib Warning: Citation `plantier2016increased' on page 15 undefined on input line 186.
-
-
-Package natbib Warning: Citation `breatnach1984dimensions' on page 15 undefined on input line 186.
-
-[15 <./ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png> <./ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.p
-ng>]
-
-Package natbib Warning: Citation `weibel1984pathway' on page 16 undefined on input line 191.
-
-
-Package natbib Warning: Citation `hsia2016lung' on page 16 undefined on input line 191.
-
-
-Package natbib Warning: Citation `clark2010contribution' on page 16 undefined on input line 191.
-
-
-Package natbib Warning: Citation `clark2011interdependent' on page 16 undefined on input line 191.
-
-[16]
-
-Package natbib Warning: Citation `horsfield1978morphometry' on page 17 undefined on input line 193.
-
-
-Package natbib Warning: Citation `horsfield1981morphometry' on page 17 undefined on input line 193.
-
-
-Package natbib Warning: Citation `huang1996morphometry' on page 17 undefined on input line 193.
-
-
-Package natbib Warning: Citation `horsfield1978morphometry' on page 17 undefined on input line 193.
-
-
-Package natbib Warning: Citation `horsfield1981morphometry' on page 17 undefined on input line 193.
-
-
-Package natbib Warning: Citation `huang1996morphometry' on page 17 undefined on input line 193.
-
-
-Package natbib Warning: Citation `swan2012computational' on page 17 undefined on input line 196.
-
-
-Package natbib Warning: Citation `clark2010contribution' on page 17 undefined on input line 196.
-
-
-Package natbib Warning: Citation `clark2011interdependent' on page 17 undefined on input line 196.
-
-
-Package natbib Warning: Citation `swan2010evidence' on page 17 undefined on input line 196.
-
-
-Package natbib Warning: Citation `swan2012computational' on page 17 undefined on input line 199.
-
-
-Package natbib Warning: Citation `tawhai2009supine' on page 17 undefined on input line 199.
-
-[17]
-
-Package natbib Warning: Citation `pedley1970energy' on page 18 undefined on input line 201.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-
-LaTeX Warning: Reference `eq:AcinarFlowEquation' on page 19 undefined on input line 224.
-
-
-LaTeX Warning: Reference `eq:AcinarFlowEquation' on page 19 undefined on input line 231.
-
-
-Package natbib Warning: Citation `swan2012computational' on page 19 undefined on input line 231.
-
-
-Package natbib Warning: Citation `clark2011interdependent' on page 19 undefined on input line 234.
-
-
-LaTeX Warning: Reference `AirwayVesselGeometry' on page 19 undefined on input line 234.
-
-
+[17] [18] [19] [20] [21]
 Underfull \vbox (badness 3323) has occurred while \output is active []
 
- [19]
-
-LaTeX Warning: Reference `eq:VesselFlow' on page 20 undefined on input line 245.
-
-[20]
-
-LaTeX Warning: Reference `eq:VesselFlow1' on page 21 undefined on input line 252.
-
-
-Package natbib Warning: Citation `fung1969theory' on page 21 undefined on input line 259.
-
-
-LaTeX Warning: Reference `eq:VesselDeformation' on page 21 undefined on input line 266.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
-
-LaTeX Warning: Reference `eq:VesselDeformation' on page 22 undefined on input line 273.
-
-
-LaTeX Warning: Reference `eq:CapillarySheetDeformation' on page 22 undefined on input line 273.
-
-
-Package natbib Warning: Citation `glazier1969measurements' on page 22 undefined on input line 280.
-
-
-Package natbib Warning: Citation `kapitan1986computer' on page 22 undefined on input line 283.
-
-
-Package natbib Warning: Citation `swan2010multi' on page 22 undefined on input line 283.
-
-[22]
-
-LaTeX Warning: Reference `eq:AirSideGasTransport' on page 23 undefined on input line 292.
-
-[23]
-
-Package natbib Warning: Citation `ben2006simplified' on page 24 undefined on input line 335.
-
-
-Package natbib Warning: Citation `swan2010evidence' on page 24 undefined on input line 335.
-
-
-Package natbib Warning: Citation `swan2010multi' on page 24 undefined on input line 335.
-
-
+ [22] [23] [24]
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
- [24]
-
-Package natbib Warning: Citation `swan2010evidence' on page 25 undefined on input line 356.
-
-
-Package natbib Warning: Citation `swan2010multi' on page 25 undefined on input line 356.
-
-[25]
-
-LaTeX Warning: Reference `eq:O2TransferFactor' on page 26 undefined on input line 372.
-
-
-LaTeX Warning: Reference `tab:ModelParameters' on page 26 undefined on input line 374.
-
-
-Package natbib Warning: Citation `swan2010evidence' on page 26 undefined on input line 374.
-
-
-Package natbib Warning: Citation `swan2010multi' on page 26 undefined on input line 374.
-
-
-Package natbib Warning: Citation `clark2011interdependent' on page 26 undefined on input line 374.
-
-
-Package natbib Warning: Citation `swan2012computational' on page 26 undefined on input line 374.
-
-[26]
+ [25] [26] [27]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2136,138 +1762,31 @@ Package natbib Warning: Citation `swan2012computational' on page 26 undefined on
 
 Package array Warning: Column C is already defined on input line 378.
 
-
-Package natbib Warning: Citation `pedley1970energy' on page 27 undefined on input line 387.
-
-
-Package natbib Warning: Citation `krenz2003flow' on page 27 undefined on input line 390.
+[28] [29
 
 
-Package natbib Warning: Citation `pries1996biophysical' on page 27 undefined on input line 391.
-
-
-Package natbib Warning: Citation `pries1996biophysical' on page 27 undefined on input line 392.
-
-
-Package natbib Warning: Citation `fung2013biomechanics' on page 27 undefined on input line 393.
-
-
-Package natbib Warning: Citation `fung2013biomechanics' on page 27 undefined on input line 394.
-
-
-Package natbib Warning: Citation `fung1969theory' on page 27 undefined on input line 395.
-
-
-Package natbib Warning: Citation `clark2010contribution' on page 27 undefined on input line 396.
-
-
-Package natbib Warning: Citation `hall2015guyton' on page 27 undefined on input line 397.
-
-
-Package natbib Warning: Citation `weibel2005design' on page 27 undefined on input line 398.
-
-
-Package natbib Warning: Citation `weibel1993morphometric' on page 27 undefined on input line 399.
-
-
-Package natbib Warning: Citation `weibel1993morphometric' on page 27 undefined on input line 400.
-
-
-Package natbib Warning: Citation `weibel1993morphometric' on page 27 undefined on input line 401.
-
-
-Package natbib Warning: Citation `weibel1997design' on page 27 undefined on input line 402.
-
-
-Package natbib Warning: Citation `keener1998mathematical' on page 27 undefined on input line 403.
-
-
-Package natbib Warning: Citation `keener1998mathematical' on page 27 undefined on input line 404.
-
-
-Package natbib Warning: Citation `hill1973mathematical' on page 27 undefined on input line 405.
-
-
-Package natbib Warning: Citation `hill1973mathematical' on page 27 undefined on input line 406.
-
-
-Package natbib Warning: Citation `hill1973mathematical' on page 27 undefined on input line 407.
-
-
-Package natbib Warning: Citation `ben2006simplified' on page 27 undefined on input line 408.
-
-[27
 
 
 ]
-
-LaTeX Warning: Reference `fig:DiseaseLabeling' on page 28 undefined on input line 419.
-
-[28
-
-
-]
-<ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png, id=227, 648.92438pt x 463.7325pt>
+<ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png, id=595, 648.92438pt x 463.7325pt>
 File: ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png  used on input line 42
 4.
 (pdftex.def)             Requested size: 293.2807pt x 209.58255pt.
-
-
-LaTeX Warning: Reference `ComputationalModelConstruction' on page 29 undefined on input line 430.
-
-
-Package natbib Warning: Citation `de1980inspiratory' on page 29 undefined on input line 430.
-
-[29 <./ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png>]
-
-Package natbib Warning: Citation `gilbert1972changes' on page 30 undefined on input line 437.
-
-
-Package natbib Warning: Citation `pelosi1998effects' on page 30 undefined on input line 437.
-
-
-LaTeX Warning: Reference `ComputationalModelConstruction' on page 30 undefined on input line 440.
-
-
-Package natbib Warning: Citation `brandfonbrener1955changes' on page 30 undefined on input line 440.
-
-
-Package natbib Warning: Citation `miyamura1973maximum' on page 30 undefined on input line 440.
-
-
-Package natbib Warning: Citation `stelfox2006hemodynamic' on page 30 undefined on input line 440.
-
-
-LaTeX Warning: Reference `ComputationalModelConstruction' on page 30 undefined on input line 443.
-
-
-Package natbib Warning: Citation `kwan2004standard' on page 30 undefined on input line 443.
-
-
-Package natbib Warning: Citation `coelho2013estimation' on page 30 undefined on input line 443.
-
-[30]
+ [30 <./ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png>] [31]
 Overfull \hbox (0.5984pt too wide) in paragraph at lines 455--456
 \OT1/ptm/m/n/12 where $\OML/cmm/m/it/12 P[]$ \OT1/ptm/m/n/12 is the unit oxy-gen con-sump-tion at rest ($\OML/cmm/m/it/1
 2 P[] \OT1/cmr/m/n/12 = 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 84 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1
 /cmr/m/n/12 34\OML/cmm/m/it/12 ml=kg[]=min[]$
  []
 
-[31]
-
-LaTeX Warning: Reference `tab:PatientIndividualData' on page 32 undefined on input line 463.
-
-
-LaTeX Warning: Reference `fig:LungShapePrediction' on page 32 undefined on input line 463.
-
-
+[32]
 Overfull \hbox (23.78337pt too wide) in paragraph at lines 469--477
  [][] 
  []
 
-<ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png, id=249, 481.8pt x 376.40625pt>
+<ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png, id=645, 481.8pt x 376.40625pt>
 File: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png  used on input line 484.
@@ -2276,7 +1795,7 @@ File: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png  used on input line 485.
 (pdftex.def)             Requested size: 196.57973pt x 153.57515pt.
-<ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png, id=251, 520.94624pt x 481.8pt>
+<ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png, id=647, 520.94624pt x 481.8pt>
 File: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png  used on input line 492.
@@ -2285,23 +1804,11 @@ File: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png  used on input line 493.
 (pdftex.def)             Requested size: 167.2989pt x 154.72316pt.
+[33 <./ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png> <./ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>]
 
-LaTeX Warning: Reference `tab:AverageLobeVolume_Predicted' on page 32 undefined on input line 501.
+LaTeX Warning: Reference `SSMBasedAnalysis' on page 34 undefined on input line 545.
 
-[32 <./ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png> <./ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>]
-
-LaTeX Warning: Reference `SSMBasedAnalysis' on page 33 undefined on input line 545.
-
-
-LaTeX Warning: Reference `fig:LungShapePrediction' on page 33 undefined on input line 545.
-
-
-LaTeX Warning: Reference `tab:AverageLobeVolume_Predicted' on page 33 undefined on input line 545.
-
-
-LaTeX Warning: Reference `fig:AirwayGeometry' on page 33 undefined on input line 549.
-
-[33]
+[34]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2334,7 +1841,7 @@ LaTeX Warning: Reference `fig:AirwayGeometry' on page 33 undefined on input line
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png, id=274, 511.9125pt x 584.93532pt>
+<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png, id=672, 511.9125pt x 584.93532pt>
 File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png  used on input line 556.
@@ -2343,7 +1850,7 @@ File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png Graphic file (type
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png  used on input line 557.
 (pdftex.def)             Requested size: 144.20155pt x 164.7755pt.
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png, id=276, 629.35126pt x 539.76656pt>
+<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png, id=674, 629.35126pt x 539.76656pt>
 File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png  used on input line 560.
@@ -2358,7 +1865,7 @@ Overfull \hbox (17.66452pt too wide) in paragraph at lines 555--562
 [][] 
  []
 
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png, id=278, 360.59718pt x 574.39594pt>
+<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png, id=676, 360.59718pt x 574.39594pt>
 File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png  used on input line 566.
@@ -2367,7 +1874,7 @@ File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png Graphic file (type
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png  used on input line 567.
 (pdftex.def)             Requested size: 102.07797pt x 162.6075pt.
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png, id=280, 515.67656pt x 505.13719pt>
+<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png, id=678, 515.67656pt x 505.13719pt>
 File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png  used on input line 569.
@@ -2382,7 +1889,7 @@ Overfull \hbox (14.04237pt too wide) in paragraph at lines 568--571
 [] 
  []
 
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png, id=282, 367.3725pt x 590.205pt>
+<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png, id=680, 367.3725pt x 590.205pt>
 File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png  used on input line 575.
@@ -2391,7 +1898,7 @@ File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png Graphic file (type
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png  used on input line 576.
 (pdftex.def)             Requested size: 99.86456pt x 160.43948pt.
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png, id=284, 504.38437pt x 599.23875pt>
+<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png, id=682, 504.38437pt x 599.23875pt>
 File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png  used on input line 578.
@@ -2401,7 +1908,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 577--580
 [][]
  []
 
-<ModelBasedAnalysis/Image/LobeColors.png, id=286, 221.1462pt x 219.219pt>
+<ModelBasedAnalysis/Image/LobeColors.png, id=684, 221.1462pt x 219.219pt>
 File: ModelBasedAnalysis/Image/LobeColors.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/LobeColors.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/LobeColors.png  used on input line 585.
@@ -2420,23 +1927,11 @@ Overfull \hbox (75.57146pt too wide) in paragraph at lines 584--588
 [] 
  []
 
-[34 <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.
+[35 <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.
 png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2
 .png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_
 3.png> <./ModelBasedAnalysis/Image/LobeColors.png>]
-
-LaTeX Warning: Reference `fig:AirwayGeometry' on page 35 undefined on input line 595.
-
-
-LaTeX Warning: Reference `fig:VesselTreeGeometry' on page 35 undefined on input line 598.
-
-
-LaTeX Warning: Reference `tab:AirwayParameter' on page 35 undefined on input line 598.
-
-
-LaTeX Warning: Reference `tab:VesselParameter' on page 35 undefined on input line 598.
-
-<ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png, id=310, 379.6584pt x 326.6604pt>
+<ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png, id=711, 379.6584pt x 326.6604pt>
 File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png  used on input line 603.
@@ -2445,7 +1940,7 @@ File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png Graphic file (type pn
 <use ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png  used on input line 604.
 (pdftex.def)             Requested size: 230.04079pt x 197.92671pt.
-<ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png, id=312, 258.7266pt x 324.7332pt>
+<ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png, id=713, 258.7266pt x 324.7332pt>
 File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png  used on input line 611.
@@ -2454,7 +1949,7 @@ File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png Graphic file (type
 <use ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png  used on input line 612.
 (pdftex.def)             Requested size: 158.93843pt x 199.48923pt.
-[35
+ [36
 
 
 
@@ -2492,40 +1987,23 @@ Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- [36]
-
-LaTeX Warning: Reference `tab:InspirationVolume' on page 37 undefined on input line 681.
-
-
+ [37]
 Overfull \hbox (48.54288pt too wide) in paragraph at lines 687--702
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:InspirationVolume' on page 37 undefined on input line 704.
-
-
-LaTeX Warning: Reference `fig:InspirationCurve' on page 37 undefined on input line 704.
-
-
-LaTeX Warning: Reference `tab:FibrosisPercent' on page 37 undefined on input line 704.
-
-[37
+[38
 
 
 
 
 ]
-<ModelBasedAnalysis/Image/InspirationCurve.png, id=339, 489.9906pt x 391.7034pt>
+<ModelBasedAnalysis/Image/InspirationCurve.png, id=745, 489.9906pt x 391.7034pt>
 File: ModelBasedAnalysis/Image/InspirationCurve.png Graphic file (type png)
 <use ModelBasedAnalysis/Image/InspirationCurve.png>
 Package pdftex.def Info: ModelBasedAnalysis/Image/InspirationCurve.png  used on input line 709.
 (pdftex.def)             Requested size: 262.17603pt x 209.58255pt.
-
-
-LaTeX Warning: Reference `fig:MIGETFigure' on page 38 undefined on input line 736.
-
-[38 <./ModelBasedAnalysis/Image/InspirationCurve.png>] [39]
+ [39 <./ModelBasedAnalysis/Image/InspirationCurve.png>] [40]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2558,7 +2036,7 @@ LaTeX Warning: Reference `fig:MIGETFigure' on page 38 undefined on input line 73
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg, id=352, 1564.84625pt x 1252.68pt>
+<ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg, id=757, 1564.84625pt x 1252.68pt>
 File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg  used on input line 743.
@@ -2567,12 +2045,12 @@ File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg Graphic file 
 <use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg  used on input line 744.
 (pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg, id=354, 1564.84625pt x 1252.68pt>
+<ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg, id=759, 1564.84625pt x 1252.68pt>
 File: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg  used on input line 747.
 (pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg, id=356, 1564.84625pt x 1252.68pt>
+<ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg, id=761, 1564.84625pt x 1252.68pt>
 File: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg  used on input line 750.
@@ -2592,7 +2070,7 @@ Overfull \hbox (7.73898pt too wide) in paragraph at lines 742--752
 [][] 
  []
 
-<ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg, id=358, 1564.84625pt x 1252.68pt>
+<ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg, id=763, 1564.84625pt x 1252.68pt>
 File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg  used on input line 756.
@@ -2601,12 +2079,12 @@ File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg Graphic file (
 <use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg  used on input line 757.
 (pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg, id=360, 1564.84625pt x 1252.68pt>
+<ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg, id=765, 1564.84625pt x 1252.68pt>
 File: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg  used on input line 759.
 (pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg, id=362, 1564.84625pt x 1252.68pt>
+<ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg, id=767, 1564.84625pt x 1252.68pt>
 File: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg  used on input line 761.
@@ -2626,14 +2104,11 @@ Overfull \hbox (39.83844pt too wide) in paragraph at lines 741--766
 []$[]$  $[]$ 
  []
 
-[40 <./ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Li
+[41 <./ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Li
 ne_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_Nor
 mal_MIGET_Bar_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg> <./ModelBasedAnalysis/Image/I
 PF511_PFTBased_MIGET_Bar_figure.jpg>]
-
-LaTeX Warning: Reference `fig:VQDistribution' on page 41 undefined on input line 772.
-
-<ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg, id=377, 741.972pt x 542.025pt>
+<ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg, id=782, 741.972pt x 542.025pt>
 File: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg  used on input line 777.
@@ -2642,7 +2117,7 @@ File: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg Graphic file (ty
 <use ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg  used on input line 778.
 (pdftex.def)             Requested size: 250.95476pt x 183.32666pt.
-<ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg, id=379, 677.4108pt x 542.025pt>
+<ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg, id=784, 677.4108pt x 542.025pt>
 File: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg  used on input line 783.
@@ -2651,7 +2126,7 @@ File: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg Graphic file (type
 <use ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg  used on input line 784.
 (pdftex.def)             Requested size: 250.95476pt x 200.79422pt.
-<ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg, id=381, 741.972pt x 542.025pt>
+<ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg, id=786, 741.972pt x 542.025pt>
 File: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg Graphic file (type jpg)
 <use ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg>
 Package pdftex.def Info: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg  used on input line 789.
@@ -2661,13 +2136,11 @@ File: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg Graphic file (type jpg)
 Package pdftex.def Info: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg  used on input line 790.
 (pdftex.def)             Requested size: 250.95476pt x 183.32666pt.
 
+
 LaTeX Warning: Float too large for page by 90.2173pt on input line 796.
 
 
-LaTeX Warning: Reference `tab:PartialPressure' on page 41 undefined on input line 798.
-
-
-LaTeX Warning: Reference `appendixMIGET' on page 41 undefined on input line 798.
+LaTeX Warning: Reference `appendixMIGET' on page 42 undefined on input line 798.
 
 
 Overfull \hbox (66.33902pt too wide) in paragraph at lines 804--821
@@ -2677,51 +2150,32 @@ Overfull \hbox (66.33902pt too wide) in paragraph at lines 804--821
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41
+ [42
 
 
-] [42 <./ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg> <./ModelBasedAnalysis/Image/PerfusionAgainstLungHeig
+] [43 <./ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg> <./ModelBasedAnalysis/Image/PerfusionAgainstLungHeig
 ht.jpg> <./ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg>]
 Underfull \vbox (badness 5133) has occurred while \output is active []
 
- [43]
+ [44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `cottin2005combined' on page 44 undefined on input line 830.
-
-
-Package natbib Warning: Citation `king2011idiopathic' on page 44 undefined on input line 830.
-
-
-Package natbib Warning: Citation `lin2015combined' on page 44 undefined on input line 830.
-
-
-Package natbib Warning: Citation `slebos2015air' on page 44 undefined on input line 830.
-
-
-Package natbib Warning: Citation `hoesein2017air' on page 44 undefined on input line 830.
-
-[44]) [45] [46
-
-
-] (Yuwen_thesis.bbl (Yuwen_thesis.brf)
+ [45]) [46] (Yuwen_thesis.bbl (Yuwen_thesis.brf)
 \tf@brf=\write8
 \openout8 = `Yuwen_thesis.brf'.
 
 
+[47
 
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-)
 
-Package natbib Warning: There were undefined citations.
-
+] [48] [49] [50] [51] [52] [53])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[47
-
+[54
 runsystem(makeindex -s Yuwen_thesis.ist -t Yuwen_thesis.glg -o Yuwen_thesis.gls Yuwen_thesis.glo)...executed (allowed).
 
 ]
@@ -2730,57 +2184,44 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (Yuwen_thesis.aux (ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package rerunfilecheck Info: File `Yuwen_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 1F595706AEC29D5B71F307CF9B51748E;1619.
 
 
-Package rerunfilecheck Warning: File `Yuwen_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package rerunfilecheck Warning: File `Yuwen_thesis.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
 
-Package rerunfilecheck Info: Checksums for `Yuwen_thesis.out':
-(rerunfilecheck)             Before: 015C3239973D9D92282D4B26D3B2BC2D;367
-(rerunfilecheck)             After:  1F595706AEC29D5B71F307CF9B51748E;1619.
-Package rerunfilecheck Info: File `Yuwen_thesis.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: Checksums for `Yuwen_thesis.brf':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  FBF9B0531E3B71D537FF39DAEACADFA4;7993.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40378 strings out of 492970
- 767176 string characters out of 3135854
- 851332 words of memory out of 3000000
- 43414 multiletter control sequences out of 15000+200000
+ 40949 strings out of 492970
+ 781174 string characters out of 3135854
+ 860581 words of memory out of 3000000
+ 43913 multiletter control sequences out of 15000+200000
  565017 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,92p,2426b,783s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{chapter*.6} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.5} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.4} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.3} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.2} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.1} has been referenced but does not exist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmr8a.pfb>
-Output written on Yuwen_thesis.pdf (47 pages, 6346009 bytes).
+ 55i,15n,92p,2426b,990s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmr8a.pfb>
+Output written on Yuwen_thesis.pdf (54 pages, 6437291 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 966 PDF objects out of 1000 (max. 8388607)
+ 218 named destinations out of 1000 (max. 500000)
+ 422 words of extra memory for PDF output out of 10000 (max. 10000000)
 
