@@ -151,9 +151,9 @@ In order to generate an airway tree in the lung shape, the bi-cubic Hermite fini
 
 \begin{figure}[htbp] 
 \centering
-\begin{subfigure}{.53\linewidth}% set image scale
-  \sbox0{\includegraphics{ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/IPF511_UpperAirwayDigitizing3.png}
+\begin{subfigure}{.51\linewidth}% set image scale
+  \sbox0{\includegraphics{ModelBasedAnalysis/Image/UpperAirwayDigitizing.png}}
+  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/UpperAirwayDigitizing.png}
   \caption{Manual digitized upper airway}
   \label{fig:AirwayGeneration-a} 
 \end{subfigure}
@@ -506,12 +506,32 @@ Ventilation, perfusion and gas exchange models were solved under normal conditio
 \subsubsection{Disease region labelling}
 The different tissue patterns classified by CALIPER were mapped to the individual airway/vessel trees of each subject. For each airway/vessel terminal node, the corresponding tissue pattern it belonged to (surrounded by) was extracted (through finding the tissue pattern of the closest voxel to the node), so that each terminal node can be labelled by tissue pattern using an index number. The percentage distribution of each tissue pattern against gravitational height (cranio-caudal axis) quantified in Chapter 4 was also used in the labelling. If the initial labelled amount of disease nodes was less than the cranio-caudal percentage, additional disease regions were added until the cranio-caudal distribution of disease matched the CALIPER classified data. Figure \ref{fig:DiseaseLabeling} shows the disease labelled airway nodes of one patient diagnosed with IPF. Table \ref{tab:DiseasePercent} lists the volume percentage of fibrosis (honeycomb + reticular + ground-glass) and emphysema classified by CALIPER software for each time point of these two patients.
 
-\begin{figure*}[htbp]
-  \centering 
-  \includegraphics[height=2.9in]{ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png}
-  \caption{Disease labeled airway nodes. Green is classified as normal tissue, blue is fibrosis, and red is emphysema.}
-  \label{fig:DiseaseLabeling}
-\end{figure*}
+\begin{figure}[htbp] 
+\centering
+\begin{subfigure}{.39\linewidth}% set image scale
+  \sbox0{\includegraphics{ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png}}
+  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png}
+  \caption{Disease labelled airway nodes}
+  \label{fig:DiseaseLabeling-a} 
+\end{subfigure}
+%\vspace{.3in} % control space between the upper context and figure
+\hspace{.5in} % control space between two figures
+\begin{subfigure}{.51\linewidth}% set image scale
+  \sbox0{\includegraphics{ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png}}
+  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png}
+  \caption{CALIPER classified tissue patterns}
+  \label{fig:DiseaseLabeling-b} 
+\end{subfigure}
+\caption{Disease labeled airway nodes. Green is classified as normal tissue, blue is fibrosis, and red is emphysema.}
+\label{fig:DiseaseLabeling}
+\end{figure}
+
+%\begin{figure*}[htbp]
+  %\centering 
+  %\includegraphics[height=2.9in]{ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png}
+  %\caption{Disease labeled airway nodes. Green is classified as normal tissue, blue is fibrosis, and red is emphysema.}
+  %\label{fig:DiseaseLabeling}
+%\end{figure*}
 
 \begin{table}[htbp]
 \centering
@@ -588,7 +608,7 @@ Table \ref{tab:PatientIndividualData} lists the age, BMI and functional measures
 
 \begin{figure}[htbp] 
 \centering
-\begin{subfigure}{.47\linewidth}% set image scale
+\begin{subfigure}{.49\linewidth}% set image scale
   \sbox0{\includegraphics{ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png}
   \caption{IPF lung mesh}
@@ -707,7 +727,7 @@ The generated IPF and control artery trees are shown in Figure \ref{fig:VesselTr
 
 \begin{figure}[htbp] 
 \centering
-\begin{subfigure}{.55\linewidth}% set image scale
+\begin{subfigure}{.5\linewidth}% set image scale
   \sbox0{\includegraphics{ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png}
   \caption{IPF vessel tree}
@@ -715,7 +735,7 @@ The generated IPF and control artery trees are shown in Figure \ref{fig:VesselTr
 \end{subfigure}
 %\vspace{.1in} % control space between the upper context and figure
 \hspace{.1in} % control space between two figures
-\begin{subfigure}{.38\linewidth}% set image scale
+\begin{subfigure}{.4\linewidth}% set image scale
   \sbox0{\includegraphics{ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png}
   \caption{Control vessel tree}
