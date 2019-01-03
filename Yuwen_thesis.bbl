@@ -6,11 +6,6 @@ Arora, N.~S. and Rochester, D.~F. (1982).
   undernourished patients.
 \newblock {\em American Review of Respiratory Disease}, 126(1):5--8.
 
-\bibitem[Ben-Tal, 2006]{ben2006simplified}
-Ben-Tal, A. (2006).
-\newblock Simplified models for gas exchange in the human lungs.
-\newblock {\em Journal of Theoretical Biology}, 238(2):474--495.
-
 \bibitem[Brandfonbrener et~al., 1955]{brandfonbrener1955changes}
 Brandfonbrener, M., Landowne, M., and Shock, N.~W. (1955).
 \newblock Changes in cardiac output with age.
@@ -31,6 +26,19 @@ Butler, C. and Kleinerman, J. (1970).
 \newblock Capillary density: alveolar diameter, a morphometric approach to
   ventilation and perfusion.
 \newblock {\em American Review of Respiratory Disease}, 102(6):886--894.
+
+\bibitem[Chakraborty et~al., 2004]{chakraborty2004diffusing}
+Chakraborty, S., Balakotaiah, V., and Bidani, A. (2004).
+\newblock Diffusing capacity reexamined: relative roles of diffusion and
+  chemical reaction in red cell uptake of o2, co, co2, and no.
+\newblock {\em Journal of applied physiology}, 97(6):2284--2302.
+
+\bibitem[Clark et~al., 2014]{clark2014lack}
+Clark, A., Milne, D., Wilsher, M., Burrowes, K., Bajaj, M., and Tawhai, M.
+  (2014).
+\newblock Lack of functional information explains the poor performance of
+  ‘clot load scores’ at predicting outcome in acute pulmonary embolism.
+\newblock {\em Respiratory physiology \& neurobiology}, 190:1--13.
 
 \bibitem[Clark et~al., 2010]{clark2010contribution}
 Clark, A.~R., Burrowes, K.~S., and Tawhai, M.~H. (2010).
@@ -109,17 +117,6 @@ Haefeli-Bleuer, B. and Weibel, E.~R. (1988).
 \newblock Morphometry of the human pulmonary acinus.
 \newblock {\em The Anatomical Record}, 220(4):401--414.
 
-\bibitem[Hall, 2015]{hall2015guyton}
-Hall, J.~E. (2015).
-\newblock {\em Guyton and Hall textbook of medical physiology e-Book}.
-\newblock Elsevier Health Sciences.
-
-\bibitem[Hill et~al., 1973]{hill1973mathematical}
-Hill, E.~P., Power, G.~G., and Longo, L. (1973).
-\newblock A mathematical model of carbon dioxide transfer in the placenta and
-  its interaction with oxygen.
-\newblock {\em American Journal of Physiology-Legacy Content}, 224(2):283--299.
-
 \bibitem[Hoesein and De~Jong, 2017]{hoesein2017air}
 Hoesein, F. A.~M. and De~Jong, P.~A. (2017).
 \newblock Air trapping on computed tomography: regional versus diffuse.
@@ -134,6 +131,11 @@ Holland, J., Milic-Emili, J., Macklem, P., and Bates, D. (1968).
 Horsfield, K. (1978).
 \newblock Morphometry of the small pulmonary arteries in man.
 \newblock {\em Circulation research}, 42(5):593--597.
+
+\bibitem[Horsfield et~al., 1971]{horsfield1971models}
+Horsfield, K., Dart, G., Olson, D.~E., Filley, G.~F., and Cumming, G. (1971).
+\newblock Models of the human bronchial tree.
+\newblock {\em Journal of applied physiology}, 31(2):207--217.
 
 \bibitem[Horsfield and Gordon, 1981]{horsfield1981morphometry}
 Horsfield, K. and Gordon, W. (1981).
@@ -164,11 +166,6 @@ Janssens, J.-P., Pache, J.-C., and Nicod, L. (1999).
 Kapitan, K.~S. and Hempleman, S.~C. (1986).
 \newblock Computer simulation of mammalian gas-exchange.
 \newblock {\em Computers in biology and medicine}, 16(2):91--101.
-
-\bibitem[Keener and Sneyd, 1998]{keener1998mathematical}
-Keener, J.~P. and Sneyd, J. (1998).
-\newblock {\em Mathematical physiology}, volume~1.
-\newblock Springer.
 
 \bibitem[King~Jr et~al., 2011]{king2011idiopathic}
 King~Jr, T.~E., Pardo, A., and Selman, M. (2011).
@@ -233,11 +230,22 @@ Miyamura, M. and HONDA, Y. (1973).
 \newblock Maximum cardiac output related to sex and age.
 \newblock {\em The Japanese journal of physiology}, 23(6):645--656.
 
+\bibitem[Monod et~al., 1965]{monod1965nature}
+Monod, J., Wyman, J., and Changeux, J.-P. (1965).
+\newblock On the nature of allosteric transitions: a plausible model.
+\newblock {\em Biol}, 12:228--113.
+
 \bibitem[Murray, 1986]{murray1986normal}
 Murray, J.~F. (1986).
 \newblock {\em The normal lung: the basis for diagnosis and treatment of
   pulmonary disease}.
 \newblock WB Saunders Company.
+
+\bibitem[Osanlouy, 2018]{Osanlouy2018Statistical}
+Osanlouy, M. (2018).
+\newblock {\em Statistical Shape Analysis to Quantify Lung Structure-Function
+  Relationships over the Adult Lifespan}.
+\newblock PhD thesis, University of Auckland.
 
 \bibitem[Paoletti et~al., 1985]{paoletti1985reference}
 Paoletti, P., Viegi, G., Pistelli, G., Di~Pede, F., Fazzi, P., Polato, R.,
@@ -257,6 +265,12 @@ Pelosi, P., Croci, M., Ravagnan, I., Tredici, S., Pedoto, A., Lissoni, A., and
 \newblock The effects of body mass on lung volumes, respiratory mechanics, and
   gas exchange during general anesthesia.
 \newblock {\em Anesthesia \& Analgesia}, 87(3):654--660.
+
+\bibitem[Plantier et~al., 2018]{plantier2018physiology}
+Plantier, L., Cazes, A., Dinh-Xuan, A.-T., Bancal, C., Marchand-Adam, S., and
+  Crestani, B. (2018).
+\newblock Physiology of the lung in idiopathic pulmonary fibrosis.
+\newblock {\em European Respiratory Review}, 27(147):170062.
 
 \bibitem[Plantier et~al., 2016]{plantier2016increased}
 Plantier, L., Debray, M.-P., Estellat, C., Flamant, M., Roy, C., Bancal, C.,
@@ -303,6 +317,12 @@ Stelfox, H.~T., Ahmed, S.~B., Ribeiro, R.~A., Gettings, E.~M., Pomerantsev, E.,
   index on cardiac output and stroke volume.
 \newblock {\em Critical care medicine}, 34(4):1243--1246.
 
+\bibitem[Strickland et~al., 1993]{strickland1993cause}
+Strickland, N., Hughes, J., Hart, D., Myers, M., and Lavender, J. (1993).
+\newblock Cause of regional ventilation-perfusion mismatching in patients with
+  idiopathic pulmonary fibrosis: a combined ct and scintigraphic study.
+\newblock {\em AJR. American journal of roentgenology}, 161(4):719--725.
+
 \bibitem[Swan, 2010]{swan2010multi}
 Swan, A. (2010).
 \newblock {\em A multi-scale computational model of pulmonary gas exchange}.
@@ -333,12 +353,6 @@ Tawhai, M.~H., Nash, M.~P., Lin, C.-L., and Hoffman, E.~A. (2009).
   pressure gradients in the human lung with constant shape.
 \newblock {\em Journal of Applied Physiology}, 107(3):912--920.
 
-\bibitem[Tawhai et~al., 2000]{tawhai2000generation}
-Tawhai, M.~H., Pullan, A., and Hunter, P. (2000).
-\newblock Generation of an anatomically based three-dimensional model of the
-  conducting airways.
-\newblock {\em Annals of biomedical engineering}, 28(7):793--802.
-
 \bibitem[Thurlbeck and Angus, 1975]{thurlbeck1975growth}
 Thurlbeck, W.~M. and Angus, G.~E. (1975).
 \newblock Growth and aging of the normal human lung.
@@ -362,28 +376,11 @@ Wahba, W. (1983).
   from age twenty.
 \newblock {\em Anesthesia \& Analgesia}, 62(8):764--776.
 
-\bibitem[Weibel, 1997]{weibel1997design}
-Weibel, E. (1997).
-\newblock Design and morphometry of the pulmonary gas exchanger.
-\newblock {\em The lung: scientific foundations}, 1:1147--57.
-
 \bibitem[Weibel, 1984]{weibel1984pathway}
 Weibel, E.~R. (1984).
 \newblock {\em The pathway for oxygen: structure and function in the mammalian
   respiratory system}.
 \newblock Harvard University Press.
-
-\bibitem[Weibel et~al., 1993]{weibel1993morphometric}
-Weibel, E.~R., Federspiel, W.~J., Fryder-Doffey, F., Hsia, C.~C., K{\"o}nig,
-  M., Stalder-Navarro, V., and Vock, R. (1993).
-\newblock Morphometric model for pulmonary diffusing capacity i. membrane
-  diffusing capacity.
-\newblock {\em Respiration physiology}, 93(2):125--149.
-
-\bibitem[Weibel et~al., 2005]{weibel2005design}
-Weibel, E.~R., Sapoval, B., and Filoche, M. (2005).
-\newblock Design of peripheral airways for efficient gas exchange.
-\newblock {\em Respiratory physiology \& neurobiology}, 148(1-2):3--21.
 
 \bibitem[Wijesinghe and Dow, 2005]{wijesinghe2005effect}
 Wijesinghe, M. and Dow, L. (2005).
