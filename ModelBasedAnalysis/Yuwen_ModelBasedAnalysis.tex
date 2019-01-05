@@ -1,11 +1,11 @@
 \chapter{Functional modelling of idiopathic pulmonary fibrosis}\label{Yuwen_ModelBasedAnalysis}
-In Chapter 4, HRCT based quantitative analysis and shape analysis methods were developed to provide a consistent way of describing the features and progressions of IPF disease. However, it is not clear how - or whether - the spatial distribution of tissue abnormalities in IPF (including classifications of tissue type) correlate with lung function and their change over time. Translating these imaging and shape bio-markers into functional bio-markers to directly help with clinical diagnosis and treatment is still a challenge in progress. For the patient with IPF, V/Q mismatching and hypoxaemia are frequent occurrences. Computational modelling provides a novel way to understand how changes to the lung tissue contribute to the decline of lung function, therefore modelling can be used to build a relationship between image-based bio-markers and functional presentations. This chapter outlines an approach to functional modelling of IPF. The quantitative tissue-level and shape-level features described in previous chapters were combined with pulmonary function tests (PFTs) to guide a patient-specific computational model of lung function in IPF. The lung function of healthy older adults was also modelled for comparison with the IPF models. This chapter therefore aims to integrate data from volumetric imaging, PFTs, and computational models of lung function, to understand differences between IPF and normal older lungs. Lung function in IPF has been described in Chapter 2, and lung function in healthy older people will be introduced in Section \ref{OlderRespiratory}.
+In Chapter 4, HRCT based quantitative analysis and shape analysis methods were developed to provide a consistent way of describing the features and progressions of IPF disease. However, it is not clear how - or whether - the spatial distribution of tissue abnormalities in IPF (including classifications of tissue type) correlate with lung function and their change over time. Translating these imaging and shape bio-markers into functional bio-markers to directly help with clinical diagnosis and treatment is still a challenge in progress. For the patient with IPF, V/Q mismatching and hypoxaemia are frequent occurrences. Computational modelling provides a novel way to understand how changes to the lung tissue contribute to observed decline in lung function, therefore modelling can be used to build a relationship between image-based bio-markers and functional presentations. This chapter outlines an approach to functional modelling of IPF. The quantitative tissue-level and shape-level features described in previous chapters were combined with pulmonary function tests (PFTs) to guide a patient-specific computational model of lung function in IPF. The lung function of healthy older adults was also modelled for comparison with the IPF models. This chapter therefore aims to integrate data from volumetric imaging, PFTs, and computational models of lung function, to understand differences between IPF and normal older lungs. Lung function in IPF has been described in Chapter 2, and lung function in healthy older people will be introduced in Section \ref{OlderRespiratory}. However, lung function is expected to decline with age even in normal individuals. Therefore, expected respiratory function in older people is first introduced, and then computational models aiming to reproduce this function are described.
 
 %%% Section 1
 \section{Respiratory structure and function in older people} \label{OlderRespiratory}
-The respiratory system of the human keeps developing during the whole life, with the peak-point of pulmonary function achieved before 30 years of age \citep{janssens1999physiological,sprung2006age}. For most people, respiratory performance begins to gradually decline after reaching the maximal status. The ability of the lung to deliver more oxygen to tissues than they require (''reserve capacity'') decreases by about four-fold from age 20 to age 70 in healthy people \citep{smith1986respiratory,zaugg2000respiratory}. Even in older athletes who experience vigorous endurance exercise and have better aerobic ability, the functional capability of the lung will progressively deteriorate over time \citep{mittman1965relationship, pollock1997twenty, mcclaran1995longitudinal}. 
+The respiratory system of the human keeps developing throughout life, with the peak-point of pulmonary function achieved before 30 years of age \citep{janssens1999physiological,sprung2006age}. For most people, respiratory performance begins to gradually decline after reaching this maximal status. The ability of the lung to deliver more oxygen to tissues than they require (''reserve capacity'') decreases by about four-fold from age 20 to age 70 in healthy people \citep{smith1986respiratory,zaugg2000respiratory}. Even in older athletes who experience vigorous endurance exercise and have better aerobic ability, the functional capability of the lung will progressively deteriorate over time \citep{mittman1965relationship, pollock1997twenty, mcclaran1995longitudinal}. 
 
-The ageing-related changes in respiratory physiology are usually associated with structural alterations in both lungs, dilatation of alveoli, enlargement of airspaces, decrease in gas exchange surface area, and increased residual volume (RV) and functional residual capacity (FRC) \citep{sprung2006age,lalley2013aging}. There is a reduction in chest wall compliance and the static elastic recoil of the lung, which will lead to static air-trapping, decrease in \gls{vc}, decrease in expiratory flows and increasing work of breathing compared with younger individuals \citep{sprung2006age}. The strength of respiratory muscles decreases with age, and this is strongly correlated with nutritional status (lean body mass, body weight) and cardiac index \citep{janssens1999physiological}. The V/Q ratio heterogeneity tends to increase results from a closing of dependent airways, and carbon monoxide transfer capability also decreases which is associated with the reduced alveolar surface area. Interestingly, despite these changes, some research indicated that gas exchange may be preserved both at rest and during exertion, with only a slight reduction in arterial oxygen tension, and no significant change in arterial carbon dioxide tension, but pulmonary reserve is diminished \citep{janssens1999physiological, sprung2006age}. These age-associated changes are summarized and described in detail in Table \ref{tab:AgeingAlterations}.
+Ageing-related changes in respiratory physiology are usually associated with structural alterations in both lungs, dilatation of alveoli, enlargement of airspaces, a decrease in gas exchange surface area, and increased residual volume (RV) and functional residual capacity (FRC) \citep{sprung2006age,lalley2013aging}. There is a reduction in chest wall compliance and the static elastic recoil of the lung, which will lead to static air-trapping, a decrease in \gls{vc}, a decrease in expiratory flows and an increasing work of breathing compared with younger individuals \citep{sprung2006age}. The strength of respiratory muscles decreases with age, and this is strongly correlated with nutritional status (lean body mass, body weight) and cardiac index \citep{janssens1999physiological}. The V/Q ratio heterogeneity tends to increase results from a closing of dependent airways, and carbon monoxide transfer capability also decreases which is associated with the reduced alveolar surface area \citep{janssens1999physiological}. Interestingly, despite these changes, some research indicated that gas exchange may be preserved both at rest and during exertion, with only a slight reduction in arterial oxygen tension, and no significant change in arterial carbon dioxide tension, but pulmonary reserve is diminished \citep{janssens1999physiological, sprung2006age}. These age-associated changes are summarized in Table \ref{tab:AgeingAlterations}.
 
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
@@ -58,23 +58,23 @@ The ageing-related changes in respiratory physiology are usually associated with
 \end{table}
 
 \subsection{Ageing-associated alterations in the chest wall and respiratory muscle function} \label{ChestWallChange}
-Several morphological changes occur in chest wall and diaphragm in older people that reduce the capability and efficiency of the respiratory system. One of the most important changes is the progressive decline in chest wall compliance, which relates to the decrease of cross sectional area of the intercostal muscles, calcification of costal cartilage and rib-vertebral articulations, and narrowing of intervertebral disk spaces \citep{murray1986normal, crapo1993aging}. The structural changes in the chest wall have been found to be associated with reduction in the curvature of the diaphragm and in the maximal transdiaphragmatic pressure, however the thickness of the diaphragm seems not to change significantly in older adults \citep{zaugg2000respiratory, sprung2006age}. It is noted that age-associated osteoporosis results in a shape change of the thorax geometry; that is, an increase in dorsal kyphosis and anterior-posterior chest diameter \citep{janssens1999physiological,sprung2006age}. 
+Several morphological changes occur in chest wall and diaphragm in older people that reduce the efficiency of the respiratory system. One of the most important changes is a progressive decline in chest wall compliance, which relates to a decrease in cross sectional area of the intercostal muscles, calcification of costal cartilage and rib-vertebral articulations, and narrowing of intervertebral disk spaces \citep{murray1986normal, crapo1993aging}. The structural changes that occurs in the chest wall are associated with a reduction in the curvature of the diaphragm and in the maximal transdiaphragmatic pressure, however the thickness of the diaphragm seems not to change significantly in older adults \citep{zaugg2000respiratory, sprung2006age}. It is noted that age-associated osteoporosis results in a shape change of the thorax geometry; that is, an increase in dorsal kyphosis and anterior-posterior chest diameter \citep{janssens1999physiological,sprung2006age}. 
 
-The reduction in respiratory muscle strength caused by age-related decrease of maximal static inspiratory and expiratory pressures will lead to lower efficiency of respiratory muscle activity \citep{wijesinghe2005effect,sprung2006age,lalley2013aging}. It has been shown that the reduced respiratory muscle strength is associated with the deficient nutritional status in older people, and a strong relationship has been found between maximal inspiratory/expiratory pressure and lean body mass \citep{arora1982respiratory,janssens1999physiological}. Meanwhile, some studiess have shown that the electromyographic signal produced by twitch stimulation decreases by around 50\% in 70-year-olds compared with young subjects, and this reduction is attributed to the loss of type II fast-twitch muscle fibres \citep{larsson1983histochemical}. 
+The reduction in respiratory muscle strength caused by age-related decrease of maximal static inspiratory and expiratory pressures will lead to lower efficiency of respiratory muscle activity \citep{wijesinghe2005effect,sprung2006age,lalley2013aging}. It has been shown that the reduced respiratory muscle strength is associated with a deficient nutritional status in older people, and a strong relationship has been found between maximal inspiratory/expiratory pressure and lean body mass \citep{arora1982respiratory,janssens1999physiological}. The electromyographic signal produced by twitch stimulation decreases by around 50\% in 70-year-olds compared with young subjects, and this reduction is attributed to the loss of type II fast-twitch muscle fibres \citep{larsson1983histochemical}. 
 
 \subsection{Ageing-associated alterations in pulmonary mechanics and lung volumes}
-Although the chest wall becomes stiffer in older people, their lung parenchyma actually become more compliant \citep{mittman1965relationship, turner1968elasticity, zaugg2000respiratory}. The elastic recoil pressure of lung tissue gradually reduces with ageing, at a rate of around 0.1 to 0.2 $\mathrm{cmH_2O}$ on average every year \citep{turner1968elasticity}, and this reduction is attributed to the alterations in the spatial distribution of the elastic fibre network \citep{sprung2006age}. In older people, it can be observed that the static pressure-volume curve of the lung is shifted to the left; in contrast, the pressure-volume curve of the thorax is shifted to the right \citep{zaugg2000respiratory,sprung2006age}.
+Although the chest wall becomes stiffer in older people, their lung parenchyma actually becomes more compliant \citep{mittman1965relationship, turner1968elasticity, zaugg2000respiratory}. The elastic recoil pressure of lung tissue gradually reduces with ageing, at a rate of around 0.1 to 0.2 $\mathrm{cmH_2O}$ on average every year \citep{turner1968elasticity}, and this reduction is attributed to the alterations in the spatial distribution of the elastic fibre network in the lung parenchyma \citep{sprung2006age}. In older people, the static pressure-volume curve of the lung is shifted to the left; in contrast, the pressure-volume curve of the thorax is shifted to the right \citep{zaugg2000respiratory,sprung2006age}.
 
-The tidal volume experiences a slight decrease with ageing, whereas the respiratory rate gradually increases \citep{sprung2006age}. As mentioned in Section \ref{ChestWallChange}, the chest wall becomes stiffer with ageing, while the lung tissues become more compliant. These changes will lead to an increase in RV and a decrease in VC \citep{lalley2013aging}. Some research indicates that RV will increase by approximately 50\% from a 20-year-old to a 70-year-old on average, and VC will drop to around 75\% of the peak value during this period, with a decrease of 20 to 30 ml per year \citep{janssens1999physiological, sprung2006age}. The TLC, which is the the air volume in the lungs during a maximum respiratory effort, remains unchanged with age, as the effect of the decreased inward elastic recoil of the lung is offset by the reduction in the outward elastic recoil of the chest wall \citep{sprung2006age}. However, the FRC increases by 1 to 3\% per decade, since the rate of decrease in lung recoil exceeds the rate of decrease in chest wall compliance \citep{janssens1999physiological, lalley2013aging}. Forced vital capacity (FVC) and forced expiratory volume in one second (FE$V_1$) have been demonstrated to decrease progressively with ageing in both men and women \citep{knudson1976maximal}, but the volumes reduce more rapidly in males than in females \citep{crapo1993aging}. FE$V_1$ decreases by 20 approximately ml per year in subjects aged 25 to 29 years, but for people more than 65 years old, the average annual rate of reduction is more dramatic: up to 38 ml \citep{brandstetter1983aging}.
+The tidal volume also experiences a slight decrease with age, whereas the respiratory rate gradually increases \citep{sprung2006age}. As mentioned in Section \ref{ChestWallChange}, the chest wall becomes stiffer with age, while the lung tissues become more compliant. These changes will lead to an increase in RV and a decrease in VC \citep{lalley2013aging}. Some research has indicated that RV increases by approximately 50\% from a 20-year-old to a 70-year-old on average, and VC will drop to around 75\% of its peak value during this period, with a decrease of 20 to 30 ml per year \citep{janssens1999physiological, sprung2006age}. The TLC, which is the the air volume in the lungs during a maximum respiratory effort, remains unchanged with age, as the effect of the decreased inward elastic recoil of the lung is offset by the reduction in the outward elastic recoil of the chest wall \citep{sprung2006age}. However, FRC increases by 1 to 3\% per decade, since the rate of decrease in lung recoil exceeds the rate of decrease in chest wall compliance \citep{janssens1999physiological, lalley2013aging}. Forced vital capacity (FVC) and forced expiratory volume in one second (FE$V_1$) have been demonstrated to decrease progressively with ageing in both men and women \citep{knudson1976maximal}, but these measurements decrease more rapidly in males than in females \citep{crapo1993aging}. FE$V_1$ decreases by 20 approximately ml per year in subjects aged 25 to 29 years, but for people more than 65 years old, the average annual rate of reduction is more dramatic: up to 38 ml \citep{brandstetter1983aging}.
 
 \subsection{Ageing-associated alterations in gas exchange}
-The inhomogeneity or ''mismatch'' of ventilation and perfusion increases with age, especially in the gravitationally dependent regions of the lung where intrapleural pressure becomes higher with age, and as the lung tissues become less elastic, they fail to keep small airways open \citep{holland1968regional, paoletti1985reference, lalley2013aging}. The increased ventilation-perfusion heterogeneity results in a reduction in $\mathrm{P_a O_2}$, with a progressive drop from approximate 95 mmHg at 20 years to about 75 mmHg at 70 years. However, $\mathrm{Pa CO_2}$ remains almost unchanged with increasing age, although $\mathrm{Pa O_2}$ declines \citep{wahba1983influence, sprung2006age}. This can probably be explained by the decreased rate of basal metabolism and the higher diffusive capability of $\mathrm{CO_2}$ across the alveolar-capillary membrane \citep{ levitzky1984effects}. Local pulmonary perfusion can also reduce with age in some regions that are well ventilated as a result of reduced cardiac output \citep{levitzky1984effects,lalley2013aging}. The alveolar-arterial pressure difference for oxygen ($\mathrm{P_{A-a} O_2}$) increases with ageing due to the increased heterogeneity of V/Q, and is probably also related to the increase in closing volume during breathing \citep{janssens1999physiological}. It can be observed that $\mathrm{PaO_2}$ reduces at a rate of approximately 5 mm Hg per decade from the age of 20 years. Additionally, the diffusing capacity of the lungs for carbon monoxide (DLCO) decreases with age \citep{guenard1996pulmonary}, with loss of about 0.3 $\mathrm{mL.min^{-1}mmHg^{-1}}$ and 0.2 $\mathrm{mL.min^{-1}mmHg^{-1}}$ per year for men and women, respectively \citep{murray1986normal}. The reduction is more significant after 40 yrs of age, and the increased mismatch in V/Q, a decline in the alveolar surface area \citep{verbeken1992senile, thurlbeck1975growth}, the decreased density of lung capillaries \citep{butler1970capillary} and the reduction in pulmonary capillary blood volume \citep{guenard1996pulmonary} are all potential factors to cause the reduced diffusion capacity.
+The inhomogeneity or ''mismatch'' in ventilation and perfusion increases with age, especially in the gravitationally dependent regions of the lung where intrapleural pressure becomes higher with age, and as the lung tissues become less elastic, they fail to keep small airways open \citep{holland1968regional, paoletti1985reference, lalley2013aging}. The increased ventilation-perfusion heterogeneity results in a reduction in $\mathrm{P_a O_2}$, with a progressive drop from approximate 95 mmHg at 20 years to about 75 mmHg at 70 years. However, $\mathrm{Pa CO_2}$ remains almost unchanged with increasing age, although $\mathrm{Pa O_2}$ declines \citep{wahba1983influence, sprung2006age}. This can possibly be explained by a decreased rate of basal metabolism and a higher diffusive capability of $\mathrm{CO_2}$ across the alveolar-capillary membrane \citep{ levitzky1984effects}. Local pulmonary perfusion can also reduce with age in some regions that are well ventilated as a result of reduced cardiac output \citep{levitzky1984effects,lalley2013aging}. The alveolar-arterial pressure difference for oxygen ($\mathrm{P_{A-a} O_2}$) increases with ageing due to the increased heterogeneity of V/Q, and this change is probably also related to the increase in closing volume during breathing \citep{janssens1999physiological}. It can be observed that $\mathrm{PaO_2}$ reduces at a rate of approximately 5 mmHg per decade from the age of 20 years. Additionally, the diffusing capacity of the lungs for carbon monoxide (DLCO) decreases with age \citep{guenard1996pulmonary}, with loss of about 0.3 $\mathrm{mL.min^{-1}mmHg^{-1}}$ and 0.2 $\mathrm{mL.min^{-1}mmHg^{-1}}$ per year for men and women, respectively \citep{murray1986normal}. The reduction is more significant after 40 yrs of age, and the increased mismatch in V/Q, a decline in the alveolar surface area \citep{verbeken1992senile, thurlbeck1975growth}, the decreased density of lung capillaries \citep{butler1970capillary} and the reduction in pulmonary capillary blood volume \citep{guenard1996pulmonary} are all potential factors that may cause a reduced diffusion capacity.
 
 \subsection{Relationship between lung function and lung shape}
-There is strong evidence that age-related changes in lung structures are associated with a series of alterations in respiratory function (introduced in Section \ref{OlderRespiratory}). For example, the reduction in chest wall compliance of older people leads to a decrease in VC, while an increased RV in the elderly usually results in impaired capability of gas exchange which relates to a lower measured DLCO. In a previous study \citep{Osanlouy2018Statistical}, several lung structure-function relationships were analysed through quantifying the correlations between the first three PCA-based mode weights calculated for a SSM of a healthy cohort aged 20-90 years with age, BMI, lung volume and some pulmonary function measurements. For each training subject of this SSM, the individual weight scores for each of the first three shape modes (which captures most shape variation) were examined. An ordinary least squares regression was applied to test the associations, and the P value was used to quantify the strength of each association, with an alpha level of 0.05 considered statistically significant. Analysis showed that Mode 1 is positively correlated with $\mathrm{FEV_1}$, $\mathrm{FEV_1/FVC}$, Maximal mid-expiratory Flow (FEF25\%-75\%), BMI and DLCO, whereas it is negatively correlated with age, RV and RV/TLC. For Mode 2, only BMI was found to be correlated with the shape variation, whereas quite a number of lung volume measurements (including FRC, TLC ,VC and RV) showed strong relationships with Mode 3.
+There is strong evidence that age-related changes in lung structures are associated with a series of alterations in respiratory function (introduced in Section \ref{OlderRespiratory}). For example, the reduction in chest wall compliance of older people leads to a decrease in VC, while an increased RV in the elderly usually results in impaired capability of gas exchange which relates to a lower measured DLCO. In a previous study \citep{Osanlouy2018Statistical}, several lung structure-function relationships were analysed through quantifying the correlations between the first three PCA-based mode weights calculated for a SSM of a healthy cohort aged 20-90 years with age, BMI, lung volume and some pulmonary function measurements. For each training subject of this SSM, the individual weight scores for each of the first three shape modes (which captures most shape variation) were examined. An ordinary least squares regression was applied to test the associations, and the P value was used to quantify the strength of each association, with an alpha level of 0.05 considered statistically significant. Analysis showed that Mode 1 is positively correlated with $\mathrm{FEV_1}$, $\mathrm{FEV_1/FVC}$, Maximal mid-expiratory Flow (FEF25\%-75\%), BMI and DLCO, whereas it is negatively correlated with age, RV and RV/TLC. For Mode 2, only BMI is found to be correlated with the shape variation, whereas quite a number of lung volume measurements (including FRC, TLC ,VC and RV) showed strong relationships with Mode 3.
 
 \section{Methods: Patient-specific modelling of IPF lung function}
-In this section, a patient-specific computational model of lung function is proposed to explore V/Q matching and whole lung gas exchange for patients with IPF. In order to make a comparison of lung function between the IPF patient and older normal people, for each patient, a subject-specific lung mesh that represents the statistical lung shape of a normal individual of the same age, BMI and pulmonary functional data was predicted using an SSM. Anatomically-based airway and blood vessel trees were generated from HRCT images of IPF subjects, and for the corresponding normal lung mesh. Ventilation, perfusion, and gas exchange were simulated in the IPF and control models under baseline healthy conditions, and with constriction of airways and/or blood vessels in tissue regions classified as abnormal. To achieve this, the individual's lung parenchymal tissue classification and quantification data was mapped to their spatial model, with fibrosis assumed to reduce tissue compliance and narrow vessels. Data from PFTs were used to parameterize the models and set the boundary conditions for simulation. The modelling framework is illustrated in Figure \ref{fig:WholeFramework}. 
+In this section, a patient-specific computational model of lung function is proposed to explore V/Q matching and whole lung gas exchange for patients with IPF. In order to make a comparison of lung function between the IPF patient and older normal people, for each patient, a subject-specific lung mesh that represents the statistical lung shape of a normal individual of the same age, BMI and pulmonary function data was predicted using an SSM. Anatomically-based airway and blood vessel trees were generated from HRCT images of IPF subjects, and for the corresponding normal lung mesh. Ventilation, perfusion, and gas exchange were simulated in the IPF and control models under baseline healthy conditions, and with constriction of airways and/or blood vessels in tissue regions classified as abnormal. To achieve this, the individual's lung parenchymal tissue classification and quantification data was mapped to their spatial model, with fibrosis assumed to reduce tissue compliance and narrow vessels. Data from PFTs were used to parameterize the models and set the boundary conditions for simulation. The modelling framework is illustrated in Figure \ref{fig:WholeFramework}. 
 
 \begin{figure*}[htbp]
   \centering 
@@ -83,15 +83,15 @@ In this section, a patient-specific computational model of lung function is prop
   \label{fig:WholeFramework}
 \end{figure*}
 
-\subsection{Clinical data}
+\subsection{Clinical data} \label{ClinicalData}
 Two patients diagnosed with IPF were selected from the clinical data used in Chapter 4 as representative subjects for functional modelling. Patient 1 is female with three imaging time points at 0, 12 and 23 months, and patient 2 is a male with two time points at 0 and 46 months. The clinical data for each patient includes both HRCT images and PFT results, with less than 3 months between the scan date and the PFT date. 
 
 \subsection{Construction of lung lobe geometry}
-In Chapter 4, Section \ref{VolumeAnalysis} and \ref{SSMBasedAnalysis}, the lung lobe shapes and volumes of an IPF cohort were compared with a normal older (control) cohort. It was shown that there is a significant difference of lung lobe geometry between IPF and older controls, and this alteration in lung shape is mainly in the basal region (lower lobe), which is strongly associated with the distribution of fibrosis in IPF. In order to include the impact of shape change into the modelling of lung function, a SSM of a normal older cohort and the IPF patient's individual information were combined to predict a lung lobe shape model of an age-matched normal as a control model for both IPF patients. The lung lobe mesh of each IPF patient was generated using the method introduced in Chapter 3, Section \ref{ShapeModelGeneration}.
+In Chapter 4, Section \ref{VolumeAnalysis} and \ref{SSMBasedAnalysis}, the lung lobe shapes and volumes of an IPF cohort were compared with a normal older (control) cohort with a similar age range. It was shown that there is a significant difference in lung lobar geometry between IPF and older controls. This alteration in lung shape is mainly basal (lower lobe), and is strongly associated with the distribution of fibrosis in IPF. In order to include the impact of shape change into the modelling of lung function, SSM of a normal older cohort and the IPF patient's individual information were combined to predict a lung lobe shape of an age-matched normal as a control model to compare to each IPF patient. The lung lobe mesh of each IPF patient was generated using the method introduced in Chapter 3, Section \ref{ShapeModelGeneration}.
 
 The SSM used to predict the age-matched control model in this chapter is different from \cite{Osanlouy2018Statistical}, because it only includes subjects aged 50 years and over. Underlying relationships with lung function are still expected to be present, however.
 
-\subsubsection{Shape prediction of old normal lungs}
+\subsubsection{Shape prediction of a normal lung to correspond to each IPF patient}
 A lung shape prediction model for a healthy cohort aged $geq$ 50 years was developed based on a previous analysis of lung structure-function relationships \citep{Osanlouy2018Statistical}. Age, BMI, FVC, $FEV_1$, FRC, TLC, VC, RV, RV/TLC and DLCO were selected as the individual functional measurements to train the lung shape predictive model, as these parameters have been shown to have relatively strong correlations with the first three shape modes. The training process for the lung shape predictive model was to find optimized equations that best describe the relationship between the functional measures and the mode weights. For each shape mode, a multivariate regression model was constructed as:
 
 \begin{equation}
@@ -101,7 +101,7 @@ A lung shape prediction model for a healthy cohort aged $geq$ 50 years was devel
 
 \noindent where $w_i$ is the weight score of the ith shape mode, n is the number of functional measures, $\alpha_{0i}, \alpha_{1i} ... \alpha_{ni}$ are the regression coefficients (in which $\alpha_{0i}$ is the intercept) $m_i$ is the tested value of the ith functional measure, and $\varepsilon$ is a random error. 
 
-Using Equation \ref{eq:MultivariateRegression}, a set of possible regression models can be developed for each shape mode (with different regression coefficients $\alpha_{0i}, \alpha_{1i} ... \alpha_{ni}$). In order to find the best predictive model from all the possible models, the two most common criterions for model selection-the \gls{aic} and the \gls{bic}-were used to deal with the trade-off between the goodness of fit of the model and the simplicity of the model. Both AIC and BIC are founded on information theory, with each calculated by:
+Using Equation \ref{eq:MultivariateRegression}, a set of possible regression models can be developed for each shape mode (with different regression coefficients $\alpha_{0i}, \alpha_{1i} ... \alpha_{ni}$). In order to find the best predictive model from all possible models, the two most common criterions for model selection-the \gls{aic} and the \gls{bic}-were used to deal with the trade-off between the goodness of fit of the model and the simplicity of the model \citep{aho2014model}. Both AIC and BIC are founded on information theory, with each calculated by:
 
 \begin{equation}
  \label{eq:AIC}
@@ -115,7 +115,7 @@ Using Equation \ref{eq:MultivariateRegression}, a set of possible regression mod
 
 \noindent where k is the number of the estimated parameters (that is the number of functional measures in this study) in the model, $L(\theta)$ is the maximized value of the likelihood function of the model and $\theta$ are the parameter values that maximize the likelihood function.
 
-The multivariate regression models with the lowest values of AIC and BIC were selected as the best predictive models, then the models of the first three PCA modes were constructed in the form of Equation \ref{eq:MultivariateRegression}, as follows:
+The multivariate regression models with the lowest values of AIC and BIC were selected as the best predictive models, then the models of the first three PCA modes were constructed in the form of Equation \ref{eq:MultivariateRegression}, as:
 
 \begin{equation} 
  \label{eq:TerminalBoundaryCondition}
@@ -126,7 +126,7 @@ The multivariate regression models with the lowest values of AIC and BIC were se
  \end{split}
 \end{equation}
  
-\noindent where $w_1$, $w_2$ and $w_3$ are the weight scores of the first three shape modes. Through inputting the individual functional measures into the regression models, the weights of first three modes can be calculated. Then the subject-specific predicted shape of the control lung model can be reconstructed by adding the linear combination of the first three modes to the average SSM:
+\noindent where $w_1$, $w_2$ and $w_3$ are the weight scores of the first three shape modes. By inputting the individual functional measures into the regression models, the weights of first three modes are calculated. Then the subject-specific predicted shape of the control lung model is reconstructed by adding the linear combination of the first three modes to the average SSM:
 
 \begin{equation}
  \label{eq:NormalLungPrediction}
@@ -136,10 +136,10 @@ The multivariate regression models with the lowest values of AIC and BIC were se
 \noindent where $S_{mean}$ is the mean of the SSM for the older normal cohort, and $S_{pred}$ is the subject-specific predicted lung shape. 
 
 \subsection{Construction of airway/vascular geometry} \label{AirwayVesselGeometry}
-Subject-specific conducting airway trees and pulmonary vasculature trees were constructed for both IPF and control models. The  geometry of the pulmonary airway and vessels are important subjcet-specific features. In this study, airway/vessel trees were first generated for the predicted control model, which represents a healthy lung matched to the IPF subjects. The models were then deformed to the shape of the IPF lung mesh which has quantifiable shape differences as described in Chapter 4. The airway/vasculature diameters were assigned to each branch as a postprocessing step, with values appropriate for a healthy lung and for IPF. In this way, the branches for the IPF and control airway/vascular models retain the same geometric connectivity and same lobar distribution, but have different radius and length. 
+Subject-specific conducting airway trees and pulmonary vasculature trees were constructed for both the actual shape of the IPF patient's lung and control model with the same characteristics of that subject. The geometry of the pulmonary airway and vessels are important subjcet-specific features. In this study, airway/vessel trees were first generated for the predicted control model, which represents a healthy lung matched to the IPF subjects. The models were then deformed to the shape of the IPF lung mesh which has quantifiable shape differences as described in Chapter 4. The airway/vasculature diameters were assigned to each branch as a postprocessing step, with values appropriate for a healthy lung and for IPF. In this way, the branches for the IPF and control airway/vascular models retain the same geometric connectivity and same lobar distribution, but have different radius and length. 
 
 \subsubsection{Airway tree}
-In order to generate an airway tree in the lung shape, the bi-cubic Hermite finite element mesh of the lung surface was converted to a tri-cubic Hermite volumetric mesh (introduced in Chapter 4, Section \ref{DataNormalization}). An anatomically-based structure of the bronchial airways (from trachea to terminal bronchioles) was generated using the methods described in detail in \cite{tawhai2004ct}. In brief, the centrelines of the largest airways (trachea, and left and right branches of the first 6 generations of airways) were manually segmented from the subject's HRCT images. This provides an incomplete description of the airway tree. Then, the larger airways were used as an initial condition to generate the remaining branches down to the level of the terminal bronchioles within the subject's lung mesh using a volume-filling branching algorithm. The steps to generate patient-specific airways in IPF and old normal lungs are summarized as follows:
+In order to generate an airway tree in the lung shape, the bi-cubic Hermite finite element mesh of the lung surface was converted to a tri-cubic Hermite volumetric mesh (introduced in Chapter 4, Section \ref{DataNormalization}). An anatomically-based structure of the bronchial airways (from trachea to terminal bronchioles) was generated using the methods described in detail by \cite{tawhai2004ct}. In brief, the centrelines of the largest airways (trachea, and left and right branches of the first 6 generations of airways) were manually segmented from the subject's HRCT images. This provides an incomplete description of the airway tree. Then, the larger airways were used as an initial condition to generate the remaining branches down to the level of the terminal bronchioles within the subject's lung mesh using a volume-filling branching algorithm. The steps to generate patient-specific airways in IPF and old normal lungs are summarized as follows:
 
 1. 1-D finite element mesh of the centrelines of IPF larger airways were created manually from HRCT raw images of the IPF patient (shown in Figure \ref{fig:AirwayGeneration-a}).
 
@@ -197,7 +197,7 @@ In the next stage, the diameters of the airway branches were assigned for both I
 Using the above steps, a patient-specific pulmonary airway geometry for IPF and the control lung were constructed. 
 
 \subsubsection{Vascular tree}
-The centrelines of the first two generations of vessel trees were manually segmented from HRCT images, and represented as a 1-D finite element mesh. In this thesis, the pulmonary arterial and venous trees of other generations were assumed to be approximate replicas of the airway tree. Using the airway tree to approximate vessel geometry is a reasonable assumption at this level, as the conventional pulmonary arteries generally follow the same branching pattern as the airways trees, and the airways and blood vessels have similar lengths and orientations. The airway and vasculature have been observed to bifurcate in union from larger branches to the bronchiole level, and the veins to divide at the approximate midpoint between adjacent airway bifurcations \citep{weibel1984pathway, hsia2016lung}. The manually-segmented main vessels plus the finite element model of the airway tree provided a full pulmonary blood vessel geometry for the IPF patient. The vascular structure for the control model was obtained using the same mapping procedure used for the airways as described previously. The microcirculatory model of Clark et al \citep{clark2010contribution,clark2011interdependent} was appended to each terminal arteriole, to supply a corresponding terminal venule. Thus model is a symmetric-branching system of arterioles and venules that are connected (from arteriole to venule) at each generation by a recruitable and distensible ''capillary sheet''.
+The centrelines of the first two generations of vessel trees were manually segmented from HRCT images, and represented as a 1-D finite element mesh. In this thesis, the pulmonary arterial and venous trees of other generations were assumed to be approximate replicas of the airway tree. Using the airway tree to approximate vessel geometry is a reasonable assumption, as the conventional pulmonary arteries generally follow the same branching pattern as the airways trees, and the airways and blood vessels have similar lengths and orientations. The airway and vasculature have been observed to bifurcate in union from larger branches to the bronchiole level, and the veins to divide at the approximate midpoint between adjacent airway bifurcations \citep{weibel1984pathway, hsia2016lung}. The manually-segmented main vessels plus the finite element model of the airway tree provided a full pulmonary blood vessel geometry for the IPF patient. The vascular structure for the control model was obtained using the same mapping procedure used for the airways as described previously. The microcirculatory model of \cite{clark2010contribution,clark2011interdependent} was appended to each terminal arteriole, to supply a corresponding terminal venule. Thus model is a symmetric-branching system of arterioles and venules that are connected (from arteriole to venule) at each generation by a recruitable and distensible ''capillary sheet''.
 
 The unstrained (zero transmural pressure ($P_{tm}$)) radius of the main pulmonary artery ($R_{mArtery}$) and vein ($R_{mVein}$) were assigned based on the patient-specific (measured) trachea radius and data from morphometric studies (Equation \ref{eq:VesselStructureParameters}) \citep{horsfield1978morphometry,horsfield1981morphometry,huang1996morphometry}. The radius of all other arteries and veins down to the distal level were calculated based on a defined rate of increase in diameter with vessel Strahler order, the Strahler diameter ratio for artery and vein ($R_dS_{Artery}$ and $R_dS_{Vein}$). The value of $R_dS$ for the arterial tree and venous tree were specified according to the radius of the main artery and vein, and aiming for consistency with published human data \citep{horsfield1971models, horsfield1978morphometry,horsfield1981morphometry,huang1996morphometry}:
 
@@ -224,10 +224,10 @@ The unstrained (zero transmural pressure ($P_{tm}$)) radius of the main pulmonar
 \noindent where $k_{Artery}$ is constant artery radius (equals to 11.53), $k_{Vein}$ is a constant for vein radius (equals to 6.3), $R_{Trachea_{ref}}$ is a statistical reference trachea radius (equals to 9 mm), $R_{sArtery}$ is the target for smallest arteries (equals to 0.125 mm), $R_{sVein}$ is the target for smallest veins (equals to 0.125 mm), and $R_oS$ is the Strahler order of the artery model. The vessel radius for the IPF models and the control models were then calculated. 
  
 \subsection{Construction of computational models} \label{ComputationalModelConstruction}
-In this chapter, computational modelling of lung function integrates previously published models of ventilation \citep{swan2012computational}, perfusion \citep{clark2010contribution, clark2011interdependent} and gas exchange \citep{swan2010evidence} to simulate $\dot{V}/\dot{Q}$ distribution and oxygen and carbon dioxide exchange during tidal breathing in the upright posture. The patient-specific geometry of airways and vessels were used as input for these models. A brief introduction of the model components is summarized below, and details can be found in the reference papers.
+In this chapter, computational modelling of lung function integrates previously published models of ventilation \citep{swan2012computational}, perfusion \citep{clark2010contribution, clark2011interdependent} and gas exchange \citep{clark2014lack} to simulate $\dot{V}/\dot{Q}$ distribution and oxygen and carbon dioxide exchange during tidal breathing in the upright posture. The patient-specific geometry of airways and vessels were used as input for these models. A brief introduction of the model components is summarized below, and details can be found in the referenced papers.
 
 \subsubsection{Ventilation model}
-The ventilation model developed by \cite{swan2012computational} was used to predict the time-averaged topological distribution of inhaled air in the upright human lung, governed by local tissue deformation, elastic recoil pressure, airway resistance and acinar compliance. Each of the acini in the tree model subtending each terminal bronchiole, and worked as an individual compliant compartment. The acinar volume and compliance were initialised at FRC using a distribution of tissue strain along the gravitational direction that was consistent with strain computed by a tissue mechanics model \citep{tawhai2009supine}. A coefficient of variation of 0.1 was added to the acinus volume. Compliance of each acinus was calculated using a relationship between volume and compliance for isotropically expanding units of tissue in the \cite{tawhai2009supine} tissue mechanics model:
+The ventilation model developed by \cite{swan2012computational} was used to predict the time-averaged topological distribution of inhaled air in the upright human lung, governed by local tissue deformation, elastic recoil pressure, airway resistance and acinar compliance. Each of the acini in the tree model subtending each terminal bronchiole are assumed to function as compliant compartments. The acinar volume and compliance were initialised at FRC using a distribution of tissue strain along the gravitational direction that was consistent with strain computed by a tissue mechanics model \citep{tawhai2009supine}. A coefficient of variation of 0.1 was added to the acinus volume. Compliance of each acinus was calculated using a relationship between volume and compliance for isotropically expanding units of tissue in the \cite{tawhai2009supine} tissue mechanics model:
 
 \begin{equation}
  \label{eq:TissueCompliance}
@@ -259,7 +259,7 @@ In this model, the flow through the conducting airways was assumed to be Poiseui
 
 \noindent where $P_{aw}$, $R_{aw}$ and Q are the pressure, Poiseuille resistance and flow in the terminal bronchiole, $V_A$ and $C_A$ are the volume and compliance of the acinar unit, I is inertance of the unit, and $P_l$ is an external during pressure (varied sinusoidally) working to expand the unit and drive air flow through the conducting airways to the terminal units.
 
-Here, we assumed that the rate of change of airflow Q is small enough, that the term $I\frac{dQ}{dt}$ in Equation \ref{eq:AcinarFlowEquation} can be neglected. A suitable small time interval, $\Delta t = t_n - t_{n-1}$, was defined, and the flow at the end of the time period $Q_n = Q(t_n)$ (Q with respect to t) can be calculated as:
+Here, we assumed that the rate of change of airflow Q is small enough, that the term $I\frac{dQ}{dt}$ in Equation \ref{eq:AcinarFlowEquation} can be neglected. A suitable small time interval, $\Delta t = t_n - t_{n-1}$, was defined, and the flow at the end of the time period $Q_n = Q(t_n)$ is:
 
 \begin{equation}
  \label{eq:FlowRespectToTime}
@@ -269,7 +269,7 @@ Here, we assumed that the rate of change of airflow Q is small enough, that the 
 \noindent where $Q_{n-1} = Q(t_{n-1})$ is the flow at the end of the previous time period. $\nu = dP_{aw}/dt$, and $\beta = dP_l/dt$ are the change of bronchiole pressure and driving pressure with respect t, respectively. This equation is derived from Equation \ref{eq:AcinarFlowEquation}. The detailed description can be found in \cite{swan2012computational}.
 
 \subsubsection{Perfusion model}
-The multi-scale pulmonary perfusion model developed by \cite{clark2011interdependent} was used to simulate a time-averaged distribution of blood flow, capillary blood volume and average \gls{rbc} transit time for each acinus unit. The full vascular structure (including arteries, veins, intra-acinar arterioles and venules, and capillaries) generated in Section \ref{AirwayVesselGeometry} was the geometric domain for this model. Distension of blood vessels and hydrostatic effects were also included in the model, with arterial and venous diameter and the thickness of the capillary sheet assumed proportional to the transmural pressure ($P_{tm}$). The intra-acinar (extra-capillary) blood flow was modeled in the symmetric ladder structure introduced previously. The microcirculatory model relates the vessel diameter, length and the thickness of capillary sheet.
+The pulmonary perfusion model developed by \cite{clark2011interdependent} was used to simulate a time-averaged distribution of blood flow, capillary blood volume and average \gls{rbc} transit time for each acinus unit. The full vascular structure (including arteries, veins, intra-acinar arterioles and venules, and capillaries) generated in Section \ref{AirwayVesselGeometry} was the geometric domain for this model. Distension of blood vessels and hydrostatic effects were also included in the model, with arterial and venous diameter and the thickness of the capillary sheet assumed proportional to the transmural pressure ($P_{tm}$). The intra-acinar (extra-capillary) blood flow was modeled in the symmetric ladder structure introduced previously. The microcirculatory model relates the vessel diameter, length and the thickness of capillary sheet.
 
 Similarly to air flow, the flow through pulmonary arteries and veins was predicted using a Poiseuille equation, with an additional term for gravitational effects acting on blood in the vessels. The relationship is given by:
 
@@ -280,7 +280,7 @@ Similarly to air flow, the flow through pulmonary arteries and veins was predict
 
 \noindent where $P_{b1}$ and $P_{b2}$ are the blood pressures at the beginning and end of the vessel element, $\mu_b$ and $\rho_b$ are the viscosity and density of the blood in the vessel, L and D are the vessel length and radius, $\dot{Q}$ is the volumetric flow rate in the vessel, g is the gravitational acceleration ($9.81m/s^2$), and $\theta$ is the angle between the vessel and the direction of gravity. 
 
-The term $\rho_b Lgcos\theta$ in Equation \ref{eq:VesselFlow} represents the effect of gravity on blood in the vessels. In the microcirculatory model, an arteriole and venule were joined at each generation by a capillary bed, forming a ''ladder-like'' structure, to construct the intra-acinar circulation. Therefore, the term $\rho_b Lgcos\theta$ was considered negligible because the length of acinar arterioles and venules was assumed to be small enough:
+The term $\rho_b Lgcos\theta$ in Equation \ref{eq:VesselFlow} represents the effect of gravity on blood in the vessels. In the microcirculatory model, an arteriole and venule were joined at each generation by a capillary bed, forming a ''ladder-like'' structure, to construct the intra-acinar circulation. Therefore, the term $\rho_b Lgcos\theta$ was considered negligible because the length of acinar arterioles and venules was assumed to be small enough, and:
 
 \begin{equation}
  \label{eq:VesselFlow1}
@@ -501,10 +501,10 @@ M & transfer factor for carbon oxygen across the capillary-alveolar membrane & $
 %\restoregeometry
 
 \subsection{Modelling lung function}
-Ventilation, perfusion and gas exchange models were solved under normal conditions (using lung and airway geometry for older normal people) and diseased conditions (using lung and airway geometry of IPF patients). Individual subject tissue classification from CALIPER was projected to the IPF airway/vessel trees as labelled disease regions to drive the patient-specific functional modelling of IPF, with fibrosis reducing tissue compliance and narrowing vessel radius. The subject-specific tidal volume, cardiac output, oxygen consumption ($\mathrm{VO_2}$) and carbon dioxide consumption ($\mathrm{VCO_2}$) were estimated based on the patient's individual information. Data from PFTs were used as boundary conditions to control the simulations.
+Ventilation, perfusion and gas exchange models were solved under normal conditions (using lung and airway geometry for older normal people) and diseased conditions (using lung and airway geometry of IPF patients). Individual subject tissue classification from CALIPER was projected to the IPF airway/vessel trees as labelled disease regions to drive the patient-specific functional modelling of IPF, with fibrosis reducing tissue compliance and narrowing vessel radius. The subject-specific tidal volume, cardiac output, oxygen consumption ($\mathrm{VO_2}$) and carbon dioxide consumption ($\mathrm{VCO_2}$) were estimated based on the patient's individual information. Data from PFTs (introduced in Section \ref{ClinicalData}) were used as boundary conditions to control the simulations.
 
 \subsubsection{Disease region labelling}
-The different tissue patterns classified by CALIPER were mapped to the individual airway/vessel trees of each subject. For each airway/vessel terminal node, the corresponding tissue pattern it belonged to (surrounded by) was extracted (through finding the tissue pattern of the closest voxel to the node), so that each terminal node can be labelled by tissue pattern using an index number. The percentage distribution of each tissue pattern against gravitational height (cranio-caudal axis) quantified in Chapter 4 was also used in the labelling. If the initial labelled amount of disease nodes was less than the cranio-caudal percentage, additional disease regions were added until the cranio-caudal distribution of disease matched the CALIPER classified data. Figure \ref{fig:DiseaseLabeling} shows the disease labelled airway nodes of one patient diagnosed with IPF. Table \ref{tab:DiseasePercent} lists the volume percentage of fibrosis (honeycomb + reticular + ground-glass) and emphysema classified by CALIPER software for each time point of these two patients.
+The different tissue patterns classified by CALIPER were mapped to the individual airway/vessel trees of each subject. For each airway/vessel terminal node, the corresponding tissue pattern it belonged to (surrounded by) was extracted (through finding the tissue pattern of the closest voxel to the node), so that each terminal node can be indexed to a particular tissue pattern. The percentage distribution of each tissue pattern against gravitational height (cranio-caudal axis) quantified in Chapter 4 was also used in the labelling. If the initial labelled amount of disease nodes was less than the cranio-caudal percentage, additional disease regions were added until the cranio-caudal distribution of disease matched the CALIPER classified data. Figure \ref{fig:DiseaseLabeling} shows the disease labelled airway nodes of one patient diagnosed with IPF. Table \ref{tab:DiseasePercent} lists the volume percentage of fibrosis (honeycomb + reticular + ground-glass) and emphysema classified by CALIPER software for each time point of these two patients.
 
 \begin{figure}[htbp] 
 \centering
@@ -590,7 +590,9 @@ Using the patient-specific (or control-specific) tidal volume and dead space, an
 \subsection{Construction of lung lobe geometry}
 Table \ref{tab:PatientIndividualData} lists the age, BMI and functional measures used for normal control lung shape prediction for one patient with IPF. The values for FVC, TLC, RV/TLC, and DLCO were predicted reference values from the patient's individual information. Figure \ref{fig:LungShapePrediction} presents the lung mesh of the IPF patient and its corresponding predicted control lung mesh for the matching normal. 
 
-\begin{table}[h]
+The lobe volume proportions for IPF lung meshes and predicted control meshes are shown in Table \ref{tab:AverageLobeVolume_Predicted}. As discussed in Chapter 4, Section \ref{SSMBasedAnalysis}, the shape change in IPF usually relates to a relatively larger anterior-posterior diameter and smaller height of the lung. The IPF lung has a lower average volume proportion for the left lower lobe and right lower lobe compared with normal older subjects. The results illustrated in Figure \ref{fig:LungShapePrediction} and Table \ref{tab:AverageLobeVolume_Predicted} are consistent with these previous findings, with the predicted lung mesh for normal controls showing a ''thinner'' and ''elongated'' shape and lower average volume of left and right lower lobes compared with the IPF mesh generated from CT imaging.
+
+\begin{table}[htbp]
 \centering
 \caption{Predicted reference values used as input to predict a shape model for a normal control.}
 \label{tab:PatientIndividualData}
@@ -622,59 +624,62 @@ Table \ref{tab:PatientIndividualData} lists the age, BMI and functional measures
   \caption{Control lung mesh}
   \label{fig:LungShapePrediction-b} 
 \end{subfigure}
-\caption{Lung mesh for IPF subject and the corresponding predicted lung mesh for a normal control. (a) IPF lung mesh generated from CT imaging of a patient with IPF. (b) Control mesh predicted using the reference values for the same patient.}
+\caption{Lung mesh for IPF subject and the a predicted lung mesh for a normal control with same characteristics. (a) IPF lung mesh generated from CT imaging of a patient with IPF. (b) Control mesh predicted using the reference values for the same patient.}
 \label{fig:LungShapePrediction}
 \end{figure}
 
-The average lobe volume proportion for all IPF lung meshes and all predicted control meshes are shown in Table \ref{tab:AverageLobeVolume_Predicted}.
-
 %\begin{table}[htbp]
 %\centering
-%\caption{Average lobe volume proportion of IPF lung mesh and predicted old normal lung mesh.}
+%\caption{Average lobe volume proportion of IPF lung mesh and predicted control lung mesh.}
 %\label{tab:AverageLobeVolume_Predicted}
 %\begin{tabular}{| l | c | c |}
 %\hline
-%\bf{Lobe} & \bf{IPF} & \bf{Predicted old normal} \\
+%\bf{Lobe} & \bf{IPF} & \bf{Control} \\
 %\hline
-%Left lower lobe & 0.2314 & 0.2425\\
+%Left lower lobe & 0.231 & 0.242\\
 %\hline
-%Left upper lobe	& 0.2474 & 0.2267\\
+%Left upper lobe	& 0.290 & 0.228\\
 %\hline
-%Right lower lobe	& 0.2213 & 0.2724\\
+%Right lower lobe	& 0.205 & 0.272\\
 %\hline
-%Right middle lobe	& 0.1260 & 0.0793\\
+%Right middle lobe	& 0.130 & 0.078\\
 %\hline
-%Right upper lobe	& 0.1739 & 0.1791\\
+%Right upper lobe	& 0.144 & 0.179\\
 %\hline
 %\end{tabular}
-%\end{table}
-
-\begin{table}[htbp]
-\centering
-\caption{Average lobe volume proportion of IPF lung mesh and predicted control lung mesh.}
-\label{tab:AverageLobeVolume_Predicted}
-\begin{tabular}{| l | c | c |}
-\hline
-\bf{Lobe} & \bf{IPF} & \bf{Control} \\
-\hline
-Left lower lobe & 0.231 & 0.242\\
-\hline
-Left upper lobe	& 0.290 & 0.228\\
-\hline
-Right lower lobe	& 0.205 & 0.272\\
-\hline
-Right middle lobe	& 0.130 & 0.078\\
-\hline
-Right upper lobe	& 0.144 & 0.179\\
-\hline
-\end{tabular}
-\end{table}
-
-As discussed in Chapter 4, Section \ref{SSMBasedAnalysis}, the shape change in IPF usually relates to a relatively larger anterior-posterior diameter and smaller height of the lung. The IPF lung has a lower average volume proportion for the left lower lobe and right lower lobe compared with normal older subjects. The results illustrated in Figure \ref{fig:LungShapePrediction} and Table \ref{tab:AverageLobeVolume_Predicted} are consistent with these previous findings, with the predicted lung mesh for normal controls showing a ''thinner'' and ''elongated'' shape and lower average volume of left and right lower lobes compared with the IPF mesh generated from CT imaging. 
+%\end{table} 
 
 \subsection{Construction of airway/vasculature geometry}
 \subsubsection{Airway tree}
 Figure \ref{fig:AirwayGeometry} illustrates the generated airway trees of one IPF patient and its corresponding predicted airway tree for the control. 
+
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\caption{Average lobe volume proportion of IPF lung mesh and predicted control lung mesh.}
+\label{tab:AverageLobeVolume_Predicted}
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c | c |}
+%\begin{tabular}{| p{1.2cm} | p{2.2cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} | p{1.0cm} |}
+\hline
+\multirow{2}*{\bf{Patient No.}} & \multirow{2}*{\bf{Time point}} & \multicolumn{2}{|c|}{\bf{LLL}} & \multicolumn{2}{|c|}{\bf{LUL}} & \multicolumn{2}{|c|}{\bf{RLL}} & \multicolumn{2}{|c|}{\bf{RML}} & \multicolumn{2}{|c|}{\bf{RUL}}\\ 
+\cline{3-12}
+~ & ~ & Control & IPF & Control & IPF & Control & IPF & Control & IPF & Control & IPF\\
+\hline
+\multirow{3}*{Patient 1} & Time point 1 & 0.249 & 0.253 & 0.222 & 0.287  & 0.277 & 0.214 & 0.079 & 0.144 & 0.173 & 0.102 \\	
+\cline{2-12}
+~ & Time point 2 & 0.248 & 0.257 & 0.222 & 0.287  & 0.277 & 0.211 & 0.079 & 0.144 & 0.174 & 0.102 \\
+\cline{2-12}
+~ & Time point 3 & 0.249 & 0.265 & 0.221 & 0.286  & 0.278 & 0.187 & 0.079 & 0.143 & 0.172 & 0.119 \\
+\hline
+\multirow{2}*{Patient 2} & Time point 1 & 0.231 & 0.194 & 0.238 & 0.287  & 0.262 & 0.213 & 0.081 & 0.105 & 0.188 & 0.201 \\	
+\cline{2-12}
+~ & Time point 2 & 0.234 & 0.186 & 0.236 & 0.302  & 0.265 & 0.201 & 0.080 & 0.112 & 0.186 & 0.199 \\
+\hline
+\multicolumn{2}{|c|}{\bf{Average}} & 0.242 & 0.231 & 0.228 & 0.290  & 0.272 & 0.205 & 0.078 & 0.130 & 0.179 & 0.144 \\
+\hline
+\end{tabular}
+\end{table}
+\end{landscape}
 
 \newgeometry{bottom=2.5cm} %set the left margin of page
 \begin{landscape}
@@ -859,8 +864,62 @@ Additional ''fibrosis'' was added to the CALIPER classified ''normal'' tissues u
 \end{tabular}
 \end{table}
 
+The total lung compliance predicted from control, CT-based and PFT-based models for each time point are presented in Table \ref{tab:TotalLungCompliance}. From Table \ref{tab:FibrosisPercent} and \ref{tab:TotalLungCompliance}, the total lung compliance experiences a drop with the increasing of fibrosis percentage. The stiffer the lung is, the lower the predicted total lung compliance will be.
+
+\begin{table}[htbp]
+\centering
+\caption{Values of total lung compliance ($\mathrm{L\cdot cmH_2O}$) of normal control, CT-based and PFT-based modelling results.}
+\label{tab:TotalLungCompliance}
+\begin{tabular}{| c | c | c | c | c |}
+\hline
+\bf{Patient No.} & \bf{Time point} & \bf{Control} & \bf{CT-based} & \bf{PFT-based}\\ 
+\hline
+\multirow{2}*{Patient 1} & Time point 1 & 0.108 & 0.070 & 0.064\\	
+\cline{2-5}
+~ & Time point 2 & 0.108 & 0.070 & 0.060 \\
+\cline{2-5}
+~ & Time point 3 & 0.106 & 0.067 & 0.066\\			
+\hline
+\multirow{2}*{Patient 2} & Time point 1 & 0.120 & 0.099 & 0.089 \\	
+\cline{2-5}
+~ & Time point 2 & 0.120 & 0.090 & 0.069 \\	
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Perfusion modelling}
+
+Table \ref{tab:PerfusionResultValues} lists the pulmonary artery pressure (PAP), pulmonary vascular resistance (PVR) and pulmonary blood vessel (PVV) of control, CT-based and PFT-based models for each time point of these two patients. From the table, the CT-based model has a consistently higher PAP value compared with PFT-based model which has more fibrosis constriction. That means there is a increase in PAP when occluding more small vessels in IPF lungs. For PVV, disease models (both CT-based and PFT-based) have a higher value than the normal control model, and the PVV of PFT-based model is also slightly higher compared with CT-based model because of the increase in fibrosis. This result is consistent with the observation of \cite{Jacob2016Mortality, Jacob2016Evaluation}, which indicated that an increase in PVV can be seen in more advanced fibrosis lung.
+
+\newgeometry{bottom=1.0cm, right=5.0mm} %set the left margin of page
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\caption{Values of PAP (mmHg), PVR (MPa$\mathrm{\cdot/mm^3}$) and PVV (ml) of normal control, CT-based and PFT-based modelling results.}
+\label{tab:PerfusionResultValues}
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c |}
+\hline
+\multirow{2}*{\bf{Patient No.}} & \multirow{2}*{\bf{Time point}} & \multicolumn{3}{|c|}{\bf{PVP}} & \multicolumn{3}{|c|}{\bf{PVR}} & \multicolumn{3}{|c|}{\bf{PVV}}\\ 
+\cline{3-11}
+~ & ~ & Control & CT-based & PFT-based & Control & CT-based & PFT-based & Control & CT-based & PFT-based\\
+\hline
+\multirow{2}*{Patient 1} & Time point 1 & 14.46 & 14.68 & 14.93 & 15.91 & 16.59  & 17.31 & 260.16 & 410.43 & 411.30 \\	
+\cline{2-11}
+~ & Time point 2 & 14.51 & 14.54 & 14.92 & 15.23 & 15.36 & 16.48 & 260.99 & 550.82 & 552.57 \\
+\cline{2-11}
+~ & Time point 3 & 14.66 & 14.43 & 14.47 & 17.90 & 17.40 & 17.52 & 272.38 & 583.91 & 584.11 \\
+\hline
+\multirow{2}*{Patient 2} & Time point 1 & 14.96 & 14.59 & 14.93 & 12.97 & 12.35 & 12.92 & 509.49 & 886.57 & 889.38 \\	
+\cline{2-11}
+~ & Time point 2 & 14.66 & 15.10 & 16.02 & 12.64 & 13.36 & 14.88 & 515.30 & 798.78 & 804.67 \\
+\hline
+\end{tabular}
+\end{table}
+\end{landscape}
+\restoregeometry
+
 \subsection{Gas exchange model}
-Figure \ref{fig:MainMIGETFigure} illustrates the distribution of control, CT-based and PFT-based simulated V/Q ratio and arterial oxygen at one time point for one IPF patient. The figures are shown with V/Q plotted on a logarithmic scale, which is consistent with the presentation of V/Q measurements using the multiple inert gas elimination technique (MIGET). From the results, the simulation for the control model (the first row) predicts a normal V/Q ratio distribution with $\mathrm{PaO_2}$ of 89.33 mmHg; this slightly low $\mathrm{PaO_2}$ is typical for the normal older adult. The model labelled with CT-based fibrosis predicts a characteristic (for IPF) bimodal V/Q distribution (the second row), and $\mathrm{PaO_2}$ considerably decreased (71.63 mmHg) from the control. A slight shift to the left hand side is observed for the highest peak of the V/Q ratio curve compared with the control model. The smaller peak of the V/Q ratio appears around V/Q = 5 (larger than 1), as there is a decrease in perfusion in fibrotic regions due to the narrowed vessel radius. The model with additional fibrosis (with appropriate patient-specific inspiration from FRC to TLC) predicts further decrease in $\mathrm{PaO_2}$ to 67.85 mmHg. 
+Figure \ref{fig:MainMIGETFigure} illustrates the distribution of control, CT-based and PFT-based simulated V/Q ratio and arterial oxygen at one time point for one IPF patient. The figures are shown with V/Q plotted on a logarithmic scale, which is consistent with the presentation of V/Q measurements using the multiple inert gas elimination technique (MIGET). From the results, the simulation for the control model (the first row) predicts a normal V/Q ratio distribution with $\mathrm{PaO_2}$ of 89.33 mmHg; this slightly low $\mathrm{PaO_2}$ is typical for the normal older adult. In the control model, most of the alveoli are in the $P_aO_2$ range of 80-100 mmHg. The model labelled with CT-based fibrosis predicts a characteristic (for IPF) bimodal V/Q distribution (the second row), and $\mathrm{PaO_2}$ considerably decreased (71.63 mmHg) from the control. The higher proportion of alveoli appears at high $P_aO_2$ because of the high $\dot{V}$ compared with $\dot{Q}$. It can be observed that about 10\% of alveoli have $P_aO_2$ lower than 63 mmHg which has a net effect of the reduction in total $P_aO_2$. Also, in the CT-based model, there are more low $P_aO_2$ acinus units with relatively high perfusion. A slight shift to the left hand side is observed for the highest peak of the V/Q ratio curve compared with the control model. The smaller peak of the V/Q ratio appears around V/Q = 5 (larger than 1), as there is a decrease in perfusion in fibrotic regions due to the narrowed vessel radius. The model with additional fibrosis (with appropriate patient-specific inspiration from FRC to TLC) predicts further decrease in $\mathrm{PaO_2}$ to 67.85 mmHg. There is an increase in the proportion of well-perfused but less ventilated units, which leads to more alveoli at low $P_aO_2$. Meanwhile, the proportion of ventilation also increase at very high $P_aO_2$ units in the PFT-based model compared with the other two models.
 
 \newgeometry{left=2cm} %set the left margin of page
 %\begin{landscape}
@@ -922,36 +981,47 @@ Figure \ref{fig:MainVQDistribution} shows the $\dot{V}$, $\dot{Q}$ and V/Q ratio
 \label{fig:MainVQDistribution}
 \end{figure}
 
-The values of $\mathrm{PaO_2}$ and $\mathrm{PaCO_2}$ for control, CT-based and PFT-based models for each time point for these two patients are listed in Table \ref{tab:PartialPressure}. For CT-based and PFT-based simulation, $\mathrm{PaO_2}$ experiences a decrease over time for both of these two patients, corresponding to the gradual incresement of fibrosis.  MIGET plots of V/Q ratio and arterial oxygen distribution, plots of cranio-caudal distribution of V, Q and V/Q ratio of other subjects and time points can be found in Appendix \ref{appendixMIGET}.
+The measured DLCO values for each time point of these two patients, and the values of $\mathrm{PaO_2}$ and $\mathrm{PaCO_2}$ for control, CT-based and PFT-based models for each time point for these two patients are listed in Table \ref{tab:PartialPressure}. For CT-based and PFT-based simulation, $\mathrm{PaO_2}$ experiences an overall decrease over time for both of these two patients, corresponding to the gradual incresement of fibrosis. The change tendency of $\mathrm{PaO_2}$ and $\mathrm{P(A-a)O_2}$ predicted by PFT-based model can match the measured DLCO ($\mathrm{P(A-a)O_2}$ has an opposite trend), with the first patient decreasing from time point 1 to time point 2 but slightly increasing from time point 2 to time point 3, and the second patient decreasing from time point 1 to time point 2. MIGET plots of V/Q ratio and arterial oxygen distribution, plots of cranio-caudal distribution of V, Q and V/Q ratio of other subjects and time points can be found in Appendix \ref{appendixMIGET}.
 
+\newgeometry{bottom=1.0cm, left=6.0mm} %set the left margin of page
+\begin{landscape}
 \begin{table}[htbp]
 \centering
-\caption{Values of $\mathrm{PaO_2}$ and $\mathrm{PaCO_2}$ of older normal, CT-based and PFT-based modeling results.}
+\caption{Measured DLCO (mL/mmHg/min) for each time point, and values of $\mathrm{PaO_2}$ (mmHg), $\mathrm{PaCO_2}$ (mmHg) and $\mathrm{P(A-a)O_2}$ (mmHg) of normal control, CT-based and PFT-based modelling results.}
 \label{tab:PartialPressure}
-\begin{tabular}{| c | c | c | c | c | c | c | c |}
+\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c | c |}
 \hline
-\multirow{2}*{\bf{Patient No.}} & \multirow{2}*{\bf{Time point}} & \multicolumn{3}{|c|}{\bf{$\mathrm{PaO_2}$ (mmHg)}} & \multicolumn{3}{|c|}{\bf{$\mathrm{PaCO_2}$ (mmHg)}}\\ 
-\cline{3-8}
-~ & ~ & Normal & CT-based & PFT-based & Normal & CT-based & PFT-based\\
+\multirow{2}*{\bf{Patient No.}} & \multirow{2}*{\bf{Time point}} & \multirow{2}*{\bf{DLCO}} & \multicolumn{3}{|c|}{\bf{$\mathrm{PaO_2}$}} & \multicolumn{3}{|c|}{\bf{$\mathrm{PaCO_2}$ }} & \multicolumn{3}{|c|}{\bf{$\mathrm{P(A-a)O_2}$}}\\ 
+\cline{4-12}
+~ & ~ & ~ & Control & CT-based & PFT-based & Control & CT-based & PFT-based & Control & CT-based & PFT-based\\
 \hline
-\multirow{2}*{Patient 1} & Time point 1 & 89.33 & 71.63 & 67.85 & 41.87  & 52.73 & 53.97\\	
-\cline{2-8}
-~ & Time point 2 & 95.37 & 64.56 & 58.72 & 37.81  & 57.48 & 59.58\\
-\cline{2-8}
-~ & Time point 3 & 87.92 & 60.43 & 60.00 & 42.76  & 59.83 & 59.97\\
+\multirow{2}*{Patient 1} & Time point 1 & 11.8 & 89.33 & 71.63 & 67.85 & 41.87  & 52.73 & 53.97 & 8.59 & 17.09 & 20.79\\	
+\cline{2-12}
+~ & Time point 2 & 9.8 & 95.37 & 64.56 & 58.72 & 37.81  & 57.48 & 59.58 & 7.69 & 18.13 & 23.87\\
+\cline{2-12}
+~ & Time point 3 & 10.12 & 87.92 & 60.43 & 60.00 & 42.76  & 59.83 & 59.97 & 9.01 & 20.85 & 21.29\\
 \hline
-\multirow{2}*{Patient 2} & Time point 1 & 92.31 & 88.52 & 85.13 & 39.80  & 41.74 & 42.86\\	
-\cline{2-8}
-~ & Time point 2 & 91.72 & 83.70 & 75.35 & 39.09  & 43.77 & 46.76\\
+\multirow{2}*{Patient 2} & Time point 1 & 16.20 & 92.31 & 88.52 & 85.13 & 39.80  & 41.74 & 42.86 & 9.90 & 10.06 & 13.35\\	
+\cline{2-12}
+~ & Time point 2 & 14.50 & 91.72 & 83.70 & 75.35 & 39.09  & 43.77 & 46.76 & 9.75 & 14.29 & 22.94\\
 \hline
 \end{tabular}
 \end{table}
+\end{landscape}
+\restoregeometry
 
 \section{Discussion}
-In this chapter, a SSM was used to make a prediction of older normal lung shape for each patient. The SSM based lung shape prediction provides a reliable way to make a comparison of the lung function between a patient-specific lung and its corresponding lung of older normal people. The patient-specific shape prediction was achieved based on the patient's individual information which shows significant correlations with older normal lung shape, therefore the estimated lung shape is able to represent the statistical lung shape of older normal people as a control group. Through modelling the airway/vessel tree and lung function with predicted normal lung mesh, it is possible for us to quantitatively describe the change of respiratory geometry in IPF lung, the decline of lung function, the severity of disease and the prognosis of development. That could be a promising direction for clinical applications in the future.
 
+\subsubsection{SSM based lung shape prediction provides a way to compare lung function of IPF patient with older normal people}
+In this chapter, a SSM was used to make a prediction of older normal lung shape for each patient. The SSM based lung shape prediction provides a reliable way to make a comparison of the lung function between a patient-specific lung and its corresponding lung of older normal people. The patient-specific shape prediction was achieved based on the patient's individual information which shows significant correlations with older normal lung shape, therefore the estimated lung shape is able to represent the statistical lung shape of older normal people as a control group. Through modelling the airway/vessel tree and lung function with predicted normal lung mesh, it is possible for us to quantitatively describe the change of respiratory geometry in IPF lung, the decline of lung function, the severity of disease and the prediction of progression. That could be a promising direction for clinical applications in the future.
+
+\subsubsection{Volumetric CT imaging may not provide sufficient information to explain the stiffness of IPF lung}
 The computational modelling in this chapter shows that the abnormalities classified by CALIPER from volumetric CT imaging may be not sufficient enough to explain the increase in lung stiffness and the decline of lung function in IPF patient. V/Q mismatch (impaired gas exchange) present in CT-based abnormal tissue as well as regions that are classified as 'normal'. This will truly happen in some patients, due to the low quality of CT scan and the errors caused by mis-classification of tissue patterns. Moreover, for the patients diagnosed at the early of the disease, some 'sub-clinical' symptoms that can not be visualized on radiological imaging can definitely damage to the lung function. So, in a sense, our computational modelling method provides a potential way to work as supplement for the radiological and biopsy diagnosis of IPF, and help the clinicians to make a better decision of treatment planning at a earlier stage. 
 
+\subsubsection{The predicted ventilation, perfusion and gas exchange distribution can be explained by the background knowledge of IPF}
+The physiological alterations in IPF (discussed in Chapter 2, Section \ref{MechanicalAlteration}) are supportive for our modelling results. First, it has been found that IPF disease often results in reduction in lung compliance (an increase in lung tissue stiffness), and the alterations of lung compliance in IPF patients appear to be strongly correlated with the degree of lung fibrosis \citep{fulmer1979morphologic,plantier2018physiology}. This can match the values of total lung compliance predicted by the ventilation (deep inspiration) model (Table \ref{tab:FibrosisPercent} and \ref{tab:TotalLungCompliance}) that the total lung compliance keeps decreasing with more fibrosis added into lung tissues. Second, although the fibrotic tissue is associated with a reduced number of blood vessels \citep{cosgrove2004pigment,ebina2004heterogeneous}, \cite{Jacob2016Mortality, Jacob2016Evaluation} has demonstrated in his research that pulmonary vessel volume (PVV) is observed to increase in more fibrotic lung, and can be used as an independent predictor of mortality. From the perfusion model, the predicted PVV of disease models are higher than the normal control model, and the CT-based model shows a smaller PVV than the PFT-based model (which is constricted by more fibrosis tissues). Third, the predicted $\mathrm{P_aO_2}$ (decrease in IPF lung) and $P_{A-a}O_2$ (increase in IPF lung) from the gas exchange model presents a consistent trend with the change of measured DLCO (from PFTs) over time. DLCO is an important index to measure the diffusing capacity of lung, therefore the simulated $\mathrm{P_aO_2}$ and $P_{A-a}O_2$ are reliable to quantify the decline of lung function in IPF. 
+
+\subsubsection{Limitations of modelling procedure}
 However, there are some limitations of the modelling procedure. First, in IPF lung, there is a dilation in trachea, but a constriction in small airway. In this chapter, the trachea radius of normal lung was scaled from the trachea radius of IPF lung using a statistically measured ratio which represents the trachea difference between normal and IPF. The main limitation of this method is the measured ratio may be not accurate enough for all the subjects even though the standard deviation has been taken into consideration in our research. A potential direction in the future work could be to use the change of dead space in IPF lung in the construction of airway geometry. 
 
 Second, the emphysema and the low attenuation area (LAA) are not taken into consideration in this model. Although emphysema classified by CAPLIPER only covers a small proportion of the lung (usually less than 1\%), it is believed to have an impact on the deterioration of lung function together with fibrosis in IPF \citep{cottin2005combined, king2011idiopathic, lin2015combined}. On the other hand, the LAA (mild, moderate and severe) which accounts for a sizable part of the lung may have some correlation with the appearance of emphysema, and both emphysema and LAA are associated with air trapping at the end of inspiration \cite{slebos2015air, hoesein2017air}, which will influence the lung volume at FRC and the change of tissue compliance during breathing. Therefore the emphysema and LAA can to be involved in the future work for setting the initial acinar unit volume at FRC. 

@@ -3,5 +3,5 @@
 \contentsline {chapter}{Table of Contents}{vii}{chapter*.3}
 \contentsline {chapter}{List of Figures}{ix}{chapter*.4}
 \contentsline {chapter}{List of Tables}{xi}{chapter*.5}
-\contentsline {chapter}{List of Abbreviations}{xi}{chapter*.5}
-\contentsline {chapter}{List of References}{1}{chapter*.6}
+\contentsline {chapter}{List of Abbreviations}{xiii}{chapter*.7}
+\contentsline {chapter}{List of References}{1}{chapter*.8}

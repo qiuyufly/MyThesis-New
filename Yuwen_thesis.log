@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  3 JAN 2019 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  6 JAN 2019 06:40
 entering extended mode
 **./Yuwen_thesis.tex
 (Yuwen_thesis.tex
@@ -1438,8 +1438,7 @@ File: hpdftex.def 2018/09/30 v6.88a Hyperref driver for pdfTeX
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
-) (Yuwen_thesis.aux
-(ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.aux))
+) (Yuwen_thesis.aux (Introduction/Yuwen_Introduction.aux))
 \openout1 = `Yuwen_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -1456,18 +1455,18 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 81.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (Yuwen_thesis.glsdefs)
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+)
+(Yuwen_thesis.glsdefs) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count369
 \scratchdimen=\dimen433
@@ -1583,16 +1582,15 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 81.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-\openout2 = `./ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.aux'.
+\openout2 = `./Introduction/Yuwen_Introduction.aux'.
 
- (ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.tex
+ (Introduction/Yuwen_Introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-
-Underfull \vbox (badness 2359) has occurred while \output is active []
-
- [1
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+[1
 
 \openout5 = `Yuwen_thesis.ist'.
 
@@ -1603,657 +1601,40 @@ Underfull \vbox (badness 2359) has occurred while \output is active []
 
 
 {C:/Users/28678/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
- [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-
-Underfull \hbox (badness 1776) in paragraph at lines 50--50
-[]|\OT1/ptm/m/n/12 - Re-spon-sive-ness to hy-pox-emia
- []
-
-
-Overfull \hbox (21.77577pt too wide) in paragraph at lines 15--55
- [][] 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
-[3] [4]
-Overfull \hbox (11.78368pt too wide) in paragraph at lines 65--65
-[]\OT1/ptm/b/n/14.4 Ageing-associated al-ter-ations in pul-monary me-chan-ics and lung
- []
-
-[5]
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
- [7]
-Overfull \hbox (10.33685pt too wide) in paragraph at lines 76--76
-[]\OT1/ptm/b/n/17.28 Methods: Patient-specific mod-elling of IPF lung func-
- []
-
-
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [8]
-<ModelBasedAnalysis/Image/WholeFramework.png, id=299, 1628.484pt x 1906.9644pt>
-File: ModelBasedAnalysis/Image/WholeFramework.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/WholeFramework.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/WholeFramework.png  used on input line 81.
-(pdftex.def)             Requested size: 382.6441pt x 448.07378pt.
-
-
-LaTeX Warning: Reference `VolumeAnalysis' on page 9 undefined on input line 90.
-
-
-LaTeX Warning: Reference `SSMBasedAnalysis' on page 9 undefined on input line 90.
-
-
-LaTeX Warning: Reference `ShapeModelGeneration' on page 9 undefined on input line 90.
-
-[9] [10 <./ModelBasedAnalysis/Image/WholeFramework.png
-
-pdfTeX warning: pdflatex.exe (file ./ModelBasedAnalysis/Image/WholeFramework.png): large interlaced PNG might cause out 
-of memory (use non-interlaced PNG to fix this)
->] [11]
-Underfull \vbox (badness 5036) has occurred while \output is active []
-
- [12]
-
-LaTeX Warning: Reference `DataNormalization' on page 13 undefined on input line 142.
-
-[13]
-
-LaTeX Warning: Reference `DataNormalization' on page 14 undefined on input line 146.
-
-<ModelBasedAnalysis/Image/UpperAirwayDigitizing.png, id=347, 402.00188pt x 340.27126pt>
-File: ModelBasedAnalysis/Image/UpperAirwayDigitizing.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/UpperAirwayDigitizing.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/UpperAirwayDigitizing.png  used on input line 155.
-(pdftex.def)             Requested size: 402.00089pt x 340.27042pt.
-File: ModelBasedAnalysis/Image/UpperAirwayDigitizing.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/UpperAirwayDigitizing.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/UpperAirwayDigitizing.png  used on input line 156.
-(pdftex.def)             Requested size: 213.30707pt x 180.55058pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
-<ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png, id=350, 456.20438pt x 462.22687pt>
-File: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png  used on input line 163.
-(pdftex.def)             Requested size: 456.20325pt x 462.22574pt.
-File: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png  used on input line 164.
-(pdftex.def)             Requested size: 177.75908pt x 180.10553pt.
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./ModelBasedAnalysis/Image/UpperAirwayDigitizing.png> <./ModelBasedAnalysis/Image/IPF511_Normal_FE_Airway.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-
-LaTeX Warning: Reference `eq:VesselStructureParameters' on page 17 undefined on input line 202.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17] [18] [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [20] [21]
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [22]
-Underfull \vbox (badness 3323) has occurred while \output is active []
-
- [23] [24]
-Underfull \vbox (badness 3108) has occurred while \output is active []
-
- [25]
-Underfull \vbox (badness 7433) has occurred while \output is active []
-
- [26]
-
-Package array Warning: Column C is already defined on input line 461.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
-[]|[]\OT1/ptm/m/n/12 Pedley et al.[]
+ [2] [3]
+Overfull \hbox (18.3625pt too wide) in paragraph at lines 22--23
+[]\OT1/ptm/m/n/12 Yuwen Zhang., Mah-yar Os-an-louy., Alys Clark., Harib-alan Ku-mar., Mar-garet Wilsher.,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
-[]|\OT1/ptm/m/n/12 Ideal gas law
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
-[]|\OT1/ptm/m/n/12 Sutherland's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--476
-[]|\OT1/ptm/m/n/12 Apparent vis-cos-ity of
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 478--478
-[]|\OT1/ptm/m/n/12 Compliance of cap-il-lary
- []
-
-
-Underfull \hbox (badness 7273) in paragraph at lines 478--479
-[]|[]\OT1/ptm/m/n/12 Fung and Sobin[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
-[]|\OT1/ptm/m/n/12 microscopic dis-so-ci-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
-[]|[]\OT1/ptm/m/n/12 Monod et al.[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
-[]|\OT1/ptm/m/n/12 microscopic dis-so-ci-a-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
-[]|[]\OT1/ptm/m/n/12 Monod et al.[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
-[]|[]\OT1/ptm/m/n/12 Monod et al.[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--483
-[]|$\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 4 \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 10[]\OML/cmm/m/it/12 mol \OM
-S/cmsy/m/n/12 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
-[]|[]\OT1/ptm/m/n/12 Monod et al.[]
- []
-
-
-Underfull \hbox (badness 6859) in paragraph at lines 484--484
-[]|\OT1/ptm/m/n/12 transfer fac-tor for car-
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 484--484
-\OT1/ptm/m/n/12 bon oxy-gen across the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
-\OT1/ptm/m/n/12 capillary-alveolar mem-
- []
-
-
-Overfull \hbox (13.85849pt too wide) in paragraph at lines 466--499
- [][] 
- []
-
-[27] [28]
-<ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png, id=599, 534.49687pt x 437.38406pt>
-File: ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png  used on input line 51
-2.
-(pdftex.def)             Requested size: 534.49556pt x 437.38298pt.
-File: ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png  used on input line 51
-3.
-(pdftex.def)             Requested size: 163.11867pt x 133.47868pt.
-<ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png, id=601, 706.8006pt x 442.7742pt>
-File: ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png  used on input line 520.
-(pdftex.def)             Requested size: 706.79886pt x 442.77312pt.
-File: ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF501_CAPLIPERClassifiedData_colorbar.png  used on input line 521.
-(pdftex.def)             Requested size: 213.30707pt x 133.62375pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\OT1/ptm/b/n/12 Patient
- []
-
-
-Overfull \hbox (4.42603pt too wide) in paragraph at lines 543--543
-[]|\OT1/ptm/b/n/12 Honeycomb| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\OT1/ptm/b/n/12 Ground-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--543
-[]|\OT1/ptm/b/n/12 Total
- []
-
-
-Overfull \hbox (3.40463pt too wide) in paragraph at lines 543--544
-[]|\OT1/ptm/b/n/12 Emphysema| 
- []
-
-
-Overfull \hbox (47.3684pt too wide) in paragraph at lines 541--556
- [][] 
- []
-
-[29 <./ModelBasedAnalysis/Image/IPF501_DiseaseDistribution_BasedVentilation.png> <./ModelBasedAnalysis/Image/IPF501_CAPL
-IPERClassifiedData_colorbar.png>] [30] [31]
-Overfull \hbox (23.78337pt too wide) in paragraph at lines 597--607
- [][] 
- []
-
-<ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png, id=668, 571.8966pt x 429.7656pt>
-File: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png  used on input line 612.
-(pdftex.def)             Requested size: 571.8952pt x 429.76454pt.
-File: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png  used on input line 613.
-(pdftex.def)             Requested size: 204.9466pt x 154.00726pt.
-<ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png, id=670, 520.94624pt x 481.8pt>
-File: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png  used on input line 620.
-(pdftex.def)             Requested size: 520.94498pt x 481.79881pt.
-File: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png  used on input line 621.
-(pdftex.def)             Requested size: 167.2989pt x 154.72316pt.
-
-LaTeX Warning: Reference `SSMBasedAnalysis' on page 32 undefined on input line 673.
-
-[32] [33 <./ModelBasedAnalysis/Image/IPF405_IPFLungMesh.png> <./ModelBasedAnalysis/Image/IPF405_NormalLungMesh.png>]
-[34]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 672.50832pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=672.50832pt
-* \oddsidemargin=-0.56833pt
-* \evensidemargin=35.28255pt
-* \topmargin=-5.93713pt
-* \headheight=15.2pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png, id=700, 511.9125pt x 584.93532pt>
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png  used on input line 684.
-(pdftex.def)             Requested size: 511.91125pt x 584.93388pt.
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png  used on input line 685.
-(pdftex.def)             Requested size: 144.20155pt x 164.7755pt.
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png, id=702, 468.7914pt x 429.7656pt>
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.png  used on input line 688.
-(pdftex.def)             Requested size: 160.03075pt x 146.70801pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--690
-[][][]
- []
-
-
-Overfull \hbox (6.63394pt too wide) in paragraph at lines 683--690
-[][] 
- []
-
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png, id=704, 360.59718pt x 574.39594pt>
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png  used on input line 694.
-(pdftex.def)             Requested size: 360.5963pt x 574.39452pt.
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png  used on input line 695.
-(pdftex.def)             Requested size: 102.07797pt x 162.6075pt.
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png, id=706, 402.303pt x 438.9198pt>
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2.png  used on input line 697.
-(pdftex.def)             Requested size: 137.7818pt x 150.32173pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 696--699
-[][]
- []
-
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png, id=708, 367.3725pt x 590.205pt>
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png  used on input line 703.
-(pdftex.def)             Requested size: 367.37158pt x 590.20355pt.
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png  used on input line 704.
-(pdftex.def)             Requested size: 99.86456pt x 160.43948pt.
-<ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png, id=710, 338.2236pt x 439.8834pt>
-File: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_3.png  used on input line 706.
-(pdftex.def)             Requested size: 116.69243pt x 151.76744pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 705--708
-[][]
- []
-
-<ModelBasedAnalysis/Image/LobeColors.png, id=712, 221.1462pt x 219.219pt>
-File: ModelBasedAnalysis/Image/LobeColors.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/LobeColors.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/LobeColors.png  used on input line 713.
-(pdftex.def)             Requested size: 221.14565pt x 219.21844pt.
-File: ModelBasedAnalysis/Image/LobeColors.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/LobeColors.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/LobeColors.png  used on input line 714.
-(pdftex.def)             Requested size: 123.94225pt x 122.85876pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 712--716
-[][]
- []
-
-
-Overfull \hbox (75.57146pt too wide) in paragraph at lines 712--716
-[] 
- []
-
-[35 <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_1.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_1.
-png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_2.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_2
-.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Normal_3.png> <./ModelBasedAnalysis/Image/IPF405_LobeAirway_Disease_
-3.png> <./ModelBasedAnalysis/Image/LobeColors.png>]
-<ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png, id=739, 382.0674pt x 383.031pt>
-File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png  used on input line 731.
-(pdftex.def)             Requested size: 382.06645pt x 383.03006pt.
-File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png  used on input line 732.
-(pdftex.def)             Requested size: 209.12683pt x 209.65074pt.
-<ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png, id=741, 258.7266pt x 324.7332pt>
-File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png  used on input line 739.
-(pdftex.def)             Requested size: 258.72594pt x 324.7324pt.
-File: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png Graphic file (type png)
-<use ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png  used on input line 740.
-(pdftex.def)             Requested size: 167.2989pt x 209.98396pt.
- [36
-
-
-
-
- <./ModelBasedAnalysis/Image/IPF405_ArteryRadius_IPF.png> <./ModelBasedAnalysis/Image/IPF405_ArteryRadius_Normal.png>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 715.18745pt, 28.45274pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=715.18745pt
-* \oddsidemargin=-0.56833pt
-* \evensidemargin=35.28255pt
-* \topmargin=-5.93713pt
-* \headheight=15.2pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- [37]
-Overfull \hbox (48.54288pt too wide) in paragraph at lines 815--830
- [][] 
- []
-
-[38
-
-
-
-
-] [39]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(56.9055pt, 468.90071pt, 71.70166pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=468.90071pt
-* \textheight=591.5302pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-0.56833pt
-* \topmargin=-5.93713pt
-* \headheight=15.2pt
-* \headsep=19.8738pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=88.0pt
-* \marginparsep=7.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-<ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg, id=778, 1564.84625pt x 1252.68pt>
-File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg  used on input line 870.
-(pdftex.def)             Requested size: 1564.84244pt x 1252.67694pt.
-File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg  used on input line 871.
-(pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg, id=780, 1564.84625pt x 1252.68pt>
-File: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Line_figure.jpg  used on input line 874.
-(pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg, id=782, 1564.84625pt x 1252.68pt>
-File: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg  used on input line 877.
-(pdftex.def)             Requested size: 189.58813pt x 151.76744pt.
-
-Overfull \hbox (7.73898pt too wide) in paragraph at lines 869--879
-[][][]
- []
-
-
-Overfull \hbox (7.73898pt too wide) in paragraph at lines 869--879
-[][]
- []
-
-
-Overfull \hbox (7.73898pt too wide) in paragraph at lines 869--879
-[][] 
- []
-
-<ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg, id=784, 547.8066pt x 439.8834pt>
-File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg  used on input line 883.
-(pdftex.def)             Requested size: 547.80525pt x 439.88232pt.
-File: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Bar_figure.jpg  used on input line 884.
-(pdftex.def)             Requested size: 189.00183pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg, id=786, 582.978pt x 466.3824pt>
-File: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg  used on input line 886.
-(pdftex.def)             Requested size: 189.70578pt x 151.76744pt.
-<ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg, id=788, 610.9224pt x 489.027pt>
-File: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Bar_figure.jpg  used on input line 888.
-(pdftex.def)             Requested size: 189.59839pt x 151.76744pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 885--890
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 885--890
-[]
- []
-
-
-Overfull \hbox (39.83844pt too wide) in paragraph at lines 868--893
-[]$[]$  $[]$ 
- []
-
-[40 <./ModelBasedAnalysis/Image/IPF511_Normal_MIGET_Line_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Li
-ne_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_PFTBased_MIGET_Line_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_Nor
-mal_MIGET_Bar_figure.jpg> <./ModelBasedAnalysis/Image/IPF511_CTBased_MIGET_Bar_figure.jpg> <./ModelBasedAnalysis/Image/I
-PF511_PFTBased_MIGET_Bar_figure.jpg>]
-<ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg, id=806, 741.972pt x 542.025pt>
-File: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg  used on input line 904.
-(pdftex.def)             Requested size: 741.97018pt x 542.02367pt.
-File: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg  used on input line 905.
-(pdftex.def)             Requested size: 250.95476pt x 183.32666pt.
-<ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg, id=808, 677.4108pt x 542.025pt>
-File: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg  used on input line 910.
-(pdftex.def)             Requested size: 677.40915pt x 542.02367pt.
-File: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/PerfusionAgainstLungHeight.jpg  used on input line 911.
-(pdftex.def)             Requested size: 250.95476pt x 200.79422pt.
-<ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg, id=810, 741.972pt x 542.025pt>
-File: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg  used on input line 916.
-(pdftex.def)             Requested size: 741.97018pt x 542.02367pt.
-File: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg Graphic file (type jpg)
-<use ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg>
-Package pdftex.def Info: ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg  used on input line 917.
-(pdftex.def)             Requested size: 250.95476pt x 183.32666pt.
-
-
-LaTeX Warning: Float too large for page by 90.2173pt on input line 923.
-
-
-LaTeX Warning: Reference `appendixMIGET' on page 41 undefined on input line 925.
-
-
-Overfull \hbox (66.33902pt too wide) in paragraph at lines 931--948
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41
-
-
-] [42 <./ModelBasedAnalysis/Image/VentilationAgainstLungHeight.jpg> <./ModelBasedAnalysis/Image/PerfusionAgainstLungHeig
-ht.jpg> <./ModelBasedAnalysis/Image/VQAgainstLungHeight.jpg>]
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]) [45] [46
-
-
-] (Yuwen_thesis.bbl (Yuwen_thesis.brf)
+[4] [5]) [6] (Yuwen_thesis.bbl (Yuwen_thesis.brf)
 \tf@brf=\write8
 \openout8 = `Yuwen_thesis.brf'.
 
- [47
-
-] [48] [49] [50] [51] [52] [53])
+)
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[54
+[7
+
+
+
 runsystem(makeindex -s Yuwen_thesis.ist -t Yuwen_thesis.glg -o Yuwen_thesis.gls Yuwen_thesis.glo)...executed (allowed).
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
- (Yuwen_thesis.aux (ModelBasedAnalysis/Yuwen_ModelBasedAnalysis.aux))
+ (Yuwen_thesis.aux (Introduction/Yuwen_Introduction.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `Yuwen_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6F32056F7FF01CAE1CE95F741C240F0A;1732.
+(rerunfilecheck)             Checksum: 81E25235652EC51644F92CB997421E30;287.
 
 
 Package rerunfilecheck Warning: File `Yuwen_thesis.brf' has changed.
@@ -2261,35 +1642,22 @@ Package rerunfilecheck Warning: File `Yuwen_thesis.brf' has changed.
 
 Package rerunfilecheck Info: Checksums for `Yuwen_thesis.brf':
 (rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  05C829F4C5E5B9D0EE140C6C8FF72FAD;7982.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             After:  FBB5CE5BE06493083B715C6139E5AB3B;508.
  ) 
 Here is how much of TeX's memory you used:
- 40949 strings out of 492970
- 781377 string characters out of 3135854
- 860835 words of memory out of 3000000
- 43911 multiletter control sequences out of 15000+200000
- 565017 words of font info for 111 fonts, out of 3000000 for 9000
+ 40021 strings out of 492970
+ 757429 string characters out of 3135854
+ 841148 words of memory out of 3000000
+ 43219 multiletter control sequences out of 15000+200000
+ 552017 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,15n,92p,2232b,988s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,92p,2001b,745s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmr8a.pfb>
-Output written on Yuwen_thesis.pdf (54 pages, 8818648 bytes).
+mmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Yuwen_thesis.pdf (7 pages, 70587 bytes).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
- 442 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
