@@ -17,7 +17,7 @@ Human lungs are divided into five distinct anatomical regions, which are called 
 
 %%%%%%%%%%%%%%%%%%%%%
 \subsection{High resolution computed tomography}
-CT imaging is a typical image modality used in diagnosis and management of IPF. It acquires multiple X-ray images at different orientations and reconstructs these images to obtain tomographic views in the region of interest \citep{zhang2011medical}. This kind of imaging modality is typically used in clinical applications and research regarding pulmonary structure-function relationship \citep{hoffman1997assessment}, including detection of both acute and chronic changes in the lung parenchyma. It is particularly relevant here because normal two-dimensional X-rays can not show subtle  defects. For evaluation of chronic interstitial processes (emphysema, fibrosis, and so forth), thin sections with high spatial frequency reconstructions are used \citep{coxson2007computed}. Scans are often performed both in inspiration and expiration. This special technique is called \gls{hrct}. With the help of \gls{hrct} scans, a series of high-resolution chest sections can be acquired with slice thickness as low as 0.5mm \citep{naidich2005imaging}, which can provide high visibility of the lung boundaries and pulmonary fissures.  By making use of some advanced image processing technologies, a wide variety of features can be detected from these images such as density of the lung \citep{coxson2007computed}, volumes of the lung \citep{hu2001automatic}, the regions of lung disease distributions \citep{el2013computer, ley2008quantitative}, airway trees \citep{graham2010robust, zhu2010automatic, diaz2010airway} and blood vessels \citep{shikata2009segmentation}. Computed tomography (CT) images acquired at different stages in the breathing cycle can also be used to study lung mechanics and estimate regional lung ventilation \citep{hoffman2006state, yamamoto2011investigation}.
+CT imaging is a typical image modality used in diagnosis and management of IPF. It acquires multiple X-ray images at different orientations and reconstructs these images to obtain tomographic views in the region of interest \citep{zhang2011medical}. This kind of imaging modality is typically used in clinical applications and research regarding pulmonary structure-function relationships \citep{hoffman1997assessment}, including detection of both acute and chronic changes in the lung parenchyma. It is particularly relevant here because normal two-dimensional X-rays can not show subtle  defects. For evaluation of chronic interstitial processes (emphysema, fibrosis, and so forth), thin sections with high spatial frequency reconstructions are used \citep{coxson2007computed}. Scans are often performed both in inspiration and expiration. This special technique is called \gls{hrct}. With the help of \gls{hrct} scans, a series of high-resolution chest sections can be acquired with slice thickness as low as 0.5 mm \citep{naidich2005imaging}, which can provide high visibility of the lung boundaries and pulmonary fissures.  By making use of some advanced image processing technologies, a wide variety of features can be detected from these images such as density of the lung \citep{coxson2007computed}, volumes of the lung \citep{hu2001automatic}, the regions of lung disease distributions \citep{el2013computer, ley2008quantitative}, airway trees \citep{graham2010robust, zhu2010automatic, diaz2010airway} and blood vessels \citep{shikata2009segmentation}. Computed tomography (CT) images acquired at different stages in the breathing cycle can also be used to study lung mechanics and estimate regional lung ventilation \citep{hoffman2006state, yamamoto2011investigation}.
 
 %%%%%%%%%%%%%%%%%%%%
 \subsection{The importance of pulmonary lobar segmentation}
@@ -25,7 +25,7 @@ The extraction of pulmonary lobes from CT scans is of great importance for lung 
 
 % Section 2
 \subsection{Challenges of automatic pulmonary lobar segmentation from CT scans} \label{SegmentationChallenge}
-The most commonly used method to segment lobes from \gls{ct} is by manual assessment of an experienced pulmonary radiologist. However, the process of determining the lobar boundaries is extremely laborious and a time-consuming task, typically taking hours for one patient. This is because a 3D \gls{hrct} image may contain a large number of axial slices which makes the manual segmentation very time consuming. Therefore, doctors rarely use manual lobe segmentation in clinical diagnosis and treatment in practice, and most clinicians use subjective visual observation. For this reason, an automatic (no user interaction) or semi-automatic (minimal user interaction) lobe segmentation techniques are urgently needed in clinical applications and this has attracted great interest from researchers all over the world \citep{van2013automated,pu2009computational,ukil2009anatomy}.
+The most commonly used method to segment lobes from \gls{ct} is through manual assessment by an experienced pulmonary radiologist. However, the process of determining the lobar boundaries is extremely laborious and a time-consuming task, typically taking hours for one patient. This is because a 3D \gls{hrct} image may contain a large number of axial slices which makes the manual segmentation very time consuming. Therefore, doctors rarely use manual lobe segmentation in clinical diagnosis and treatment in practice, and most clinicians use subjective visual observation. For this reason, an automatic (no user interaction) or semi-automatic (minimal user interaction) lobe segmentation technique is urgently needed in clinical applications and this has attracted great interest from researchers all over the world \citep{van2013automated,pu2009computational,ukil2009anatomy}.
 
 However, to find an effective and time-saving automatic lobe segmentation method is a challenging task because of anatomical variation and the possibility of incomplete fissures. Lobar structures vary significantly between subjects, and the anatomical variation in lobe structure is usually associated with age, sex and body type. Pathologies of diseased lungs usually deform the lobar shape abnormally and result in fuzzy appearance of fissures on \gls{ct} images, in particular when abnormalities are present near the fissures, which makes fissure segmentation challenging. Even in patients with healthy lung parenchyma, fissures are sometimes incomplete \citep{gulsun2006variability, doel2015review} (see Figure \ref{fig:FissureSegmentationChanllenges}).
 
@@ -38,7 +38,7 @@ However, to find an effective and time-saving automatic lobe segmentation method
 
 % Section 3
 \section{Review of current published methods for pulmonary lobar segmentation} \label{SegmentationReview}
-In a broad sense, existing lobe segmentation methods usually consist of two steps: the segmentation of lungs, and the detection of the three main pulmonary fissures \citep{van2013automated}. Currently, a number of lung segmentation methods are available and most produce reliable results \citep{hu2001automatic,ukil2005smoothing,sun20063d,pu2008adaptive,wang2009automated}. In contrast, most challenges of automated lobar segmentation lie in the fissure detection, and currently no method has yet been demonstrated to be robust and effective across a wide range of clinical imaging parameters and pathology experienced in clinical practice. Lung lobe segmentation is a complex multi-stage process that cannot be addressed by a simple algorithm \citep{van2013automated,pu2009computational,ukil2009anatomy}. However, to some extent, lung segmentation and fissure detection are two independent parts and can be improved separately. That is, it should be possible for us to change lung segmentation in one way or another without affecting the fissure detection result dramatically. In the following section, existing work is discussed to highlight the key challenges of lobe segmentation algorithms, focusing on these two parts of the process. Then, our approach to lung and lobe segmentation is presented.
+In a broad sense, existing lobe segmentation methods usually consist of two steps: the segmentation of lungs, and the detection of the three main pulmonary fissures \citep{van2013automated}. Currently, a number of lung segmentation methods are available and most produce reliable results for normal lung at end-inspiration \citep{hu2001automatic,ukil2005smoothing,sun20063d,pu2008adaptive,wang2009automated}. In contrast, most challenges of automated lobar segmentation lie in the fissure detection, and currently no method has yet been demonstrated to be robust and effective across a wide range of clinical imaging parameters and pathology experienced in clinical practice. Lung lobe segmentation is a complex multi-stage process that cannot be addressed by a simple algorithm \citep{van2013automated,pu2009computational,ukil2009anatomy}. However, to some extent, lung segmentation and fissure detection are two independent parts and can be improved separately. That is, it should be possible to change lung segmentation in one way or another without affecting the fissure detection result dramatically. In the following section, existing work is discussed to highlight the key challenges of lobe segmentation algorithms, focusing on these two parts of the process. Then, a new approach to lung and lobe segmentation is presented.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Lung segmentation}
@@ -85,10 +85,10 @@ Most early 3D thresholding-based lung segmentation methods \citep{keller1981auto
 
 \cite{ukil2005smoothing} developed an improved automatic lung segmentation method to smooth lung boundaries in 3D using information from the segmented airway trees. A bounding box was first defined around the mediastinum for each lung using information from the segmented human airway trees, and all operations were then performed within the bounding box. After that, all generations of the airway distal branches were defined to the left and right main stem bronchi to be part of the respective lungs, and all the other segmented structures could be excluded. Finally, a fast morphological closing with an ellipsoidal kernel was performed to smooth the surface of the lung. This method solved the problem of irregular and inconsistent lung boundary of the regions near the mediastinum by using a common threshold algorithm. 
 
-\cite{sun20063d} presented a 3D-based method for segmenting lungs with improved accuracy. An anisotropic filtering method was first applied on \gls{ct} slices to enhance the signal-to-noise ratio. A wavelet transform-based interpolation method was subsequently used to construct the 3D volumetric \gls{ct} slice data with volume rendering. After that, an adaptive 3D region-growing algorithm was developed to detect lung region, combined with automatic seed-locating methods. Fuzzy logic algorithms and 3D morphological closing approaches were finally used to refine the lung volume and fill the holes in it. The method was effective and, in general, robust with an average accuracy rate of 88.5\%.  
+\cite{sun20063d} presented a 3D-based method for segmenting lungs with improved accuracy. An anisotropic filtering method was first applied on \gls{ct} slices to enhance the signal-to-noise ratio. A wavelet transform-based interpolation method was subsequently used to construct the 3D volumetric \gls{ct} slice data with volume rendering. After that, an adaptive 3D region-growing algorithm was developed to detect the lung region, combined with automatic seed-locating methods. Fuzzy logic algorithms and 3D morphological closing approaches were finally used to refine the lung volume and fill the holes in it. The method was effective and, in general, robust with an average accuracy rate of 88.5\%.  
 
 \subsubsection{Specially designed lung segmentation methods for abnormal lungs}
-Although conventional threshold-based methods are fast, robust and typically accurate for healthy subjects, they may fail to perform well for scans containing physiologic abnormalities, which often results in segmentation errors and requires clinicians to manually edit the results (see in Figure \ref{fig:AbnormalLungSegmentation}). Currently, specially designed lung segmentation methods mostly focus on a single lung disease and therefore can not get a good result across a large population \citep{kitasaka2003lung,sluimer2005toward,pu2008adaptive,pu2011shape,prasad2008automatic,korfiatis2008texture,wang2009automated,van2009automatic,sun2012automated}. 
+Although conventional threshold-based methods are fast, robust and typically accurate for healthy subjects, they may fail to perform well for scans containing physiologic abnormalities, which often results in segmentation errors and requires manual editing of the results (see in Figure \ref{fig:AbnormalLungSegmentation}). Currently, specially designed lung segmentation methods mostly focus on a single lung disease and therefore can not get a good result across a large population \citep{kitasaka2003lung,sluimer2005toward,pu2008adaptive,pu2011shape,prasad2008automatic,korfiatis2008texture,wang2009automated,van2009automatic,sun2012automated}. 
 
 \begin{figure*}[htbp]
   \centering 
@@ -103,12 +103,12 @@ To deal with the problem of lesions adjacent to the chest wall and mediastinum, 
 
 To overcome the error in detection of the lung boundaries for lung pathologies, \cite{prasad2008automatic} made use of rib curvature information to help with finding the lung borders. The method was based on a threshold-based algorithm followed by a morphologic operation. The core principle of the method was to adapt the threshold value to an individual subject by making the curvature of lung along the ribs be similar to the curvature of the ribs. These curvatures were both represented by polynomial interpolation even though there was minimal deviation from this representation. The results showed that the performance of the rib segmentation method was better than the same method without guidance from rib segmentation.
 
-\cite{wang2009automated} proposed a texture analysis-based method to segment ILD lungs. The lung region including normal and mild ILD lung parenchyma was first segmented by a CT value thresholding technique and then texture-feature images derived from the co-occurrence matrix was used to identify abnormal lung regions with severe ILD from the initial results. 2D holes filling was applied to smooth the final lung segmentation. The overlap rate, volume agreement, mean absolute distance (MAD), and maximum absolute distance between the automatically segmented lungs and the reference lungs (delineated manually by a medical physicist) were employed to evaluate the performance of the segmentation method, and showed accurate lung segmentation results for abnormal CT scans with severe ILD.
+\cite{wang2009automated} proposed a texture analysis-based method to segment ILD lungs. The lung region including normal and mild ILD lung parenchyma was first segmented by a CT value thresholding technique and then texture-feature images derived from the co-occurrence matrix was used to identify abnormal lung regions with severe ILD from the initial results. 2D hole filling was applied to smooth the final lung segmentation. The overlap rate, volume agreement, mean absolute distance (MAD), and maximum absolute distance between the automatically segmented lungs and the reference lungs (delineated manually by a medical physicist) were employed to evaluate the performance of the segmentation method, and showed accurate lung segmentation results for abnormal CT scans with severe ILD.
 
 On the basis of the previous studies, \citep{sun2012automated} developed a further approach for segmentation of lungs with high-density pathologies. The method had two main steps. In the first step, a robust active shape model (RASM) matching method was utilized to roughly find the outline of the lungs. To initialize the shape model of RASM, detected rib information was used. In the second step, an optimal surface finding approach was applied to further adapt the initial segmentation result to the lung. The method was evaluated on both normal and abnormal subjects and had a better performance compared to two commercially available lung segmentation approaches.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Fissure detection}
-The currently published fissure detection methods can be, for the most part, classified into two categories: anatomical knowledge based analysis method and shape based analysis method. Anatomical knowledge based methods usually depend on either local or global knowledge of the anatomy of lung structure based on two pulmonary anatomical features. The first feature is the fact that there should not be any large vessels in the vicinity of lobar fissures, so fissures should locate in the gaps between airway and vessel trees. Another feature is that the airway bronchi can be classified into five lobar branches using an edge detection method (Figure \ref{fig:AnatomicalBasedSegmentation}). Shape based analysis methods commonly make use of gray-level information and shape information to detect the fissures. Published fissure detection methods are summarized in Table \ref{tab:FissureDetectionSummary}.
+The currently published fissure detection methods can be, for the most part, classified into two categories: anatomical knowledge based analysis methods and shape based analysis methods. Anatomical knowledge based methods usually depend on either local or global knowledge of the anatomy of lung structure based on two pulmonary anatomical features. The first feature is the fact that there should not be any large vessels in the vicinity of lobar fissures, so fissures should locate in the gaps between airway and vessel trees. Another feature is that the airway bronchi can be classified into five lobar branches using an edge detection method (Figure \ref{fig:AnatomicalBasedSegmentation}). Shape based analysis methods commonly make use of gray-level information and shape information to detect the fissures. Published fissure detection methods are summarized in Table \ref{tab:FissureDetectionSummary}.
 
 \begin{figure}[htbp] 
 \centering
@@ -172,7 +172,7 @@ The currently published fissure detection methods can be, for the most part, cla
 \end{table}
 
 \subsubsection{Anatomical knowledge based method}
-Methods that aim to detect the lobar fissures usually start by finding an approximate location of the lobar borders based on prior anatomical knowledge of lung structures in order to narrow the search area for fissure detection \citep{kuhnigk2003lung,kuhnigk2005informatics,zhou2004automatic,saita2006algorithm,zhang2006atlas,ukil2009anatomy,pu2009computational,lassen2010automatic,doel2012pulmonary}. These methods are developed mainly based on two pulmonary anatomical features. The first feature is the fact that there should not be any large vessels in the vicinity of lobar fissures, so fissures should locate in the gaps between airway and vessel trees. Another feature is that the bronchi can be classified into five lobes using an edge detection method (Figure \ref{fig:AnatomicalBasedSegmentation}). A number of published papers use the segmentation results of airways and vessels to help localize fissures. Usually, the vascular segmentation provides more accurate estimation of lobar fissure locations than the airway trees, since more vessel generations can be detected from \gls{ct} scans. These vessels span the entire lung volume which can help us find complete gaps between lobes. However, airways also play an important part in initial estimation of fissures, since airways trees can be more reasonably divided into lobes based on branching structure, while the structure of vasculature branching is more complicated to extract from images and some connections are hard to separate accurately. Therefore, a lot of studies make use of both vessel and airway information to guide fissure detection \citep{ukil2009anatomy,lassen2010automatic,doel2012pulmonary}.
+Methods that aim to detect the lobar fissures usually start by finding an approximate location of the lobar borders based on prior anatomical knowledge of lung structures in order to narrow the search area for fissure detection \citep{kuhnigk2003lung,kuhnigk2005informatics,zhou2004automatic,saita2006algorithm,zhang2006atlas,ukil2009anatomy,pu2009computational,lassen2010automatic,doel2012pulmonary}. These methods are developed mainly based on two pulmonary anatomical features. A number of published papers use the segmentation results of airways and vessels to help localize fissures. Usually, the vascular segmentation provides more accurate estimation of lobar fissure locations than the airway trees, since more vessel generations can be detected from \gls{ct} scans. These vessels span the entire lung volume which can help to find complete gaps between lobes. However, airways also play an important part in initial estimation of fissures, since airways trees can be more reasonably divided into lobes based on branching structure, while the structure of vasculature branching is more complicated to extract from images and some connections are hard to separate accurately. Therefore, a lot of studies make use of both vessel and airway information to guide fissure detection \citep{ukil2009anatomy,lassen2010automatic,doel2012pulmonary}.
 
 \cite{kuhnigk2003lung,kuhnigk2005informatics} was an early group to present a framework of taking both lobar airways and vasculature into account for automatic fissure detection. A watershed transformation method has been used to take an analysis of these anatomical structures and this method was widely used and improved by other researchers, but the results calculated by this simple algorithm were not accurate enough even for some clearly visible fissures. 
 
@@ -192,7 +192,7 @@ In 3D space, the most commonly used method to detect these pulmonary fissure pla
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 % Section 4
 \section{Methods: automatic statistical shape model based lobar segmentation method} \label{SegmentationMethod}
-Here, a \gls{ssm} guided method is presented to segment pulmonary lobes from \gls{ct} images. A three-step approach is followed for the lobe segmentation (shown in Figure \ref{fig:WholeWorkflow}): in the first step, a threshold-based lung segmentation method defines the lung boundary; in the second step, a \gls{ssm} is deformed to provide a ''search region'' for fissure locations; in the third step, fissures are located using a Hessian matrix protocol combined with connected component filters and a surface fitting algorithm. This method is able to detect fissures in all test subjects, whereas existing segmentation tools failed in several subjects. The new procedure does not depend on prior segmentation of anatomical structures (airway lobar classification) other than lung shape and has promising potential as a clinically useful automatic lobe segmentation procedure. A user-interactive interface was also developed for the user to control and visualize the whole segmentation process and to allow do some manual correction on the segmented results, if required.
+Here, an \gls{ssm} guided method is presented to segment pulmonary lobes from \gls{ct} images. A three-step approach is followed for the lobe segmentation (shown in Figure \ref{fig:WholeWorkflow}): in the first step, a threshold-based lung segmentation method defines the lung boundary; in the second step, an \gls{ssm} is deformed to provide a ''search region'' for fissure locations; in the third step, fissures are located using a Hessian matrix protocol combined with connected component filters and a surface fitting algorithm. The new procedure does not depend on prior segmentation of anatomical structures (airway lobar classification) other than lung shape. A user-interactive interface was also developed for the user to control and visualize the whole segmentation process and to allow do some manual correction on the segmented results, if required.
 \newpage
 
 \begin{figure}[H]
@@ -261,7 +261,7 @@ Ethnicity\\
 
 To define the lung shape, volumetric \gls{ct} images were segmented using the method described in Section \ref{subsection:LungSegmentation}. The segmented lung surface was then digitized into a set of data points as a 3D-space representation of lung shape (Figure \ref{fig:LobeShapeGenereation-a}). Fissure surface segmentation was performed manually using the open-source visualization software CMGUI (https://www.cmiss.org/cmgui) by an expert user, to provide a gold-standard definition of the fissure location for each subject in the training set (Figure \ref{fig:LobeShapeGenereation-b}, \ref{fig:LobeShapeGenereation-c}). A high order (bi-cubic Hermite) finite element template mesh with the same mesh connectivity for each subject was geometry fitted to the lung and fissure surface data for each subject. The current lung lobe mesh consists of two separate meshes which represent the left and right lung enclosing the lung parenchymal tissue volume. 
 
-The generation of fitted anatomical lobar mesh consists of two steps: Firstly, an initial linear mesh is created by selecting some data points to be nodes and creating two-dimensional surface elements by joining these node points appropriately using straight lines. The template mesh for the left lung mesh has 35 nodes and 44 elements which described the left lung surface and left oblique fissure, while the right lung mesh has 50 nodes and 62 elements which defined right lung surface, right oblique fissure and right surface fissure. Once the linear surface mesh has been created, an iterative geometric fitting process is subsequently undertaken, where the aim is to adjust the nodal positions and derivatives representing the shape of the lung. The element surfaces were matched to the data as closely as possible, by minimizing an error function. In the second stage, the lung lobe surface was modelled using bi-cubic Hermite basis functions with C1 continuity. This bi-cubic Hermite mesh has the same mesh connectivity as the linear mesh, but has more \gls{dof}s as it also contains nodal derivative information. Each node has 12 \gls{dof}s which store the global coordinates (x, y and z) and first and second nodal derivatives (\pd{n}{\xi_1}, \pd{n}{\xi_2}, and \pd[2]{n}{\xi_1 \xi_2}), where n is x, y and z, and $\xi$ is the local element coordinate. In our lung lobe model they are defined such that $\xi_1$ is in the anterior-posterior direction while $\xi_2$ is in the cranio-caudal direction, $\xi_1$ and $\xi_2$ have values that range from 0 to 1. Each node of the fitted mesh is either an anatomical landmark (the left/right lung apex, the base vertex, the shape corner and the centre point of the middle line of fissure) or a pseudo-landmark (e.g. a specific proportion of the arc-length between two anatomical landmarks). These landmarks allow us to define the coordinate of the control points in consistent positions registered to the geometry of the lung. A least squares fit of the mesh to the lung and fissure surface data was conducted using CMISS ({https://www.cmiss.org), which is a finite element modelling environment. Specifically, the sum of the distances between each data point and its projection on to the nearest element was minimized during the fitting process. This distance is a function of the element location and shape parameters. In this procedure, the nodal parameters are interpolated to find the projected points. The global coordinates of the projected points are a function of local element coordinates, $\xi_1$ and $\xi_2$, and nodal parameters. Some manual operations were involved to adjust the mesh nodal positions and derivatives to the data cloud, which can help to improve the speed and accuracy of fitting. The average \gls{rms} error of this fitting method was 4.79 mm for the 50 training subjects (Figure \ref{fig:LobeShapeGenereation-d}). More details on the fitting procedure can be found in  \citep{bradley1997geometric,tawhai2003developing, fernandez2004anatomically}.  
+An initial template mesh was created by selecting some data points to be nodes, and then creating two-dimensional surface elements by joining these node points appropriately. The template mesh for the left lung mesh has 35 nodes and 44 elements which described the left lung surface and left oblique fissure, while the right lung mesh has 50 nodes and 62 elements which defined right lung surface, right oblique fissure and right surface fissure. For fitting to lung and lobe shape data, the template mesh was modelled using bi-cubic Hermite basis functions with C1 continuity. This bi-cubic Hermite mesh has the same mesh connectivity as the template mesh, but it also contains nodal derivative information. Each node has 12 \gls{dof}s which store the global coordinates (x, y and z) and first and second nodal derivatives (\pd{n}{\xi_1}, \pd{n}{\xi_2}, and \pd[2]{n}{\xi_1 \xi_2}), where n is x, y and z, and $\xi$ is the local element coordinate. In this lung lobe model they are defined such that $\xi_1$ is in the anterior-posterior direction while $\xi_2$ is in the cranio-caudal direction. $\xi_1$ and $\xi_2$ have values that range from 0 to 1. Each node of the fitted mesh is either an anatomical landmark (the left/right lung apex, the base vertex, the shape corner and the centre point of the middle line of fissure) or a pseudo-landmark (e.g. a specific proportion of the arc-length between two anatomical landmarks). These landmarks allow the coordinate of the control points to be defined in consistent positions registered to the geometry of the lung. A least squares fit of the mesh to the lung and fissure surface data was conducted using CMISS ({https://www.cmiss.org), which is a finite element modelling environment. Specifically, the sum of the distances between each data point and its projection on to the nearest element was minimized during the fitting process. This distance is a function of the element location and shape parameters. In this procedure, the nodal parameters are interpolated to find the projected points. The global coordinates of the projected points are a function of local element coordinates, $\xi_1$ and $\xi_2$, and nodal parameters. Some manual operations were involved to adjust the mesh nodal positions and derivatives to the data cloud, which can help to improve the speed and accuracy of fitting. The average \gls{rms} error of this fitting method was 4.79 mm for the 50 training subjects (Figure \ref{fig:LobeShapeGenereation-d}). More details on the fitting procedure can be found in  \citep{bradley1997geometric,tawhai2003developing, fernandez2004anatomically}.  
 
 
 \begin{figure}[htbp] 
@@ -301,7 +301,7 @@ The generation of fitted anatomical lobar mesh consists of two steps: Firstly, a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{PCA-based statistical shape model construction} \label{SSMConstruction}
 
-A prerequisite of the construction of SSM is object alignment to remove the orientation and scaling differences between shapes. Here a \gls{gpa} was selected as a registration method \citep{dryden1998statistical,rohlf1999shape}. The GPA algorithm finds the optimal rotation matrix and translation vector which minimizes the overall distance between two sets of points with respect to the Euclidean norm. In our study, a reference lung model sample was randomly chosen from the training set. Then all the other training models were aligned to this reference model. In this process, the volumes of all subjects were normalized to 1 L and any residual rotation and translation were removed. The generalized procrustes alignment can be represented as an affine transformation in mathematical terms
+A prerequisite of the construction of an SSM is object alignment to remove the orientation and scaling differences between shapes. Here a \gls{gpa} was selected as a registration method \citep{dryden1998statistical,rohlf1999shape}. The GPA algorithm finds the optimal rotation matrix and translation vector which minimizes the overall distance between two sets of points with respect to the Euclidean norm. In this study, a reference lung model sample was randomly chosen from the training set. Then all the other training models were aligned to this reference model. In this process, the volumes of all subjects were normalized to 1 L and any residual rotation and translation were removed. The generalized procrustes alignment can be represented as an affine transformation in mathematical terms
 
 \begin{equation}
  \label{eq:PCAConstruction1}
@@ -356,7 +356,7 @@ In order to perform PCA, each shape parameter was centred by subtracting the mea
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Initial prediction of lobar location in an individual} \label{MeshPrediction}
 
-Using the method described in section \ref{ShapeModelGeneration}, the lung shape variation across the training set can be decomposed into a series of modes, and each specific lung shape can be represented with the corresponding mode weight values. In this study each mode represents one type of lung and fissure surface shape variation. In order to predict the fissure location, two PCA-based SSM were constructed using the same training dataset. The first lobe SSM was built using both the lung surface parameters and fissure surface parameters. The second lung SSM was derived for the same training set but did not include the fissure surfaces and so only described the shape of the lung surface.
+Using the method described in section \ref{ShapeModelGeneration}, the lung shape variation across the training set can be decomposed into a series of modes, and each specific lung shape can be represented with the corresponding mode weight values. In this study each mode represents one type of lung and fissure surface shape variation. In order to predict the fissure location, two PCA-based SSMs were constructed using the same training dataset. The first lobe SSM was built using both the lung surface parameters and fissure surface parameters. The second lung SSM was derived for the same training set but did not include the fissure surfaces and so only described the shape of the lung surface.
 
 The two SSMs were used to predict the fissure locations for subjects that were not part of the training set, using only the definition of the lung surface for the subject as input. A finite element mesh of the lung surface (without fissure information) was generated for each new subject. The new fitted lung mesh was procrustes aligned to the same reference model as the training subjects were aligned to. Then this aligned lung surface mesh was projected on to the lung surface SSM (with no fissure surfaces). The principal component weight values were calculated from the projection, which was represented as $w_{new} = [w_{new1}, w_{new2}, ..., w_{newL}]$ (L$\leq$ 49) here. The first seven principal components accounted for over 90\% of the total lung shape variation in the training set. Therefore, the first seven mode weights were used on the lobe SSM ( which includes both lung and fissure surfaces) to reconstruct the projected lobe mesh for this new subject
 
@@ -381,13 +381,13 @@ The two SSMs were used to predict the fissure locations for subjects that were n
   \caption{}
   \label{fig:PCAFissurePrediction-b} 
 \end{subfigure}
-\caption{Fissure prediction results compared to ground truth fissure points. The fissure surface meshes are estimated fissure locations and the red points are manual tracing fissure points by an expert. (a) Left lung. (b) Right lung.}
+\caption{Fissure prediction results compared to ground truth fissure points for one subject. The fissure surface meshes are estimated fissure locations and the red points are manual tracing fissure points by an expert. (a) Left lung. (b) Right lung.}
 \label{fig:PCAFissurePrediction}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Multi-scale Hessian-based fissure detection}
 
-The final fissure detection was accomplished using an enhancement filter. Conventional, enhancement filters are typically based on first (structure tensor) or second (Hessian matrix) order image information \citep{frangi1998multiscale,lorenz1997multi}. In this study, we used the Hessian matrix based on gray-scale curvature information combined with Gaussian smoothing as a basic operator to enhance the fissure structure. In 3D space, fissures are free-form surfaces in the lungs that locally resemble plate-like structures, since the grey-value increases rapidly from the structure border to the centre and decreases again to the opposite border. Hessian-based filters are typically used to enhance and differentiate structures with specific shapes, i.e., blobs, sheets and tubes \citep{frangi1998multiscale,lorenz1997multi}.
+The final fissure detection was accomplished using an enhancement filter. Conventional enhancement filters are typically based on first (structure tensor) or second (Hessian matrix) order image information \citep{frangi1998multiscale,lorenz1997multi}. This study used the Hessian matrix based on gray-scale curvature information combined with Gaussian smoothing as a basic operator to enhance the fissure structure. In 3D space, fissures are free-form surfaces in the lungs that locally resemble plate-like structures, since the grey-value increases rapidly from the structure border to the centre and decreases again to the opposite border. Hessian-based filters are typically used to enhance and differentiate structures with specific shapes, i.e., blobs, sheets and tubes \citep{frangi1998multiscale,lorenz1997multi}.
 
 A common approach to analyse the local behaviour of an image, L, is to consider the local grey-value variations in the neighbourhood of a point $x_0$ modelled by a Taylor expansion to the second order
 
@@ -412,14 +412,14 @@ To calculate these differential operators of L, concepts of linear scale space t
  G(x,s) = \frac{1}{{\sqrt{2\pi s^2}}^D}e^{-\frac{{\lVert x \rVert}^2}{2x^2}},
 \end{equation}
 
-\noindent where s is the kernel size of the Gaussian. The second derivative of a Gaussian is in many cases a good approximation to the optimal filter for a plane-like structure. Through using the second derivative operator combined with Gaussian smoothing as the basic operator (Hessian matrix), we are able to make the non-supervised fissure filter scale-dependent \citep{lorenz1997multi, li2003selective}. In order to make sure a variety of sizes of fissures can be captured by the Hessian, we implemented a range of kernel sizes from 0.5mm to 2.5mm in 0.5 mm increments as the kernel size of the Gaussian to obtain a final estimate of 'fissureness'
+\noindent where s is the kernel size of the Gaussian. The second derivative of a Gaussian is in many cases a good approximation to the optimal filter for a plane-like structure. Through using the second derivative operator combined with Gaussian smoothing as the basic operator (Hessian matrix), we are able to make the non-supervised fissure filter scale-dependent \citep{lorenz1997multi, li2003selective}. In order to make sure a variety of sizes of fissures can be captured by the Hessian, a range of kernel sizes was implemented from 0.5 mm to 2.5 mm in 0.5 mm increments as the kernel size of the Gaussian to obtain a final estimate of 'fissureness'
 
 \begin{equation}
 \label{eq:Multiscale}
 F_{output} = \operatorname*{max}\limits_{s_{min}\leq s \leq s_{max}} F_0 (s),
 \end{equation}
 
-\noindent where $s_{min}$ and $s_{max}$ are the minimum scale (0.5mm) and maximum scale (2.5mm). Each scale s gets a response. In the final output of the multiscale enhancement filter, the maximum output over all scales is assigned to each voxel.
+\noindent where $s_{min}$ and $s_{max}$ are the minimum scale (0.5 mm) and maximum scale (2.5 mm). Each scale s gets a response. In the final output of the multiscale enhancement filter, the maximum output over all scales is assigned to each voxel.
 
 At each image voxel, the Hessian matrix was constructed from the six independent second order derivatives as a symmetric matrix
 
@@ -453,7 +453,7 @@ $\lambda_1$ & $\lambda_2$ &  $\lambda_1$ & $\lambda_2$ & $\lambda_3$ &  \\
 \end{tabular}
 \end{table}
 
-As shown in Table \ref{tab:Hessian-based eigenvalue analysis}, an eigenvector analysis of the Hessian matrix can thus be used to detect fissure like structures, and the respective eigenvectors point out singular directions. In 3D space, a light plane on a dark background is characterized by one large positive second derivative ($\lambda_3$) perpendicular to the fissure plane, since the grey-value increases rapidly from the plane-structure border to the centreline and decreases again to the opposite border. And two small second derivatives of either sign ($\lambda_1$ and $\lambda_2$) parallel to the plane should occur (shown in Fig \ref{fig:FissureHessianEigenvector}). Thus, on the bright fissures, the ideal relationship is defined as $\mid\lambda_{1}\mid = \mid\lambda_{2}\mid = 0$ and $\lambda_{3} \ll 0$, $\mid\lambda_{1}\mid\leq\mid\lambda_{2}\mid\leq\mid\lambda_{3}\mid$. From these characteristics, we can get a fissure probability of each voxel defined as
+As shown in Table \ref{tab:Hessian-based eigenvalue analysis}, an eigenvector analysis of the Hessian matrix can thus be used to detect fissure-like structures, and the respective eigenvectors point out singular directions. In 3D space, a light plane on a dark background is characterized by one large positive second derivative ($\lambda_3$) perpendicular to the fissure plane, since the grey-value increases rapidly from the plane-structure border to the centreline and decreases again to the opposite border. And two small second derivatives of either sign ($\lambda_1$ and $\lambda_2$) parallel to the plane should occur (shown in Fig \ref{fig:FissureHessianEigenvector}). Thus, on the bright fissures, the ideal relationship is defined as $\mid\lambda_{1}\mid = \mid\lambda_{2}\mid = 0$ and $\lambda_{3} \ll 0$, $\mid\lambda_{1}\mid\leq\mid\lambda_{2}\mid\leq\mid\lambda_{3}\mid$. From these characteristics, we can get a fissure probability of each voxel defined as
 
 \begin{equation}
 \label{eq:FissureHessian1}
@@ -504,7 +504,7 @@ R_{noise} = \sqrt{{\lambda_1}^2+{\lambda_2}^2+{\lambda_3}^2},
   \label{fig:FissureHessianEigenvector}
 \end{figure*}
 
-Blood vessel voxels were subsequently filtered from the fissure enhanced result. The segmentation of vessels was achieved using a classical vessel segmentation method \citep{frangi1998multiscale}. This method uses a multiple scale (from 0.5mm to 3.0mm in 0.5 mm increments as the kernel size of Gaussian) Hessian-based enhanced filter, which is similar to the fissure detection filter we described previously. The main difference is here the aim is to search for the tube structure (vessels). In a 3D image,  the relationship of Hessian eigenvalues $\lambda_{1}$, $\lambda_{2}$ and $\lambda_{3}$ of an ideal bright tubular structure in a dark background should be described as $\mid\lambda_{1}\mid\approx$ 0, $\mid\lambda_{1}\mid\ll\mid\lambda_{2}\mid$,  $\lambda_{2}\approx\lambda_{3}$ (see Figure \ref{fig:VesselHessianEigenvector}). Therefore, we used the following equations as the enhancement filter to detect vesselness structures
+Blood vessel voxels were subsequently filtered from the fissure enhanced result. The segmentation of vessels was achieved using a classical vessel segmentation method \citep{frangi1998multiscale}. This method uses a multiple scale (from 0.5 mm to 3.0 mm in 0.5 mm increments as the kernel size of Gaussian) Hessian-based enhanced filter, which is similar to the fissure detection filter described previously. The main difference is here the aim is to search for the tube structure (vessels). In a 3D image,  the relationship of Hessian eigenvalues $\lambda_{1}$, $\lambda_{2}$ and $\lambda_{3}$ of an ideal bright tubular structure in a dark background should be described as $\mid\lambda_{1}\mid\approx$ 0, $\mid\lambda_{1}\mid\ll\mid\lambda_{2}\mid$,  $\lambda_{2}\approx\lambda_{3}$ (see Figure \ref{fig:VesselHessianEigenvector}). Therefore, the following equations were used as the enhancement filter to detect vesselness structures
 
 \begin{equation}
 \label{eq:VesselHessian1}
@@ -531,7 +531,7 @@ R_B = \frac{\mid\lambda_{1}\mid}{\sqrt{\mid\lambda_{2}\mid \mid\lambda_{3}\mid}}
 S = {\Vert H \rVert}_F = \sqrt{\sum_{j\leq D}}{\lambda_j}^2,
 \end{equation}
 
-\noindent where $D$ is the dimension of the image. $V_0(s)$ gives a probability of vesselness for each voxel. Then segmented blood vessels were selected through detecting the voxels whose vesselness value was larger than a specific threshold (threshold = 10 in this study \citep{frangi1998multiscale}). We used $D{vessel}$ to represent the distance transform to the segmented vessel line, thus the final fissureness after decreasing the values of vessel voxels was defined as
+\noindent where $D$ is the dimension of the image. $V_0(s)$ gives a probability of vesselness for each voxel. Then segmented blood vessels were selected through detecting the voxels whose vesselness value was larger than a specific threshold (threshold = 10 in this study \citep{frangi1998multiscale}). $D{vessel}$ was used to represent the distance transform to the segmented vessel line, thus the final fissureness after decreasing the values of vessel voxels was defined as
 
 \begin{equation}
 \label{eq:FinalFissureness}
@@ -552,7 +552,7 @@ S_{vessels} = exp(1-\frac{{D{vessel}}^2}{2d^2}),
   \label{fig:VesselHessianEigenvector}
 \end{figure*}
 
-The initial fissure location predicted by average SSM deformation gives us a region of interest (ROI) for an accurate fissure detection, see Figure \ref{fig:FissureDetection-c}. The candidate points are selected within a certain distance of the initial fissure approximation: the search distance was set to 20 voxels (default value) for the initially projected left and right oblique fissures and 15 voxels for the initially projected right horizontal fissure. To remove some spurious responses such as small plane-like structures on the result, a 2D 4-neighbourhood connected component filter and a 3D 6-neighbourhood vector-based connected component filter were employed successively to eliminate noise arising from small plane-like structures in this search region (Fig \ref{fig:FissureDetection-d}). A 2D filter was used to eliminate 4-neighbour connected components that were smaller than a minimum small size (set to 10 voxels initially) slice by slice. The 3D vector-based connected component filter used the inner product of the normalized largest eigenvector of the Hessian matrix in adjacent voxels. These largest eigenvectors are perpendicular to the fissure plane, and their inner product provides a criterion for component connection. As the curvature of a fissure is locally low, adjacent fissure voxels should have similar largest eigenvectors and thus the inner product value of their largest eigenvectors should equal to 1 or slightly smaller than 1. Connected boundary condition was set as an inner product $\leq$ 0.8 to connected component, then 3D 6-neighbour connected component with a volume less than 100 $\mathrm{mm^3}$ was removed as noise from the result.
+The initial fissure location predicted by average SSM deformation gives a region of interest (ROI) for an accurate fissure detection, see Figure \ref{fig:FissureDetection-c}. The candidate points are selected within a certain distance of the initial fissure approximation: the search distance was set to 20 voxels (default value) for the initially projected left and right oblique fissures and 15 voxels for the initially projected right horizontal fissure. To remove some spurious responses such as small plane-like structures on the result, a 2D 4-neighbourhood connected component filter and a 3D 6-neighbourhood vector-based connected component filter were employed successively to eliminate noise arising from small plane-like structures in this search region (Fig \ref{fig:FissureDetection-d}). A 2D filter was used to eliminate 4-neighbour connected components that were smaller than a minimum small size (set to 10 voxels initially) slice by slice. The 3D vector-based connected component filter used the inner product of the normalized largest eigenvector of the Hessian matrix in adjacent voxels. These largest eigenvectors are perpendicular to the fissure plane, and their inner product provides a criterion for component connection. As the curvature of a fissure is locally low, adjacent fissure voxels should have similar largest eigenvectors and thus the inner product value of their largest eigenvectors should equal to 1 or slightly smaller than 1. Connected boundary condition was set as an inner product $\leq$ 0.8 to connected component, then 3D 6-neighbour connected component with a volume less than 100 $\mathrm{mm^3}$ was removed as noise from the result.
 
 The detected points were then divided into a set of small subsections corresponding to different x, y intervals. For each subsection, the point of the highest fissure probability (the highest S value) was selected as the final candidate fissure point (Fig \ref{fig:FissureDetection-e}). Once the maximum fissureness candidates were found, a morphological dilation with a $3\times3\times3$ voxel cube as structure element was applied iteratively until the largest connected fissure plane was big enough, so that all the other unconnected outliers could be filtered subsequently. Finally, a continuous smooth fissure surface was generated based on the maximum fissure points using a $\beta$-spline method with a thin-plane spline \citep{lee1997scattered} and extrapolated to the lung boundaries, see Fig \ref{fig:FissureDetection-f}.
 
@@ -600,7 +600,7 @@ The detected points were then divided into a set of small subsections correspond
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Interactive user control interface} \label{UserControl}
-As discussed above, a series of parameter values need to be chosen correctly to ensure a successful lobar segmentation. However, a fixed parameter value is usually not suitable for all the subjects due to a wide variation of lung tissue and fissure appearances across the population. Therefore, a fast and convenient manual interaction to control the segmentation procedure is reasonable and acceptable. Based on an open source software, Pulmonary Toolkit (PTK, https://github.com/tomdoel/pulmonarytoolkit), we developed an improved user-friendly interactive interface to control the segmentation parameters as input (improved version: https://github.com/qiuyufly/pulmonarytoolkit/tree/yuwen). PTK is a software developed on Matlab for the analysis of 3D medical lung images for academic research use. It comprises a library of lung analysis algorithms, a GUI application for visualising and analysing clinical lung images and a rapid prototyping framework for users to develop their new algorithms in an easier way. By making use of some built-in objects and the visualisation system of PTK, our lobar segmentation algorithm was added into the algorithm package and parameter control buttons were made available on the interface. Table \ref{tab:ParameterUserControl} summarises the interactive user control parameters. Figure \ref{fig:PTKUserInterface} shows the user interface of PTK.
+As discussed above, a series of parameter values need to be chosen correctly to ensure a successful lobar segmentation. However, a fixed parameter value is usually not suitable for all the subjects due to a wide variation of lung tissue and fissure appearances across the population. Therefore, a fast and convenient manual interaction to control the segmentation procedure is reasonable and acceptable. Based on an open source software, Pulmonary Toolkit (PTK, https://github.com/tomdoel/pulmonarytoolkit), an improved user-friendly interactive interface was developed to control the segmentation parameters as input (improved version: https://github.com/qiuyufly/pulmonarytoolkit/tree/yuwen). PTK is a software developed on Matlab for the analysis of 3D medical lung images for academic research use. It comprises a library of lung analysis algorithms, a GUI application for visualising and analysing clinical lung images and a rapid prototyping framework for users to develop their new algorithms in an easy way. By making use of some built-in objects and the visualisation system of PTK, the lobar segmentation algorithm was added into the algorithm package and parameter control buttons were made available on the interface. Table \ref{tab:ParameterUserControl} summarises the interactive user control parameters. Figure \ref{fig:PTKUserInterface} shows the user interface of PTK.
 
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
@@ -637,7 +637,7 @@ Total connected component size & 300 voxels &  ~ \\
 
 %%%%%%%%%%% 
 \subsubsection{Search region control}
-Fissure candidate points were detected within a certain distance of the initial fissure approximation. The default distance was set to 20 voxels for left and right oblique fissures and 15 voxels for right horizontal fissure. However, with a fixed search distance, fissure detection sometimes could not be implemented efficiently and accurately. The probability of error detection may increase if the search distance is too large, as more noise will be included in the initial search region. In contrast some positive fissure points will be missed if the search distance is too small. Accurate fissure candidate points are an important prerequisite for good fissure surface fitting. Therefore, user interactive slide buttons were developed on the PTK interface to control the search distance. Through inputting SSM based initial fissure prediction mesh, the estimated fissures can be  visualized to overlap on the raw images in the PTK visualization section. Then it is possible for users to select a suitable search region for each fissure depending on the accuracy of the initial fissure estimate. The better the initial fissure approximation, the lower the search region should be selected. Figure \ref{fig:SearchRegionControl} shows the lobe segmentation result before and after change to the search region.
+Fissure candidate points were detected within a certain distance of the initial fissure approximation. The default distance was set to 20 voxels for left and right oblique fissures and 15 voxels for right horizontal fissure. However, with a fixed search distance, fissure detection sometimes could not be implemented efficiently and accurately. The probability of error detection may increase if the search distance is too large, as more noise will be included in the initial search region. In contrast some positive fissure points will be missed if the search distance is too small. Accurate fissure candidate points are an important prerequisite for good fissure surface fitting. Therefore, user interactive slide buttons were developed on the PTK interface to control the search distance. Through inputting SSM based initial fissure prediction mesh, the estimated fissures can be  visualized to overlap on the raw images in the PTK visualization section. Then it is possible for users to select a suitable search region for each fissure depending on the accuracy of the initial fissure estimate. The better the initial fissure approximation, the lower the search region that should be selected. Figure \ref{fig:SearchRegionControl} shows the lobe segmentation result before and after change to the search region.
 \newpage
 
 \begin{figure}[htbp] 
@@ -656,15 +656,15 @@ Fissure candidate points were detected within a certain distance of the initial 
   \caption{}
   \label{fig:SearchRegionControl-b} 
 \end{subfigure}
-\caption{Fissure detection results before and after control the search regions. (a) Fissure detection result with a search distance of default 20 voxels. (b) Fissure detection result after setting a specific search distance depend on the accuracy of initial fissure guessing.}
+\caption{Fissure detection results before and after control the search regions. (a) Fissure detection result with a search distance of default 20 voxels. (b) Fissure detection result after setting a specific search distance depending on the accuracy of initial fissure guessing.}
 \label{fig:SearchRegionControl}
 \end{figure}
 
 \subsubsection{Connected component analysis filter control}
-Connected component analysis was an important operation to help with noise elimination during fissure detection. A suitable connected component size is able to remove most of the small connected structures as outliers and in the meantime retain true fissure structures as much as possible. In order to improve the filter performance, we used a slide button to control the connected component size on the PTK user interface. Through changing the component size threshold, it is possible for us to find a balance between spurious response elimination and target points retainment. 
+Connected component analysis is an important operation to help with noise elimination during fissure detection. A suitable connected component size is able to remove most of the small connected structures as outliers and in the meantime retain true fissure structures as much as possible. In order to improve the filter performance, a slide button was used to control the connected component size on the PTK user interface. Through changing the component size threshold, it is possible for us to find a balance between spurious response elimination and target points retainment. 
 
 \subsubsection{Manual correction}
-Manual correction is an essential part of a lot of lobe segmentation processing. A manual correction tool was available in the PTK software, but in this method only one correct landmark can be selected at a time. We developed a multiple landmark correction method based on PTK built-in packages, and the improved correction tool allows users to modify three fissures points at the same time. By selecting a series of correction landmarks, the corresponding fissure plane is deformed to a new curved surface which passes through all the correct landmarks. The correction region was calculated based on the distance between the landmark and its corresponding fissure plane, and a 3D Gaussian filter with the landmark as the centre was also used to specify the corrected boundary. The correction happens in 3D space so that users don't need to do the correction slice by slice. The whole correction can be finished in a few minutes even when automatic fissure is not complete. Figure \ref{fig:ManualCorrection} shows the fissure detection results before and after manual correction.
+Manual correction remains an essential part of lobe segmentation processing. A manual correction tool was available in the PTK software, but in this method only one correct landmark could be selected at a time. Here, a multiple landmark correction method was developed based on PTK built-in packages, and the improved correction tool allows users to modify three fissure points at the same time. By selecting a series of correction landmarks, the corresponding fissure plane is deformed to a new curved surface which passes through all the correct landmarks. The correction region was calculated based on the distance between the landmark and its corresponding fissure plane, and a 3D Gaussian filter with the landmark as the centre was also used to specify the corrected boundary. The correction happens in 3D space so that users don't need to do the correction slice by slice. The whole correction can be finished in a few minutes even when automatic fissure is not complete. Figure \ref{fig:ManualCorrection} shows the fissure detection results before and after manual correction.
 
 \begin{figure}[htbp] 
 \centering
@@ -687,19 +687,22 @@ Manual correction is an essential part of a lot of lobe segmentation processing.
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experiments} \label{SegmentationExperiment}
+\section{Results for SMM segmentation} \label{SegmentationExperiment}
 
 \subsection{Testing CT dataset}
-The semi-automatic lobe segmentation method was tested on two datasets: 1) CT images from five young normal subjects taken at different lung volumes (end inspiration and end expiration), in the supine posture, from the HLA dataset (introduced in Section \ref{ShapeModelGeneration}). The selected dataset consists of five end expiration images and five end inspiration images, which were not part of the SSM training set; 2) CT images from older patients (slice thickness 1.25-3.00 mm) acquired during routine diagnostic inspection for idiopathic pulmonary fibrosis (IPF). Data from these subjects were acquired from the \gls{adhb}. Access to clinical data was approved by the Southern Health and Disability Ethics Committee. 
+The semi-automatic SSM lobe segmentation method was tested on two datasets: 1) CT images from five young normal subjects taken at different lung volumes (end inspiration and end expiration), in the supine posture, from the HLA dataset (introduced in Section \ref{ShapeModelGeneration}). The selected dataset consists of five end expiration images and five end inspiration images, which were not part of the SSM training set; 2) CT images from older patients (slice thickness 1.25-3.00 mm) acquired during routine diagnostic inspection for idiopathic pulmonary fibrosis (IPF). Data from these subjects were acquired from the \gls{adhb}. Access to clinical data was approved by the Southern Health and Disability Ethics Committee. 
 
 \subsection{Test and results}
-Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure predicted locations, and the automatic lobar segmentation results (no manual correction) of a normal healthy subject. Figure \ref{fig:IPFSegmentationResults} shows the results for an IPF subject.
+Figure \ref{fig:HLASegmentationResults} shows raw images, initial SSM based fissure predicted locations, and the final automatic SSM-based lobar segmentation results (no manual correction) for a normal healthy subject. Figure \ref{fig:IPFSegmentationResults} shows the results for an IPF subject.
 
 \begin{figure}[htbp] 
 \centering
 \begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/H1335_FRC_Raw_Sagittal.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_Raw_Sagittal.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_Raw_Sagittal.png}
+      \put(16,105){\bf{Raw images}}
+			\put(-38,55){\bf{Sagittal}}
+  \end{overpic}
   \caption{}
   \label{fig:HLASegmentationResults-a} 
 \end{subfigure}
@@ -707,7 +710,9 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \hspace{.3in} % control space between two figures
 \begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_PCAInitial_Sagittal.png}
+      \put(0,105){\bf{Initial SSM-based fissures}}
+  \end{overpic}
   \caption{}
   \label{fig:HLASegmentationResults-b} 
 \end{subfigure}
@@ -715,13 +720,17 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \hspace{.3in} % control space between two figures
 \begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_PCAFissureDetection_Sagittal.png}
+      \put(15,105){\bf{Final fissures}}
+  \end{overpic}
   \caption{}
   \label{fig:HLASegmentationResults-c} 
 \end{subfigure}
 \begin{subfigure}{.32\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/H1335_FRC_Raw_Axial.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_Raw_Axial.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_Raw_Axial.png}
+			\put(-30,30){\bf{Axial}}
+  \end{overpic}
   \caption{}
   \label{fig:HLASegmentationResults-d} 
 \end{subfigure}
@@ -743,7 +752,9 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \end{subfigure}
 \begin{subfigure}{.32\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/H1335_FRC_Raw_Coronal.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_Raw_Coronal.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/H1335_FRC_Raw_Coronal.png}
+			\put(-35,40){\bf{Coronal}}
+  \end{overpic}
   \caption{}
   \label{fig:HLASegmentationResults-g} 
 \end{subfigure}
@@ -763,7 +774,7 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
   \caption{}
   \label{fig:HLASegmentationResults-i} 
 \end{subfigure}
-\caption{Sagittal, axial, and coronal views illustrating raw image, SSM based initial fissure guessing and automatic fissure detection results of a normal healthy subject. (a), (d), (g) are sagittal, axial and coronal raw images. (b), (e), (h) are sagittal, axial and coronal SSM based initial fissure guessing results. (c), (f), (i) are sagittal, axial and coronal automatic fissure detection results.}
+\caption{Sagittal, axial, and coronal views illustrating raw image, SSM based initial fissure guessing and final automatic fissure detection results of a normal healthy subject. (a), (d), (g) are sagittal, axial and coronal raw images. (b), (e), (h) are sagittal, axial and coronal SSM based initial fissure guessing results. (c), (f), (i) are sagittal, axial and coronal automatic fissure detection results.}
 \label{fig:HLASegmentationResults}
 \end{figure}
 
@@ -771,7 +782,10 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \centering
 \begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/IPF203_Raw_Sagittal161.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_Raw_Sagittal161.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_Raw_Sagittal161.png}
+      \put(16,105){\bf{Raw images}}
+			\put(-45,55){\bf{Sagittal}}
+  \end{overpic}
   \caption{}
   \label{fig:IPFSegmentationResults-a} 
 \end{subfigure}
@@ -779,7 +793,9 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \hspace{.3in} % control space between two figures
 \begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_PCAGuessing_Sagittal161.png}
+      \put(0,105){\bf{Initial SSM-based fissures}}
+  \end{overpic}
   \caption{}
   \label{fig:IPFSegmentationResults-b} 
 \end{subfigure}
@@ -787,13 +803,17 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \hspace{.3in} % control space between two figures
 \begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/IPF203_FinalResult_Sagittal161.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_FinalResult_Sagittal161.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_FinalResult_Sagittal161.png}
+      \put(15,105){\bf{Final fissures}}
+  \end{overpic}
   \caption{}
   \label{fig:IPFSegmentationResults-c} 
 \end{subfigure}
 \begin{subfigure}{.32\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/IPF203_Raw_Axial125.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_Raw_Axial125.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_Raw_Axial125.png}
+			\put(-25,30){\bf{Axial}}
+  \end{overpic}
   \caption{}
   \label{fig:IPFSegmentationResults-d} 
 \end{subfigure}
@@ -815,7 +835,9 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \end{subfigure}
 \begin{subfigure}{.32\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/IPF203_Raw_Coronal364.png}}
-  \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_Raw_Coronal364.png}
+  \begin{overpic}[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/IPF203_Raw_Coronal364.png}
+			\put(-35,40){\bf{Coronal}}
+  \end{overpic}
   \caption{}
   \label{fig:IPFSegmentationResults-g} 
 \end{subfigure}
@@ -839,11 +861,11 @@ Figure \ref{fig:HLASegmentationResults} shows raw images, SSM based fissure pred
 \label{fig:IPFSegmentationResults}
 \end{figure}
 
-To evaluate the performance of the automatic lobe segmentation, our SSM based method was compared with two anatomical based lobar segmentation method. A ''gold-standard'' manual segmentation of the fissures was used for a quantitative evaluation of the performance. The efficiency of manual correction on the segmentation result was also tested.
+To evaluate the performance of the automatic SSM lobe segmentation, the SSM based method was compared with two anatomical-based lobar segmentation methods. A ''gold-standard'' manual segmentation of the fissures was used for a quantitative evaluation of the performance. The efficiency of manual correction on the segmentation result was also tested.
 \newpage
 
 \subsubsection{The gold standard and quantitative evaluations}
-To allow for a quantitative evaluation of the performance in a healthy normal dataset and an IPF disease dataset, the automatic segmentation results were compared with ''gold-standard'' manual segmentations of the fissures. The ''gold-standard'' segmentations were acquired by an experienced researcher manually tracing all the three fissures for each subject by digitizing a series of points. The tracing was done on transverse, sagittal and coronal slices to maximise visualisation of the fissures using a custom-written configuration of the open source visualization software CMGUI. The observer can select any of the slice section when digitizing the fissure which can give the best contrast, see Figure \ref{fig:LobeShapeGenereation} in section \ref{ShapeModelGeneration}. Fissure detection accuracy was assessed by computing the mean distance between manually-defined fissures points and automatic segmented fissures (with a few manual parameter controls, but without manual correction). For each point in the manual ''gold-standard'' segmentations, the distance was defined between this point and its closest point in the automatic segmentations as follows:
+To allow for a quantitative evaluation of the performance in a healthy normal dataset and an IPF dataset, the automatic segmentation results were compared with ''gold-standard'' manual segmentations of the fissures. The ''gold-standard'' segmentations were acquired by an experienced researcher manually tracing all the three fissures for each subject by digitizing a series of points. The tracing was done on transverse, sagittal and coronal slices to maximise visualisation of the fissures using a custom-written configuration of the open source visualization software CMGUI. The observer can select any of the slice section when digitizing the fissure which can give the best contrast, see Figure \ref{fig:LobeShapeGenereation} in section \ref{ShapeModelGeneration}. Fissure detection accuracy was assessed by computing the mean distance between manually-defined fissures points and automatic segmented fissures (with a few manual parameter controls, but without manual correction). For each point in the manual ''gold-standard'' segmentations, the distance was defined between this point and its closest point in the automatic segmentations as follows:
 
 \begin{equation}
 \label{eq:Distance1}
@@ -857,14 +879,14 @@ d_i =  \operatorname*{min}\limits_{j}\left\{\sqrt{{({x_j}^A-{x_i}^M)}^2 + {({y_j
 d_{mean} = \frac{\sum\nolimits_{i=1}^N d_i}{N},
 \end{equation}
 
-\noindent where N is the number of points in the manually traced fissure. In addition, we evaluated the accuracy of the algorithm using a percentile measurement. The percentile accuracy is defined as the percentage of the distance between manual and automatic point under a 3mm criteria, following the equation:
+\noindent where N is the number of points in the manually traced fissure. In addition, the accuracy of the algorithm was evaluated using a percentile measurement. The percentile accuracy is defined as the percentage of the distance between manual and automatic points under a 3 mm criteria, following the equation:
 
 \begin{equation}
 \label{eq:PercentileMeasurement}
-\sqrt{({{x_i}^A-{x_i}^M})^2 + ({{y_i}^A-{y_i}^M})^2} \leq 3\text{mm},
+\sqrt{({{x_i}^A-{x_i}^M})^2 + ({{y_i}^A-{y_i}^M})^2} \leq 3 \quad \text{mm},
 \end{equation}
 
-\noindent since 3mm approximates the thickness of clinical CT images that surgeons and radiologists read in clinical settings \citep{wei2009segmentation}.
+\noindent since 3 mm approximates the thickness of clinical CT images that surgeons and radiologists read in clinical settings \citep{wei2009segmentation}.
 
 For normal subjects, the average mean differences (and accuracies) were 1.76 mm (81\%), 3.66 mm (65\%), and 2.55 mm (74\%), for left oblique, right horizontal and right oblique fissures, respectively. For IPF subjects, the average mean differences (and accuracies) were 2.82 mm (70\%), 5.39 mm (59\%), and 4.71 mm (63\%), for left oblique, right horizontal and right oblique fissures, respectively (shown in Table \ref{tab:QuantitativeResult}).
 
@@ -914,21 +936,21 @@ Figure \ref{fig:QuanlititativeResult} shows the spatial distribution of error fo
 \end{figure}
 
 \subsubsection{Comparison to anatomical based lobar segmentation method}
-A marker-based interactive watershed transformation algorithm is a commonly used lobe segmentation method in the current literature \citep{ukil2009anatomy,pu2009pulmonary,lassen2011interactive,lassen2013automatic}. This method mainly relies on anatomical information of the lung which integrates fissures, bronchi and vessels into a cost image to obtain the lobar boundaries. In our method, we used a lobar statistical shape model constructed based on principal component analysis to provide an initial estimation of fissure locations. This method gets rid of the dependence on prior segmentation of anatomical structures. To investigate the contribution of using the approximated lobe borders from the deformation of SSM, we compared our method to two interactive watershed-based pulmonary lobe segmentation softwares here: 1. Pulmonary Toolkit, PTK, https://github.com/tomdoel/pulmonarytoolkit (introduced in Section \ref{UserControl}); 2. Pulmonary Analysis Software Suite, PASS \citep{guo2008pulmonary}. PASS is custom-written software developed at the University of Iowa, that integrates quantitative measurements of lung function and structure analysis. Both of these softwares have a built-in lobe segmentation method which is guided by vessel tree and airway tree.
+A marker-based interactive watershed transformation algorithm is a commonly used lobe segmentation method in the current literature \citep{ukil2009anatomy,pu2009pulmonary,lassen2011interactive,lassen2013automatic}. This method mainly relies on anatomical information of the lung which integrates fissures, bronchi and vessels into a cost image to obtain the lobar boundaries. In the current method, a lobar statistical shape model constructed based on principal component analysis was used to provide an initial estimation of fissure locations. This method gets rid of the dependence on prior segmentation of anatomical structures. To investigate the contribution of using the approximated lobe borders from the deformation of SSM, here the method is compared to two interactive watershed-based pulmonary lobe segmentation softwares: 1. Pulmonary Toolkit, PTK, https://github.com/tomdoel/pulmonarytoolkit (introduced in Section \ref{UserControl}); 2. Pulmonary Analysis Software Suite, PASS \citep{guo2008pulmonary}. PASS is custom-written software developed at the University of Iowa, that integrates quantitative measurements of lung function and structure analysis. Both of these softwares have a built-in lobe segmentation method which is guided by vessel tree and airway tree.
 
 The two segmentation softwares PASS and PTK tested for comparison were unable to segment the lobes for 9/20 and 7/20 subjects respectively (1/10 and 1/10 normal and 8/10 and 6/10 IPF subjects). In contrast, the model-based method gave an initial estimate for all subjects at all volumes. The main reason for the failure of segmentation is that the airway trees can't be segmented or labelled as lobar branches correctly. Figure \ref{fig:WateredAirwayMislabelled} shows an example of an IPF subject in which airway branches are mislabelled. 
 
 \begin{figure}[H] 
 \centering
-\begin{subfigure}{.32\linewidth}% set image scale
+\begin{subfigure}{.25\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/YUAN_WateredLobeLabel.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/YUAN_WateredLobeLabel.png}
   \caption{}
   \label{fig:WateredAirwayMislabelled-a} 
 \end{subfigure}
 %\vspace{.1in} % control space between the upper context and figure
-\hspace{.3in} % control space between two figures
-\begin{subfigure}{.345\linewidth}% set image scale
+\hspace{.6in} % control space between two figures
+\begin{subfigure}{.265\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/YUAN_WateredFissureGuessing.png}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/YUAN_WateredFissureGuessing.png}
   \caption{}
@@ -938,9 +960,9 @@ The two segmentation softwares PASS and PTK tested for comparison were unable to
 \label{fig:WateredAirwayMislabelled}
 \end{figure}
 
-The mean square error and percentile accuracy of each fissure for each subject segmented using PTK, PASS and our method (SFeaL) are listed in Table \ref{tab:QuantitativeResult_LO}, \ref{tab:QuantitativeResult_RH} and \ref{tab:QuantitativeResult_RO}. Although our model-based method was able to segment all the subjects (whereas PASS and PTK can't), PASS could sometimes perform better on some young healthy subjects. That is probably because in some healthy lungs, it is possible to extract airways and vessels accurately, therefore these structures are able to provide reliable anatomical information to estimate the fissure locations.  
+The mean square error and percentile accuracy of each fissure for each subject segmented using PTK, PASS and the new method are listed in Table \ref{tab:QuantitativeResult_LO}, \ref{tab:QuantitativeResult_RH} and \ref{tab:QuantitativeResult_RO}. Although the SSM-based method was able to segment all the subjects (whereas PASS and PTK can't), PASS could sometimes perform better on some young healthy subjects. That is probably because in the healthy lungs, it is possible to extract airways and vessels accurately, therefore these structures are able to provide reliable anatomical information. The SSM-based method had lower error and higher percentage accuracy than PTK for all three fissures for both IPF and normal. Error and accuracy for the SSM-based method were similar to PASS for the healthy subjects, whereas error was much lower and accuracy higher for the SSM-based method applied to IPF data.
 
-\newgeometry{bottom=1cm, top=1cm} %set the left margin of page
+\newgeometry{bottom=1cm} %set the left margin of page
 \begin{landscape}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
@@ -949,60 +971,60 @@ The mean square error and percentile accuracy of each fissure for each subject s
 \label{tab:QuantitativeResult_LO}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
-\multirow{2}*{\bf{Subject}} & \multicolumn{2}{|c|}{\bf{SFeaL}} & \multicolumn{2}{|c|}{\bf{PTK}} & \multicolumn{2}{|c|}{\bf{PASS}}\\ 
+\multirow{2}*{\bf{Subject}} & \multicolumn{2}{|c|}{\bf{SSM-based}} & \multicolumn{2}{|c|}{\bf{PTK}} & \multicolumn{2}{|c|}{\bf{PASS}}\\ 
 \cline{2-7}
 ~ & Mean error (mm) & Accuracy (\%) & Mean error (mm) & Accuracy (\%) & Mean error (mm) & Accuracy (\%)\\	
 \hline		
-HLA1 & 0.96 & 91.29 & 1.98 & 77.33 & 1.14 & 89.66\\
+HLA1 & 0.96 & 91.3 & 1.98 & 77.3 & 1.14 & 89.7\\
 \hline
-HLA2 & 1.17 & 85.59 & 1.58 & 82.65 & 0.57 & 95.88\\
+HLA2 & 1.17 & 85.6 & 1.58 & 82.7 & 0.57 & 95.9\\
 \hline
-HLA3 & 1.74 & 79.79 & 3.18 & 72.86 & 0.93 & 92.24\\
+HLA3 & 1.74 & 79.8 & 3.18 & 72.9 & 0.93 & 92.2\\
 \hline
-HLA4 & 2.61 & 81.20 & Fail & Fail & 2.65 & 81.95\\
+HLA4 & 2.61 & 81.2 & Fail & Fail & 2.65 & 82.0\\
 \hline
-HLA5 & 1.44 & 81.60 & 1.25 & 90.71 & Fail & Fail\\
+HLA5 & 1.44 & 81.6 & 1.25 & 90.7 & Fail & Fail\\
 \hline
-HLA6 & 3.31 & 68.08 & 3.78 & 53.57 & 0.92 & 95.98\\		
+HLA6 & 3.31 & 68.1 & 3.78 & 53.6 & 0.92 & 96.0\\		
 \hline
-HLA7 & 1.67 & 80.18 & 1.75 & 76.96 & 3.54 & 66.36\\		
+HLA7 & 1.67 & 80.2 & 1.75 & 77.0 & 3.54 & 66.4\\		
 \hline
-HLA8 & 1.52 & 83.26 & 2.99 & 66.17 & 2.68 & 68.02\\		
+HLA8 & 1.52 & 83.3 & 2.99 & 66.2 & 2.68 & 68.0\\		
 \hline
-HLA9 & 1.20 & 88.72 & 5.69 & 44.26 & 2.61 & 70.63\\	
+HLA9 & 1.20 & 88.7 & 5.69 & 44.3 & 2.61 & 70.6\\	
 \hline
-HLA10 & 2.03 & 72.22 & 5.55 & 49.56 & 1.89 & 77.11\\
+HLA10 & 2.03 & 72.2 & 5.55 & 49.6 & 1.89 & 77.1\\
 \hline	
-Average HLA & 1.76 & 81.19 & 3.25 & 66.90 & 2.03 & 80.84\\
+Mean $\pm$ Std (HLA)  & 1.76$\pm$0.68 & 81.2$\pm$6.6 & 3.08$\pm$1.56 & 68.2$\pm$15.0 & 1.88$\pm$0.98 & 82.0$\pm$11.3\\
 \hline		
-IPF1 & 1.91 & 81.98 & Fail & Fail & Fail & Fail\\
+IPF1 & 1.91 & 82.0 & Fail & Fail & Fail & Fail\\
 \hline
-IPF2 & 3.15 & 62.33 & 17.90 & 22.89 & Fail & Fail\\
+IPF2 & 3.15 & 62.3 & 17.90 & 22.9 & Fail & Fail\\
 \hline
-IPF3 & 2.71 & 78.97 & Fail & Fail & Fail & Fail\\
+IPF3 & 2.71 & 79.0 & Fail & Fail & Fail & Fail\\
 \hline
-IPF4 & 3.21 & 61.77 & Fail & Fail & 4.21 & 56.23\\
+IPF4 & 3.21 & 61.8 & Fail & Fail & 4.21 & 56.2\\
 \hline
-IPF5 & 1.93 & 78.66 & Fail & Fail & Fail & Fail\\	
+IPF5 & 1.93 & 78.7 & Fail & Fail & Fail & Fail\\	
 \hline
-IPF6 & 3.27 & 63.24 & 6.71 & 39.21 & 4.54 & 58.76\\	
+IPF6 & 3.27 & 63.2 & 6.71 & 39.2 & 4.54 & 58.8\\	
 \hline
-IPF7 & 4.24 & 57.72 & 4.97 & 44.68 & Fail & Fail\\	
+IPF7 & 4.24 & 57.7 & 4.97 & 44.7 & Fail & Fail\\	
 \hline
-IPF8 & 2.65 & 62.81 & Fail & Fail & Fail & Fail\\	
+IPF8 & 2.65 & 62.8 & Fail & Fail & Fail & Fail\\	
 \hline
-IPF9 & 3.27 & 73.01 & Fail & Fail & Fail & Fail\\
+IPF9 & 3.27 & 73.0 & Fail & Fail & Fail & Fail\\
 \hline
-IPF10 & 1.91 & 82.12 & 3.13 & 71.53 & 2.96 & 73.26\\								
+IPF10 & 1.91 & 82.1 & 3.13 & 71.5 & 2.96 & 73.3\\								
 \hline
-Average IPF & 2.82 & 70.26 & 8.17 & 44.58 & 3.90 & 62.75\\								
+Mean $\pm$ Std (IPF) & 2.82$\pm$0.72 & 70.3$\pm$9.1 & 8.18$\pm$5.76 & 44.6$\pm$17.5 & 3.90$\pm$0.68 & 62.8$\pm$7.5\\								
 \hline
 \end{tabular}
 \end{table}
 \end{landscape}
 \restoregeometry
 
-\newgeometry{bottom=1cm, top=1cm} %set the left margin of page
+\newgeometry{bottom=1cm} %set the left margin of page
 \begin{landscape}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
@@ -1011,60 +1033,60 @@ Average IPF & 2.82 & 70.26 & 8.17 & 44.58 & 3.90 & 62.75\\
 \label{tab:QuantitativeResult_RH}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
-\multirow{2}*{\bf{Subject}} & \multicolumn{2}{|c|}{\bf{SFeaL}} & \multicolumn{2}{|c|}{\bf{PTK}} & \multicolumn{2}{|c|}{\bf{PASS}}\\ 
+\multirow{2}*{\bf{Subject}} & \multicolumn{2}{|c|}{\bf{SSM-based}} & \multicolumn{2}{|c|}{\bf{PTK}} & \multicolumn{2}{|c|}{\bf{PASS}}\\ 
 \cline{2-7}
 ~ & Mean error (mm) & Accuracy (\%) & Mean error (mm) & Accuracy (\%) & Mean error (mm) & Accuracy (\%)\\	
 \hline		
-HLA1 & 2.61 & 72.81 & 2.32 & 73.68 & 1.77 & 81.57\\
+HLA1 & 2.61 & 72.8 & 2.32 & 73.7 & 1.77 & 81.6\\
 \hline
-HLA2 & 1.55 & 84.06 & 3.21 & 58.33 & 1.59 & 86.74\\
+HLA2 & 1.55 & 84.1 & 3.21 & 58.3 & 1.59 & 86.7\\
 \hline
-HLA3 & 3.34 & 60.91 & 2.68 & 72.59 & 1.31 & 88.32\\
+HLA3 & 3.34 & 60.9 & 2.68 & 72.6 & 1.31 & 88.3\\
 \hline
-HLA4 & 1.67 & 84.85 & Fail & Fail & 1.61 & 88.64\\
+HLA4 & 1.67 & 84.9 & Fail & Fail & 1.61 & 88.6\\
 \hline
-HLA5 & 4.89 & 57.87 & 10.01 & 41.73 & Fail & Fail\\
+HLA5 & 4.89 & 57.9 & 10.01 & 41.7 & Fail & Fail\\
 \hline
-HLA6 & 3.57 & 62.56 & 2.64 & 65.44 & 6.38 & 56.22\\		
+HLA6 & 3.57 & 62.6 & 2.64 & 65.4 & 6.38 & 56.2\\		
 \hline
-HLA7 & 6.02 & 38.99 & 4.20 & 54.05 & Fail & Fail\\		
+HLA7 & 6.02 & 39.0 & 4.20 & 54.1 & Fail & Fail\\		
 \hline
-HLA8 & 4.09 & 69.90 & 6.61 & 22.83 & 4.48 & 39.23\\		
+HLA8 & 4.09 & 69.9 & 6.61 & 22.8 & 4.48 & 39.2\\		
 \hline
-HLA9 & 5.02 & 52.88 & 21.74 & 21.88 & Fail & Fail\\	
+HLA9 & 5.02 & 52.9 & 21.74 & 21.9 & Fail & Fail\\	
 \hline
-HLA10 & 3.86 & 63.28 & 18.04 & 11.62 & 13.11 & 14.52\\
+HLA10 & 3.86 & 63.3 & 18.04 & 11.6 & 13.11 & 14.5\\
 \hline	
-Average HLA & 3.66 & 64.81 & 7.51 & 47.97 & 4.21 & 64.66\\
+Mean $\pm$ Std (HLA) & 3.66$\pm$1.37 & 64.8$\pm$13.2 & 7.94$\pm$6.85 & 55.5$\pm$16.8 & 4.32$\pm$3.99 & 65.0$\pm$27.1\\
 \hline		
-IPF1 & 3.91 & 75.14 & Fail & Fail & Fail & Fail\\
+IPF1 & 3.91 & 75.1 & Fail & Fail & Fail & Fail\\
 \hline
-IPF2 & 4.99 & 67.03 & 10.60 & 12.24 & Fail & Fail\\
+IPF2 & 4.99 & 67.0 & 10.60 & 12.2 & Fail & Fail\\
 \hline
-IPF3 & 2.19 & 82.05 & Fail & Fail & Fail & Fail\\
+IPF3 & 2.19 & 82.1 & Fail & Fail & Fail & Fail\\
 \hline
-IPF4 & 4.95 & 58.71 & Fail & Fail & 10.09 & 19.19\\
+IPF4 & 4.95 & 58.7 & Fail & Fail & 10.09 & 19.2\\
 \hline
-IPF5 & 6.99 & 49.15 & Fail & Fail & Fail & Fail\\	
+IPF5 & 6.99 & 49.2 & Fail & Fail & Fail & Fail\\	
 \hline
-IPF6 & 6.21 & 38.51 & 41.01 & 0.53 & Fail & Fail\\	
+IPF6 & 6.21 & 38.5 & 41.01 & 0.5 & Fail & Fail\\	
 \hline
-IPF7 & 6.47 & 53.60 & 9.2 & 19.64 & Fail & Fail\\	
+IPF7 & 6.47 & 53.6 & 9.2 & 19.6 & Fail & Fail\\	
 \hline
-IPF8 & 8.04 & 41.19 & Fail & Fail & Fail & Fail\\	
+IPF8 & 8.04 & 41.2 & Fail & Fail & Fail & Fail\\	
 \hline
-IPF9 & 7.52 & 45.43 & Fail & Fail & Fail & Fail\\
+IPF9 & 7.52 & 45.4 & Fail & Fail & Fail & Fail\\
 \hline
-IPF10 & 2.67 & 73.57 & 9.31 & 34.89 & 7.56 & 49.39\\							
+IPF10 & 2.67 & 73.6 & 9.31 & 34.9 & 7.56 & 49.4\\							
 \hline
-Average IPF & 5.39 & 58.43 & 17.53 & 16.83 & 8.83 & 34.29\\							
+Mean $\pm$ Std (IPF) & 5.39$\pm$1.90 & 58.4$\pm$14.5 & 17.53$\pm$13.57 & 16.8$\pm$12.4 & 8.83$\pm$1.26 & 34.3$\pm$15.1\\							
 \hline
 \end{tabular}
 \end{table}
 \end{landscape}
 \restoregeometry
 
-\newgeometry{bottom=1cm, top=1cm} %set the left margin of page
+\newgeometry{bottom=1cm} %set the left margin of page
 \begin{landscape}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
@@ -1073,53 +1095,53 @@ Average IPF & 5.39 & 58.43 & 17.53 & 16.83 & 8.83 & 34.29\\
 \label{tab:QuantitativeResult_RO}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
-\multirow{2}*{\bf{Subject}} & \multicolumn{2}{|c|}{\bf{SFeaL}} & \multicolumn{2}{|c|}{\bf{PTK}} & \multicolumn{2}{|c|}{\bf{PASS}}\\ 
+\multirow{2}*{\bf{Subject}} & \multicolumn{2}{|c|}{\bf{SSM-based}} & \multicolumn{2}{|c|}{\bf{PTK}} & \multicolumn{2}{|c|}{\bf{PASS}}\\ 
 \cline{2-7}
 ~ & Mean error (mm) & Accuracy (\%) & Mean error (mm) & Accuracy (\%) & Mean error (mm) & Accuracy (\%)\\	
 \hline		
-HLA1 & 1.99 & 79.95 & 2.54 & 69.92 & 1.12 & 87.72\\
+HLA1 & 1.99 & 79.9 & 2.54 & 69.9 & 1.12 & 87.7\\
 \hline
-HLA2 & 2.03 & 75.09 & 2.98 & 58.12 & 0.64 & 96.03\\
+HLA2 & 2.03 & 75.1 & 2.98 & 58.1 & 0.64 & 96.0\\
 \hline
-HLA3 & 1.64 & 82.42 & 2.48 & 72.34 & 0.66 & 96.52\\
+HLA3 & 1.64 & 82.4 & 2.48 & 72.3 & 0.66 & 96.5\\
 \hline
-HLA4 & 2.15 & 82.21 & Fail & Fail & 1.37 & 96.44\\
+HLA4 & 2.15 & 82.2 & Fail & Fail & 1.37 & 96.4\\
 \hline
-HLA5 & 2.07 & 78.53 & 3.23 & 61.40 & Fail & Fail\\
+HLA5 & 2.07 & 78.5 & 3.23 & 61.4 & Fail & Fail\\
 \hline
-HLA6 & 4.98 & 75.69 & 8.31 & 45.41 & 4.93 & 94.49\\		
+HLA6 & 4.98 & 75.7 & 8.31 & 45.4 & 4.93 & 94.5\\		
 \hline
-HLA7 & 3.02 & 55.28 & 3.17 & 57.14 & 3.47 & 57.76\\		
+HLA7 & 3.02 & 55.3 & 3.17 & 57.1 & 3.47 & 57.8\\		
 \hline
-HLA8 & 2.33 & 73.98 & 3.97 & 58.93 & 2.40 & 71.31\\		
+HLA8 & 2.33 & 74.0 & 3.97 & 58.9 & 2.40 & 71.3\\		
 \hline
-HLA9 & 3.01 & 66.58 & 5.72 & 50.37 & 2.89 & 73.51\\	
+HLA9 & 3.01 & 66.6 & 5.72 & 50.4 & 2.89 & 73.5\\	
 \hline
-HLA10 & 2.32 & 68.38 & 8.61 & 35.35 & 2.53 & 70.70\\
+HLA10 & 2.32 & 68.4 & 8.61 & 35.4 & 2.53 & 70.7\\
 \hline
-Average HLA & 2.56 & 73.81 & 4.52 & 56.31 & 2.15 & 83.09\\
+Mean $\pm$ Std (HLA) & 2.56$\pm$0.91 & 73.8$\pm$7.9 & 4.56$\pm$2.78 & 56.5$\pm$10.9 & 2.23$\pm$1.35 & 82.7$\pm$13.7\\
 \hline				
-IPF1 & 2.52 & 81.72 & Fail & Fail & Fail & Fail\\
+IPF1 & 2.52 & 81.7 & Fail & Fail & Fail & Fail\\
 \hline
-IPF2 & 2.94 & 82.45 & 3.56 & 55.43 & Fail & Fail\\
+IPF2 & 2.94 & 82.5 & 3.56 & 55.4 & Fail & Fail\\
 \hline
-IPF3 & 3.68 & 59.47 & Fail & Fail & Fail & Fail\\
+IPF3 & 3.68 & 59.5 & Fail & Fail & Fail & Fail\\
 \hline
-IPF4 & 6.23 & 58.98 & Fail & Fail & 49.16 & 6.12\\
+IPF4 & 6.23 & 59.0 & Fail & Fail & 49.16 & 6.1\\
 \hline
-IPF5 & 4.14 & 62.00 & Fail & Fail & Fail & Fail\\	
+IPF5 & 4.14 & 62.0 & Fail & Fail & Fail & Fail\\	
 \hline
-IPF6 & 5.43 & 48.42 & 15.88 & 23.69 & 6.86 & 41.56\\	
+IPF6 & 5.43 & 48.4 & 15.88 & 23.7 & 6.86 & 41.6\\	
 \hline
-IPF7 & 5.07 & 56.96 & 11.66 & 19.33 & Fail & Fail\\	
+IPF7 & 5.07 & 57.0 & 11.66 & 19.3 & Fail & Fail\\	
 \hline
-IPF8 & 7.33 & 47.79 & Fail & Fail & Fail & Fail\\	
+IPF8 & 7.33 & 47.8 & Fail & Fail & Fail & Fail\\	
 \hline
-IPF9 & 6.69 & 63.49 & Fail & Fail & Fail & Fail\\
+IPF9 & 6.69 & 63.5 & Fail & Fail & Fail & Fail\\
 \hline
-IPF10 & 3.06 & 67.34 & 4.53 & 47.81 & 3.57 & 67.08\\								
+IPF10 & 3.06 & 67.3 & 4.53 & 47.8 & 3.57 & 67.1\\								
 \hline
-Average IPF & 4.71 & 62.86 & 8.91 & 36.57 & 19.87 & 38.26\\								
+Mean $\pm$ Std (IPF) & 4.71$\pm$1.60 & 62.9$\pm$11.2 & 8.91$\pm$5.10 & 36.6$\pm$15.4 & 19.87$\pm$20.76 & 38.3$\pm$25.0\\								
 \hline
 \end{tabular}
 \end{table}
@@ -1127,7 +1149,7 @@ Average IPF & 4.71 & 62.86 & 8.91 & 36.57 & 19.87 & 38.26\\
 \restoregeometry
 
 \subsubsection{Manual correction}
-In order to test the efficiency of manual correction for segmented fissures, three students (are able to recognize lobe fissures on raw images accurately) are asked to do the manual corrections on a automatic segmented fissure result spending no more than ten minutes per subject. Table \ref{tab:ManualCorrection} lists the comparison of the segmentation accuracy before and after ten-minute manual correction.
+In order to test the efficiency of manual correction for segmented fissures, three students (who were able to recognize lobe fissures on raw images accurately) were asked to perform manual corrections on an automatic segmented fissure result, spending no more than ten minutes per subject. Table \ref{tab:ManualCorrection} lists the comparison of the segmentation accuracy before and after the ten-minute manual correction.
 
 %\newgeometry{bottom=1cm} %set the left margin of page
 %\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
@@ -1156,21 +1178,21 @@ RO & 4.83 & 47.80 & 1.37 & 92.67 & 1.18 & 89.52 & 0.98 & 96.88\\
 
 %%%%%%%%%% Section 5
 \section{Discussion} \label{SegmentationDiscussion}
-In this chapter, we presented a pulmonary lobar segmentation method. Results show that the method can perform well to detect the location of the fissures over most of the fissure surfaces on CT images from normal subjects, and provides a relatively accurate result compared to some existing tools for most of the IPF (abnormal) subjects. Due to lower imaging resolution and tissue abnormalities, the accuracy of the method was lower for the IPF subjects. However, the method was able to detect a fissure in each case, whereas existing research focussed software can not, especially for the abnormal subjects. Automated segmentation of anatomical structures is still challenging in cases with abnormalities, however, the method did not fail, and it provides a robust basis for segmentation even in abnormal cohorts. 
+In this chapter, a novel pulmonary lobar segmentation method was presented and compared against two existing softwares (PTK and PASS). Results show that the method outperforms both PTK and PASS with respect to the proportion of subjects for whom a segmentation was possible, and the new method had lower error and higher percentage accuracy than both comparison softwares for IPF data. Segmentation error and accuracy for data from healthy subjects was similar to PASS, but outperformed PTK. Due to lower imaging resolution and tissue abnormalities, the accuracy of the method was lower for the IPF subjects than the healthy subjects. However, the method was able to detect a fissure in each case, whereas existing research-focussed software can not, especially for the abnormal subjects. Automated segmentation of anatomical structures is still challenging in cases with abnormalities, however, the method did not fail, and it provides a robust basis for segmentation even in abnormal cohorts. 
 
-For fissure detection, there are usually two types of errors, false negative detection and false positive detection. False negative detection indicates the leak detection of some true fissure points where fissures are incomplete or have fuzzy appearance. False positive detection indicates the mis-detection of some false fissure points where tissues with small plane like structures are incorrectly identified as fissures. For IPF subjects, both of the two errors may occur during fissure detection. The first type of error exists for most of the subjects, since CT-visualized complete pulmonary fissures are rare, especially for IPF CT imaging, which makes automatic lobe segmentation challenging due to the absence of a physical border. In our method, the $\beta$-spline method with thin plane spline based surface fitting is able to provide an automated correction of the first type of error, since the fitting operation may help to estimate ''incomplete'' fissures in the correct direction through extrapolating ''complete'' fissures to lung borders. This fissure fitting method  is a commonly used fitting algorithm \citep{lee1997scattered,doel2012pulmonary}, however the accuracy of the fitting performance is heavily reliant on the correct detection of complete fissures and a good initial approximation of fissure. Therefore, for some IPF subjects with lower fissure completeness, more manual operations may be needed.
+For fissure detection, there are usually two types of errors, false negative detection and false positive detection. False negative detection indicates the leak detection of some true fissure points where fissures are incomplete or have fuzzy appearance. False positive detection indicates the mis-detection of some false fissure points where tissues with small plane-like structures are incorrectly identified as fissures. For IPF subjects, both of the errors may occur during fissure detection. The first type of error exists for most of the subjects, since CT-visualized complete pulmonary fissures are rare, especially for IPF CT imaging, which makes automatic lobe segmentation challenging due to the absence of a physical border. In the current method, the $\beta$-spline method with thin plane spline-based surface fitting is able to provide an automated correction of the first type of error, since the fitting operation may help to estimate ''incomplete'' fissures in the correct direction through extrapolating ''complete'' fissures to lung borders. This fissure fitting method  is a commonly used fitting algorithm \citep{lee1997scattered,doel2012pulmonary}, however the accuracy of the fitting performance is heavily reliant on the correct detection of complete fissures and a good initial approximation of fissure. Therefore, for some IPF subjects with lower fissure completeness, more manual operations may be needed.
 
-For the second type of error, incorrect detection is usually caused by accessory fissures and interstitial lung disease tissues such as scarring or fibrosis. Our 2D connected component filter and 3D eigenvector based connected component filter are able to eliminate most of the non-fissure structures within the search region. However, for IPF subjects, it is still difficult to remove all the noise, since fibrosis usually appears surrounding the fissures and may even be connected to the main fissure plane. For some terminal stage IPF patients, severe honeycomb and reticular regions make lung parenchyma really fuzzy and low contrast from the fissures which increases the difficulty of avoiding mis-detection.
+For the second type of error, incorrect detection is usually caused by accessory fissures and interstitial lung disease tissues such as scarring or fibrosis. The 2D connected component filter and 3D eigenvector based connected component filter are able to eliminate most of the non-fissure structures within the search region. However, for IPF subjects, it is still difficult to remove all the noise, since fibrosis usually appears surrounding the fissures and may even be connected to the main fissure plane. For some terminal stage IPF patients, severe honeycomb and reticular regions make lung parenchyma really fuzzy and low contrast from the fissures which increases the difficulty of avoiding mis-detection.
 
-Our method performed better on the left oblique fissure than the other two fissures, likely because the left lung has a simpler anatomic structure with only one fissure. In contrast, error detection happens more often in the area of the right lung where the two fissures come into contact. This is illustrated in Fig 5, which shows the error distribution over the three fissures for three subjects. It can be seen that the method results in higher error in the lung boundary area, since the fissures here are commonly incomplete on CT scans, thus few fissure candidate points can be detected accurately. There is also a high error around the junction area of the right oblique fissure and right horizontal fissure, since the two fissures are too closed in this region and the search regions may overlap with each other.
+The new SSM-based method performed better on the left oblique fissure than the other two fissures, likely because the left lung has a simpler anatomic structure with only one fissure. In contrast, error detection happens more often in the area of the right lung where the two fissures come into contact. This is illustrated in Fig 5, which shows the error distribution over the three fissures for three subjects. It can be seen that the method results in higher error in the lung boundary area, since the fissures here are commonly incomplete on CT scans, thus few fissure candidate points can be detected accurately. There is also a high error around the junction area of the right oblique fissure and right horizontal fissure, since the two fissures are too closed in this region and the search regions may overlap with each other.
 
-In our method, we used a statistical shape model to provide an initial fissure estimate. Compared to the current published anatomical structure-based methods, the model-based method can predict the fissure location without requiring a preliminary analysis of other anatomical features other than lung shape. For example, traditional anatomical knowledge-based methods such as the watershed-based lobar segmentation relies on the success of the automatic segmentations of the vessel and airway tree and need to label the airway trees to the five main lobar bronchi to get an initial fissure approximation. When one of those segmentations fails, the method is likely to perform worse (as shown in Figure \ref{fig:WateredAirwayMislabelled}). Vessels are distributed all over the lung and due to the high contrast to the lung parenchyma a good segmentation of the vessels is feasible.  But in some cases vessels cross the lobar boundaries. Thus, the assumption that there are no vessels at the lobar boundary is not always correct \citep{pu2009pulmonary}. On the other hand, due to the complex radiological appearance of pathological lungs, it is usually difficult to get a reliable airway and vessel tree segmentation \citep{lassen2011interactive,lassen2013automatic}. In the current method, no watershed-based lobe segmentation can be performed in case of a failed bronchi segmentation because the required lobe markers are generated from the labelled bronchi tree. In those cases, the approximated lobar borders might be at the wrong location in the scan. In contrast, our method is largely independent of the knowledge of lung anatomy, so in our comparison of the model-based estimation of fissure location with a watershed-based method, the latter failed for nearly half of the subjects. 
+In the new method, a statistical shape model was used to provide an initial fissure estimate. Compared to the current published anatomical structure-based methods, the model-based method can predict the fissure location without requiring a preliminary analysis of other anatomical features other than lung shape. For example, traditional anatomical knowledge-based methods such as the watershed-based lobar segmentation relies on the success of the automatic segmentations of the vessel and airway tree and need to label the airway trees to the five main lobar bronchi to get an initial fissure approximation. When one of those segmentations fails, the method is likely to perform worse (as shown in Figure \ref{fig:WateredAirwayMislabelled}). Vessels are distributed all over the lung and due to the high contrast to the lung parenchyma a good segmentation of the vessels is feasible.  But in some cases vessels cross the lobar boundaries. Thus, the assumption that there are no vessels at the lobar boundary is not always correct \citep{pu2009pulmonary}. On the other hand, due to the complex radiological appearance of pathological lungs, it is usually difficult to get a reliable airway and vessel tree segmentation \citep{lassen2011interactive,lassen2013automatic}. In the current method, no watershed-based lobe segmentation can be performed in the case of a failed bronchi segmentation because the required lobe markers are generated from the labelled bronchi tree. In those cases, the approximated lobar borders might be at the wrong location in the scan. In contrast, the new method is largely independent of the knowledge of lung anatomy, so in the comparison of the model-based estimation of fissure location with a watershed-based method, the latter failed for nearly half of the subjects. 
 
-The accuracy of the initial fissure prediction is a very important basis for a good segmentation. However, our model-based fissure prediction method still has some limitations.  A main disadvantage is that it can only produce lobar shapes close to the shapes represented in the training set, which leads to a larger error in cases where pathological processes had altered the lobe shapes. As shown in Figure \ref{fig:HLASegmentationResults} and \ref{fig:IPFSegmentationResults}, the SSM based initial fissure estimate usually performs worse in IPF subjects than in normal healthy subjects. In the following chapters, a statistical shape analysis shows that there is a significant shape difference of right middle lobe and right upper lobe between IPF lungs and normal old lungs. That would be a reasonable explanation for the poor estimation of right horizontal fissure and right oblique fissure of the IPF subject shown in Figure \ref{fig:IPFSegmentationResults}. In the future, a statistical lobar shape model dataset for a variety of pathologies could be developed. A dataset containing a wide range of statistical models for different ages, sexes, lung volume or diseases would be able to help predict a more accurate ROI for fissure detection.
+The accuracy of the initial fissure prediction is a very important basis for a good segmentation. However, the model-based fissure prediction method still has some limitations.  A main disadvantage is that it can only produce lobar shapes close to the shapes represented in the training set, which leads to a larger error in cases where pathological processes had altered the lobe shapes. As shown in Figure \ref{fig:HLASegmentationResults} and \ref{fig:IPFSegmentationResults}, the SSM based initial fissure estimate usually performs worse in IPF subjects than in normal healthy subjects. In the following chapters, a statistical shape analysis shows that there is a significant shape difference of right middle lobe and right upper lobe between IPF lungs and normal old lungs. That would be a reasonable explanation for the poor estimation of right horizontal fissure and right oblique fissure of the IPF subject shown in Figure \ref{fig:IPFSegmentationResults}. In the future, a statistical lobar shape model dataset for a variety of pathologies could be developed. A dataset containing a wide range of statistical models for different ages, sexes, lung volume or diseases would be able to help predict a more accurate ROI for fissure detection.
 
 Due to variation in lung anatomy and pulmonary disease, no automatic segmentation method can ensure a satisfying lobe segmentation result for all cases. Even for a widely used robust lobe segmentation method, it may be impossible to get a highly accurate segmentation result for all subjects, especially for some abnormal subjects. Therefore, manually interactive operation is usually acceptable and involved in a lot of lobe segmentation processing. A combination of an automatic algorithm and manual interaction is an effective way to obtain accurate segmentation. On the one hand, an automatic segmentation algorithm would help researchers save considerable time from laborious and time consuming manual tasks. On the other hand, a fast and intuitive correction is able to improve the automatic segmentation performance within a few minutes.
 
 %%%%%%%%%% Section 6
 \section{Summary} \label{SegmentationSummary}
-In this chapter, an SSM based lobe segmentation method was developed. Results show that the method can provide a relatively accurate result for most of the IPF subjects, although manual interaction is still needed for some subjects. In the next chapter, the segmented lobe results will be used to construct an FE mesh to describe the lobe shape for each IPF subject. The patient specific lobe mesh will work as a basic geometry structure to guide a further disease distribution analysis and functional simulation.
+In this chapter, an SSM based lobe segmentation method was developed. Results show that the method can provide a relatively accurate result for most of the IPF subjects, although manual interaction is still needed for some subjects. In the next chapter, the segmented lobe results will be used to construct an FE mesh to describe the lobe shape for each IPF subject. The patient-specific lobe mesh will work as a basic geometry structure to guide a further disease distribution analysis and functional simulation.
 
