@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  6 JAN 2019 20:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.13)  7 JAN 2019 16:32
 entering extended mode
 **./Yuwen_thesis.tex
 (Yuwen_thesis.tex
@@ -1916,15 +1916,15 @@ File: QuantitativeAnalysis/Image/RightLungReticularDiseaseAgainstHeight.jpg Grap
 <use QuantitativeAnalysis/Image/RightLungReticularDiseaseAgainstHeight.jpg>
 Package pdftex.def Info: QuantitativeAnalysis/Image/RightLungReticularDiseaseAgainstHeight.jpg  used on input line 402.
 (pdftex.def)             Requested size: 175.66577pt x 135.06178pt.
-<QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg, id=581, 1488.56125pt x 1187.43625pt>
+<QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg, id=581, 1485.55pt x 1142.2675pt>
 File: QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg>
 Package pdftex.def Info: QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg  used on input line 407.
-(pdftex.def)             Requested size: 1488.55763pt x 1187.43336pt.
+(pdftex.def)             Requested size: 1485.54639pt x 1142.26472pt.
 File: QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg>
 Package pdftex.def Info: QuantitativeAnalysis/Image/LeftLungHoneycombDiseaseAgainstHeight.jpg  used on input line 408.
-(pdftex.def)             Requested size: 175.66577pt x 140.13075pt.
+(pdftex.def)             Requested size: 175.66577pt x 135.06178pt.
 <QuantitativeAnalysis/Image/RightLungHoneycombDiseaseAgainstHeight.jpg, id=583, 1485.55pt x 1142.2675pt>
 File: QuantitativeAnalysis/Image/RightLungHoneycombDiseaseAgainstHeight.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/RightLungHoneycombDiseaseAgainstHeight.jpg>
@@ -1953,7 +1953,7 @@ File: QuantitativeAnalysis/Image/RightLungEmphysemaDiseaseAgainstHeight.jpg Grap
 Package pdftex.def Info: QuantitativeAnalysis/Image/RightLungEmphysemaDiseaseAgainstHeight.jpg  used on input line 426.
 (pdftex.def)             Requested size: 175.66577pt x 135.06178pt.
 
-Overfull \vbox (130.62968pt too high) has occurred while \output is active []
+Overfull \vbox (125.56071pt too high) has occurred while \output is active []
 
  [27 <./QuantitativeAnalysis/Image/LeftLungGroundglassDiseaseAgainstHeight.jpg> <./QuantitativeAnalysis/Image/RightLungG
 roundglassDiseaseAgainstHeight.jpg> <./QuantitativeAnalysis/Image/LeftLungReticularDiseaseAgainstHeight.jpg> <./Quantita
@@ -2469,8 +2469,8 @@ Package pdftex.def Info: QuantitativeAnalysis/Image/RightLungDiseaseSubpleuralPe
 
 LaTeX Warning: Reference `SpatialDistribution' on page 36 undefined on input line 764.
 
-[36 <./QuantitativeAnalysis/Image/LeftLungDiseaseSubpleuralPercent.jpg> <./QuantitativeAnalysis/Image/RightLungDiseaseSu
-bpleuralPercent.jpg>] [37]
+[36] [37 <./QuantitativeAnalysis/Image/LeftLungDiseaseSubpleuralPercent.jpg> <./QuantitativeAnalysis/Image/RightLungDise
+aseSubpleuralPercent.jpg>]
 <QuantitativeAnalysis/Image/GroundglassLobarRegionDiseaseDistribution.jpg, id=837, 705.3552pt x 542.025pt>
 File: QuantitativeAnalysis/Image/GroundglassLobarRegionDiseaseDistribution.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/GroundglassLobarRegionDiseaseDistribution.jpg>
@@ -2493,17 +2493,17 @@ File: QuantitativeAnalysis/Image/ReticularLobarRegionDiseaseDistribution.jpg Gra
 Package pdftex.def Info: QuantitativeAnalysis/Image/ReticularLobarRegionDiseaseDistribution.jpg  used on input line 778.
 
 (pdftex.def)             Requested size: 192.39949pt x 147.84569pt.
-<QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg, id=841, 705.3552pt x 542.025pt>
+<QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg, id=841, 490.9542pt x 466.3824pt>
 File: QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg>
 Package pdftex.def Info: QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg  used on input line 783.
 
-(pdftex.def)             Requested size: 705.35347pt x 542.02367pt.
+(pdftex.def)             Requested size: 490.95299pt x 466.38126pt.
 File: QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg>
 Package pdftex.def Info: QuantitativeAnalysis/Image/HoneycombLobarRegionDiseaseDistribution.jpg  used on input line 784.
 
-(pdftex.def)             Requested size: 192.39949pt x 147.84569pt.
+(pdftex.def)             Requested size: 192.39949pt x 182.77083pt.
 <QuantitativeAnalysis/Image/EmphysemaLobarRegionDiseaseDistribution.jpg, id=843, 705.3552pt x 542.025pt>
 File: QuantitativeAnalysis/Image/EmphysemaLobarRegionDiseaseDistribution.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/EmphysemaLobarRegionDiseaseDistribution.jpg>
@@ -2634,33 +2634,33 @@ Package pdftex.def Info: QuantitativeAnalysis/Image/IPF305_RegionLabel_Sagittal.
 <QuantitativeAnalysis/Image/TimePoint_Mode1.jpg, id=920, 455.301pt x 255.354pt>
 File: QuantitativeAnalysis/Image/TimePoint_Mode1.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/TimePoint_Mode1.jpg>
-Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode1.jpg  used on input line 1037.
+Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode1.jpg  used on input line 1035.
 (pdftex.def)             Requested size: 455.29988pt x 255.35338pt.
 File: QuantitativeAnalysis/Image/TimePoint_Mode1.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/TimePoint_Mode1.jpg>
-Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode1.jpg  used on input line 1038.
+Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode1.jpg  used on input line 1036.
 (pdftex.def)             Requested size: 271.86234pt x 152.47716pt.
 <QuantitativeAnalysis/Image/TimePoint_Mode2.jpg, id=922, 486.1362pt x 287.1528pt>
 File: QuantitativeAnalysis/Image/TimePoint_Mode2.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/TimePoint_Mode2.jpg>
-Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode2.jpg  used on input line 1043.
+Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode2.jpg  used on input line 1041.
 (pdftex.def)             Requested size: 486.13501pt x 287.15208pt.
 File: QuantitativeAnalysis/Image/TimePoint_Mode2.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/TimePoint_Mode2.jpg>
-Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode2.jpg  used on input line 1044.
+Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode2.jpg  used on input line 1042.
 (pdftex.def)             Requested size: 271.86234pt x 160.58537pt.
 <QuantitativeAnalysis/Image/TimePoint_Mode3.jpg, id=924, 476.0184pt x 318.4698pt>
 File: QuantitativeAnalysis/Image/TimePoint_Mode3.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/TimePoint_Mode3.jpg>
-Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode3.jpg  used on input line 1049.
+Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode3.jpg  used on input line 1047.
 (pdftex.def)             Requested size: 476.01723pt x 318.46901pt.
 File: QuantitativeAnalysis/Image/TimePoint_Mode3.jpg Graphic file (type jpg)
 <use QuantitativeAnalysis/Image/TimePoint_Mode3.jpg>
-Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode3.jpg  used on input line 1050.
+Package pdftex.def Info: QuantitativeAnalysis/Image/TimePoint_Mode3.jpg  used on input line 1048.
 (pdftex.def)             Requested size: 271.86234pt x 181.88927pt.
 
 
-LaTeX Warning: Float too large for page by 17.72156pt on input line 1056.
+LaTeX Warning: Float too large for page by 17.72156pt on input line 1054.
 
 [44] [45 <./QuantitativeAnalysis/Image/TimePoint_Mode1.jpg> <./QuantitativeAnalysis/Image/TimePoint_Mode2.jpg> <./Quanti
 tativeAnalysis/Image/TimePoint_Mode3.jpg>] [46]
@@ -2699,174 +2699,174 @@ tativeAnalysis/Image/TimePoint_Mode3.jpg>] [46]
 <QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png, id=952, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1084.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1082.
 (pdftex.def)             Requested size: 1927.19533pt x 977.65012pt.
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1085.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1083.
 (pdftex.def)             Requested size: 143.72543pt x 117.07704pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_-1Front.png, id=954, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_-1Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-1Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-1Front.png  used on input line 1088.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-1Front.png  used on input line 1086.
 (pdftex.def)             Requested size: 143.72543pt x 117.07704pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_0Front.png, id=956, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_0Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_0Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_0Front.png  used on input line 1091.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_0Front.png  used on input line 1089.
 (pdftex.def)             Requested size: 160.57549pt x 130.80852pt.
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1094.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1092.
 (pdftex.def)             Requested size: 1927.19533pt x 977.65012pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_1Front.png, id=958, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_1Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_1Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_1Front.png  used on input line 1095.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_1Front.png  used on input line 1093.
 (pdftex.def)             Requested size: 142.82852pt x 116.35474pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_3Front.png, id=960, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_3Front.png  used on input line 1098.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_3Front.png  used on input line 1096.
 (pdftex.def)             Requested size: 141.94632pt x 115.63243pt.
 
-Overfull \hbox (17.23392pt too wide) in paragraph at lines 1083--1100
+Overfull \hbox (17.23392pt too wide) in paragraph at lines 1081--1098
 [][][]
  []
 
 
-Overfull \hbox (17.23392pt too wide) in paragraph at lines 1083--1100
+Overfull \hbox (17.23392pt too wide) in paragraph at lines 1081--1098
 [][]
  []
 
 
-Overfull \hbox (34.0842pt too wide) in paragraph at lines 1083--1100
+Overfull \hbox (34.0842pt too wide) in paragraph at lines 1081--1098
 [][]
  []
 
 
-Overfull \hbox (16.33823pt too wide) in paragraph at lines 1083--1100
+Overfull \hbox (16.33823pt too wide) in paragraph at lines 1081--1098
 [][]
  []
 
 
-Overfull \hbox (15.45474pt too wide) in paragraph at lines 1083--1100
+Overfull \hbox (15.45474pt too wide) in paragraph at lines 1081--1098
 [][] 
  []
 
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1104.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1102.
 (pdftex.def)             Requested size: 1927.19533pt x 977.65012pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_-3Base.png, id=962, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Base.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Base.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Base.png  used on input line 1105.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Base.png  used on input line 1103.
 (pdftex.def)             Requested size: 146.38673pt x 119.24506pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_-1Base.png, id=964, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_-1Base.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-1Base.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-1Base.png  used on input line 1107.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-1Base.png  used on input line 1105.
 (pdftex.def)             Requested size: 146.38673pt x 119.24506pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_0Base.png, id=966, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_0Base.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_0Base.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_0Base.png  used on input line 1109.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_0Base.png  used on input line 1107.
 (pdftex.def)             Requested size: 146.38673pt x 119.24506pt.
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1111.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1109.
 (pdftex.def)             Requested size: 1927.19533pt x 977.65012pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_1Base.png, id=968, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_1Base.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_1Base.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_1Base.png  used on input line 1112.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_1Base.png  used on input line 1110.
 (pdftex.def)             Requested size: 145.48984pt x 118.52275pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_3Base.png, id=970, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_3Base.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_3Base.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_3Base.png  used on input line 1114.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_3Base.png  used on input line 1112.
 (pdftex.def)             Requested size: 145.48984pt x 118.52275pt.
 
-Overfull \hbox (21.19478pt too wide) in paragraph at lines 1106--1116
+Overfull \hbox (21.19478pt too wide) in paragraph at lines 1104--1114
 [][]
  []
 
 
-Overfull \hbox (21.19478pt too wide) in paragraph at lines 1106--1116
+Overfull \hbox (21.19478pt too wide) in paragraph at lines 1104--1114
 []
  []
 
 
-Overfull \hbox (21.19478pt too wide) in paragraph at lines 1106--1116
+Overfull \hbox (21.19478pt too wide) in paragraph at lines 1104--1114
 []
  []
 
 
-Overfull \hbox (20.29756pt too wide) in paragraph at lines 1106--1116
+Overfull \hbox (20.29756pt too wide) in paragraph at lines 1104--1114
 []
  []
 
 
-Overfull \hbox (20.29756pt too wide) in paragraph at lines 1106--1116
+Overfull \hbox (20.29756pt too wide) in paragraph at lines 1104--1114
 [] 
  []
 
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1120.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1118.
 (pdftex.def)             Requested size: 1927.19533pt x 977.65012pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_-3Back.png, id=972, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Back.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Back.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Back.png  used on input line 1121.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Back.png  used on input line 1119.
 (pdftex.def)             Requested size: 149.04805pt x 121.41307pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_-1Back.png, id=974, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_-1Back.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-1Back.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-1Back.png  used on input line 1123.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-1Back.png  used on input line 1121.
 (pdftex.def)             Requested size: 148.16585pt x 120.69077pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_0Back.png, id=976, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_0Back.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_0Back.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_0Back.png  used on input line 1125.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_0Back.png  used on input line 1123.
 (pdftex.def)             Requested size: 145.48984pt x 118.52275pt.
 File: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1127.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png  used on input line 1125.
 (pdftex.def)             Requested size: 1927.19533pt x 977.65012pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_1Back.png, id=978, 1927.2pt x 977.6525pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_1Back.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_1Back.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_1Back.png  used on input line 1128.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_1Back.png  used on input line 1126.
 (pdftex.def)             Requested size: 144.60764pt x 117.80045pt.
 <QuantitativeAnalysis/Image/PCA_Mode1_3Back_Combined.png, id=980, 292.9344pt x 254.3904pt>
 File: QuantitativeAnalysis/Image/PCA_Mode1_3Back_Combined.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/PCA_Mode1_3Back_Combined.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_3Back_Combined.png  used on input line 1130.
+Package pdftex.def Info: QuantitativeAnalysis/Image/PCA_Mode1_3Back_Combined.png  used on input line 1128.
 (pdftex.def)             Requested size: 133.15573pt x 115.63243pt.
 
-Overfull \hbox (6.78407pt too wide) in paragraph at lines 1122--1132
+Overfull \hbox (6.78407pt too wide) in paragraph at lines 1120--1130
 [][]
  []
 
 
-Overfull \hbox (5.90059pt too wide) in paragraph at lines 1122--1132
+Overfull \hbox (5.90059pt too wide) in paragraph at lines 1120--1130
 []
  []
 
 
-Overfull \hbox (3.22572pt too wide) in paragraph at lines 1122--1132
+Overfull \hbox (3.22572pt too wide) in paragraph at lines 1120--1130
 []
  []
 
 
-Overfull \hbox (2.34377pt too wide) in paragraph at lines 1122--1132
+Overfull \hbox (2.34377pt too wide) in paragraph at lines 1120--1130
 []
  []
 
 
-LaTeX Warning: Float too large for page by 79.13431pt on input line 1143.
+LaTeX Warning: Float too large for page by 79.13431pt on input line 1141.
 
 [47 <./QuantitativeAnalysis/Image/PCA_Mode1_-3Front.png (PNG copy)> <./QuantitativeAnalysis/Image/PCA_Mode1_-1Front.png 
 (PNG copy)> <./QuantitativeAnalysis/Image/PCA_Mode1_0Front.png (PNG copy)> <./QuantitativeAnalysis/Image/PCA_Mode1_1Fron
@@ -2882,29 +2882,29 @@ ysis/Image/PCA_Mode1_1Back.png (PNG copy)> <./QuantitativeAnalysis/Image/PCA_Mod
 <QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png, id=1014, 654.2844pt x 437.9562pt>
 File: QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png  used on input line 1174.
+Package pdftex.def Info: QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png  used on input line 1172.
 (pdftex.def)             Requested size: 654.28279pt x 437.95512pt.
 File: QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png  used on input line 1175.
+Package pdftex.def Info: QuantitativeAnalysis/Image/Mode1AgainstFibrosis.png  used on input line 1173.
 (pdftex.def)             Requested size: 301.14316pt x 201.56921pt.
 <QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png, id=1016, 654.2844pt x 437.9562pt>
 File: QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png  used on input line 1180.
+Package pdftex.def Info: QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png  used on input line 1178.
 (pdftex.def)             Requested size: 654.28279pt x 437.95512pt.
 File: QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png  used on input line 1181.
+Package pdftex.def Info: QuantitativeAnalysis/Image/Mode2AgainstFibrosis.png  used on input line 1179.
 (pdftex.def)             Requested size: 301.14316pt x 201.56921pt.
 <QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png, id=1018, 654.2844pt x 437.9562pt>
 File: QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png  used on input line 1186.
+Package pdftex.def Info: QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png  used on input line 1184.
 (pdftex.def)             Requested size: 654.28279pt x 437.95512pt.
 File: QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png Graphic file (type png)
 <use QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png>
-Package pdftex.def Info: QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png  used on input line 1187.
+Package pdftex.def Info: QuantitativeAnalysis/Image/Mode3AgainstFibrosis.png  used on input line 1185.
 (pdftex.def)             Requested size: 301.14316pt x 201.56921pt.
 
 Overfull \vbox (112.9774pt too high) has occurred while \output is active []
@@ -2936,7 +2936,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
 Package rerunfilecheck Info: File `Yuwen_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D881F327FE5DA4FAFFEDC5DA1A83822E;1610.
+(rerunfilecheck)             Checksum: 52BE30AF2CA29A96740C677446F064C4;1606.
 Package rerunfilecheck Info: File `Yuwen_thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 0234E8C0BD04EF4283DEC0678EB7AC7C;6496.
 
@@ -2950,7 +2950,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  41491 strings out of 492970
  809981 string characters out of 3135854
- 869888 words of memory out of 3000000
+ 869952 words of memory out of 3000000
  44326 multiletter control sequences out of 15000+200000
  555776 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2962,7 +2962,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/urw/times/utmr8a.pfb>
-Output written on Yuwen_thesis.pdf (65 pages, 13276967 bytes).
+Output written on Yuwen_thesis.pdf (65 pages, 13130484 bytes).
 PDF statistics:
  1310 PDF objects out of 1440 (max. 8388607)
  287 named destinations out of 1000 (max. 500000)
