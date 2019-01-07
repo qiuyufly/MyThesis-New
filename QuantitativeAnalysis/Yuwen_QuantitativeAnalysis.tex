@@ -1025,9 +1025,78 @@ Right upper lobe	& 0.214 & 0.207 & 0.559\\
 \end{tabular}
 \end{table}
 
-\subsection{SSM - shape analysis of IPF lungs}
+\subsection{SSM - shape analysis of IPF lungs} \label{SSMBasedShapeAnalysis}
 \subsubsection{Shape difference between IPF lungs and normal lungs}
 Figure \ref{fig:ShapeDifference} shows the weight value distribution of the first three principal shape modes for IPF and the control subjects. 
+
+%\begin{table}[htbp]
+%\centering
+%\caption{P value of the first shape modes between IPF subjects and old normal subjects using t-test.}
+%\label{tab:WeightAnalysis}
+%\begin{tabular}{|l | c |}
+%\hline
+%\bf{Mode} & \bf{P-value} \\
+%\hline
+%Mode 1 & $<$ 0.001 \\
+%\hline
+%Mode 2	& 0.194 \\
+%\hline
+%Mode 3	& 0.584 \\
+%\hline
+%\end{tabular}
+%\end{table}
+
+There is a significant difference of the first mode weight between IPF and controls ($p\ll 0.001$). However, for mode 2 and mode 3, no significant shape difference was observed between the two groups (p = 0.017 and p = 0.641, respectively). Figure \ref{fig:Mode1ShapeVariation} illustrates overall shape variation of the first mode with added different values of standard deviation to the mean shape model. The first shape mode accounts for over 20\% of the entire shape variation in normal control lungs. It is seen in Figure \ref{fig:Mode1ShapeVariation} that the first mode relates to the largest change in the anterior-posterior diameter of the lung with a lateromedial tilt towards both apices, and is also associated with the ratio of apical to basal diameters. With the positive or negative standard deviation added to the mean shape model, there is a variation in the right anterior edge, the inferior lingular segment of the left superior lobe, the medial basal segment of the right middle lobe, and the left oblique fissure. In addition, there is a shape change in the ''roundness'' of the lateral surface in both left and right lung, and the variation in the distance of left and right lungs in the apex and base is also observed. As shown in Figure \ref{fig:ShapeDifference-a} and Figure \ref{fig:Mode1ShapeVariation}, the weight values of Mode 1 for IPF subjects are mostly distributed across negative values (all but one subject at a single time point), where the negative weight corresponds to a larger ratio of anterior-posterior diameter to lung height compared to control lungs. 
+
+In Figure \ref{fig:ShapeDifference}, the data for different time points were shown in different colors. As can be seen from the figures, the first three shape modes did not change significantly between time points (with all the p-values $>$ 0.1 between time point 1 and time point 2, time point 1 and time point 3, time point 2 and time point 3).There were no regular trends in any of the three shape modes over time.
+
+\begin{table}[htbp]
+\centering
+\caption{Values of the first three shape modes of IPF subject for each time point.}
+\label{tab:WholeVolume}
+\begin{tabular}{c c c c c c}
+\hline
+\bf{Sub No.} & \bf{Time point} & \bf{Scan time}	& \bf{Mode 1} & \bf{Mode 2} & \bf{Mode 3}\\ 
+\hline
+IPF2 & Time point1 &	0 month &	-1.42 &	0.92 & -0.83\\
+\quad & Time point2 &	15 month &	-0.31 &	0.38 & -0.90\\
+\quad & Time point3 &	35 month &	-0.57 &	0.52 & -0.54\\
+\hline
+IPF3 & Time point1 &	0 month &	-2.69 &	0.60 & -0.17\\
+\quad & Time point2 &	11 month &	-2.45 &	0.09 & -0.04\\
+\quad & Time point3 &	30 month &	-2.36 &	0.47 & 0.43\\
+\hline
+IPF5 & Time point1 &  0 month & -1.23 & -0.83 & 0.26\\ 		
+\quad & Time point2 & 12 month & -1.28 & -0.70 & -0.12\\ 		
+\quad & Time point3 & 23 month & -0.65 & 0.47 & 0.56\\  		
+\hline
+IPF6 & Time point1 &	0 month &	-1.05 &	-0.12 & -0.35\\  		
+\quad & Time point2 &	15 month &	-1.50 &	0.47 & 0.16\\  		
+\quad & Time point3 &	20 month &	-1.56 &	0.16 & 0.38\\  		
+\hline
+IPF9 & Time point1 &	0 month &	-0.75 &	0.83 & -0.18\\
+\quad & Time point2 &	7 month &	-0.51 &	0.96 & -0.43\\
+\quad & Time point3 &	20 month &	-0.59 &	1.16 & -0.63\\
+\hline
+IPF10 & Time point1 &	0 month &	-2.45 &	1.10 & 0.42\\
+\quad & Time point2 &	14 month &	-2.20 &	1.56 & -0.04\\
+\hline
+IPF13 & Time point1 &	0 month &	-2.32 &	0.75 & -0.03\\
+\quad & Time point2 &	16 month &	-2.15 &	-0.04 & 0.51\\
+\hline
+IPF14 & Time point1 &	0 month &	-1.56 &	-0.46 & -0.30\\
+\quad & Time point2 &	46 month &	-2.21 &	-0.08 & -0.83\\
+\hline
+IPF15 & Time point1 &	0 month &	-1.29 &	1.41 & -0.27\\
+\quad & Time point2 &	13 month &	-0.58 &	1.15 & -0.19\\
+\quad & Time point3 &	76 month &	-1.64 &	0.91 & -0.82\\
+\hline
+IPF21 & Time point1 &	0 month &	-0.60 &	0.76 & -0.02\\
+\quad & Time point2 &	63 month &	-1.93 &	0.63 & 0.55\\
+\quad & Time point3 &	79 month &	-1.43 &	1.41 & 0.73\\
+\hline
+\end{tabular}
+\end{table}
 
 \begin{figure}[htbp] 
 \centering
@@ -1052,27 +1121,6 @@ Figure \ref{fig:ShapeDifference} shows the weight value distribution of the firs
 \caption{ Shape differences between IPF subjects and old normal subjects of the first three modes (shown with different time point). (a) Mode 1 weight. (b) Mode 2 weight. (c) Mode 3  weight.}
 \label{fig:ShapeDifference}
 \end{figure}
-
-%\begin{table}[htbp]
-%\centering
-%\caption{P value of the first shape modes between IPF subjects and old normal subjects using t-test.}
-%\label{tab:WeightAnalysis}
-%\begin{tabular}{|l | c |}
-%\hline
-%\bf{Mode} & \bf{P-value} \\
-%\hline
-%Mode 1 & $<$ 0.001 \\
-%\hline
-%Mode 2	& 0.194 \\
-%\hline
-%Mode 3	& 0.584 \\
-%\hline
-%\end{tabular}
-%\end{table}
-
-There is a significant difference of the first mode weight between IPF and controls ($p\ll 0.001$). However, for mode 2 and mode 3, no significant shape difference was observed between the two groups (p = 0.017 and p = 0.641, respectively). Figure \ref{fig:Mode1ShapeVariation} illustrates overall shape variation of the first mode with added different values of standard deviation to the mean shape model. The first shape mode accounts for over 20\% of the entire shape variation in normal control lungs. It is seen in Figure \ref{fig:Mode1ShapeVariation} that the first mode relates to the largest change in the anterior-posterior diameter of the lung with a lateromedial tilt towards both apices, and is also associated with the ratio of apical to basal diameters. With the positive or negative standard deviation added to the mean shape model, there is a variation in the right anterior edge, the inferior lingular segment of the left superior lobe, the medial basal segment of the right middle lobe, and the left oblique fissure. In addition, there is a shape change in the ''roundness'' of the lateral surface in both left and right lung, and the variation in the distance of left and right lungs in the apex and base is also observed. As shown in Figure \ref{fig:ShapeDifference-a} and Figure \ref{fig:Mode1ShapeVariation}, the weight values of Mode 1 for IPF subjects are mostly distributed across negative values (all but one subject at a single time point), where the negative weight corresponds to a larger ratio of anterior-posterior diameter to lung height compared to control lungs. 
-
-In Figure \ref{fig:ShapeDifference}, the data for different time points were shown in different colors. As can be seen from the figures, the first three shape modes did not change significantly between time points (with all the p-values $>$ 0.1 between time point 1 and time point 2, time point 1 and time point 3, time point 2 and time point 3).There were no regular trends in any of the three shape modes over time.
 
 \newgeometry{left=1cm} %set the left margin of page
 %\begin{landscape}
@@ -1192,7 +1240,9 @@ Mode 3	& 0.170 & 0.254 & 0.796 & 0.047\\
 
 %% Section 5
 \section{Discussion} \label{QuantitativeDiscussion}
-Individualized treatment strategies are urgently needed in clinical applications and are the ultimate goal of modern pulmonary medicine. A quantitative analysis of IPF based on HRCT images has the potential to build a reliable relationship between imaging tissue-level bio-markers and clinical endpoints. As shown here, tissue density, tissue volume, spatial distribution of abnormalities, and lung shape are all important indexes for describing a statistical progression of IPF disease. Through quantifying these features instead of qualitative evaluation, subjective errors could be avoided to offer a more consistent assessment of individual patients.  
+Individualized treatment strategies are urgently needed in clinical applications and are the ultimate goal of modern pulmonary medicine. A quantitative analysis of IPF based on HRCT images has the potential to build a reliable relationship between imaging tissue-level bio-markers and clinical endpoints. 
+
+From the quantitative analysis results, the mean density of each tissue pattern remains consistent over time in both lungs, and ground-glass has highest average tissue density whereas emphysema has the lowest average tissue density. Ground-glass mainly locates in the basal and dorsal part of the lung, and reticular usually appears in the basal, apical and posterior areas, while emphysema presents predominantly around apex region of the lung. Fibrosis (ground-glass, reticular and honeycomb) mostly distributes in the two lower lobes and preferentially appears near the lung surface, in contrast, more emphysema presents in the upper lobes. The spatial distribution quantified in this chapter is consistent with the clinical radiological findings of IPF discussed in Chapter 2. Moreover, the multiple time point analysis shows that although the location of a single disease cluster may keep changing and converting over time, the overall distribution of the abnormalities doesn't change too much at different time point, and the amount of disease presents an overall increase during the clinical course. As for shape analysis, there is a significant difference of the PCA-based first shape mode between IPF lungs and normal controls, and the first mode shows strong relationship with the fibrosis percentage distributed in IPF lungs. As shown here, tissue density, tissue volume, spatial distribution of abnormalities, and lung shape are all important indexes for describing a statistical progression of IPF disease. Through quantifying these features instead of qualitative evaluation, subjective errors could be avoided to offer a more consistent assessment of individual patients.
 
 \subsubsection{Average statistical shape model provides a consistent measurement to quantify disease among different people and over the whole clinical course}
 IPF is a progressive lung disease that has significant variable expression between different patients. In this study, the spatial distribution of CALIPER-classified data in the IPF lung were quantified along cranio-caudal, dorso-to-ventral, and subpleural-to-internal directions over time. Currently, few published studies have quantitatively analysed the spatial distribution of IPF abnormalities, especially for the progression and change of disease over time. The SSM-based quantitative method used here normalized a set of lungs of different shapes into a standard shape model, thus providing a convenient way to make a reliable comparison between different patients or within one patient at different time points. This method makes it possible to capture the disease variation across a population and describe the difference using objective indexes. Furthermore, the progression of disease over time can be analysed. The goal is that this contributes to helping describe the clinical course of disease. 
@@ -1203,7 +1253,7 @@ It is widely acknowledged that typical symptoms occur on average 1-2 years befor
 %The density analysis conducted in this chapter shows that tissue density of different tissue CT patterns fluctuate within different ranges. There is a significant difference of average density between normal lung parenchyma and fibrosis areas (honeycomb, reticular and ground-glass), whereas emphysema usually has the lowest tissue density (Hounsfield unit lower than -950) compared to normal and fibrosis. Therefore, tissue density can be used as a potential biomarker to distinguish the disease regions from other lung parenchyma. As for tissue volume of each CT pattern, no continuous tendency of the volume of both normal tissue and abnormal tissue was found to demonstrate a correlation with time. Therefore, the change of tissue volume can not be used as a reliable biomarker to interpret the progression of disease.
 
 \subsubsection{The shape of the basal part of IPF lung is significantly different to the normal lung and correlates with fibrosis extent}
-The first shape mode of the SSM is significantly different between IPF and normal, and strongly correlates with the percentage of fibrosis. The first shape mode corresponds mainly to the anterior-posterior diameter of the lung which is associated with a variation of diaphragm location. This shape change of the diaphragm is potentially explained by the spatial distribution of tissue abnormalities. The basal and peripheral location of disease is very likely to increase the stiffness of the lower part of the lung, thus it could impact on the movement of the diaphragm when breathing. Furthermore, fibrosis extent in IPF is found to be related to the ratio of anterior-posterior diameter to the height of lung. A larger proportion of fibrosis is usually correlated with a larger ratio of anterior-posterior diameter to the height of lung. This ''compression effect'' on the lung shape may be associated with the reduction in tissue compliance caused by fibrosis. Specifically, since the IPF subject and control imaging used in this chapter were all acquired at the end of inspiration, the lower tissue compliance caused by fibrosis will influence the expansion of the lung during inhalation if inhalation is driven by a normal muscle pressure, and therefore this may have an effect on the lung shape. In addition, it is demonstrated in the lobe volume analysis that the IPF lung has a lower average volume proportion for the left lower lobe and left upper lobe, which may be also caused by the ''compression effect'' of the lower lobe in IPF lungs. These features provide a potential way to indicate if the 'lung function' is deteriorating before PFTs can show any abnormalities as a shape difference of IPF patient may be observed when comparing with older normal lungs.
+The first shape mode of the SSM is significantly different between IPF and normal, and strongly correlates with the percentage of fibrosis. The first shape mode corresponds mainly to the anterior-posterior diameter of the lung which is associated with a variation of diaphragm location. This shape change of the diaphragm is potentially explained by the spatial distribution of tissue abnormalities. The basal and peripheral location of disease is very likely to increase the stiffness of the lower part of the lung, thus it could impact on the movement of the diaphragm when breathing. Furthermore, fibrosis extent in IPF is found to be related to the ratio of anterior-posterior diameter to the height of lung (as  the first mode relates to the largest change in the anterior-posterior diameter of the lung, see Section \ref{SSMBasedShapeAnalysis}). A larger proportion of fibrosis is usually correlated with a larger ratio of anterior-posterior diameter to the height of lung. This ''compression effect'' on the lung shape may be associated with the reduction in tissue compliance caused by fibrosis. Specifically, since the IPF subject and control imaging used in this chapter were all acquired at the end of inspiration, the lower tissue compliance caused by fibrosis will influence the expansion of the lung during inhalation if inhalation is driven by a normal muscle pressure, and therefore this may have an effect on the lung shape. In addition, it is demonstrated in the lobe volume analysis that the IPF lung has a lower average volume proportion for the left lower lobe and left upper lobe, which may be also caused by the ''compression effect'' of the lower lobe in IPF lungs. These features provide a potential way to indicate if the 'lung function' is deteriorating before PFTs can show any abnormalities as a shape difference of IPF patient may be observed when comparing with older normal lungs.
 
 \subsubsection{The quantification of combined IPF and emphysema is the difficulty and emphasis in the future work}
 Combined IPF and emphysema (CPFE) has been recognised and defined over the past ten years \citep{cottin2005combined,meltzer2008idiopathic}. Some researchers suggest that CPFE should be regarded as a distinct clinical entity other than emphysema or IPF alone, since it has a characteristic pulmonary function feature different from pure emphysema or IPF. It is commonly believed that CPFE is strongly associated with heavy smokers, severe dyspnea on exertion, and impaired gas exchange. Emphysema usually appears in the upper lobe whereas IPF disease tends to appear in the lower lobes \citep{lin2015combined} which is consistent with the result of our analysis. However, whether the presence of the two diseases developing in parallel is still unknown \citep{cottin2005combined, king2011idiopathic, lin2015combined}. In the future work, the image based analysis result will be used as quantitative indexes in a lung functional modelling, which could help understand the relationship between the two diseases and the impact of emphysema on IPF.
