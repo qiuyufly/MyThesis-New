@@ -1,9 +1,4 @@
-\glossaryentry{NSIP?\glossentry{nsip}|setentrycounter[]{page}\glsnumberformat}{3}
-\glossaryentry{COPD?\glossentry{copd}|setentrycounter[]{page}\glsnumberformat}{5}
-\glossaryentry{MLD?\glossentry{mld}|setentrycounter[]{page}\glsnumberformat}{5}
-\glossaryentry{ANNs?\glossentry{anns}|setentrycounter[]{page}\glsnumberformat}{7}
-\glossaryentry{QLF?\glossentry{qlf}|setentrycounter[]{page}\glsnumberformat}{8}
-\glossaryentry{LAA?\glossentry{laa}|setentrycounter[]{page}\glsnumberformat}{9}
-\glossaryentry{VOIs?\glossentry{vois}|setentrycounter[]{page}\glsnumberformat}{11}
-\glossaryentry{MDS?\glossentry{mds}|setentrycounter[]{page}\glsnumberformat}{11}
-\glossaryentry{CVM?\glossentry{cvm}|setentrycounter[]{page}\glsnumberformat}{11}
+\glossaryentry{VC?\glossentry{vc}|setentrycounter[]{page}\glsnumberformat}{3}
+\glossaryentry{AIC?\glossentry{aic}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{BIC?\glossentry{bic}|setentrycounter[]{page}\glsnumberformat}{12}
+\glossaryentry{RBC?\glossentry{rbc}|setentrycounter[]{page}\glsnumberformat}{21}

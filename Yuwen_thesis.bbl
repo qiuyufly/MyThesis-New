@@ -1,65 +1,77 @@
 \begin{thebibliography}{}
 
-\bibitem[Arzhaeva et~al., 2007]{arzhaeva2007computer}
-Arzhaeva, Y., Prokop, M., Tax, D.~M., De~Jong, P.~A., Schaefer-Prokop, C.~M.,
-  and van Ginneken, B. (2007).
-\newblock Computer-aided detection of interstitial abnormalities in chest
-  radiographs using a reference standard based on computed tomography.
-\newblock {\em Medical Physics}, 34(12):4798--4809.
+\bibitem[Aho et~al., 2014]{aho2014model}
+Aho, K., Derryberry, D., and Peterson, T. (2014).
+\newblock Model selection for ecologists: the worldviews of aic and bic.
+\newblock {\em Ecology}, 95(3):631--636.
 
-\bibitem[Bartholmai et~al., 2013]{bartholmai2013quantitative}
-Bartholmai, B.~J., Raghunath, S., Karwoski, R.~A., Moua, T., Rajagopalan, S.,
-  Maldonado, F., Decker, P.~A., and Robb, R.~A. (2013).
-\newblock Quantitative ct imaging of interstitial lung diseases.
-\newblock {\em Journal of thoracic imaging}, 28(5).
+\bibitem[Arora and Rochester, 1982]{arora1982respiratory}
+Arora, N.~S. and Rochester, D.~F. (1982).
+\newblock Respiratory muscle strength and maximal voluntary ventilation in
+  undernourished patients.
+\newblock {\em American Review of Respiratory Disease}, 126(1):5--8.
 
-\bibitem[Behr et~al., 1992]{behr1992evaluation}
-Behr, J., Mehnert, F., Beinert, T., et~al. (1992).
-\newblock Evaluation of interstitial lung disease by quantitative
-  high-resolution computed tomography.
-\newblock {\em Am Rev Respir Dis}, 145(Suppl.):A191.
+\bibitem[Brandfonbrener et~al., 1955]{brandfonbrener1955changes}
+Brandfonbrener, M., Landowne, M., and Shock, N.~W. (1955).
+\newblock Changes in cardiac output with age.
+\newblock {\em Circulation}, 12(4):557--566.
 
-\bibitem[Best et~al., 2003]{best2003quantitative}
-Best, A.~C., Lynch, A.~M., Bozic, C.~M., Miller, D., Grunwald, G.~K., and
-  Lynch, D.~A. (2003).
-\newblock Quantitative ct indexes in idiopathic pulmonary fibrosis:
-  relationship with physiologic impairment.
-\newblock {\em Radiology}, 228(2):407--414.
+\bibitem[Brandstetter and Kazemi, 1983]{brandstetter1983aging}
+Brandstetter, R.~D. and Kazemi, H. (1983).
+\newblock Aging and the respiratory system.
+\newblock {\em Medical Clinics of North America}, 67(2):419--431.
 
-\bibitem[Best et~al., 2008]{best2008idiopathic}
-Best, A.~C., Meng, J., Lynch, A.~M., Bozic, C.~M., Miller, D., Grunwald, G.~K.,
-  and Lynch, D.~A. (2008).
-\newblock Idiopathic pulmonary fibrosis: physiologic tests, quantitative ct
-  indexes, and ct visual scores as predictors of mortality.
-\newblock {\em Radiology}, 246(3):935--940.
+\bibitem[Breatnach et~al., 1984]{breatnach1984dimensions}
+Breatnach, E., Abbott, G.~C., and Fraser, R.~G. (1984).
+\newblock Dimensions of the normal human trachea.
+\newblock {\em American Journal of Roentgenology}, 142(5):903--906.
 
-\bibitem[Bjoraker et~al., 1998]{bjoraker1998prognostic}
-Bjoraker, J.~A., Ryu, J.~H., Edwin, M.~K., Myers, J.~L., Tazelaar, H.~D.,
-  Schroeder, D.~R., and Offord, K.~P. (1998).
-\newblock Prognostic significance of histopathologic subsets in idiopathic
-  pulmonary fibrosis.
+\bibitem[Butler and Kleinerman, 1970]{butler1970capillary}
+Butler, C. and Kleinerman, J. (1970).
+\newblock Capillary density: alveolar diameter, a morphometric approach to
+  ventilation and perfusion.
+\newblock {\em American Review of Respiratory Disease}, 102(6):886--894.
+
+\bibitem[Chakraborty et~al., 2004]{chakraborty2004diffusing}
+Chakraborty, S., Balakotaiah, V., and Bidani, A. (2004).
+\newblock Diffusing capacity reexamined: relative roles of diffusion and
+  chemical reaction in red cell uptake of o2, co, co2, and no.
+\newblock {\em Journal of applied physiology}, 97(6):2284--2302.
+
+\bibitem[Clark et~al., 2014]{clark2014lack}
+Clark, A., Milne, D., Wilsher, M., Burrowes, K., Bajaj, M., and Tawhai, M.
+  (2014).
+\newblock Lack of functional information explains the poor performance of
+  ‘clot load scores’ at predicting outcome in acute pulmonary embolism.
+\newblock {\em Respiratory physiology \& neurobiology}, 190:1--13.
+
+\bibitem[Clark et~al., 2010]{clark2010contribution}
+Clark, A.~R., Burrowes, K.~S., and Tawhai, M.~H. (2010).
+\newblock Contribution of serial and parallel microperfusion to spatial
+  variability in pulmonary inter-and intra-acinar blood flow.
+\newblock {\em Journal of applied physiology}, 108(5):1116--1126.
+
+\bibitem[Clark et~al., 2011]{clark2011interdependent}
+Clark, A.~R., Tawhai, M.~H., Hoffman, E.~A., and Burrowes, K.~S. (2011).
+\newblock The interdependent contributions of gravitational and structural
+  features to perfusion distribution in a multiscale model of the pulmonary
+  circulation.
+\newblock {\em Journal of applied physiology}, 110(4):943--955.
+
+\bibitem[Coelho-Ravagnani et~al., 2013]{coelho2013estimation}
+Coelho-Ravagnani, C. d.~F., Melo, F. C.~L., Ravagnani, F.~C., Burini, F. H.~P.,
+  and Burini, R.~C. (2013).
+\newblock Estimation of metabolic equivalent (met) of an exercise protocol
+  based on indirect calorimetry.
+\newblock {\em Revista Brasileira de Medicina do Esporte}, 19(2):134--138.
+
+\bibitem[Cosgrove et~al., 2004]{cosgrove2004pigment}
+Cosgrove, G.~P., Brown, K.~K., Schiemann, W.~P., Serls, A.~E., Parr, J.~E.,
+  Geraci, M.~W., Schwarz, M.~I., Cool, C.~D., and Worthen, G.~S. (2004).
+\newblock Pigment epithelium--derived factor in idiopathic pulmonary fibrosis:
+  a role in aberrant angiogenesis.
 \newblock {\em American journal of respiratory and critical care medicine},
-  157(1):199--203.
-
-\bibitem[Castaldi et~al., 2013]{castaldi2013distinct}
-Castaldi, P.~J., San Jos{\'e}~Est{\'e}par, R., Mendoza, C.~S., Hersh, C.~P.,
-  Laird, N., Crapo, J.~D., Lynch, D.~A., Silverman, E.~K., and Washko, G.~R.
-  (2013).
-\newblock Distinct quantitative computed tomography emphysema patterns are
-  associated with physiology and function in smokers.
-\newblock {\em American journal of respiratory and critical care medicine},
-  188(9):1083--1090.
-
-\bibitem[Chabat et~al., 2003]{chabat2003obstructive}
-Chabat, F., Yang, G.-Z., and Hansell, D.~M. (2003).
-\newblock Obstructive lung diseases: texture classification for differentiation
-  at ct.
-\newblock {\em Radiology}, 228(3):871--877.
-
-\bibitem[Costabel et~al., 2007]{costabel2007diffuse}
-Costabel, U., Du~Bois, R.~M., and Egan, J.~J. (2007).
-\newblock {\em Diffuse parenchymal lung disease}, volume~36.
-\newblock Karger Medical and Scientific Publishers.
+  170(3):242--251.
 
 \bibitem[Cottin et~al., 2005]{cottin2005combined}
 Cottin, V., Nunes, H., Brillet, P., Delaval, P., Devouassoux, G.,
@@ -68,181 +80,175 @@ Cottin, V., Nunes, H., Brillet, P., Delaval, P., Devouassoux, G.,
   entity.
 \newblock {\em European Respiratory Journal}, 26(4):586--593.
 
-\bibitem[da~Silva~Felix et~al., 2008]{da2008identification}
-da~Silva~Felix, J.~H., Cortez, P.~C., Rebou{\c{c}}as~Filho, P.~P.,
-  de~Alexandria, A.~R., Costa, R. C.~S., and Holanda, M.~A. (2008).
-\newblock Identification and quantification of pulmonary emphysema through
-  pseudocolors.
-\newblock In {\em Mexican International Conference on Artificial Intelligence},
-  pages 957--964. Springer.
+\bibitem[Crapo, 1993]{crapo1993aging}
+Crapo, R. (1993).
+\newblock The aging lung.
+\newblock {\em Lung biology in health and disease}, 63:1--25.
 
-\bibitem[Delorme et~al., 1997]{delorme1997usual}
-Delorme, S., Keller-Reichenbecher, M.-A., Zuna, I., Schlegel, W., and
-  Van~Kaick, G. (1997).
-\newblock Usual interstitial pneumonia: quantitative assessment of
-  high-resolution computed tomography findings by computer-assisted
-  texture-based image analysis.
-\newblock {\em Investigative radiology}, 32(9):566--574.
+\bibitem[Crystal et~al., 1976]{crystal1976idiopathic}
+Crystal, R.~G., Fulmer, J.~D., Roberts, W.~C., Moss, M.~L., Line, B.~R., and
+  Reynolds, H.~Y. (1976).
+\newblock Idiopathic pulmonary fibrosis: clinical, histologic, radiographic,
+  physiologic, scintigraphic, cytologic, and biochemical aspects.
+\newblock {\em Annals of internal medicine}, 85(6):769--788.
 
-\bibitem[Depeursinge et~al., 2010]{depeursinge2010comparative}
-Depeursinge, A., Iavindrasana, J., Hidki, A., Cohen, G., Geissbuhler, A.,
-  Platon, A., Poletti, P.-A., and M{\"u}ller, H. (2010).
-\newblock Comparative performance analysis of state-of-the-art classification
-  algorithms applied to lung tissue categorization.
-\newblock {\em Journal of digital imaging}, 23(1):18--30.
+\bibitem[De~Troyer and Yernault, 1980]{de1980inspiratory}
+De~Troyer, A. and Yernault, J.-C. (1980).
+\newblock Inspiratory muscle force in normal subjects and patients with
+  interstitial lung disease.
+\newblock {\em Thorax}, 35(2):92--100.
 
-\bibitem[Devaraj, 2014]{devaraj2014imaging}
-Devaraj, A. (2014).
-\newblock Imaging: how to recognise idiopathic pulmonary fibrosis.
-\newblock {\em European Respiratory Review}, 23(132):215--219.
-
-\bibitem[Diette et~al., 2005]{diette2005high}
-Diette, G.~B., Scatarige, J.~C., Haponik, E.~F., Merriman, B., and Fishman,
-  E.~K. (2005).
-\newblock Do high-resolution ct findings of usual interstitial pneumonitis
-  obviate lung biopsy?
-\newblock {\em Respiration}, 72(2):134--141.
-
-\bibitem[Flaherty et~al., 2007]{flaherty2007idiopathic}
-Flaherty, K.~R., Andrei, A.-C., King~Jr, T.~E., Raghu, G., Colby, T.~V., Wells,
-  A., Bassily, N., Brown, K., Du~Bois, R., Flint, A., et~al. (2007).
-\newblock Idiopathic interstitial pneumonia: do community and academic
-  physicians agree on diagnosis?
+\bibitem[Ebina et~al., 2004]{ebina2004heterogeneous}
+Ebina, M., Shimizukawa, M., Shibata, N., Kimura, Y., Suzuki, T., Endo, M.,
+  Sasano, H., Kondo, T., and Nukiwa, T. (2004).
+\newblock Heterogeneous increase in cd34-positive alveolar capillaries in
+  idiopathic pulmonary fibrosis.
 \newblock {\em American journal of respiratory and critical care medicine},
-  175(10):1054--1060.
+  169(11):1203--1208.
 
-\bibitem[Flaherty et~al., 2004]{flaherty2004idiopathic}
-Flaherty, K.~R., King~Jr, T.~E., Raghu, G., Lynch~III, J.~P., Colby, T.~V.,
-  Travis, W.~D., Gross, B.~H., Kazerooni, E.~A., Toews, G.~B., Long, Q., et~al.
-  (2004).
-\newblock Idiopathic interstitial pneumonia: what is the effect of a
-  multidisciplinary approach to diagnosis?
-\newblock {\em American journal of respiratory and critical care medicine},
-  170(8):904--910.
+\bibitem[Fulmer et~al., 1979]{fulmer1979morphologic}
+Fulmer, J., Roberts, W., von Gal, E.~R., and Crystal, R. (1979).
+\newblock Morphologic-physiologic correlates of the severity of fibrosis and
+  degree of cellularity in idiopathic pulmonary fibrosis.
+\newblock {\em The Journal of clinical investigation}, 63(4):665--676.
 
-\bibitem[Flaherty et~al., 2001]{flaherty2001histopathologic}
-Flaherty, K.~R., Travis, W.~D., Colby, T.~V., Toews, G.~B., Kazerooni, E.~A.,
-  Gross, B.~H., Jain, A., STRAWDERMAN~III, R.~L., Flint, A., LYNCH~III, J.~P.,
-  et~al. (2001).
-\newblock Histopathologic variability in usual and nonspecific interstitial
-  pneumonias.
-\newblock {\em American journal of respiratory and critical care medicine},
-  164(9):1722--1727.
+\bibitem[Fung and Sobin, 1969]{fung1969theory}
+Fung, Y. and Sobin, S. (1969).
+\newblock Theory of sheet flow in lung alveoli.
+\newblock {\em Journal of Applied Physiology}, 26(4):472--488.
 
-\bibitem[Galb{\'a}n et~al., 2012]{galban2012computed}
-Galb{\'a}n, C.~J., Han, M.~K., Boes, J.~L., Chughtai, K.~A., Meyer, C.~R.,
-  Johnson, T.~D., Galb{\'a}n, S., Rehemtulla, A., Kazerooni, E.~A., Martinez,
-  F.~J., et~al. (2012).
-\newblock Computed tomography--based biomarker provides unique signature for
-  diagnosis of copd phenotypes and disease progression.
-\newblock {\em Nature medicine}, 18(11):1711.
+\bibitem[Fung, 2013]{fung2013biomechanics}
+Fung, Y.-c. (2013).
+\newblock {\em Biomechanics: circulation}.
+\newblock Springer Science \& Business Media.
 
-\bibitem[Gietema et~al., 2011]{gietema2011quantifying}
-Gietema, H.~A., M{\"u}ller, N.~L., Fauerbach, P. V.~N., Sharma, S., Edwards,
-  L.~D., Camp, P.~G., Coxson, H.~O., of~COPD Longitudinally~to Identify
-  Predictive Surrogate Endpoints (ECLIPSE)~investigators, E., et~al. (2011).
-\newblock Quantifying the extent of emphysema:: Factors associated with
-  radiologists’ estimations and quantitative indices of emphysema severity
-  using the eclipse cohort.
-\newblock {\em Academic radiology}, 18(6):661--671.
+\bibitem[Gilbert et~al., 1972]{gilbert1972changes}
+Gilbert, R., Auchincloss~Jr, J., Brodsky, J., and Boden, W.~a. (1972).
+\newblock Changes in tidal volume, frequency, and ventilation induced by their
+  measurement.
+\newblock {\em Journal of Applied Physiology}, 33(2):252--254.
 
-\bibitem[Gilman et~al., 1983]{gilman1983ct}
-Gilman, M.~J., Laurens, J.~R., Somogyi, J.~W., and Honig, E.~G. (1983).
-\newblock Ct attenuation values of lung density in sarcoidosis.
-\newblock {\em Journal of computer assisted tomography}, 7(3):407--410.
+\bibitem[Glazier et~al., 1969]{glazier1969measurements}
+Glazier, J., Hughes, J., Maloney, J., and West, J. (1969).
+\newblock Measurements of capillary dimensions and blood volume in rapidly
+  frozen lungs.
+\newblock {\em Journal of Applied Physiology}, 26(1):65--76.
 
-\bibitem[Gotway et~al., 2007]{gotway2007challenges}
-Gotway, M.~B., Freemer, M.~M., and King, T.~E. (2007).
-\newblock Challenges in pulmonary fibrosis{\textperiodcentered} 1: Use of high
-  resolution ct scanning of the lung for the evaluation of patients with
-  idiopathic interstitial pneumonias.
-\newblock {\em Thorax}, 62(6):546--553.
+\bibitem[Guenard and Marthan, 1996]{guenard1996pulmonary}
+Guenard, H. and Marthan, R. (1996).
+\newblock Pulmonary gas exchange in elderly subjects.
+\newblock {\em European Respiratory Journal}, 9(12):2573--2577.
 
-\bibitem[Gould et~al., 1988]{gould1988ct}
-Gould, G., MacNee, W., McLean, A., Warren, P., Redpath, A., Best, J., Lamb, D.,
-  and Flenley, D. (1988).
-\newblock Ct measurements of lung density in life can quantitate distal
-  airspace enlargement—an essential defining feature of human emphysema.
-\newblock {\em American Review of Respiratory Disease}, 137(2):380--392.
+\bibitem[Haefeli-Bleuer and Weibel, 1988]{haefeli1988morphometry}
+Haefeli-Bleuer, B. and Weibel, E.~R. (1988).
+\newblock Morphometry of the human pulmonary acinus.
+\newblock {\em The Anatomical Record}, 220(4):401--414.
 
-\bibitem[Hu et~al., 2001]{hu2001automatic}
-Hu, S., Hoffman, E.~A., and Reinhardt, J.~M. (2001).
-\newblock Automatic lung segmentation for accurate quantitation of volumetric
-  x-ray ct images.
-\newblock {\em IEEE transactions on medical imaging}, 20(6):490--498.
+\bibitem[Hoesein and De~Jong, 2017]{hoesein2017air}
+Hoesein, F. A.~M. and De~Jong, P.~A. (2017).
+\newblock Air trapping on computed tomography: regional versus diffuse.
 
-\bibitem[Kazerooni, 2001]{kazerooni2001high}
-Kazerooni, E.~A. (2001).
-\newblock High-resolution ct of the lungs.
-\newblock {\em American Journal of Roentgenology}, 177(3):501--519.
+\bibitem[Holland et~al., 1968]{holland1968regional}
+Holland, J., Milic-Emili, J., Macklem, P., and Bates, D. (1968).
+\newblock Regional distribution of pulmonary ventilation and perfusion in
+  elderly subjects.
+\newblock {\em The Journal of clinical investigation}, 47(1):81--92.
 
-\bibitem[Kazerooni et~al., 1997]{kazerooni1997thin}
-Kazerooni, E.~A., Martinez, F.~J., Flint, A., Jamadar, D.~A., Gross, B.~H.,
-  Spizarny, D.~L., Cascade, P.~N., Whyte, R.~I., Lynch~3rd, J., and Toews, G.
-  (1997).
-\newblock Thin-section ct obtained at 10-mm increments versus limited
-  three-level thin-section ct for idiopathic pulmonary fibrosis: correlation
-  with pathologic scoring.
-\newblock {\em AJR. American journal of roentgenology}, 169(4):977--983.
+\bibitem[Horsfield, 1978]{horsfield1978morphometry}
+Horsfield, K. (1978).
+\newblock Morphometry of the small pulmonary arteries in man.
+\newblock {\em Circulation research}, 42(5):593--597.
 
-\bibitem[Kim et~al., 1999]{kim1999nonspecific}
-Kim, E.~Y., Lee, K., Chung, M., Kwon, O.~J., Kim, T., and Hwang, J. (1999).
-\newblock Nonspecific interstitial pneumonia with fibrosis: serial
-  high-resolution ct findings with functional correlation.
-\newblock {\em AJR. American journal of roentgenology}, 173(4):949--953.
+\bibitem[Horsfield et~al., 1971]{horsfield1971models}
+Horsfield, K., Dart, G., Olson, D.~E., Filley, G.~F., and Cumming, G. (1971).
+\newblock Models of the human bronchial tree.
+\newblock {\em Journal of applied physiology}, 31(2):207--217.
 
-\bibitem[Kim et~al., 2010]{kim2010computer}
-Kim, H., Tashkin, D., Clements, P., Li, G., Brown, M., Elashoff, R., Gjertson,
-  D., Abtin, F., Lynch, D., Strollo, D., et~al. (2010).
-\newblock A computer-aided diagnosis system for quantitative scoring of extent
-  of lung fibrosis in scleroderma patients.
-\newblock {\em Clinical and experimental rheumatology}, 28(5 Suppl 62):S26.
+\bibitem[Horsfield and Gordon, 1981]{horsfield1981morphometry}
+Horsfield, K. and Gordon, W. (1981).
+\newblock Morphometry of pulmonary veins in man.
+\newblock {\em Lung}, 159(1):211--218.
 
-\bibitem[Kim et~al., 2015]{kim2015comparison}
-Kim, H.~J., Brown, M.~S., Chong, D., Gjertson, D.~W., Lu, P., Kim, H.~J., Coy,
-  H., and Goldin, J.~G. (2015).
-\newblock Comparison of the quantitative ct imaging biomarkers of idiopathic
-  pulmonary fibrosis at baseline and early change with an interval of 7 months.
-\newblock {\em Academic radiology}, 22(1):70--80.
+\bibitem[Horsfield et~al., 1976]{horsfield1976diameter}
+Horsfield, K., Relea, F.~G., and Gumming, G. (1976).
+\newblock Diameter, length and branching ratios in the bronchial tree.
+\newblock {\em Respiration physiology}, 26(3):351--356.
 
-\bibitem[Kim et~al., 2011]{kim2011quantitative}
-Kim, H.~J., Brown, M.~S., Elashoff, R., Li, G., Gjertson, D.~W., Lynch, D.~A.,
-  Strollo, D.~C., Kleerup, E., Chong, D., Shah, S.~K., et~al. (2011).
-\newblock Quantitative texture-based assessment of one-year changes in fibrotic
-  reticular patterns on hrct in scleroderma lung disease treated with oral
-  cyclophosphamide.
-\newblock {\em European radiology}, 21(12):2455--2465.
+\bibitem[Hsia et~al., 2016]{hsia2016lung}
+Hsia, C.~C., Hyde, D.~M., and Weibel, E.~R. (2016).
+\newblock Lung structure and the intrinsic challenges of gas exchange.
+\newblock {\em Comprehensive Physiology}, 6(2):827.
 
-\bibitem[Kim et~al., 2005]{kim2005computer}
-Kim, K.~G., Goo, J.~M., Kim, J.~H., Lee, H.~J., Min, B.~G., Bae, K.~T., and Im,
-  J.-G. (2005).
-\newblock Computer-aided diagnosis of localized ground-glass opacity in the
-  lung at ct: initial experience.
-\newblock {\em Radiology}, 237(2):657--661.
+\bibitem[Huang et~al., 1996]{huang1996morphometry}
+Huang, W., Yen, R., McLaurine, M., and Bledsoe, G. (1996).
+\newblock Morphometry of the human pulmonary vasculature.
+\newblock {\em Journal of applied physiology}, 81(5):2123--2133.
+
+\bibitem[Jacob et~al., 2016a]{Jacob2016Evaluation}
+Jacob, J., Bartholmai, B.~J., Rajagopalan, S., Brun, A.~L., Egashira, R.,
+  Karwoski, R., Kokosi, M., Wells, A.~U., and Hansell, D.~M. (2016a).
+\newblock Evaluation of computer-based computer tomography stratification
+  against outcome models in connective tissue disease-related interstitial lung
+  disease: a patient outcome study.
+\newblock {\em Bmc Medicine}, 14(1):190.
+
+\bibitem[Jacob et~al., 2016b]{Jacob2016Mortality}
+Jacob, J., Bartholmai, B.~J., Rajagopalan, S., Kokosi, M., Nair, A., Karwoski,
+  R., Walsh, S.~L., Wells, A.~U., and Hansell, D.~M. (2016b).
+\newblock Mortality prediction in ipf: evaluation of automated computer
+  tomographic analysis with conventional severity measures.
+\newblock {\em European Respiratory Journal}, 49(1):ERJ--01011--2016.
+
+\bibitem[Janssens et~al., 1999]{janssens1999physiological}
+Janssens, J.-P., Pache, J.-C., and Nicod, L. (1999).
+\newblock Physiological changes in respiratory function associated with ageing.
+\newblock {\em European Respiratory Journal}, 13(1):197--205.
+
+\bibitem[Kapitan and Hempleman, 1986]{kapitan1986computer}
+Kapitan, K.~S. and Hempleman, S.~C. (1986).
+\newblock Computer simulation of mammalian gas-exchange.
+\newblock {\em Computers in biology and medicine}, 16(2):91--101.
 
 \bibitem[King~Jr et~al., 2011]{king2011idiopathic}
 King~Jr, T.~E., Pardo, A., and Selman, M. (2011).
 \newblock Idiopathic pulmonary fibrosis.
 \newblock {\em The Lancet}, 378(9807):1949--1961.
 
-\bibitem[Kinsella et~al., 1990]{kinsella1990quantitation}
-Kinsella, M., M{\"u}ller, N.~L., Abboud, R.~T., Morrison, N.~J., and DyBuncio,
-  A. (1990).
-\newblock Quantitation of emphysema by computed tomography using a “density
-  mask” program and correlation with pulmonary function tests.
-\newblock {\em Chest}, 97(2):315--321.
+\bibitem[Knudson et~al., 1976]{knudson1976maximal}
+Knudson, R.~J., Slatin, R.~C., Lebowitz, M.~D., and Burrows, B. (1976).
+\newblock The maximal expiratory flow-volume curve: normal standards,
+  variability, and effects of age.
+\newblock {\em American Review of Respiratory Disease}, 113(5):587--600.
 
-\bibitem[Knudson et~al., 1991]{knudson1991expiratory}
-Knudson, R.~J., Standen, J.~R., Kaltenborn, W.~T., Knudson, D.~E., Rehm, K.,
-  Habib, M.~P., and Newell, J.~D. (1991).
-\newblock Expiratory computed tomography for assessment of suspected pulmonary
-  emphysema.
-\newblock {\em Chest}, 99(6):1357--1366.
+\bibitem[Krenz and Dawson, 2003]{krenz2003flow}
+Krenz, G.~S. and Dawson, C.~A. (2003).
+\newblock Flow and pressure distributions in vascular networks consisting of
+  distensible vessels.
+\newblock {\em American Journal of Physiology-Heart and Circulatory
+  Physiology}, 284(6):H2192--H2203.
 
-\bibitem[Kundel, 2006]{kundel2006history}
-Kundel, H.~L. (2006).
-\newblock History of research in medical image perception.
-\newblock {\em Journal of the American College of Radiology}, 3(6):402--408.
+\bibitem[Kwan et~al., 2004]{kwan2004standard}
+Kwan, M., Woo, J., and Kwok, T. (2004).
+\newblock The standard oxygen consumption value equivalent to one metabolic
+  equivalent (3.5 ml/min/kg) is not appropriate for elderly people.
+\newblock {\em International journal of food sciences and nutrition},
+  55(3):179--182.
+
+\bibitem[Lalley, 2013]{lalley2013aging}
+Lalley, P.~M. (2013).
+\newblock The aging respiratory system—pulmonary structure, function and
+  neural control.
+\newblock {\em Respiratory physiology \& neurobiology}, 187(3):199--210.
+
+\bibitem[Larsson, 1983]{larsson1983histochemical}
+Larsson, L. (1983).
+\newblock Histochemical characteristics of human skeletal muscle during aging.
+\newblock {\em Acta physiologica Scandinavica}, 117(3):469--471.
+
+\bibitem[Levitzky, 1984]{levitzky1984effects}
+Levitzky, M.~G. (1984).
+\newblock Effects of aging on the respiratory system.
+\newblock {\em Physiologist}, 27(2):102--107.
 
 \bibitem[Lin and Jiang, 2015]{lin2015combined}
 Lin, H. and Jiang, S. (2015).
@@ -250,207 +256,182 @@ Lin, H. and Jiang, S. (2015).
   from emphysema or pulmonary fibrosis alone.
 \newblock {\em Journal of thoracic disease}, 7(4):767.
 
-\bibitem[Lynch, 2007]{lynch2007quantitative}
-Lynch, D.~A. (2007).
-\newblock Quantitative ct of fibrotic interstitial lung disease.
-\newblock {\em Chest}, 131(3):643--644.
+\bibitem[McClaran et~al., 1995]{mcclaran1995longitudinal}
+McClaran, S., Babcock, M., Pegelow, D., Reddan, W., and Dempsey, J. (1995).
+\newblock Longitudinal effects of aging on lung function at rest and exercise
+  in healthy active fit elderly adults.
+\newblock {\em Journal of Applied Physiology}, 78(5):1957--1968.
 
-\bibitem[Lynch et~al., 2005]{lynch2005high}
-Lynch, D.~A., Godwin, J.~D., Safrin, S., Starko, K.~M., Hormel, P., Brown,
-  K.~K., Raghu, G., King~Jr, T.~E., Bradford, W.~Z., Schwartz, D.~A., et~al.
-  (2005).
-\newblock High-resolution computed tomography in idiopathic pulmonary fibrosis:
-  diagnosis and prognosis.
+\bibitem[Mittman et~al., 1965]{mittman1965relationship}
+Mittman, C., Edelman, N.~H., Norris, A.~H., and Shock, N.~W. (1965).
+\newblock Relationship between chest wall and pulmonary compliance and age.
+\newblock {\em Journal of Applied Physiology}, 20(6):1211--1216.
+
+\bibitem[Miyamura and HONDA, 1973]{miyamura1973maximum}
+Miyamura, M. and HONDA, Y. (1973).
+\newblock Maximum cardiac output related to sex and age.
+\newblock {\em The Japanese journal of physiology}, 23(6):645--656.
+
+\bibitem[Monod et~al., 1965]{monod1965nature}
+Monod, J., Wyman, J., and Changeux, J.-P. (1965).
+\newblock On the nature of allosteric transitions: a plausible model.
+\newblock {\em Biol}, 12:228--113.
+
+\bibitem[Murray, 1986]{murray1986normal}
+Murray, J.~F. (1986).
+\newblock {\em The normal lung: the basis for diagnosis and treatment of
+  pulmonary disease}.
+\newblock WB Saunders Company.
+
+\bibitem[Osanlouy, 2018]{Osanlouy2018Statistical}
+Osanlouy, M. (2018).
+\newblock {\em Statistical Shape Analysis to Quantify Lung Structure-Function
+  Relationships over the Adult Lifespan}.
+\newblock PhD thesis, University of Auckland.
+
+\bibitem[Paoletti et~al., 1985]{paoletti1985reference}
+Paoletti, P., Viegi, G., Pistelli, G., Di~Pede, F., Fazzi, P., Polato, R.,
+  Saetta, M., Zambon, R., Carli, G., Giuntini, C., et~al. (1985).
+\newblock Reference equations for the single-breath diffusing capacity: a
+  cross-sectional analysis and effect of body size and age.
+\newblock {\em American Review of Respiratory Disease}, 132(4):806--813.
+
+\bibitem[Pedley et~al., 1970]{pedley1970energy}
+Pedley, T., Schroter, R., and Sudlow, M. (1970).
+\newblock Energy losses and pressure drop in models of human airways.
+\newblock {\em Respiration physiology}, 9(3):371--386.
+
+\bibitem[Pelosi et~al., 1998]{pelosi1998effects}
+Pelosi, P., Croci, M., Ravagnan, I., Tredici, S., Pedoto, A., Lissoni, A., and
+  Gattinoni, L. (1998).
+\newblock The effects of body mass on lung volumes, respiratory mechanics, and
+  gas exchange during general anesthesia.
+\newblock {\em Anesthesia \& Analgesia}, 87(3):654--660.
+
+\bibitem[Plantier et~al., 2018]{plantier2018physiology}
+Plantier, L., Cazes, A., Dinh-Xuan, A.-T., Bancal, C., Marchand-Adam, S., and
+  Crestani, B. (2018).
+\newblock Physiology of the lung in idiopathic pulmonary fibrosis.
+\newblock {\em European Respiratory Review}, 27(147):170062.
+
+\bibitem[Plantier et~al., 2016]{plantier2016increased}
+Plantier, L., Debray, M.-P., Estellat, C., Flamant, M., Roy, C., Bancal, C.,
+  Borie, R., Isra{\"e}l-Biet, D., Mal, H., Crestani, B., et~al. (2016).
+\newblock Increased volume of conducting airways in idiopathic pulmonary
+  fibrosis is independent of disease severity: a volumetric capnography study.
+\newblock {\em Journal of breath research}, 10(1):016005.
+
+\bibitem[Pollock et~al., 1997]{pollock1997twenty}
+Pollock, M.~L., Mengelkoch, L.~J., Graves, J.~E., Lowenthal, D.~T., Limacher,
+  M.~C., Foster, C., and Wilmore, J.~H. (1997).
+\newblock Twenty-year follow-up of aerobic power and body composition of older
+  track athletes.
+\newblock {\em Journal of Applied Physiology}, 82(5):1508--1516.
+
+\bibitem[Pries et~al., 1996]{pries1996biophysical}
+Pries, A., Secomb, T., and Gaehtgens, P. (1996).
+\newblock Biophysical aspects of blood flow in the microvasculature.
+\newblock {\em Cardiovascular research}, 32(4):654--667.
+
+\bibitem[Slebos et~al., 2015]{slebos2015air}
+Slebos, D.-J., van Rikxoort, E.~M., and van~der Bij, W. (2015).
+\newblock Air trapping in emphysema.
 \newblock {\em American journal of respiratory and critical care medicine},
-  172(4):488--493.
+  192(5):e45--e45.
 
-\bibitem[Maldonado et~al., 2013]{maldonado2013automated}
-Maldonado, F., Moua, T., Rajagopalan, S., Karwoski, R.~A., Raghunath, S.,
-  Decker, P.~A., Hartman, T.~E., Bartholmai, B.~J., Robb, R.~A., and Ryu, J.~H.
-  (2013).
-\newblock Automated quantification of radiologic patterns predicts survival in
-  idiopathic pulmonary fibrosis.
-\newblock {\em European Respiratory Journal}, pages erj00718--2012.
+\bibitem[Smith, 1986]{smith1986respiratory}
+Smith, T. (1986).
+\newblock Respiratory effects of aging.
+\newblock In {\em Seminars in Anesthesia}, volume~5, pages 14--22. WB SAUNDERS
+  CO INDEPENDENCE SQUARE WEST CURTIS CENTER, STE 300, PHILADELPHIA, PA
+  19106-3399.
 
-\bibitem[Meltzer and Noble, 2008]{meltzer2008idiopathic}
-Meltzer, E.~B. and Noble, P.~W. (2008).
-\newblock Idiopathic pulmonary fibrosis.
-\newblock {\em Orphanet journal of rare diseases}, 3(1):8.
+\bibitem[Sprung et~al., 2006]{sprung2006age}
+Sprung, J., Gajic, O., and Warner, D.~O. (2006).
+\newblock age related alterations in respiratory function—anesthetic
+  considerations.
+\newblock {\em Canadian journal of anesthesia}, 53(12):1244.
 
-\bibitem[Misumi and Lynch, 2006]{misumi2006idiopathic}
-Misumi, S. and Lynch, D.~A. (2006).
-\newblock Idiopathic pulmonary fibrosis/usual interstitial pneumonia: imaging
-  diagnosis, spectrum of abnormalities, and temporal progression.
-\newblock {\em Proceedings of the American Thoracic Society}, 3(4):307--314.
+\bibitem[Stelfox et~al., 2006]{stelfox2006hemodynamic}
+Stelfox, H.~T., Ahmed, S.~B., Ribeiro, R.~A., Gettings, E.~M., Pomerantsev, E.,
+  and Schmidt, U. (2006).
+\newblock Hemodynamic monitoring in obese patients: the impact of body mass
+  index on cardiac output and stroke volume.
+\newblock {\em Critical care medicine}, 34(4):1243--1246.
 
-\bibitem[Monaghan et~al., 2004]{monaghan2004prognostic}
-Monaghan, H., Wells, A.~U., Colby, T.~V., Du~Bois, R.~M., Hansell, D.~M., and
-  Nicholson, A.~G. (2004).
-\newblock Prognostic implications of histologic patterns in multiple surgical
-  lung biopsies from patients with idiopathic interstitial pneumonias.
-\newblock {\em Chest}, 125(2):522--526.
+\bibitem[Strickland et~al., 1993]{strickland1993cause}
+Strickland, N., Hughes, J., Hart, D., Myers, M., and Lavender, J. (1993).
+\newblock Cause of regional ventilation-perfusion mismatching in patients with
+  idiopathic pulmonary fibrosis: a combined ct and scintigraphic study.
+\newblock {\em AJR. American journal of roentgenology}, 161(4):719--725.
 
-\bibitem[Mueller-Mang et~al., 2007]{mueller2007every}
-Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., and Bankier, A.~A.
-  (2007).
-\newblock What every radiologist should know about idiopathic interstitial
-  pneumonias.
-\newblock {\em Radiographics}, 27(3):595--615.
+\bibitem[Swan, 2010]{swan2010multi}
+Swan, A. (2010).
+\newblock {\em A multi-scale computational model of pulmonary gas exchange}.
+\newblock PhD thesis, University of Auckland.
 
-\bibitem[M{\"u}ller et~al., 1988]{muller1988density}
-M{\"u}ller, N.~L., Staples, C.~A., Miller, R.~R., and Abboud, R.~T. (1988).
-\newblock “density mask”: an objective method to quantitate emphysema using
-  computed tomography.
-\newblock {\em Chest}, 94(4):782--787.
+\bibitem[Swan et~al., 2012]{swan2012computational}
+Swan, A.~J., Clark, A.~R., and Tawhai, M.~H. (2012).
+\newblock A computational model of the topographic distribution of ventilation
+  in healthy human lungs.
+\newblock {\em Journal of Theoretical Biology}, 300:222--231.
 
-\bibitem[Olson et~al., 2007]{olson2007mortality}
-Olson, A.~L., Swigris, J.~J., Lezotte, D.~C., Norris, J.~M., Wilson, C.~G., and
-  Brown, K.~K. (2007).
-\newblock Mortality from pulmonary fibrosis increased in the united states from
-  1992 to 2003.
-\newblock {\em American journal of respiratory and critical care medicine},
-  176(3):277--284.
+\bibitem[Swan and Tawhai, 2010]{swan2010evidence}
+Swan, A.~J. and Tawhai, M.~H. (2010).
+\newblock Evidence for minimal oxygen heterogeneity in the healthy human
+  pulmonary acinus.
+\newblock {\em Journal of applied physiology}, 110(2):528--537.
 
-\bibitem[Raghu et~al., 2011]{raghu2011official}
-Raghu, G., Collard, H.~R., Egan, J.~J., Martinez, F.~J., Behr, J., Brown,
-  K.~K., Colby, T.~V., Cordier, J.-F., Flaherty, K.~R., Lasky, J.~A., et~al.
-  (2011).
-\newblock An official ats/ers/jrs/alat statement: idiopathic pulmonary
-  fibrosis: evidence-based guidelines for diagnosis and management.
-\newblock {\em American journal of respiratory and critical care medicine},
-  183(6):788--824.
+\bibitem[Tawhai et~al., 2004]{tawhai2004ct}
+Tawhai, M.~H., Hunter, P., Tschirren, J., Reinhardt, J., McLennan, G., and
+  Hoffman, E.~A. (2004).
+\newblock Ct-based geometry analysis and finite element models of the human and
+  ovine bronchial tree.
+\newblock {\em Journal of applied physiology}, 97(6):2310--2321.
 
-\bibitem[Raghunath et~al., 2014]{raghunath2014quantitative}
-Raghunath, S., Rajagopalan, S., Karwoski, R.~A., Maldonado, F., Peikert, T.,
-  Moua, T., Ryu, J.~H., Bartholmai, B.~J., and Robb, R.~A. (2014).
-\newblock Quantitative stratification of diffuse parenchymal lung diseases.
-\newblock {\em PLoS One}, 9(3):e93229.
+\bibitem[Tawhai et~al., 2009]{tawhai2009supine}
+Tawhai, M.~H., Nash, M.~P., Lin, C.-L., and Hoffman, E.~A. (2009).
+\newblock Supine and prone differences in regional lung density and pleural
+  pressure gradients in the human lung with constant shape.
+\newblock {\em Journal of Applied Physiology}, 107(3):912--920.
 
-\bibitem[Richeldi et~al., 2017]{richeldi2017idiopathic}
-Richeldi, L., Collard, H.~R., and Jones, M.~G. (2017).
-\newblock Idiopathic pulmonary fibrosis.
-\newblock {\em The Lancet}, 389(10082):1941--1952.
+\bibitem[Thurlbeck and Angus, 1975]{thurlbeck1975growth}
+Thurlbeck, W.~M. and Angus, G.~E. (1975).
+\newblock Growth and aging of the normal human lung.
+\newblock {\em Chest}, 67(2 Suppl):3S--6S.
 
-\bibitem[Saketkoo et~al., 2011]{saketkoo2011developing}
-Saketkoo, L.~A., Matteson, E.~L., Brown, K.~K., Seibold, J.~R., and Strand, V.
-  (2011).
-\newblock Developing disease activity and response criteria in connective
-  tissue disease-related interstitial lung disease.
-\newblock {\em The Journal of rheumatology}, 38(7):1514--1518.
+\bibitem[Turner et~al., 1968]{turner1968elasticity}
+Turner, J.~M., Mead, J., and Wohl, M.~E. (1968).
+\newblock Elasticity of human lungs in relation to age.
+\newblock {\em Journal of applied physiology}, 25(6):664--671.
 
-\bibitem[Sato et~al., 2000]{sato2000tissue}
-Sato, Y., Westin, C.-F., Bhalerao, A., Nakajima, S., Shiraga, N., Tamura, S.,
-  and Kikinis, R. (2000).
-\newblock Tissue classification based on 3d local intensity structures for
-  volume rendering.
-\newblock {\em IEEE transactions on visualization and computer graphics},
-  6(2):160--180.
+\bibitem[Verbeken et~al., 1992]{verbeken1992senile}
+Verbeken, E.~K., Cauberghs, M., Mertens, I., Clement, J., Lauweryns, J.~M., and
+  Van~de Woestijne, K.~P. (1992).
+\newblock The senile lung: comparison with normal and emphysematous lungs 1.
+  structural aspects.
+\newblock {\em Chest}, 101(3):793--799.
 
-\bibitem[Sumikawa et~al., 2008]{sumikawa2008computed}
-Sumikawa, H., Johkoh, T., Colby, T.~V., Ichikado, K., Suga, M., Taniguchi, H.,
-  Kondoh, Y., Ogura, T., Arakawa, H., Fujimoto, K., et~al. (2008).
-\newblock Computed tomography findings in pathological usual interstitial
-  pneumonia: relationship to survival.
-\newblock {\em American journal of respiratory and critical care medicine},
-  177(4):433--439.
+\bibitem[Wahba, 1983]{wahba1983influence}
+Wahba, W. (1983).
+\newblock Influence of aging on lung function-clinical significance of changes
+  from age twenty.
+\newblock {\em Anesthesia \& Analgesia}, 62(8):764--776.
 
-\bibitem[Sverzellati et~al., 2011]{sverzellati2011method}
-Sverzellati, N., Devaraj, A., Desai, S.~R., Quigley, M., Wells, A.~U., and
-  Hansell, D.~M. (2011).
-\newblock Method for minimizing observer variation for the quantitation of
-  high-resolution computed tomographic signs of lung disease.
-\newblock {\em Journal of computer assisted tomography}, 35(5):596--601.
+\bibitem[Weibel, 1984]{weibel1984pathway}
+Weibel, E.~R. (1984).
+\newblock {\em The pathway for oxygen: structure and function in the mammalian
+  respiratory system}.
+\newblock Harvard University Press.
 
-\bibitem[Tawhai and Burrowes, 2003]{tawhai2003developing}
-Tawhai, M.~H. and Burrowes, K.~S. (2003).
-\newblock Developing integrative computational models of pulmonary structure.
-\newblock {\em The Anatomical Record}, 275(1):207--218.
+\bibitem[Wijesinghe and Dow, 2005]{wijesinghe2005effect}
+Wijesinghe, M. and Dow, L. (2005).
+\newblock The effect of aging on the respiratory skeletal muscles.
+\newblock {\em Principles and Practice of Geriatric Medicine}, 2:671--683.
 
-\bibitem[Travis et~al., 2013]{travis2013official}
-Travis, W.~D., Costabel, U., Hansell, D.~M., King~Jr, T.~E., Lynch, D.~A.,
-  Nicholson, A.~G., Ryerson, C.~J., Ryu, J.~H., Selman, M., Wells, A.~U.,
-  et~al. (2013).
-\newblock An official american thoracic society/european respiratory society
-  statement: update of the international multidisciplinary classification of
-  the idiopathic interstitial pneumonias.
-\newblock {\em American journal of respiratory and critical care medicine},
-  188(6):733--748.
-
-\bibitem[Uchiyama et~al., 2003]{uchiyama2003quantitative}
-Uchiyama, Y., Katsuragawa, S., Abe, H., Shiraishi, J., Li, F., Li, Q., Zhang,
-  C.-T., Suzuki, K., et~al. (2003).
-\newblock Quantitative computerized analysis of diffuse lung disease in
-  high-resolution computed tomography.
-\newblock {\em Medical Physics}, 30(9):2440--2454.
-
-\bibitem[Uppaluri et~al., 1999a]{uppaluri1999computer}
-Uppaluri, R., Hoffman, E.~A., Sonka, M., Hartley, P.~G., Hunninghake, G.~W.,
-  and McLennan, G. (1999a).
-\newblock Computer recognition of regional lung disease patterns.
-\newblock {\em American journal of respiratory and critical care medicine},
-  160(2):648--654.
-
-\bibitem[Uppaluri et~al., 1999b]{uppaluri1999interstitial}
-Uppaluri, R., Hoffman, E.~A., Sonka, M., Hunninghake, G.~W., and McLennan, G.
-  (1999b).
-\newblock Interstitial lung disease: a quantitative study using the adaptive
-  multiple feature method.
-\newblock {\em American journal of respiratory and critical care medicine},
-  159(2):519--525.
-
-\bibitem[Van~Ginneken et~al., 2002]{van2002automatic}
-Van~Ginneken, B., Katsuragawa, S., ter Haar~Romeny, B.~M., Doi, K., and
-  Viergever, M.~A. (2002).
-\newblock Automatic detection of abnormalities in chest radiographs using local
-  texture analysis.
-\newblock {\em IEEE transactions on medical imaging}, 21(2):139--149.
-
-\bibitem[Wang et~al., 2013]{wang2013high}
-Wang, J.-S., Cherng, J.-M., Perng, D.-S., Lee, H.-S., and Wang, S. (2013).
-\newblock High-resolution computed tomography in assessment of patients with
-  emphysema.
-\newblock {\em Respiratory care}, 58(4):614--622.
-
-\bibitem[Watadani et~al., 2013]{watadani2013interobserver}
-Watadani, T., Sakai, F., Johkoh, T., Noma, S., Akira, M., Fujimoto, K.,
-  Bankier, A.~A., Lee, K.~S., M{\"u}ller, N.~L., Song, J.-W., et~al. (2013).
-\newblock Interobserver variability in the ct assessment of honeycombing in the
-  lungs.
-\newblock {\em Radiology}, 266(3):936--944.
-
-\bibitem[Wells et~al., 2003]{wells2003idiopathic}
-Wells, A.~U., Desai, S.~R., Rubens, M.~B., Goh, N.~S., Cramer, D., Nicholson,
-  A.~G., Colby, T.~V., Du~Bois, R.~M., and Hansell, D.~M. (2003).
-\newblock Idiopathic pulmonary fibrosis: a composite physiologic index derived
-  from disease extent observed by computed tomography.
-\newblock {\em American journal of respiratory and critical care medicine},
-  167(7):962--969.
-
-\bibitem[Xu et~al., 2006a]{xu2006mdct}
-Xu, Y., Sonka, M., McLennan, G., Guo, J., and Hoffman, E.~A. (2006a).
-\newblock Mdct-based 3-d texture classification of emphysema and early smoking
-  related lung pathologies.
-\newblock {\em IEEE transactions on medical imaging}, 25(4):464--475.
-
-\bibitem[Xu et~al., 2006b]{xu2006computer}
-Xu, Y., van Beek, E.~J., Hwanjo, Y., Guo, J., McLennan, G., and Hoffman, E.~A.
-  (2006b).
-\newblock Computer-aided classification of interstitial lung diseases via mdct:
-  3d adaptive multiple feature method (3d amfm).
-\newblock {\em Academic radiology}, 13(8):969--978.
-
-\bibitem[Zavaletta et~al., 2007]{zavaletta2007high}
-Zavaletta, V.~A., Bartholmai, B.~J., and Robb, R.~A. (2007).
-\newblock High resolution multidetector ct-aided tissue analysis and
-  quantification of lung fibrosis.
-\newblock {\em Academic radiology}, 14(7):772--787.
-
-\bibitem[Zavaletta et~al., 2006]{zavaletta2006high}
-Zavaletta, V.~A., Karwoski, R.~A., Bartholmai, B., and Robb, R.~A. (2006).
-\newblock High resolution multidetector ct aided tissue analysis and
-  quantification of lung fibrosis.
-\newblock In {\em Medical Imaging 2006: Physiology, Function, and Structure
-  from Medical Images}, volume 6143, page 61432Z. International Society for
-  Optics and Photonics.
+\bibitem[Zaugg and Lucchinetti, 2000]{zaugg2000respiratory}
+Zaugg, M. and Lucchinetti, E. (2000).
+\newblock Respiratory function in the elderly.
+\newblock {\em Anesthesiology Clinics of North America}, 18(1):47--58.
 
 \end{thebibliography}
