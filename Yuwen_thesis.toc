@@ -1,19 +1,19 @@
 \contentsline {chapter}{Abstract}{iv}{chapter*.1}
 \contentsline {chapter}{Acknowledgement}{vi}{chapter*.2}
-\contentsline {chapter}{Table of Contents}{ix}{chapter*.3}
-\contentsline {chapter}{List of Figures}{xvii}{chapter*.4}
-\contentsline {chapter}{List of Tables}{xx}{chapter*.5}
-\contentsline {chapter}{List of Abbreviations}{xxiii}{chapter*.7}
+\contentsline {chapter}{Table of Contents}{xii}{chapter*.3}
+\contentsline {chapter}{List of Figures}{xxxv}{chapter*.4}
+\contentsline {chapter}{List of Tables}{xxxix}{chapter*.5}
+\contentsline {chapter}{List of Abbreviations}{xliii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Thesis objectives}{2}{section.1.2}
-\contentsline {paragraph}{Objective 1:}{3}{section*.8}
+\contentsline {paragraph}{Objective 1:}{2}{section*.8}
 \contentsline {paragraph}{Objective 2:}{3}{section*.9}
 \contentsline {paragraph}{Objective 3:}{3}{section*.10}
 \contentsline {paragraph}{Objective 4:}{3}{section*.11}
 \contentsline {section}{\numberline {1.3}Thesis overview}{3}{section.1.3}
 \contentsline {paragraph}{Chapter 2}{3}{section*.12}
-\contentsline {paragraph}{Chapter 3}{4}{section*.13}
+\contentsline {paragraph}{Chapter 3}{3}{section*.13}
 \contentsline {paragraph}{Chapter 4}{4}{section*.14}
 \contentsline {paragraph}{Chapter 5}{5}{section*.15}
 \contentsline {paragraph}{Chapter 6}{6}{section*.16}
@@ -81,4 +81,102 @@
 \contentsline {subsubsection}{Manual correction}{88}{section*.38}
 \contentsline {section}{\numberline {3.5}Discussion}{88}{section.3.5}
 \contentsline {section}{\numberline {3.6}Summary}{92}{section.3.6}
-\contentsline {chapter}{List of References}{93}{chapter*.39}
+\contentsline {chapter}{\numberline {4}Quantitative computerized analysis of idiopathic pulmonary fibrosis}{93}{chapter.4}
+\contentsline {section}{\numberline {4.1}Background}{94}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Challenges of IPF diagnosis}{94}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Advantages of quantitative analysis using HRCT}{95}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Review of current published methods of quantitative analysis of lung disease}{97}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Computer-Aided Lung Informatics for Pathology Evaluation and Ratings}{101}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Methods: quantitative analysis of IPF lungs}{104}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Tissue classification of IPF lungs}{105}{subsection.4.2.1}
+\contentsline {subsubsection}{Imaging and clinical data}{105}{section*.39}
+\contentsline {subsubsection}{Normalization of classified data}{106}{section*.40}
+\contentsline {subsection}{\numberline {4.2.2}Tissue quantification of IPF lungs}{109}{subsection.4.2.2}
+\contentsline {subsubsection}{Density analysis}{109}{section*.41}
+\contentsline {subsubsection}{Spatial distribution analysis}{109}{section*.42}
+\contentsline {paragraph}{Basal-to-apical:}{110}{section*.43}
+\contentsline {paragraph}{Dorso-to-ventral:}{110}{section*.44}
+\contentsline {paragraph}{Subpleural to internal:}{110}{section*.45}
+\contentsline {paragraph}{Lobar distribution:}{111}{section*.46}
+\contentsline {subsubsection}{Change in classification of tissue pattern over time}{111}{section*.47}
+\contentsline {subsection}{\numberline {4.2.3}Volume analysis of IPF lungs}{111}{subsection.4.2.3}
+\contentsline {subsubsection}{The change in whole lung volume over time}{111}{section*.48}
+\contentsline {subsubsection}{Lobe volume difference between old normal lungs and IPF lungs}{112}{section*.49}
+\contentsline {subsection}{\numberline {4.2.4}SSM based shape analysis of IPF lungs}{112}{subsection.4.2.4}
+\contentsline {subsubsection}{Shape difference between IPF lungs and normal control lungs}{113}{section*.50}
+\contentsline {subsubsection}{Relationship between lung lobe shape and fibrosis and low attenuation area extent}{113}{section*.51}
+\contentsline {section}{\numberline {4.3}Results}{114}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Normalization of classified data}{114}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Tissue quantification of IPF lungs}{116}{subsection.4.3.2}
+\contentsline {subsubsection}{Density analysis}{116}{section*.52}
+\contentsline {subsubsection}{Spatial distribution analysis}{118}{section*.53}
+\contentsline {paragraph}{Basal-to-apical distribution}{118}{section*.54}
+\contentsline {paragraph}{Dorso-to-ventral distribution}{123}{section*.55}
+\contentsline {paragraph}{Subpleural to internal distribution}{128}{section*.56}
+\contentsline {paragraph}{Lobar distribution}{128}{section*.57}
+\contentsline {subsubsection}{Change in classification of tissue pattern over time}{131}{section*.58}
+\contentsline {subsection}{\numberline {4.3.3}Volume analysis of IPF lungs}{134}{subsection.4.3.3}
+\contentsline {subsubsection}{The change of whole lung volume over time}{134}{section*.59}
+\contentsline {subsubsection}{Lobe volume difference between old normal lungs and IPF lungs}{134}{section*.60}
+\contentsline {subsection}{\numberline {4.3.4}SSM - shape analysis of IPF lungs}{136}{subsection.4.3.4}
+\contentsline {subsubsection}{Shape difference between IPF lungs and normal lungs}{136}{section*.61}
+\contentsline {subsubsection}{Relationship between lung lobe shape and fibrosis and low attenuation area extent}{141}{section*.62}
+\contentsline {section}{\numberline {4.4}Discussion}{143}{section.4.4}
+\contentsline {subsubsection}{Quantitative analysis of density and spatial distribution of tissue patterns in IPF a consistent understanding of IPF disease}{143}{section*.63}
+\contentsline {subsubsection}{Average statistical shape model provides a consistent measurement to quantify disease among different people and over the whole clinical course}{145}{section*.64}
+\contentsline {subsubsection}{The shape of the basal part of IPF lung is significantly different to the normal lung and correlates with fibrosis extent}{147}{section*.65}
+\contentsline {section}{\numberline {4.5}Summary}{148}{section.4.5}
+\contentsline {chapter}{\numberline {5}Functional modelling of idiopathic pulmonary fibrosis}{149}{chapter.5}
+\contentsline {section}{\numberline {5.1}Respiratory structure and function in older people}{150}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Ageing-associated alterations in the chest wall and respiratory muscle function}{151}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Ageing-associated alterations in pulmonary mechanics and lung volumes}{153}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Ageing-associated alterations in gas exchange}{155}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Relationship between lung function and lung shape}{156}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Methods: Patient-specific modelling of IPF lung function}{157}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Clinical data}{157}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Construction of lung lobe geometry}{159}{subsection.5.2.2}
+\contentsline {subsubsection}{Shape prediction of a normal lung to correspond to each IPF patient}{159}{section*.66}
+\contentsline {subsection}{\numberline {5.2.3}Construction of airway/vascular geometry}{161}{subsection.5.2.3}
+\contentsline {subsubsection}{Airway tree}{162}{section*.67}
+\contentsline {subsubsection}{Vascular tree}{165}{section*.68}
+\contentsline {subsection}{\numberline {5.2.4}Construction of computational models}{167}{subsection.5.2.4}
+\contentsline {subsubsection}{Ventilation model}{167}{section*.69}
+\contentsline {subsubsection}{Perfusion model}{169}{section*.70}
+\contentsline {subsubsection}{Gas exchange model}{172}{section*.71}
+\contentsline {subsection}{\numberline {5.2.5}Modelling lung function}{175}{subsection.5.2.5}
+\contentsline {subsubsection}{Disease region labelling}{177}{section*.72}
+\contentsline {subsubsection}{Deep inspiration model}{178}{section*.73}
+\contentsline {subsubsection}{Passive ventilation model}{179}{section*.74}
+\contentsline {subsubsection}{Perfusion model}{179}{section*.75}
+\contentsline {subsubsection}{Gas exchange model}{180}{section*.76}
+\contentsline {section}{\numberline {5.3}Results}{181}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Construction of lung lobe geometry}{181}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Construction of airway/vasculature geometry}{182}{subsection.5.3.2}
+\contentsline {subsubsection}{Airway tree}{182}{section*.77}
+\contentsline {subsubsection}{Vascular tree}{185}{section*.78}
+\contentsline {subsection}{\numberline {5.3.3}Deep inspiration modelling}{187}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Perfusion modelling}{188}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Gas exchange model}{190}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Discussion}{195}{section.5.4}
+\contentsline {subsubsection}{SSM based lung shape prediction provides a way to compare lung function of IPF patient with older normal people}{195}{section*.79}
+\contentsline {subsubsection}{Volumetric CT imaging may not provide sufficient information to explain the stiffness of the IPF lung}{196}{section*.80}
+\contentsline {subsubsection}{The predicted ventilation, perfusion and gas exchange distribution can be explained by the background knowledge of IPF}{197}{section*.81}
+\contentsline {subsubsection}{Limitations of modelling procedure}{199}{section*.82}
+\contentsline {section}{\numberline {5.5}Summary}{200}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{201}{chapter.6}
+\contentsline {section}{\numberline {6.1}Thesis Summary}{201}{section.6.1}
+\contentsline {paragraph}{Objective 1:}{201}{section*.83}
+\contentsline {paragraph}{Objective 2:}{202}{section*.84}
+\contentsline {paragraph}{Objective 3:}{203}{section*.85}
+\contentsline {paragraph}{Objective 4:}{204}{section*.86}
+\contentsline {section}{\numberline {6.2}Future directions}{205}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Improvement of statistical shape model}{205}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Involvement of diffusing capacity for carbon monoxide in the lung functional model}{205}{subsection.6.2.2}
+\contentsline {chapter}{Appendices}{207}{section*.87}
+\contentsline {chapter}{\numberline {A}Mapped classification data for each patient}{209}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Spatial distribution of abnormalities for each patient}{217}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}Basal-to-apical distribution over time for each patient}{217}{section.a.B.1}
+\contentsline {section}{\numberline {B.2}Dorso-to-ventral distribution over time for each patient}{229}{section.a.B.2}
+\contentsline {section}{\numberline {B.3}Lobar distribution over time for each patient}{239}{section.a.B.3}
+\contentsline {chapter}{\numberline {C}Figures of V/Q ratio and arterial oxygen distribution}{249}{Appendix.a.C}
+\contentsline {chapter}{List of References}{261}{chapter*.88}
