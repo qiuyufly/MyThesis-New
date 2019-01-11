@@ -168,9 +168,9 @@
 \contentsline {paragraph}{Objective 1:}{201}{section*.83}
 \contentsline {paragraph}{Objective 2:}{202}{section*.84}
 \contentsline {paragraph}{Objective 3:}{203}{section*.85}
-\contentsline {paragraph}{Objective 4:}{204}{section*.86}
-\contentsline {section}{\numberline {6.2}Future directions}{205}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Improvement of statistical shape model}{205}{subsection.6.2.1}
+\contentsline {paragraph}{Objective 4:}{203}{section*.86}
+\contentsline {section}{\numberline {6.2}Future directions}{204}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Improvement of the statistical shape model}{204}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Involvement of diffusing capacity for carbon monoxide in the lung functional model}{205}{subsection.6.2.2}
 \contentsline {chapter}{Appendices}{207}{section*.87}
 \contentsline {chapter}{\numberline {A}Mapped classification data for each patient}{209}{Appendix.a.A}
