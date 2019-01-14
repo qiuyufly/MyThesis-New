@@ -140,7 +140,7 @@ The currently published fissure detection methods can be, for the most part, cla
 \hline
 \bf{Authors} & \bf{Algorithms} & \bf{Notes}\\ 
 \hline
-\cite{kuhnigk2003lung,kuhnigk2005informatics} & Watershed transformation method to analyze anatomical structures to help with fissure detection &  First group to use lobar airways and vasulature into fissure detection\tnote{1}\\
+\cite{kuhnigk2003lung,kuhnigk2005informatics} & Watershed transformation method to analyze anatomical structures to help with fissure detection &  First group to use lobar airways and vasculature into fissure detection\tnote{1}\\
 \hline
 \cite{ukil2009anatomy} & 1. Watershed transform guided cost image to define initial fissures; 2. Construct ROI; 3. Structure tensor analysis combined with optimal surface detection to find fissure surface; 4. Fast marching method to detect incomplete fissures & 1. Improved on Kuhnigsk's method; 2. Can detect incomplete fissures\tnote{1}\\
 \hline
@@ -156,7 +156,7 @@ The currently published fissure detection methods can be, for the most part, cla
 \hline
 \cite{ochs2007automated,van2008supervised} & Use pattern recognition approach and Hessian matrix and classification operation to detection fissure & An improved Hessian based method\tnote{2}\\
 \hline
-\cite{lassen2011interactive,lassen2013automatic} & 1. Use anatomical structures to acquire initial fissue; 2. Hessian matrix surrounding initial guessing areas; 3. Morphological operations to filter noise & Combine both anatomical information and gray-level information\tnote{1,2}\\
+\cite{lassen2011interactive,lassen2013automatic} & 1. Use anatomical structures to acquire initial fissure; 2. Hessian matrix surrounding initial guessing areas; 3. Morphological operations to filter noise & Combine both anatomical information and gray-level information\tnote{1,2}\\
 \hline
 \cite{doel2012pulmonary} & 1. Use both anatomy knowledge and Hessian matrix to find fissure candidate points; 2. Multi-level B-spline curve to get the finial fissure surface. & Combine both anatomical information and gray-level information\tnote{1,2}\\
 \hline
@@ -189,7 +189,7 @@ In 3D space, the most commonly used method to detect these pulmonary fissure pla
 
 \cite{ross2010automatic, ross2013pulmonary} proposed a particle system that sampled the image domain combined with the Hessian matrix to get a set of candidate fissure locations. A maximum a posteriori (MAP) estimation was then used to eliminate false candidate points, and a post-processing operation was applied to remove remaining noise. A thin plate spline (TPS) interpolating surface fitting method was lastly performed to form the final fissure surfaces. This method is effective for lung lobe segmentation in the absence of complete anatomical structures on CT imaging.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Section 4
 \section{Methods: automatic statistical shape model based lobar segmentation method} \label{SegmentationMethod}
 Here, an \gls{ssm} guided method is presented to segment pulmonary lobes from \gls{ct} images. A three-step approach is followed for the lobe segmentation (shown in Figure \ref{fig:WholeWorkflow}): in the first step, a threshold-based lung segmentation method defines the lung boundary; in the second step, an \gls{ssm} is deformed to provide a ''search region'' for fissure locations; in the third step, fissures are located using a Hessian matrix protocol combined with connected component filters and a surface fitting algorithm. The new procedure does not depend on prior segmentation of anatomical structures (airway lobar classification) other than lung shape. A user-interactive interface was also developed for the user to control and visualize the whole segmentation process and to allow some manual correction on the segmented results, if required.
@@ -568,7 +568,7 @@ The detected points were then divided into a set of small subsections correspond
   \sbox0{\includegraphics{Segmentation/Image/FissureDetection2.jpg}}
   \includegraphics[width=\linewidth,trim={{.0\wd0} {.0\wd0} {.0\wd0} {.0\wd0}},clip]{Segmentation/Image/FissureDetection2.jpg}
   \caption{}
-	\label{fig:FissureDetection-b}
+	\label{fig:FissureDetection-c}
 \end{subfigure}
 \begin{subfigure}{.4\linewidth}% set image scale
   \sbox0{\includegraphics{Segmentation/Image/FissureDetection3.jpg}}
