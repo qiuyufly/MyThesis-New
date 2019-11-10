@@ -1,6 +1,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Alterations of lung function tests in \gls {ipf} Reproduced from \citep {plantier2018physiology}\relax }}{25}{table.2.1}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Alterations of lung function tests in \gls {ipf}. Reproduced from \citep {plantier2018physiology}\relax }}{25}{table.2.1}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Summary of lung segmentation methods\relax }}{42}{table.3.1}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Summary of fissure detection methods\relax }}{48}{table.3.2}
@@ -8,9 +8,9 @@
 \contentsline {table}{\numberline {3.4}{\ignorespaces Possible structures on images in 2D and 3D, and its corresponding eigenvalues $\lambda _k$. H and L describe the absolute value of $\lambda _k$, H is high, L is low, +/- indicate the sign of the eigenvalue. The eigenvalues relationship here is: $\mid \lambda _{1}\mid \leq \mid \lambda _{2}\mid \leq \mid \lambda _{3}\mid $.\relax }}{67}{table.3.4}
 \contentsline {table}{\numberline {3.5}{\ignorespaces Summary of interactive user control parameters\relax }}{74}{table.3.5}
 \contentsline {table}{\numberline {3.6}{\ignorespaces Mean error and percentile accuracy of normal healthy and IPF subjects (mean value $\pm $ standard deviation).\relax }}{82}{table.3.6}
-\contentsline {table}{\numberline {3.7}{\ignorespaces Mean error and percentile accuracy of left oblique fissure for each subject\relax }}{85}{table.3.7}
-\contentsline {table}{\numberline {3.8}{\ignorespaces Mean error and percentile accuracy of right horizontal fissure for each subject\relax }}{86}{table.3.8}
-\contentsline {table}{\numberline {3.9}{\ignorespaces Mean error and percentile accuracy of right oblique fissure for each subject\relax }}{87}{table.3.9}
+\contentsline {table}{\numberline {3.7}{\ignorespaces Mean error and percentile accuracy of left oblique fissure for each subject.\relax }}{85}{table.3.7}
+\contentsline {table}{\numberline {3.8}{\ignorespaces Mean error and percentile accuracy of right horizontal fissure for each subject.\relax }}{86}{table.3.8}
+\contentsline {table}{\numberline {3.9}{\ignorespaces Mean error and percentile accuracy of right oblique fissure for each subject.\relax }}{87}{table.3.9}
 \contentsline {table}{\numberline {3.10}{\ignorespaces Mean square error (MSE) (mm) and percentile accuracy(\%) of segmented left oblique (LO), right horizontal (RH), and right oblique (RO) fissures before and after manual correction\relax }}{88}{table.3.10}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Demographic data.\relax }}{106}{table.4.1}
@@ -24,16 +24,16 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Age-associated changes in respiratory function and their relationships to clinical presentations (Reproduced from \citep {sprung2006age, lalley2013aging})\relax }}{152}{table.5.1}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Parameter values and their source used in computational models\relax }}{176}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces The volume percentage of CALIPER classified disease tissues for each time point of these two patients (\%).\relax }}{177}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Predicted reference values used as input to predict a shape model for a normal control.\relax }}{181}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Average lobe volume proportion of IPF lung mesh and predicted control lung mesh.\relax }}{183}{table.5.5}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Parameters of control and IPF airway tree\relax }}{186}{table.5.6}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Parameters of control and IPF vessel tree\relax }}{186}{table.5.7}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Reference normal, simulated and PFT measured inspiration volume (L).\relax }}{187}{table.5.8}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Percentage of CT-based fibrosis from CALIPER classification and PFT-based fibrosis (CT-based plus additional fibrosis required to limit inspiration from FRC to TLC).\relax }}{187}{table.5.9}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Values of total respiratory system and total lung compliance ($\mathrm {L/cmH_2O}$) of normal control, CT-based and PFT-based modelling results.\relax }}{189}{table.5.10}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Values of mPAP (mmHg), PVR (MPa$\mathrm {\cdot /mm^3}$) and PVV (ml) of normal control, CT-based and PFT-based modelling results.\relax }}{189}{table.5.11}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Measured DLCO (mL/mmHg/min) for each time point, and values of $\mathrm {PaO_2}$ (mmHg), $\mathrm {PaCO_2}$ (mmHg) and $\mathrm {P(A-a)O_2}$ (mmHg) of normal control, CT-based and PFT-based modelling results.\relax }}{194}{table.5.12}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The volume percentage of CALIPER classified disease tissues for each time point of these two patients (\%).\relax }}{178}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Predicted reference values used as input to predict a shape model for a normal control.\relax }}{182}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Average lobe volume proportion of IPF lung mesh and predicted control lung mesh.\relax }}{184}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Parameters of control and IPF airway tree\relax }}{187}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Parameters of control and IPF vessel tree\relax }}{187}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Reference normal, simulated and PFT measured inspiration volume (L).\relax }}{188}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Percentage of CT-based fibrosis from CALIPER classification and PFT-based fibrosis (CT-based plus additional fibrosis required to limit inspiration from FRC to TLC).\relax }}{189}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Values of total respiratory system and total lung compliance ($\mathrm {L/cmH_2O}$) of normal control, CT-based and PFT-based modelling results.\relax }}{190}{table.5.10}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Values of mPAP (mmHg), PVR (MPa$\mathrm {\cdot /mm^3}$) and PVV (ml) of normal control, CT-based and PFT-based modelling results.\relax }}{190}{table.5.11}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Measured DLCO (mL/mmHg/min) for each time point, and values of $\mathrm {PaO_2}$ (mmHg), $\mathrm {PaCO_2}$ (mmHg) and $\mathrm {P(A-a)O_2}$ (mmHg) of normal control, CT-based and PFT-based modelling results.\relax }}{195}{table.5.12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

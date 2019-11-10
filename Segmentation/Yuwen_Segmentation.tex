@@ -148,7 +148,7 @@ The currently published fissure detection methods can be, for the most part, cla
 \hline
 \cite{zhou2004automatic,saita2006algorithm} & 1. Edge detection to class vessels and bronchi; 2. Hough transform to detect curve surface & Take advantage of linear appearance of fissures\tnote{1}\\
 \hline
-\cite{wang2004shape,wang2006pulmonary} & 1. Identify initial fissure ROI; 2. ''Ridge map'' based tranformation to enhance initial fissure; 3.  Shape-based curve growing to get the finial fissures. & 2D shape based method\tnote{2}\\
+\cite{wang2004shape,wang2006pulmonary} & 1. Identify initial fissure ROI; 2. ''Ridge map'' based tranformation to enhance initial fissure; 3.  Shape-based curve growing to get the final fissures. & 2D shape based method\tnote{2}\\
 \hline
 \cite{frangi1998multiscale} & Hessian matrix based analysis to extract local image structures & The first paper to apply Hessian matrix analysis on image segmentation in 3D\tnote{2}\\
 \hline
@@ -158,9 +158,9 @@ The currently published fissure detection methods can be, for the most part, cla
 \hline
 \cite{lassen2011interactive,lassen2013automatic} & 1. Use anatomical structures to acquire initial fissure; 2. Hessian matrix surrounding initial guessing areas; 3. Morphological operations to filter noise & Combine both anatomical information and gray-level information\tnote{1,2}\\
 \hline
-\cite{doel2012pulmonary} & 1. Use both anatomy knowledge and Hessian matrix to find fissure candidate points; 2. Multi-level B-spline curve to get the finial fissure surface. & Combine both anatomical information and gray-level information\tnote{1,2}\\
+\cite{doel2012pulmonary} & 1. Use both anatomy knowledge and Hessian matrix to find fissure candidate points; 2. Multi-level B-spline curve to get the final fissure surface. & Combine both anatomical information and gray-level information\tnote{1,2}\\
 \hline
-\cite{ross2010automatic,ross2013pulmonary} & 1. Particle system combined with Hessian matrix to get candidate fissure points; 2. Maximum a posterior method to remove noise points; 3. Thin plate spline to form finial fissure surface. & Effective for lung lobe segmentation in absence of complete anatomical structures on CT imaging\tnote{2}\\
+\cite{ross2010automatic,ross2013pulmonary} & 1. Particle system combined with Hessian matrix to get candidate fissure points; 2. Maximum a posterior method to remove noise points; 3. Thin plate spline to form final fissure surface. & Effective for lung lobe segmentation in absence of complete anatomical structures on CT imaging\tnote{2}\\
 \hline
 \end{tabular}
 \begin{tablenotes}
@@ -261,7 +261,7 @@ Ethnicity\\
 
 To define the lung shape, volumetric \gls{ct} images were segmented using the method described in Section \ref{subsection:LungSegmentation}. The segmented lung surface was then digitized into a set of data points as a 3D-space representation of lung shape (Figure \ref{fig:LobeShapeGenereation-a}). Fissure surface segmentation was performed manually using the open-source visualization software CMGUI (https://www.cmiss.org/cmgui) by an expert user, to provide a gold-standard definition of the fissure location for each subject in the training set (Figure \ref{fig:LobeShapeGenereation-b}, \ref{fig:LobeShapeGenereation-c}). A high order (bi-cubic Hermite) finite element template mesh with the same mesh connectivity for each subject was geometry fitted to the lung and fissure surface data for each subject. The current lung lobe mesh consists of two separate meshes which represent the left and right lung enclosing the lung parenchymal tissue volume. 
 
-An initial template mesh was created by selecting some data points to be nodes, and then creating two-dimensional surface elements by joining these node points appropriately. The template mesh for the left lung mesh has 35 nodes and 44 elements which described the left lung surface and left oblique fissure, while the right lung mesh has 50 nodes and 62 elements which defined right lung surface, right oblique fissure and right surface fissure. For fitting to lung and lobe shape data, the template mesh was modelled using bi-cubic Hermite basis functions with C1 continuity. This bi-cubic Hermite mesh has the same mesh connectivity as the template mesh, but it also contains nodal derivative information. Each node has 12 \gls{dof}s which store the global coordinates (x, y and z) and first and second nodal derivatives (\pd{n}{\xi_1}, \pd{n}{\xi_2}, and \pd[2]{n}{\xi_1 \xi_2}), where n is x, y and z, and $\xi$ is the local element coordinate. In this lung lobe model they are defined such that $\xi_1$ is in the anterior-posterior direction while $\xi_2$ is in the cranio-caudal direction. $\xi_1$ and $\xi_2$ have values that range from 0 to 1. Each node of the fitted mesh is either an anatomical landmark (the left/right lung apex, the base vertex, the shape corner and the centre point of the middle line of fissure) or a pseudo-landmark (e.g. a specific proportion of the arc-length between two anatomical landmarks). These landmarks allow the coordinate of the control points to be defined in consistent positions registered to the geometry of the lung. A least squares fit of the mesh to the lung and fissure surface data was conducted using CMISS ({https://www.cmiss.org), which is a finite element modelling environment. Specifically, the sum of the distances between each data point and its projection on to the nearest element was minimized during the fitting process. This distance is a function of the element location and shape parameters. In this procedure, the nodal parameters are interpolated to find the projected points. The global coordinates of the projected points are a function of local element coordinates, $\xi_1$ and $\xi_2$, and nodal parameters. Some manual operations were involved to adjust the mesh nodal positions and derivatives to the data cloud, which can help to improve the speed and accuracy of fitting. The average \gls{rms} error of this fitting method was 4.79 mm for the 50 training subjects (Figure \ref{fig:LobeShapeGenereation-d}). More details on the fitting procedure can be found in  \citep{bradley1997geometric,tawhai2003developing, fernandez2004anatomically}.  
+An initial template mesh was created by selecting some data points to be nodes, and then creating two-dimensional surface elements by joining these node points appropriately. The template mesh for the left lung mesh has 35 nodes and 44 elements which described the left lung surface and left oblique fissure, while the right lung mesh has 50 nodes and 62 elements which defined right lung surface, right oblique fissure and right surface fissure. For fitting to lung and lobe shape data, the template mesh was modelled using bi-cubic Hermite basis functions with C1 continuity. This bi-cubic Hermite mesh has the same mesh connectivity as the template mesh, but it also contains nodal derivative information. Each node has 12 \gls{dof}s which store the global coordinates (x, y and z) and first and second nodal derivatives (\pd{n}{\xi_1}, \pd{n}{\xi_2}, and \pd[2]{n}{\xi_1 \xi_2}), where n is x, y and z, and $\xi$ is the local element coordinate. In this lung lobe model they are defined such that $\xi_1$ is in the anterior-posterior direction while $\xi_2$ is in the cranio-caudal direction. $\xi_1$ and $\xi_2$ have values that range from 0 to 1. There is actually no C1 continuity at certain regions such as the juction between fissure and surface. Some areas of the mesh required 'collapsing' either at the ends to close the mesh or at specific locations where additional directions were necessary to maintain the uniform $\xi$ convention. In those regions, 'versions' were introduced to take care of sharp edges or where surface required edge or discontinuity. Versions can accommodate multiple derivatives for each $xi$ direction at one node.SS Each node of the fitted mesh is either an anatomical landmark (the left/right lung apex, the base vertex, the shape corner and the centre point of the middle line of fissure) or a pseudo-landmark (e.g. a specific proportion of the arc-length between two anatomical landmarks). These landmarks allow the coordinate of the control points to be defined in consistent positions registered to the geometry of the lung. A least squares fit of the mesh to the lung and fissure surface data was conducted using CMISS ({https://www.cmiss.org), which is a finite element modelling environment. Specifically, the sum of the distances between each data point and its projection on to the nearest element was minimized during the fitting process. This distance is a function of the element location and shape parameters. In this procedure, the nodal parameters are interpolated to find the projected points. The global coordinates of the projected points are a function of local element coordinates, $\xi_1$ and $\xi_2$, and nodal parameters. Some manual operations were involved to adjust the mesh nodal positions and derivatives to the data cloud, which can help to improve the speed and accuracy of fitting. The average \gls{rms} error of this fitting method was 4.79 mm for the 50 training subjects (Figure \ref{fig:LobeShapeGenereation-d}). More details on the fitting procedure can be found in  \citep{bradley1997geometric,tawhai2003developing, fernandez2004anatomically}.  
 
 
 \begin{figure}[htbp] 
@@ -465,7 +465,7 @@ The parameter $\Theta$ supresses points whose largest eigenvalue $\lambda_{3}$ i
 \begin{equation}
 \label{eq:FissureHessian2}
 \Theta = \begin{cases}
-         1,\quad \lambda_{3}< 0\\,
+         1,\quad \lambda_{3}< 0\\
          0, \quad \lambda_{3}\geq0.
          \end{cases}
 \end{equation}
@@ -638,7 +638,6 @@ Total connected component size & 300 voxels &  ~ \\
 %%%%%%%%%%% 
 \subsubsection{Search region control}
 Fissure candidate points were detected within a certain distance of the initial fissure approximation. The default distance was set to 20 voxels for left and right oblique fissures and 15 voxels for right horizontal fissure. However, with a fixed search distance, fissure detection sometimes could not be implemented efficiently and accurately. The probability of error detection may increase if the search distance is too large, as more noise will be included in the initial search region. In contrast some positive fissure points will be missed if the search distance is too small. Accurate fissure candidate points are an important prerequisite for good fissure surface fitting. Therefore, user interactive slide buttons were developed on the PTK interface to control the search distance. Through inputting SSM based initial fissure prediction mesh, the estimated fissures can be  visualized to overlap on the raw images in the PTK visualization section. Then it is possible for users to select a suitable search region for each fissure depending on the accuracy of the initial fissure estimate. The better the initial fissure approximation, the lower the search region that should be selected. Figure \ref{fig:SearchRegionControl} shows the lobe segmentation result before and after change to the search region.
-\newpage
 
 \begin{figure}[htbp] 
 \centering
@@ -967,7 +966,7 @@ The mean square error and percentile accuracy of each fissure for each subject s
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
 \centering
-\caption{Mean error and percentile accuracy of left oblique fissure for each subject}
+\caption{Mean error and percentile accuracy of left oblique fissure for each subject.}
 \label{tab:QuantitativeResult_LO}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
@@ -1029,7 +1028,7 @@ Mean $\pm$ Std (IPF) & 2.82$\pm$0.72 & 70.3$\pm$9.1 & 8.18$\pm$5.76 & 44.6$\pm$1
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
 \centering
-\caption{Mean error and percentile accuracy of right horizontal fissure for each subject}
+\caption{Mean error and percentile accuracy of right horizontal fissure for each subject.}
 \label{tab:QuantitativeResult_RH}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
@@ -1091,7 +1090,7 @@ Mean $\pm$ Std (IPF) & 5.39$\pm$1.90 & 58.4$\pm$14.5 & 17.53$\pm$13.57 & 16.8$\p
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 \begin{table}[htbp]
 \centering
-\caption{Mean error and percentile accuracy of right oblique fissure for each subject}
+\caption{Mean error and percentile accuracy of right oblique fissure for each subject.}
 \label{tab:QuantitativeResult_RO}
 \begin{tabular}{| c | c | c | c | c | c | c |}
 \hline
@@ -1176,6 +1175,8 @@ RO & 4.83 & 47.80 & 1.37 & 92.67 & 1.18 & 89.52 & 0.98 & 96.88\\
 %\end{landscape}
 %\restoregeometry
 
+In addition, for normal healthy subjects, it is most likely to get an accuracy greater than 90\% within a few manual corrections. For some abnormal subjects, especially for some severe diseased lungs or some datasets with low quality imaging, over 90\% accuracy is possible but needs more time.
+
 %%%%%%%%%% Section 5
 \section{Discussion} \label{SegmentationDiscussion}
 In this chapter, a novel pulmonary lobar segmentation method was presented and compared against two existing softwares (PTK and PASS). Results show that the method outperforms both PTK and PASS with respect to the proportion of subjects for whom a segmentation was possible, and the new method had lower error and higher percentage accuracy than both comparison softwares for IPF data. Segmentation error and accuracy for data from healthy subjects was similar to PASS, but outperformed PTK. Due to lower imaging resolution and tissue abnormalities, the accuracy of the method was lower for the IPF subjects than the healthy subjects. However, the method was able to detect a fissure in each case, whereas existing research-focussed software can not, especially for the abnormal subjects. Automated segmentation of anatomical structures is still challenging in cases with abnormalities, however, the method did not fail, and it provides a robust basis for segmentation even in abnormal cohorts. 
@@ -1190,9 +1191,9 @@ In the new method, a statistical shape model was used to provide an initial fiss
 
 The accuracy of the initial fissure prediction is a very important basis for a good segmentation. However, the model-based fissure prediction method still has some limitations.  A main disadvantage is that it can only produce lobar shapes close to the shapes represented in the training set, which leads to a larger error in cases where pathological processes had altered the lobe shapes. As shown in Figure \ref{fig:HLASegmentationResults} and \ref{fig:IPFSegmentationResults}, the SSM based initial fissure estimate usually performs worse in IPF subjects than in normal healthy subjects. In the following chapters, a statistical shape analysis shows that there is a significant shape difference of right middle lobe and right upper lobe between IPF lungs and normal old lungs. That would be a reasonable explanation for the poor estimation of right horizontal fissure and right oblique fissure of the IPF subject shown in Figure \ref{fig:IPFSegmentationResults}. In the future, a statistical lobar shape model dataset for a variety of pathologies could be developed. A dataset containing a wide range of statistical models for different ages, sexes, lung volume or diseases would be able to help predict a more accurate ROI for fissure detection.
 
-Due to variation in lung anatomy and pulmonary disease, no automatic segmentation method can ensure a satisfying lobe segmentation result for all cases. Even for a widely used robust lobe segmentation method, it may be impossible to get a highly accurate segmentation result for all subjects, especially for some abnormal subjects. Therefore, manually interactive operation is usually acceptable and involved in a lot of lobe segmentation processing. A combination of an automatic algorithm and manual interaction is an effective way to obtain accurate segmentation. On the one hand, an automatic segmentation algorithm would help researchers save considerable time from laborious and time consuming manual tasks. On the other hand, a fast and intuitive correction is able to improve the automatic segmentation performance within a few minutes.
+Due to variation in lung anatomy and pulmonary disease, no automatic segmentation method can ensure a satisfying lobe segmentation result for all cases. Even for a widely used robust lobe segmentation method, it may be impossible to get a highly accurate segmentation result for all subjects, especially for some abnormal subjects. Therefore, manually interactive operation is usually acceptable and involved in a lot of lobe segmentation processing. A combination of an automatic algorithm and manual interaction is an effective way to obtain accurate segmentation. On the one hand, an automatic segmentation algorithm would help researchers save considerable time from laborious and time consuming manual tasks. On the other hand, a fast and intuitive correction is able to improve the automatic segmentation performance within a few minutes. 
 
 %%%%%%%%%% Section 6
 \section{Summary} \label{SegmentationSummary}
-In this chapter, an SSM based lobe segmentation method was developed. Results show that the method can provide a relatively accurate result for most of the IPF subjects, although manual interaction is still needed for some subjects. The method is at least as good as existing methods when segmenting the healthy lung, but is considerably more accurate for IPF. It is also for more robust than the tested watershed methods, as it does not ''fail''. In the next chapter, the segmented lobe results will be used to construct an FE mesh to describe the lobe shape for each IPF subject. The patient-specific lobe mesh will work as a basic geometry structure to guide a further disease distribution analysis and functional simulation.
+In this chapter, an SSM based lobe segmentation method was developed. In addition to producing a result for all subjects, the segmentation accuracy is decent. The method can provide a relatively accurate result for most IPF subjects, although manual interaction is still needed for some subjects. The method is at least as good as existing methods when segmenting healthy lung, but is considerably more accurate for IPF. It is also for more robust than the tested watershed methods, as it does not ''fail''. In the next chapter, the segmented lobe results will be used to construct an FE mesh to describe the lobe shape for each IPF subject. The patient-specific lobe mesh will work as a basic geometry structure to guide a further disease distribution analysis and functional simulation.
 

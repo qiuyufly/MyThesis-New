@@ -115,7 +115,7 @@ Using Equation \ref{eq:MultivariateRegression}, a set of possible regression mod
  BIC = ln(n)k - 2lnL(\theta),
 \end{equation}
 
-\noindent where k is the number of the estimated parameters (that is the number of functional measures in this study) in the model, $L(\theta)$ is the maximized value of the likelihood function of the model and $\theta$ are the parameter values that maximize the likelihood function.
+\noindent where k is the number of the estimated parameters (that is the number of functional measures in this study) in the model, n is the number of subjects, $L(\theta)$ is the maximized value of the likelihood function of the model and $\theta$ are the parameter values that maximize the likelihood function.
 
 The multivariate regression models with the lowest values of AIC and BIC were selected as the best predictive models, then the models of the first three PCA modes were constructed in the form of Equation \ref{eq:MultivariateRegression}, as
 
@@ -167,7 +167,7 @@ In order to generate an airway tree in the lung shape, the bi-cubic Hermite fini
   \caption{Full airway tree}
   \label{fig:AirwayGeneration-b} 
 \end{subfigure}
-\caption{Generation of airway tree. (a) Manual digitized upper airway tree from HRCT images in 3D. Blue lines are the centerlines of upper airway tree, and red points represent airway nodes. (b) Geometry of full conducting airway tree generated using volume-filling algorithm. The
+\caption{Generation of airway tree. (a) Manual digitized upper airway tree from HRCT images in 3D. Green lines are the centerlines of upper airway tree, and red points represent airway nodes. (b) Geometry of full conducting airway tree generated using volume-filling algorithm. The
 model is shown from the anterior view, with the left lung on right, and right lung on left.} 
 \label{fig:AirwayGeneration}
 \end{figure}
@@ -199,7 +199,7 @@ In the next stage, the diameters of the airway branches were assigned for both I
 Using the above steps, a patient-specific pulmonary airway geometry for IPF and the control lung was constructed. 
 
 \subsubsection{Vascular tree}
-The centerlines of the first two generations of vessel trees were manually segmented from HRCT images, and represented as a 1-D finite element mesh. In this thesis, the pulmonary arterial and venous trees of other generations were assumed to be approximate replicas of the airway tree. Using the airway tree to approximate vessel geometry is a reasonable assumption, as the conventional pulmonary arteries generally follow the same branching pattern as the airways trees, and the airways and blood vessels have similar lengths and orientations. The airway and vasculature have been observed to bifurcate in union from larger branches to the bronchiole level, and the veins to divide at the approximate midpoint between adjacent airway bifurcations \citep{weibel1984pathway, hsia2016lung}. The manually-segmented main vessels plus the finite element model of the airway tree provided a full pulmonary blood vessel geometry for the IPF patient. The vascular structure for the control model was obtained using the same mapping procedure used for the airways as described previously. The microcirculatory model of \cite{clark2010contribution,clark2011interdependent} was appended to each terminal arteriole, to supply a corresponding terminal venule. This model is a symmetric-branching system of arterioles and venules that are connected (from arteriole to venule) at each generation by a recruitable and distensible ''capillary sheet''.
+The centerlines of the first two generations of vessel trees were manually segmented from HRCT images, and represented as a 1-D finite element mesh. In this thesis, the pulmonary arterial and venous trees of other generations were assumed to be approximate replicas of the airway tree. Using the airway tree to approximate vessel geometry is a reasonable assumption, as the conventional pulmonary arteries generally follow the same branching pattern as the airways trees, and the airways and blood vessels have similar lengths and orientations. The airway and vasculature have been observed to bifurcate in union from larger branches to the bronchiole level, and the veins to divide at the approximate midpoint between adjacent airway bifurcations \citep{weibel1984pathway, hsia2016lung}. The manually-segmented larger vessel branches plus the finite element model of the airway tree provided a full pulmonary blood vessel geometry for the IPF patient (the larger vessels and larger airways have the same topology). The vascular structure for the control model was obtained using the same mapping procedure used for the airways as described previously. The microcirculatory model of \cite{clark2010contribution,clark2011interdependent} was appended to each terminal arteriole, to supply a corresponding terminal venule. This model is a symmetric-branching system of arterioles and venules that are connected (from arteriole to venule) at each generation by a recruitable and distensible ''capillary sheet''.
 
 The unstrained (zero transmural pressure ($P_{tm}$)) radius of the main pulmonary artery ($R_{mArtery}$) and vein ($R_{mVein}$) were assigned based on the patient-specific (measured) trachea radius and data from morphometric studies (Equation \ref{eq:MainArteryRadius}and \ref{eq:MainVeinRadius}) \citep{horsfield1978morphometry,horsfield1981morphometry,huang1996morphometry}. The radius of all other arteries and veins down to the distal level were calculated based on a defined rate of increase in diameter with vessel Strahler order, the Strahler diameter ratio for artery and vein ($R_dS_{Artery}$ and $R_dS_{Vein}$). The value of $R_dS$ for the arterial tree and venous tree were specified according to the radius of the main artery and vein, and aiming for consistency with published human data \citep{horsfield1971models, horsfield1978morphometry,horsfield1981morphometry,huang1996morphometry}:
 
@@ -296,7 +296,7 @@ The strained diameter D in Equation \ref{eq:VesselFlow1} was assumed to have a l
  \frac{D}{D_0} = \alpha P_{tm} + 1,
 \end{equation}
 
-\noindent where $D_0$ is the unstrained vessel diameter, $\alpha$ is the vessel compliance constant. The tethering pressure acting on the blood vessel in the radial direction was assumed to be equal and opposite to the local tissue elastic recoil pressure ($P_e$), therefore $P_{tm} \approx P_b - P_e$, where $P_b$ is the average blood pressure along the vessel. Then, the blood flow through a capillary sheet ($\dot{Q}$) was modelled using the classic sheet flow theory developed by \cite{fung1969theory} as
+\noindent where $D_0$ is the unstrained vessel diameter, $\alpha$ is the vessel compliance constant. The relationship between transmural pressure and blood vessel diameter represents the passive response of the pulmonary blood vessels to changes in blood and tethering pressure. It is actually not completely linear. Specifically, it represents the non-linearity in blood vessel wall compliance with a piecewise linear function (it does not increase beyond a maximum transmural pressure of 32cm$H_2$O). However, at this level, a linear relationship assumption is accurate enough for the modeling procedure. The tethering pressure acting on the blood vessel in the radial direction was assumed to be equal and opposite to the local tissue elastic recoil pressure ($P_e$), therefore $P_{tm} \approx P_b - P_e$, where $P_b$ is the average blood pressure along the vessel. Then, the blood flow through a capillary sheet ($\dot{Q}$) was modelled using the classic sheet flow theory developed by \cite{fung1969theory} as
 
 \begin{equation}
  \label{eq:CapillarySheetFlow}
@@ -586,7 +586,6 @@ The gas transport and exchange were simulated using the gas exchange model intro
 \noindent where $P_{VO_2}$ is the oxygen consumption at rest ($P_{VO_2} = 2.84 \pm 0.34 ml/kg^{-1}/min^{-1}$ for male and $P_{VO_2} = 2.82 \pm 0.37 ml/kg^{-1}/min^{-1}$ for female), and W is the weight of the patient (kg).
 
 Using the patient-specific (or control-specific) tidal volume and dead space, and patient- (or control-) specific distribution of $\dot{V}$ and $\dot{Q}$, the partial pressure of oxygen in alveolar ($P_AO_2$) and in arterial blood ($P_aO_2$) can be predicted using the Kapitan \& Hempleman gas transfer model \citep{kapitan1986computer}.
-\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Results}
@@ -682,6 +681,9 @@ Figure \ref{fig:AirwayGeometry} illustrates the generated airway trees of one IP
 \multicolumn{2}{|c|}{\bf{Average}} & 0.242 & 0.231 & 0.228 & 0.290  & 0.272 & 0.205 & 0.078 & 0.130 & 0.179 & 0.144 \\
 \hline
 \end{tabular}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to time point 2 is 46 months. 
+\end{tablenotes}
 \end{table}
 \end{landscape}
 \restoregeometry
@@ -782,6 +784,9 @@ The generated IPF and control artery trees are shown in Figure \ref{fig:VesselTr
         %\footnotesize
         %\item{IPF511 and IPF501 are two time points from one patient.}
 %\end{tablenotes}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to time point 2 is 46 months. 
+\end{tablenotes}
 \end{table}
 
 \begin{table}[p]
@@ -809,6 +814,9 @@ The generated IPF and control artery trees are shown in Figure \ref{fig:VesselTr
         %\footnotesize
         %\item{IPF511 and IPF501 are two time points from one patient.}
 %\end{tablenotes}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to time point 2 is 46 months.
+\end{tablenotes}
 \end{table}
 
 \end{landscape}
@@ -837,6 +845,9 @@ Table \ref{tab:InspirationVolume} lists the deep inspiration volumes (from FRC t
 ~ & Time point 2 & 3.36 & 2.37 & 1.93 \\	
 \hline
 \end{tabular}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to 2 is 46 months.
+\end{tablenotes}
 \end{table}
 
 Additional ''fibrosis'' was added to the CALIPER classified ''normal'' tissues until the modelled inspiration volume matched the measured one (as in the last column of Table \ref{tab:InspirationVolume}). The percentages of CT-based fibrosis (CALIPER classified) and PFT-based fibrosis (CALIPER classified + additional labelled) are listed in Table \ref{tab:FibrosisPercent}. 
@@ -867,13 +878,16 @@ Additional ''fibrosis'' was added to the CALIPER classified ''normal'' tissues u
 ~ & Time point 2 & 12.5 & 29.1\\	
 \hline
 \end{tabular}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to 2 is 46 months.
+\end{tablenotes}
 \end{table}
 
 The respiratory system compliance (including the chest wall compliance in parallel with the lung) and the total lung compliance predicted from control, CT-based and PFT-based models for each time point are presented in Table \ref{tab:TotalLungCompliance}. From Table \ref{tab:FibrosisPercent} and \ref{tab:TotalLungCompliance}, the total compliances experience a drop with increasing fibrosis percentage. Total lung compliance decreases to less than half the control value in Patient 1, and about half the control value in Patient 2 in the PFT-based model.
 
 \subsection{Perfusion modelling}
 
-Table \ref{tab:PerfusionResultValues} lists the mean pulmonary artery pressure (mPAP), pulmonary vascular resistance (PVR) and pulmonary blood vessel volume (PVV) of control, CT-based and PFT-based models for each time point of these two patients. From the table, the CT-based model has a consistently lower mPAP value compared with the PFT-based model which has more ''fibrosis'' constriction. That is, there is an increase in mPAP when occluding more small vessels in IPF lungs. For PVV, disease models (both CT-based and PFT-based) have a higher value than the normal control model, but most of the increase in PVV probably comes from the larger pulmonary artery size set for disease vessel models. In spite of this, the PVV of the PFT-based model is also slightly higher compared with the CT-based model. This result is consistent with the observation of \cite{Jacob2016Mortality, Jacob2016Evaluation}, which indicated that an increase in PVV can be seen in lungs with more advanced fibrosis. Moreover, when comparing PFT model with CT model, it can be seen a larger value of PVR, which leads to a dilation of arteries and an increase in PVV.
+Table \ref{tab:PerfusionResultValues} lists the mean pulmonary artery pressure (mPAP), pulmonary vascular resistance (PVR) and pulmonary blood vessel volume (PVV) of control, CT-based and PFT-based models for each time point of these two patients. From the table, the CT-based model has a consistently lower mPAP value compared with the PFT-based model which has more ''fibrosis'' constriction. That is, there is an increase in mPAP when occluding more small vessels in IPF lungs. For PVV, disease models (both CT-based and PFT-based) have a higher value than the normal control model, but most of the increase in PVV probably comes from the larger pulmonary artery size set for disease vessel models. In spite of this, the PVV of the PFT-based model is also slightly higher compared with the CT-based model. This result is consistent with the observation of \cite{Jacob2016Mortality, Jacob2016Evaluation}, which indicated that an increase in PVV can be seen in lungs with more advanced fibrosis. Moreover, when comparing PFT and CT models, it can be seen that the former exhibits a larger value of PVR, which leads to a dilation of arteries and an increase in PVV.
 
 \newgeometry{bottom=3.0cm} %set the left margin of page
 \begin{landscape}
@@ -898,6 +912,9 @@ Table \ref{tab:PerfusionResultValues} lists the mean pulmonary artery pressure (
 ~ & Time point 2 & 0.120 & 0.090 & 0.069 & 0.300 & 0.164 & 0.105\\	
 \hline
 \end{tabular}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to time point 2 is 46 months.
+\end{tablenotes}
 \end{table}
 
 \begin{table}[p]
@@ -921,6 +938,9 @@ Table \ref{tab:PerfusionResultValues} lists the mean pulmonary artery pressure (
 ~ & Time point 2 & 14.66 & 15.10 & 16.02 & 12.64 & 13.36 & 14.88 & 515.30 & 798.78 & 804.67 \\
 \hline
 \end{tabular}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to time point 2 is 46 months.
+\end{tablenotes}
 \end{table}
 \end{landscape}
 \restoregeometry
@@ -1013,6 +1033,9 @@ The measured DLCO values for each time point of these two patients, and the valu
 ~ & Time point 2 & 14.50 & 91.72 & 83.70 & 75.35 & 39.09  & 43.77 & 46.76 & 9.75 & 14.29 & 22.94\\
 \hline
 \end{tabular}
+\begin{tablenotes}
+  \item[1] For Patient 1, the time interval from time point 1 to time point 2 is 12 months, from time point 1 to time point 2 is 11 months, from time point 1 to time point 3 is 23 months. For Patient 2, the time interval from time point 1 to time point 2 is 46 months.
+\end{tablenotes}
 \end{table}
 \end{landscape}
 \restoregeometry
@@ -1024,12 +1047,12 @@ This chapter sets out to determine whether, based on structural parameters, one 
 An SSM was used to make a prediction of older normal lung shape for each patient. The SSM based lung shape prediction provides a way to make a comparison of the lung function between a patient-specific lung and its corresponding normal equivalent. The patient-specific shape prediction was achieved based on the patient's individual information which shows significant correlations with older normal lung shape, therefore the estimated lung shape is able to represent the statistical lung shape of older normal people as a control group. Through modelling the airway/vessel tree and lung function with the predicted normal lung mesh, it is possible to quantitatively describe the change of respiratory geometry in IPF lung, the decline of lung function, the severity of disease and the prediction of progression. This could be a promising direction for clinical applications in the future.
 
 \subsubsection{Volumetric CT imaging may not provide sufficient information to explain the stiffness of the IPF lung}
-The computational modelling in this chapter suggests that radiologically-identified tissue abnormalities from volumetric CT imaging may be not sufficient to explain the increase in lung stiffness and the decline of lung function in IPF patients. Under the assumption that inspiratory muscle pressure does not change in IPF, ascribing only ''abnormal'' tissue to be highly stiffened could not fully explain the reduction in TLC-FRC volume. Additional tissue (up to 10\% in patient 1 and 17\% in patient 2) was required to be stiffened to achieve a correct prediction of volume change from FRC to TLC. The proportion of fibrosis increased in both patients over time, and the additional fibrosis in the PFT model increased this further except for time point 3 in patient 1, where no ''additional'' fibrosis was needed. Total respiratory system compliance was about 30-40\% lower in the IPF models compared with their controls. All models assumed a chest wall compliance of $\mathrm{0.2 L/cm \cdot H_2O}$. Total lung compliance in the control models was higher than the $\mathrm{0.2 L/cm \cdot H_2O}$ expected for the young adult lung, reflecting the higher tissue compliance for these older subjects. Total lung compliance in the two patient models was about half of ''normal'', with the PFT-based models up to 35\% lower compliance than the CT-based models. The method used here to parameterise the compliance of the tissue units assumes that the IPF subject can generate the same driving pressure for inspiration as the control. While the literature suggests that muscle pressure does not change in IPF \citep{de1980inspiratory}, it is possible that the change in lung and chest wall geometry reduces the transfer of the driving pressure to the lung. Regardless, it is reasonable to expect that tissue with normal appearance on CT has already undergoing remodelling that affects its function. Extension of this method and validation in a larger number of subjects could provide an estimate of the proportion of visually normal but functionally abnormal tissue. 
+The computational modelling in this chapter suggests that radiologically-identified tissue abnormalities from volumetric CT imaging may be not sufficient to explain the increase in lung stiffness and the decline of lung function in IPF patients. Under the assumption that inspiratory muscle pressure does not change in IPF, ascribing only ''abnormal'' tissue to be highly stiffened could not fully explain the reduction in TLC-FRC volume. Additional tissue (up to 10\% in patient 1 and 17\% in patient 2) was required to be stiffened to achieve a correct prediction of volume change from FRC to TLC. The proportion of fibrosis increased in both patients over time, and the additional fibrosis in the PFT model increased this further except for time point 3 in patient 1, where no ''additional'' fibrosis was needed. Total respiratory system compliance was about 30-40\% lower in the IPF models compared with their controls. All models assumed a chest wall compliance of $\mathrm{0.2 L/cm \cdot H_2O}$. Total lung compliance in the control models was higher than the $\mathrm{0.2 L/cm \cdot H_2O}$ expected for the young adult lung, reflecting the higher tissue compliance for these older subjects. Total lung compliance in the two patient models was about half of ''normal'', with the PFT-based models up to 35\% lower compliance than the CT-based models. The method used here to parameterise the compliance of the tissue units assumes that the IPF subject can generate the same driving pressure for inspiration as the control. While the literature suggests that muscle pressure does not change in IPF \citep{de1980inspiratory}, it is possible that the change in lung and chest wall geometry reduces the transfer of the driving pressure to the lung. Regardless, it is reasonable to expect that tissue with normal appearance on CT has already undergone remodelling that affects its function. Extension of this method and validation in a larger number of subjects could provide an estimate of the proportion of visually normal but functionally abnormal tissue. 
 
 V/Q mismatch (impaired gas exchange) is present in CT-based abnormal tissue as well as in regions that are classified as 'normal'. Additional V/Q mismatch emerges in the PFT-based model due to tissue unit stiffening and artery constriction, which results in a reduction in $P_aO_2$ and increase in $P_aCO_2$. Blood gas data was not available for any subjects in this thesis to compare with the model predictions; however, DLCO reduced over time and was consistent with the model's prediction of gas exchange impairment. Several potential mechanisms have been proposed important in the development of hypoxaemia in IPF: gas exchange barrier thickening, anatomical shunts, and V/Q mismatch. Results from this study suggests that V/Q mismatch in regions of radiologically-identified tissue abnormality (plus additional regions in the PFT-based model) is sufficient to predict a major reduction in $\mathrm{P_aO_2}$. Gas exchange barrier thickening could have an additional effect, however \cite{swan2010multi} showed that gas exchange was more sensitive to changes in tissue elasticity than barrier thickness.
 
 \subsubsection{The predicted ventilation, perfusion and gas exchange distribution can be explained by the background knowledge of IPF}
-The physiological alterations in IPF (discussed in Chapter 2, Section \ref{MechanicalAlteration}) are supportive of the modelling results. First, it has been found that IPF disease often results in reduction in total lung compliance (an increase in lung tissue stiffness), and the alterations of total lung compliance in IPF patients appear to be strongly correlated with the degree of lung fibrosis \citep{fulmer1979morphologic,plantier2018physiology}. As should be expected, the total compliance predicted by the ventilation (deep inspiration) model (Table \ref{tab:FibrosisPercent} and \ref{tab:TotalLungCompliance}) decreases with more fibrosis added into the model lung tissues. Second, although the fibrotic tissue is associated with a reduced number of blood vessels \citep{cosgrove2004pigment,ebina2004heterogeneous}, \cite{Jacob2016Mortality, Jacob2016Evaluation} has demonstrated that pulmonary vessel volume (PVV) increases with fibrosis, and can be used as an independent predictor of mortality. Similarly, the predicted PVV in the PFT-based model is higher than the CT-based model, despite having additional vessel occlusions. The larger PVR in the PFT-based model results in slightly higher mPAP which distends the arteries and increases PVV. It should be noted that the assumed tissue tethering pressure (from tissue to blood vessels) was the same in both models. If this were increased in the PFT-based model, it would further increase PVV. In addition, in the perfusion model, the predicted PVV of disease models are higher than the normal control model, but this might is caused by the larger vessel radius assigned to the disease vessel geometry.  Third, the predicted $\mathrm{P_aO_2}$ (which decreases in IPF lung model) and $P_{A-a}O_2$ (increases in the IPF lung model) from the gas exchange model presents a consistent trend with the change of measured DLCO (from PFTs) over time. DLCO is an important index to measure the gas exchange function of the lung, therefore while the simulated $\mathrm{P_aO_2}$ and $P_{A-a}O_2$ cannot be compared directly against data for these subjects, it is reassuring that the model gas exchange follows the DLCO trend. Collection of blood gas data is not standard during lung function testing, whereas measurement of DLCO is. It would therefore be appropriate in future studies to model DLCO (as a surrogate of gas exchange) and compare directly against data. The preliminary outcomes of the modelling framework demonstrated in this chapter suggest that a model-based approach that combines simulation of abnormal mechanics (from FRC to TLC) and gas exchange could be used to  estimate the amount of abnormally-functioning lung tissue that appears radiologically normal. 
+The physiological alterations in IPF (discussed in Chapter 2, Section \ref{MechanicalAlteration}) are supportive of the modelling results. First, it has been found that IPF disease often results in reduction in total lung compliance (an increase in lung tissue stiffness), and the alterations of total lung compliance in IPF patients appear to be strongly correlated with the degree of lung fibrosis \citep{fulmer1979morphologic,plantier2018physiology}. As should be expected, the total compliance predicted by the ventilation (deep inspiration) model (Table \ref{tab:FibrosisPercent} and \ref{tab:TotalLungCompliance}) decreases with more fibrosis added into the model lung tissues. Second, although the fibrotic tissue is associated with a reduced number of blood vessels \citep{cosgrove2004pigment,ebina2004heterogeneous}, \cite{Jacob2016Mortality, Jacob2016Evaluation} has demonstrated that pulmonary vessel volume (PVV) increases with fibrosis, and can be used as an independent predictor of mortality. Similarly, the predicted PVV in the PFT-based model is higher than the CT-based model, despite having additional vessel occlusions. The larger PVR in the PFT-based model results in slightly higher mPAP which distends the arteries and increases PVV. It should be noted that the assumed tissue tethering pressure (from tissue to blood vessels) was the same in both models. If this were increased in the PFT-based model, it would further increase PVV. In addition, in the perfusion model, the predicted PVV of disease models are higher than the normal control model, but this might be caused by the larger vessel radius assigned to the disease vessel geometry.  Third, the predicted $\mathrm{P_aO_2}$ (which decreases in IPF lung model) and $P_{A-a}O_2$ (increases in the IPF lung model) from the gas exchange model presents a consistent trend with the change of measured DLCO (from PFTs) over time. DLCO is an important index to measure the gas exchange function of the lung, therefore while the simulated $\mathrm{P_aO_2}$ and $P_{A-a}O_2$ cannot be compared directly against data for these subjects, it is reassuring that the model gas exchange follows the DLCO trend. Collection of blood gas data is not standard during lung function testing, whereas measurement of DLCO is. It would therefore be appropriate in future studies to model DLCO (as a surrogate of gas exchange) and compare directly against data. The preliminary outcomes of the modelling framework demonstrated in this chapter suggest that a model-based approach that combines simulation of abnormal mechanics (from FRC to TLC) and gas exchange could be used to  estimate the amount of abnormally-functioning lung tissue that appears radiologically normal. 
 
 \subsubsection{Limitations of modelling procedure}
 There are some limitations of the modelling procedure introduced in this chapter. First, in the IPF lung, there is a dilation in trachea, but a constriction in small airway. In this chapter, the trachea radius of normal lung was scaled from the trachea radius of the IPF lung using a statistically measured ratio which represents the conducting airway volume difference between normal and IPF. The main limitation of this method is that the measured ratio may be not accurate enough for all the subjects even though the standard deviation has been taken into consideration here. A potential approach in future work could be to use the change of dead space to tidal volume ratio in IPF lung in the construction of the airway geometry. 

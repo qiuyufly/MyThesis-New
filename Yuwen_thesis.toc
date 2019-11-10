@@ -67,14 +67,14 @@
 \contentsline {subsection}{\numberline {3.3.2}Statistical finite element models of lung and fissure shape}{55}{subsection.3.3.2}
 \contentsline {subsubsection}{Finite element lobar shape modeling}{56}{section*.31}
 \contentsline {subsubsection}{PCA-based statistical shape model construction}{59}{section*.32}
-\contentsline {subsection}{\numberline {3.3.3}Initial prediction of lobar location in an individual}{62}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Multi-scale Hessian-based fissure detection}{65}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.3}Initial prediction of lobar location in an individual}{63}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Multi-scale Hessian-based fissure detection}{64}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Interactive user control interface}{72}{subsection.3.3.5}
-\contentsline {subsubsection}{Search region control}{74}{section*.33}
+\contentsline {subsubsection}{Search region control}{75}{section*.33}
 \contentsline {subsubsection}{Connected component analysis filter control}{76}{section*.34}
-\contentsline {subsubsection}{Manual correction}{76}{section*.35}
-\contentsline {section}{\numberline {3.4}Results for SMM segmentation}{78}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Testing CT dataset}{78}{subsection.3.4.1}
+\contentsline {subsubsection}{Manual correction}{77}{section*.35}
+\contentsline {section}{\numberline {3.4}Results for SMM segmentation}{77}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Testing CT dataset}{77}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Test and results}{78}{subsection.3.4.2}
 \contentsline {subsubsection}{The gold standard and quantitative evaluations}{81}{section*.36}
 \contentsline {subsubsection}{Comparison to anatomical based lobar segmentation method}{82}{section*.37}
@@ -141,42 +141,42 @@
 \contentsline {subsubsection}{Vascular tree}{165}{section*.68}
 \contentsline {subsection}{\numberline {5.2.4}Construction of computational models}{167}{subsection.5.2.4}
 \contentsline {subsubsection}{Ventilation model}{167}{section*.69}
-\contentsline {subsubsection}{Perfusion model}{169}{section*.70}
+\contentsline {subsubsection}{Perfusion model}{170}{section*.70}
 \contentsline {subsubsection}{Gas exchange model}{172}{section*.71}
-\contentsline {subsection}{\numberline {5.2.5}Modelling lung function}{175}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.5}Modelling lung function}{177}{subsection.5.2.5}
 \contentsline {subsubsection}{Disease region labelling}{177}{section*.72}
-\contentsline {subsubsection}{Deep inspiration model}{178}{section*.73}
-\contentsline {subsubsection}{Passive ventilation model}{179}{section*.74}
-\contentsline {subsubsection}{Perfusion model}{179}{section*.75}
+\contentsline {subsubsection}{Deep inspiration model}{179}{section*.73}
+\contentsline {subsubsection}{Passive ventilation model}{180}{section*.74}
+\contentsline {subsubsection}{Perfusion model}{180}{section*.75}
 \contentsline {subsubsection}{Gas exchange model}{180}{section*.76}
 \contentsline {section}{\numberline {5.3}Results}{181}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Construction of lung lobe geometry}{181}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Construction of airway/vasculature geometry}{182}{subsection.5.3.2}
-\contentsline {subsubsection}{Airway tree}{182}{section*.77}
-\contentsline {subsubsection}{Vascular tree}{185}{section*.78}
-\contentsline {subsection}{\numberline {5.3.3}Deep inspiration modelling}{187}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Perfusion modelling}{188}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Gas exchange model}{190}{subsection.5.3.5}
-\contentsline {section}{\numberline {5.4}Discussion}{195}{section.5.4}
-\contentsline {subsubsection}{SSM based lung shape prediction provides a way to compare lung function of IPF patient with older normal people}{195}{section*.79}
-\contentsline {subsubsection}{Volumetric CT imaging may not provide sufficient information to explain the stiffness of the IPF lung}{196}{section*.80}
-\contentsline {subsubsection}{The predicted ventilation, perfusion and gas exchange distribution can be explained by the background knowledge of IPF}{197}{section*.81}
-\contentsline {subsubsection}{Limitations of modelling procedure}{199}{section*.82}
-\contentsline {section}{\numberline {5.5}Summary}{200}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{201}{chapter.6}
-\contentsline {section}{\numberline {6.1}Thesis Summary}{201}{section.6.1}
-\contentsline {paragraph}{Objective 1:}{201}{section*.83}
-\contentsline {paragraph}{Objective 2:}{202}{section*.84}
-\contentsline {paragraph}{Objective 3:}{203}{section*.85}
-\contentsline {paragraph}{Objective 4:}{203}{section*.86}
-\contentsline {section}{\numberline {6.2}Future directions}{204}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Improvement of the statistical shape model}{204}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Involvement of diffusing capacity for carbon monoxide in the lung functional model}{205}{subsection.6.2.2}
-\contentsline {chapter}{Appendices}{207}{section*.87}
-\contentsline {chapter}{\numberline {A}Mapped classification data for each patient}{209}{Appendix.a.A}
-\contentsline {chapter}{\numberline {B}Spatial distribution of abnormalities for each patient}{217}{Appendix.a.B}
-\contentsline {section}{\numberline {B.1}Basal-to-apical distribution over time for each patient}{217}{section.a.B.1}
-\contentsline {section}{\numberline {B.2}Dorso-to-ventral distribution over time for each patient}{229}{section.a.B.2}
-\contentsline {section}{\numberline {B.3}Lobar distribution over time for each patient}{239}{section.a.B.3}
-\contentsline {chapter}{\numberline {C}Figures of V/Q ratio and arterial oxygen distribution}{249}{Appendix.a.C}
-\contentsline {chapter}{List of References}{261}{chapter*.88}
+\contentsline {subsection}{\numberline {5.3.2}Construction of airway/vasculature geometry}{183}{subsection.5.3.2}
+\contentsline {subsubsection}{Airway tree}{183}{section*.77}
+\contentsline {subsubsection}{Vascular tree}{186}{section*.78}
+\contentsline {subsection}{\numberline {5.3.3}Deep inspiration modelling}{188}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Perfusion modelling}{189}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Gas exchange model}{191}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Discussion}{196}{section.5.4}
+\contentsline {subsubsection}{SSM based lung shape prediction provides a way to compare lung function of IPF patient with older normal people}{196}{section*.79}
+\contentsline {subsubsection}{Volumetric CT imaging may not provide sufficient information to explain the stiffness of the IPF lung}{197}{section*.80}
+\contentsline {subsubsection}{The predicted ventilation, perfusion and gas exchange distribution can be explained by the background knowledge of IPF}{198}{section*.81}
+\contentsline {subsubsection}{Limitations of modelling procedure}{200}{section*.82}
+\contentsline {section}{\numberline {5.5}Summary}{201}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{203}{chapter.6}
+\contentsline {section}{\numberline {6.1}Thesis Summary}{203}{section.6.1}
+\contentsline {paragraph}{Objective 1:}{203}{section*.83}
+\contentsline {paragraph}{Objective 2:}{204}{section*.84}
+\contentsline {paragraph}{Objective 3:}{205}{section*.85}
+\contentsline {paragraph}{Objective 4:}{205}{section*.86}
+\contentsline {section}{\numberline {6.2}Future directions}{206}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Improvement of the statistical shape model}{206}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Involvement of diffusing capacity for carbon monoxide in the lung functional model}{207}{subsection.6.2.2}
+\contentsline {chapter}{Appendices}{209}{section*.87}
+\contentsline {chapter}{\numberline {A}Mapped classification data for each patient}{211}{Appendix.a.A}
+\contentsline {chapter}{\numberline {B}Spatial distribution of abnormalities for each patient}{219}{Appendix.a.B}
+\contentsline {section}{\numberline {B.1}Basal-to-apical distribution over time for each patient}{219}{section.a.B.1}
+\contentsline {section}{\numberline {B.2}Dorso-to-ventral distribution over time for each patient}{231}{section.a.B.2}
+\contentsline {section}{\numberline {B.3}Lobar distribution over time for each patient}{241}{section.a.B.3}
+\contentsline {chapter}{\numberline {C}Figures of V/Q ratio and arterial oxygen distribution}{251}{Appendix.a.C}
+\contentsline {chapter}{List of References}{263}{chapter*.88}
